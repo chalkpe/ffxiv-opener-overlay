@@ -1,29 +1,14 @@
-# ffxiv-opener
+# ffxiv-opener-overlay
 
 ## Project setup
 ```
-yarn install
+yarn && yarn build
 ```
 
-### Compiles and hot-reloads for development
-```
-yarn run serve
-```
+## License
+[MIT License](LICENSE)
 
-### Compiles and minifies for production
+### /src/assets
 ```
-yarn run build
+© 2010 - 2019 SQUARE ENIX CO., LTD. All Rights Reserved.
 ```
-
-### Run your tests
-```
-yarn run test
-```
-
-### Lints and fixes files
-```
-yarn run lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).

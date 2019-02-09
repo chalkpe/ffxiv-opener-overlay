@@ -1,28 +1,26 @@
 <template>
   <div id="app">
-    <img alt="Vue logo" src="./assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
+    <article v-for="job of db" :key="job.link">
+      <h4>{{ job.name }}</h4>
+      <skill v-for="skill of job.skills.pve" :skill="skill" :key="skill.name"></skill>
+    </article>
   </div>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import db from './assets/database.json'
+import Skill from './components/Skill.vue'
 
 export default {
   name: 'app',
   components: {
-    HelloWorld
+    Skill
+  },
+
+  data: () => ({ db }),
+  created () {
+    // eslint-disable-next-line no-console
+    document.addEventListener('onLogLine', e => console.log(e.detail))
   }
 }
 </script>
-
-<style>
-#app {
-  font-family: 'Avenir', Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
-}
-</style>

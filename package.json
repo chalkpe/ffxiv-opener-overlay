@@ -1,5 +1,5 @@
 {
-  "name": "ffxiv-opener",
+  "name": "ffxiv-opener-overlay",
   "version": "0.1.0",
   "private": true,
   "scripts": {
@@ -39,8 +39,6 @@
     }
   },
   "browserslist": [
-    "> 1%",
-    "last 2 versions",
-    "not ie <= 8"
+    "chrome 45"
   ]
 }
