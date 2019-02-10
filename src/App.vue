@@ -109,7 +109,7 @@ export default {
           this.encounter = []
           break
 
-        case 'size':
+        case 'scale':
           this.style = `transform: scale(${args[1]});`
           break
       }

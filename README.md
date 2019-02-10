@@ -17,7 +17,7 @@ https://chalkpe.github.io/ffxiv-opener-overlay
 
 ### Commands
 * `/e reset` - reset current sequence
-* `/e size <number>` - scale entire overlay (default: `1`)
+* `/e scale <number>` - scale entire overlay (default: `1`)
 
 ## Development
 
