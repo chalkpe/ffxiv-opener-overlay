@@ -1,5 +1,5 @@
 <template>
-  <div id="app" :style="style">
+  <div id="app" :style="style" :hidden="hidden">
     <span v-if="!me || !me.id || !me.name">
       앗... 인식된 플레이어가 없습니다! 지역 이동 한 번만 부탁드려요!
     </span>
@@ -58,6 +58,7 @@ export default {
     },
 
     style: '',
+    hidden: false,
     encounter: [
       // {timestamp: '0', job: '소환사', skill: '루인가'},
       // {timestamp: '1', job: '소환사', skill: '루인라'},
@@ -112,6 +113,9 @@ export default {
         case 'scale':
           this.style = `transform: scale(${args[1]});`
           break
+
+        case 'toggle':
+          this.hidden = !this.hidden
       }
     }
   }
@@ -140,6 +144,12 @@ export default {
     flex-direction: row;
     align-content: flex-start;
     justify-content: flex-start;
+
+    transition: all 0.5s ease;
+  }
+
+  #app[hidden] {
+    display: none;
   }
 
   .skill:first-of-type::before {
