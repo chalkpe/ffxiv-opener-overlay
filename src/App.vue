@@ -1,10 +1,8 @@
 <template>
-  <div id="app">
+  <div id="app" :style="style">
     <span v-if="!me || !me.id || !me.name">
       앗... 인식된 플레이어가 없습니다! 지역 이동 한 번만 부탁드려요!
     </span>
-
-    <main>{{me}}</main>
 
     <skill
       v-for="(e, i) of encounter"
@@ -58,8 +56,8 @@ export default {
       name: '',
       level: 0,
     },
-    
-    history: [],
+
+    style: '',
     encounter: [
       // {timestamp: '0', job: '소환사', skill: '루인가'},
       // {timestamp: '1', job: '소환사', skill: '루인라'},
@@ -78,6 +76,7 @@ export default {
         case 'use': return this.onUse(data)
         case 'me': return this.onMeAdded(data)
         case 'add': return this.onEntityAdded(data)
+        case 'cmd': return this.onCommand(data)
       }
     },
 
@@ -100,6 +99,20 @@ export default {
 
       if (!m || m[1] !== this.me.name) return
       this.encounter.push({ job: this.me.job, skill: m[2] })
+    },
+
+    onCommand ({ args }) {
+      args = args.split(' ')
+
+      switch (args[0]) {
+        case 'reset':
+          this.encounter = []
+          break
+
+        case 'size':
+          this.style = `transform: scale(${args[1]});`
+          break
+      }
     }
   }
 }

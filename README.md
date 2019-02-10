@@ -15,6 +15,10 @@ https://chalkpe.github.io/ffxiv-opener-overlay
 1. Add new **Log Parse** type overlay (name is your choice)
 1. Switch to the new overlay tab and set **URL** as above
 
+### Commands
+* `/e reset` - reset current sequence
+* `/e size <number>` - scale entire overlay (default: `1`)
+
 ## Development
 
 #### dev server

@@ -34,7 +34,7 @@ function listenOverlayPlugin (callback) {
 function listenACTWebSocket (url, callback) {
   const ws = new WebSocket(url + 'OnLogLineRead')
   ws.onerror = () => listenACTWebSocket(url, callback)
-  ws.onmessage = function (e, m) {
+  ws.onmessage = function (e, m, a) {
     if (e.data === '.') return ws.send('.')
 
     console.log(e.data)
@@ -58,12 +58,10 @@ function listenACTWebSocket (url, callback) {
 
       case 'Chat':
         m = payload.slice(15).split(':')
-        if (m[0] !== '00' || m[1] !== '082b') return
+        a = m.slice(2).join(':')
 
-        return callback({
-          type: 'use',
-          message: m.slice(2).join(':')
-        })
+        if (m[0] === '00' && m[1] === '0038') return callback({ type: 'cmd', args: a })
+        if (m[0] === '00' && m[1] === '082b') return callback({ type: 'use', message: a })
     }
   }
 
