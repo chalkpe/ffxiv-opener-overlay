@@ -1,10 +1,8 @@
 <template>
-  <div class="skill" >
-    <div class="wrapper" v-if="skill">
-      <img :src="skill.icon" :alt="skill.name" :title="skill.name">
+  <div class="skill">
+    <div class="wrapper">
+      <img v-if="skill" :src="skill.icon" :alt="skill.name" :title="skill.name">
     </div>
-
-    <div v-else>?</div>
   </div>
 </template>
 
@@ -21,6 +19,8 @@
     position: relative;
     display: inline-block;
     vertical-align: middle;
+    background: url("../assets/background.png") no-repeat 0.25rem 0.125rem;
+    background-size: 2.5rem 2.5rem;
   }
 
   .skill .wrapper img {
