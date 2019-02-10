@@ -6,11 +6,9 @@ function listenOverlayPlugin (callback) {
 
     switch (opcode) {
       case 0:
-        if (payload[0] !== '082b') return
-        return callback({
-          type: 'use',
-          message: payload[2]
-        })
+        if (payload[0] === '0038') return callback({ type: 'cmd', args: payload[2] })
+        if (payload[0] === '082b') return callback({ type: 'use', message: payload[2] })
+        break
 
       case 2:
         return callback({
