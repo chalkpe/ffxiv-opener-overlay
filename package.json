@@ -42,5 +42,8 @@
   },
   "browserslist": [
     "chrome 45"
-  ]
+  ],
+  "vue": {
+    "publicPath": "./"
+  }
 }
