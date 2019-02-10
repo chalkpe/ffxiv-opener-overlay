@@ -72,7 +72,6 @@ export default {
 
   methods: {
     onLogLine (data) {
-      console.log(data)
       switch (data.type) {
         case 'use': return this.onUse(data)
         case 'me': return this.onMeAdded(data)
@@ -95,8 +94,6 @@ export default {
 
     onUse ({ message }) {
       const m = /(.+)[이가] (.+)[을를] 시전했습니다/.exec(message)
-
-      console.log(m)
 
       if (!m || m[1] !== this.me.name) return
       this.encounter.push({ job: this.me.job, skill: m[2] })

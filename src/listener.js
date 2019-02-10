@@ -2,7 +2,6 @@ const getHost = () => /HOST_PORT=(wss?:\/\/.+)/.exec(window.location.search)
 
 function listenOverlayPlugin (callback) {
   document.addEventListener('onLogLine', e => {
-    console.log(e.detail)
     const { opcode, payload } = e.detail
 
     switch (opcode) {
@@ -36,8 +35,6 @@ function listenACTWebSocket (url, callback) {
   ws.onerror = () => listenACTWebSocket(url, callback)
   ws.onmessage = function (e, m, a) {
     if (e.data === '.') return ws.send('.')
-
-    console.log(e.data)
     const { msgtype: opcode, msg: payload } = JSON.parse(e.data)
 
     switch (opcode) {

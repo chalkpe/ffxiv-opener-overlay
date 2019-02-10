@@ -6,16 +6,25 @@
 * [In-game video (click to watch)](https://gaming.youtube.com/watch?v=sLJddcK1z6Y&feature=share)
 
 ## Usage
+
+### Installation
 ```
 https://chalkpe.github.io/ffxiv-opener-overlay
 ```
 
+#### OverlayPlugin 
 1. Open ACT
 1. Plugins -> OverlayPlugin.dll -> New
 1. Add new **Log Parse** type overlay (name is your choice)
 1. Switch to the new overlay tab and set **URL** as above
 
+#### ACTWebSocket
+1. Open ACT
+1. Plugins -> ACTWebSocket -> Check **Using OnLogLineRead**
+1. **Add URL** -> set as above and select the new row -> Click **Overlay**
+
 ### Commands
+* `/e toggle` - show/hide overlay
 * `/e reset` - reset current sequence
 * `/e scale <number>` - scale entire overlay (default: `1`)
 
