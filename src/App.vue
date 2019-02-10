@@ -4,14 +4,17 @@
       앗... 인식된 플레이어가 없습니다! 지역 이동 한 번만 부탁드려요!
     </span>
 
+    <main>{{me}}</main>
+
     <skill
-      v-for="e of encounter"
-      :key="e.job + e.skill + e.timestamp"
+      v-for="(e, i) of encounter"
+      :key="e.job + e.skill + i"
       :skill="skills[e.job][e.skill]"></skill>
   </div>
 </template>
 
 <script>
+import listen from './listener'
 import db from './assets/database.json'
 import Skill from './components/Skill.vue'
 
@@ -64,50 +67,39 @@ export default {
     ]
   }),
   
-  created () {
-    document.addEventListener('onLogLine', e => this.onLogLine(e.detail))
+  mounted () {
+    listen(d => this.onLogLine(d))
   },
 
   methods: {
-    onLogLine (detail) {
-      switch (detail.opcode) {
-        case 0: return this.onMessage(detail)
-        case 2: return this.onMeAdded(detail)
-        case 3: return this.onEntityAdded(detail)
-        case 4: return this.onEntityRemoved(detail)
-      }
-
-      // eslint-disable-next-line no-console
-      // console.log(opcode, payload)
-    },
-
-    onMeAdded ({ payload }) {
-      this.me.id = payload[0]
-      this.me.name = payload[1]
-    },
-
-    onEntityAdded ({ payload }) {
-      if (payload[0] !== this.me.id) return
-
-      this.me.level = parseInt(payload[3], 16)
-      this.me.job = jobs[payload[2].toLowerCase()]
-    },
-
-    onEntityRemoved ({ payload }) {
-      if (payload[0] !== this.me.id) return
-
-      if (this.encounter.length) {
-        this.history.push(this.encounter)
-        this.encounter = []
+    onLogLine (data) {
+      console.log(data)
+      switch (data.type) {
+        case 'use': return this.onUse(data)
+        case 'me': return this.onMeAdded(data)
+        case 'add': return this.onEntityAdded(data)
       }
     },
 
-    onMessage ({ payload, timestamp }) {
-      if (payload[0] !== '082b') return
-      const m = /(.+)[이가] (.+)[을를] 시전했습니다/.exec(payload[2])
+    onMeAdded ({ id, name }) {
+      this.me.id = id
+      this.me.name = name
+    },
+
+    onEntityAdded ({ id, job, level }) {
+      if (id !== this.me.id) return
+
+      this.me.level = level
+      this.me.job = jobs[job.toLowerCase()]
+    },
+
+    onUse ({ message }) {
+      const m = /(.+)[이가] (.+)[을를] 시전했습니다/.exec(message)
+
+      console.log(m)
 
       if (!m || m[1] !== this.me.name) return
-      this.encounter.push({ timestamp, job: this.me.job, skill: m[2] })
+      this.encounter.push({ job: this.me.job, skill: m[2] })
     }
   }
 }
