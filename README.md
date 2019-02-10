@@ -20,7 +20,7 @@ https://chalkpe.github.io/ffxiv-opener-overlay
 
 #### ACTWebSocket
 1. Open ACT
-1. Plugins -> ACTWebSocket -> Check **Using OnLogLineRead**
+1. Plugins -> ACTWebSocket -> Check **Using BeforeLogLineRead**
 1. **Add URL** -> set as above and select the new row -> Click **Overlay**
 
 ### Commands
