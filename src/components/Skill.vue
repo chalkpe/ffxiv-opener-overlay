@@ -1,7 +1,7 @@
 <template>
   <div class="skill" >
     <div class="wrapper" v-if="skill">
-      <img :src="skill.icon" :alt="skill.name" :title="skill.name" width="40" height="40">
+      <img :src="skill.icon" :alt="skill.name" :title="skill.name">
     </div>
 
     <div v-else>?</div>
@@ -16,8 +16,8 @@
 
 <style scoped>
   .skill .wrapper {
-    width: 48px;
-    height: 48px;
+    width: 3rem;
+    height: 3rem;
     position: relative;
     display: inline-block;
     vertical-align: middle;
@@ -27,15 +27,18 @@
     display: block;
     position: absolute;
 
-    top: 2px;
-    left: 50%;
+    width: 2.5rem;
+    height: 2.5rem;
     z-index: 1;
-    margin-left: -20px;
+
+    left: 50%;
+    top: 0.125rem;
+    margin-left: -1.25rem;
   }
 
   .skill .wrapper::after {
-    width: 48px;
-    height: 48px;
+    width: 3rem;
+    height: 3rem;
     display: block;
     position: absolute;
 
@@ -45,5 +48,6 @@
 
     content: "";
     background: url("../assets/frame.png") no-repeat;
+    background-size: cover;
 }
 </style>

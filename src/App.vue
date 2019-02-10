@@ -1,13 +1,15 @@
 <template>
-  <div id="app" :style="style" :hidden="hidden">
+  <div id="app" :hidden="hidden">
     <span v-if="!me || !me.id || !me.name">
       앗... 인식된 플레이어가 없습니다! 지역 이동 한 번만 부탁드려요!
     </span>
 
-    <skill
-      v-for="(e, i) of encounter"
-      :key="e.job + e.skill + i"
-      :skill="skills[e.job][e.skill]"></skill>
+    <nav class="skills">
+      <skill
+        v-for="(e, i) of encounter"
+        :key="e.job + e.skill + i"
+        :skill="skills[e.job][e.skill]"></skill>
+    </nav>
   </div>
 </template>
 
@@ -57,7 +59,6 @@ export default {
       level: 0,
     },
 
-    style: '',
     hidden: false,
     encounter: [
       // {timestamp: '0', job: '소환사', skill: '루인가'},
@@ -108,7 +109,7 @@ export default {
           break
 
         case 'scale':
-          this.style = `transform: scale(${args[1]});`
+          document.querySelector('html').style.fontSize = `${16 * parseFloat(args[1])}px`
           break
 
         case 'toggle':
@@ -120,6 +121,11 @@ export default {
 </script>
 
 <style>
+  html {
+    font-size: 16px;
+    font-family: 'Malgun Gothic', sans-serif;
+  }
+
   body {
     margin: 0;
     padding: 0;
@@ -129,13 +135,20 @@ export default {
 
 <style scoped>
   #app {
-    padding: 5px;
-    width: calc(100vw - 10px);
-    height: calc(100vh - 10px);
+    width: 100vw;
+    height: 100vh;
+    padding: 0.5rem;
+    box-sizing: border-box;
 
-    border-radius: 5px;
+    border-radius: 0.5rem;
     background-color: rgba(0, 0, 0, 0.3);
+  }
 
+  #app[hidden] {
+    display: none;
+  }
+
+  .skills {
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
@@ -143,10 +156,7 @@ export default {
     justify-content: flex-start;
 
     transition: all 0.5s ease;
-  }
-
-  #app[hidden] {
-    display: none;
+    transform-origin: top left;
   }
 
   .skill:first-of-type::before {
@@ -156,14 +166,14 @@ export default {
   .skill::before {
     width: 0;
     height: 0;
-    margin: 0 2px 6px 3px;
+    margin: 0 0.2rem 0.4rem 0.2rem;
 
     content: "";
     display: inline-block;
     vertical-align: middle;
 
-    border-left: 7px solid white;
-    border-top: 7px solid transparent;
-    border-bottom: 7px solid transparent;
+    border-left: 0.5rem solid white;
+    border-top: 0.5rem solid transparent;
+    border-bottom: 0.5rem solid transparent;
   }
 </style>
