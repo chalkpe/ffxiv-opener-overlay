@@ -41,9 +41,8 @@
     top: 0.125rem;
     margin-left: -1.25rem;
 
-    font-size: 0.8rem;
+    font-size: 0.75rem;
     text-align: center;
-    /* vertical-align: middle; */
   }
 
   .skill .wrapper::after {

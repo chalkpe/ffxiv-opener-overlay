@@ -143,6 +143,21 @@ export default {
     font-family: 'Malgun Gothic', sans-serif;
     color: white;
   }
+
+  *::-webkit-scrollbar {
+    width: 0.2rem;
+    height: 0.2rem;
+    border-radius: 0.25rem;
+  }
+
+  *::-webkit-scrollbar-button {
+    display: none;
+  }
+
+  *::-webkit-scrollbar-thumb {
+    border-radius: 0.5rem;
+    background: rgba(158, 158, 158, 0.5);
+  }
 </style>
 
 <style scoped>
@@ -151,6 +166,7 @@ export default {
     height: 100vh;
     padding: 0.5rem;
     box-sizing: border-box;
+    overflow-x: hidden;
 
     border-radius: 0.5rem;
     background-color: rgba(0, 0, 0, 0.3);

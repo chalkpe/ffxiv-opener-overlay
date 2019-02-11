@@ -26,12 +26,13 @@ export default {
     left: 0;
     right: 0;
     bottom: 0;
+    z-index: 3;
     position: absolute;
 
     padding: 0.5rem;
     border-bottom-left-radius: 0.5rem;
     border-bottom-right-radius: 0.5rem;
-    background-color: rgba(0, 0, 0, 0.3);
+    background-color: rgba(0, 0, 0, 0.5);
   }
 
   .tooltip .name {
