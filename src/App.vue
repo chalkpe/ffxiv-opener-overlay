@@ -6,17 +6,24 @@
 
     <nav class="skills">
       <skill
-        v-for="(e, i) of encounter"
-        :key="e.job + e.skill + i"
-        :skill="skills[e.job][e.skill]"></skill>
+        v-for="(skill, i) of encounter"
+        :skill="skill"
+        :key="skill.job + skill.name + i"
+
+        @hide="tooltip.skill = null"
+        @show="tooltip.skill = $event"></skill>
     </nav>
+
+    <tooltip :skill="tooltip.skill"></tooltip>
   </div>
 </template>
 
 <script>
 import listen from './listener'
 import db from './assets/database.json'
+
 import Skill from './components/Skill.vue'
+import Tooltip from './components/Tooltip.vue'
 
 const jobs = {
   '13': '나이트',
@@ -47,11 +54,10 @@ patch(skills, '소환사', '트라이디재스터', '트라이디제스터')
 export default {
   name: 'app',
   components: {
-    Skill
+    Skill, Tooltip
   },
 
   data: () => ({
-    skills,
     me: {
       id: '',
       job: '',
@@ -64,10 +70,13 @@ export default {
       // {timestamp: '0', job: '소환사', skill: '루인가'},
       // {timestamp: '1', job: '소환사', skill: '루인라'},
       // {timestamp: '2', job: '소환사', skill: '트라이디재스터'},
-    ]
+    ],
+
+    tooltip: { skill: null, job: null }
   }),
   
   mounted () {
+    console.log(this)
     listen(d => this.onLogLine(d))
   },
 
@@ -97,7 +106,11 @@ export default {
       const m = /(.+)[이가] (.+)[을를] 시전했습니다/.exec(message)
 
       if (!m || m[1] !== this.me.name) return
-      this.encounter.push({ job: this.me.job, skill: m[2] })
+      this.encounter.push({
+        job: this.me.job,
+        timestamp: Date.now(),
+        ...(skills[this.me.job][m[2]] || { name: m[2] })
+      })
     },
 
     onCommand ({ args }) {
@@ -121,14 +134,13 @@ export default {
 </script>
 
 <style>
+  * {
+    margin: 0; padding: 0;
+  }
+
   html {
     font-size: 16px;
     font-family: 'Malgun Gothic', sans-serif;
-  }
-
-  body {
-    margin: 0;
-    padding: 0;
     color: white;
   }
 </style>

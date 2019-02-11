@@ -1,7 +1,13 @@
 <template>
   <div class="skill">
-    <div class="wrapper">
-      <img v-if="skill" :src="skill.icon" :alt="skill.name" :title="skill.name">
+    <div
+      class="wrapper"
+      @mouseleave="$emit('hide')"
+      @mouseenter="$emit('show', skill)"
+    >
+      <img v-if="skill"
+        :src="skill.icon"
+        :alt="skill.name">
     </div>
   </div>
 </template>
@@ -34,6 +40,10 @@
     left: 50%;
     top: 0.125rem;
     margin-left: -1.25rem;
+
+    font-size: 0.8rem;
+    text-align: center;
+    /* vertical-align: middle; */
   }
 
   .skill .wrapper::after {
