@@ -2,7 +2,7 @@
   <div class="skill">
     <div
       class="wrapper"
-      @mouseleave="$emit('hide')"
+      @mouseleave="$emit('show')"
       @mouseenter="$emit('show', skill)"
     >
       <img v-if="skill"

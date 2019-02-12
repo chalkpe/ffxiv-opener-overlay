@@ -9,12 +9,10 @@
         v-for="(skill, i) of encounter"
         :skill="skill"
         :key="skill.job + skill.name + i"
-
-        @hide="tooltip.skill = null"
-        @show="tooltip.skill = $event"></skill>
+        @show="tooltip = $event"></skill>
     </nav>
 
-    <tooltip :skill="tooltip.skill"></tooltip>
+    <tooltip :skill="tooltip"></tooltip>
   </div>
 </template>
 
@@ -72,7 +70,7 @@ export default {
       // {timestamp: '2', job: '소환사', skill: '트라이디재스터'},
     ],
 
-    tooltip: { skill: null, job: null }
+    tooltip: null
   }),
   
   mounted () {
