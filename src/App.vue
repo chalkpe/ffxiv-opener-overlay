@@ -1,58 +1,24 @@
 <template>
   <div id="app" :hidden="hidden">
-    <span v-if="!me || !me.id || !me.name">
-      앗... 인식된 플레이어가 없습니다! 지역 이동 한 번만 부탁드려요!
-    </span>
-
-    <nav class="skills">
-      <skill
-        v-for="(skill, i) of encounter"
-        :skill="skill"
-        :key="skill.job + skill.name + i"
-        @show="tooltip = $event"></skill>
-    </nav>
-
+    <profile :me="me" :skills="skills"></profile>
+    <encounter :skills="skills" @show="tooltip = $event"></encounter>
     <tooltip :skill="tooltip"></tooltip>
   </div>
 </template>
 
 <script>
 import listen from './listener'
-import db from './assets/database.json'
+import database from './database'
+import jobs from './assets/jobs.json'
 
-import Skill from './components/Skill.vue'
+import Profile from './components/Profile.vue'
 import Tooltip from './components/Tooltip.vue'
-
-const jobs = {
-  '13': '나이트',
-  '14': '몽크',
-  '15': '전사',
-  '16': '용기사',
-  '17': '음유시인',
-  '18': '백마도사',
-  '19': '흑마도사',
-  '1a': '비술사',
-  '1b': '소환사',
-  '1c': '학자',
-  '1d': '쌍검사',
-  '1e': '닌자',
-  '1f': '기공사',
-  '20': '암흑기사',
-  '21': '점성술사',
-  '22': '사무라이',
-  '23': '적마도사'
-}
-
-const obj = arr => Object.assign({}, ...arr)
-const patch = (o, k, a, b) => (o[k][a] = o[k][b] = o[k][a] || o[k][b])
-
-const skills = obj(db.map(job => ({ [job.name]: obj(job.skills.pve.map(skill => ({ [skill.name]: skill }))) })))
-patch(skills, '소환사', '트라이디재스터', '트라이디제스터')
+import Encounter from './components/Encounter.vue'
 
 export default {
   name: 'app',
   components: {
-    Skill, Tooltip
+    Tooltip, Profile, Encounter
   },
 
   data: () => ({
@@ -63,13 +29,13 @@ export default {
       level: 0,
     },
 
-    hidden: false,
-    encounter: [
+    skills: [
       // {timestamp: '0', job: '소환사', skill: '루인가'},
       // {timestamp: '1', job: '소환사', skill: '루인라'},
       // {timestamp: '2', job: '소환사', skill: '트라이디재스터'},
     ],
 
+    hidden: false,
     tooltip: null
   }),
   
@@ -104,10 +70,10 @@ export default {
       const m = /(.+)[이가] (.+)[을를] 시전했습니다/.exec(message)
 
       if (!m || m[1] !== this.me.name) return
-      this.encounter.push({
+      this.skills.push({
         job: this.me.job,
         timestamp: Date.now(),
-        ...(skills[this.me.job][m[2]] || { name: m[2] })
+        ...(database[this.me.job][m[2]] || { name: m[2] })
       })
     },
 
@@ -116,7 +82,7 @@ export default {
 
       switch (args[0]) {
         case 'reset':
-          this.encounter = []
+          this.skills = []
           break
 
         case 'scale':
@@ -172,34 +138,5 @@ export default {
 
   #app[hidden] {
     display: none;
-  }
-
-  .skills {
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: row;
-    align-content: flex-start;
-    justify-content: flex-start;
-
-    transition: all 0.5s ease;
-    transform-origin: top left;
-  }
-
-  .skill:first-of-type::before {
-    opacity: 0;
-  }
-
-  .skill::before {
-    width: 0;
-    height: 0;
-    margin: 0 0.2rem 0.4rem 0.2rem;
-
-    content: "";
-    display: inline-block;
-    vertical-align: middle;
-
-    border-left: 0.5rem solid white;
-    border-top: 0.5rem solid transparent;
-    border-bottom: 0.5rem solid transparent;
   }
 </style>
