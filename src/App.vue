@@ -68,8 +68,8 @@ export default {
 
     onUse ({ message }) {
       const m = /(.+)[이가] (.+)[을를] 시전했습니다/.exec(message)
-
       if (!m || m[1] !== this.me.name) return
+
       this.skills.push({
         job: this.me.job,
         timestamp: Date.now(),
