@@ -8,8 +8,8 @@
 
 <script>
 import listen from './listener'
+import clients from './clients'
 import database from './database'
-import clients from './assets/clients'
 import jobs from './assets/jobs.json'
 
 import Profile from './components/Profile.vue'
