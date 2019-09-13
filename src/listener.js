@@ -23,6 +23,7 @@ function listenOverlayPlugin (callback) {
           id: payload[0],
           job: payload[2],
           level: parseInt(payload[3], 16),
+          server: payload[6]
         })
     }
   })
@@ -55,9 +56,7 @@ function listenACTWebSocket (url, callback) {
         m = payload.split('|')
         if (m[0] === '00' && m[2] === '0038') return callback({ type: 'cmd', args: m[4] })
         if (m[0] === '00' && m[2] === '082b') return callback({ type: 'use', message: m[4] })
-        if (m[0] === '03' && m[2] === this.me.id) {
-          return callback({ type: 'add', id: m[2], job: m[4], level: parseInt(m[5], 16) })
-        }
+        if (m[0] === '03') return callback({ type: 'add', id: parseInt(m[2], 16), job: m[4], level: parseInt(m[5], 16), server: m[8] })
     }
   }
 

@@ -1,14 +1,15 @@
 <template>
   <div id="app" :hidden="hidden">
-    <profile :me="me" :skills="skills"></profile>
-    <encounter :skills="skills" @show="tooltip = $event"></encounter>
-    <tooltip :skill="tooltip"></tooltip>
+    <profile :me="me" v-show="!actions.length"></profile>
+    <encounter :actions="actions" @show="tooltip = $event"></encounter>
+    <tooltip :action="tooltip"></tooltip>
   </div>
 </template>
 
 <script>
 import listen from './listener'
 import database from './database'
+import clients from './assets/clients'
 import jobs from './assets/jobs.json'
 
 import Profile from './components/Profile.vue'
@@ -17,22 +18,21 @@ import Encounter from './components/Encounter.vue'
 
 export default {
   name: 'app',
-  components: {
-    Tooltip, Profile, Encounter
-  },
+  components: { Tooltip, Profile, Encounter },
 
   data: () => ({
     me: {
-      id: '',
-      job: '',
+      id: 0,
       name: '',
       level: 0,
+      job: null,
+      client: null
     },
 
-    skills: [
-      // {timestamp: '0', job: '소환사', skill: '루인가'},
-      // {timestamp: '1', job: '소환사', skill: '루인라'},
-      // {timestamp: '2', job: '소환사', skill: '트라이디재스터'},
+    actions: [
+      // {timestamp: '0', job: {id: 'summoner', ...}, skill: {name:'루인가', ...}},
+      // {timestamp: '1', job: {id: 'summoner', ...}, skill: {name:'루인라', ...}},
+      // {timestamp: '2', job: {id: 'summoner', ...}, skill: {name:'트라이디재스터', ...}},
     ],
 
     hidden: false,
@@ -59,22 +59,27 @@ export default {
       this.me.name = name
     },
 
-    onEntityAdded ({ id, job, level }) {
+    onEntityAdded ({ id, job, level, server }) {
       if (id !== this.me.id) return
+      if (job === '6') job = '18'
 
       this.me.level = level
-      this.me.job = jobs[job.toLowerCase()]
+      this.me.server = server
+      this.me.job = database[jobs[job.toLowerCase()][0]]
     },
 
     onUse ({ message }) {
-      const m = /(.+)[이가] (.+)[을를] 시전했습니다/.exec(message)
-      if (!m || m[1] !== this.me.name) return
+      if (this.me.client) return this.check(this.me.client, message)
+      for (const candidate of clients) if (this.check(candidate, message)) return this.me.client = candidate
+    },
 
-      this.skills.push({
-        job: this.me.job,
-        timestamp: Date.now(),
-        ...(database[this.me.job][m[2]] || { name: m[2] })
-      })
+    check (client, message) {
+      const m = client.pattern.exec(message)
+      if (!m || !client.identify(this.me.name, m[1])) return false
+
+      const skill = this.me.job[`${client.code}:${m[2]}`]
+      if (skill) this.actions.push({ skill, job: this.me.job, timestamp: Date.now() })
+      return true
     },
 
     onCommand ({ args }) {
@@ -82,7 +87,7 @@ export default {
 
       switch (args[0]) {
         case 'reset':
-          this.skills = []
+          this.actions = []
           break
 
         case 'scale':
@@ -104,7 +109,7 @@ export default {
 
   html {
     font-size: 16px;
-    font-family: 'Malgun Gothic', sans-serif;
+    font-family: Roboto, 'Noto Sans JP', 'Noto Sans KR', 'Malgun Gothic', sans-serif;
     color: white;
   }
 

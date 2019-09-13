@@ -1,15 +1,14 @@
 <template>
-  <div class="tooltip" v-if="skill">
+  <div class="tooltip" v-if="action">
     <article>
       <h1 class="name">
-        {{ skill.name }}
-
-        <span class="job" v-if="skill.job">{{ skill.job }}</span>
+        {{ action.skill.name }}
+        <span class="job" v-if="action.job">{{ action.job.name[action.skill.client] }}</span>
       </h1>
 
-      <p class="effect" v-html="skill.effect"></p>
-      <span class="timestamp" v-if="skill.timestamp">
-        {{ new Date(skill.timestamp).toISOString() }}
+      <p class="effect" v-html="action.skill.effect"></p>
+      <span class="timestamp" v-if="action.timestamp">
+        {{ new Date(action.timestamp).toISOString() }}
       </span>
     </article>
   </div>  
@@ -17,7 +16,7 @@
 
 <script>
 export default {
-  props: ['skill', 'job']
+  props: ['action']
 }
 </script>
 

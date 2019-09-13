@@ -1,12 +1,10 @@
 <template>
   <nav class="profile">
-    <span v-if="!me || !me.id || !me.name || !me.job">
-      인식된 플레이어가 없습니다!<br>
-      지역 이동 한 번만 부탁드려요!
-    </span>
-
-    <span v-else-if="!skills || !skills.length">
-      {{me.name}} / {{me.job}} / 레벨 {{me.level}}
+    <span v-if="me.name">{{ me.name }}</span><span v-if="me.server"> @ {{ me.server }}</span>
+    <br>
+    <span v-if="me.job">
+      {{ me.job.name[me.client ? me.client.code : 'na'] }}
+      <span v-if="me.level">&ndash; Lv {{  me.level  }}</span>
     </span>
   </nav>
 </template>
@@ -14,6 +12,13 @@
 <script>
 export default {
   name: 'Profile',
-  props: ['me', 'skills']
+  props: ['me']
 }
 </script>
+
+<style scoped>
+  .profile {
+    text-align: center;
+    word-break: keep-all;
+  }
+</style>

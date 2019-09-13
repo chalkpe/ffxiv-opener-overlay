@@ -1,25 +1,25 @@
 <template>
-  <div class="skill">
+  <div class="action">
     <div
       class="wrapper"
       @mouseleave="$emit('show')"
-      @mouseenter="$emit('show', skill)"
+      @mouseenter="$emit('show', action)"
     >
-      <img v-if="skill"
-        :src="skill.icon"
-        :alt="skill.name">
+      <img v-if="action.skill"
+        :src="action.skill.icon"
+        :alt="action.skill.name">
     </div>
   </div>
 </template>
 
 <script>
   export default {
-    props: ['skill']
+    props: ['action']
   }
 </script>
 
 <style scoped>
-  .skill .wrapper {
+  .action .wrapper {
     width: 3rem;
     height: 3rem;
     position: relative;
@@ -29,7 +29,7 @@
     background-size: 2.5rem 2.5rem;
   }
 
-  .skill .wrapper img {
+  .action .wrapper img {
     display: block;
     position: absolute;
 
@@ -45,7 +45,7 @@
     text-align: center;
   }
 
-  .skill .wrapper::after {
+  .action .wrapper::after {
     width: 3rem;
     height: 3rem;
     display: block;

@@ -1,20 +1,20 @@
 <template>
   <nav class="encounter">
-    <skill
-      v-for="(s, i) of skills"
-      :skill="s"
-      :key="s.job + s.name + i"
-      @show="$emit('show', $event)"></skill>
+    <action
+      v-for="action of actions"
+      :action="action"
+      :key="action.timestamp"
+      @show="$emit('show', $event)"></action>
   </nav>
 </template>
 
 <script>
-import Skill from './Skill.vue'
+import Action from './Action.vue'
 
 export default {
   name: 'Encounter',
-  props: ['skills'],
-  components: { Skill }
+  props: ['actions'],
+  components: { Action }
 }
 </script>
 
@@ -30,11 +30,11 @@ export default {
     transform-origin: top left;
   }
 
-  .encounter .skill:first-of-type::before {
+  .encounter .action:first-of-type::before {
     opacity: 0;
   }
 
-  .encounter .skill::before {
+  .encounter .action::before {
     width: 0;
     height: 0;
     margin: 0 0.2rem 0.4rem 0.2rem;
