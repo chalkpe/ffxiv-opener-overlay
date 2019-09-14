@@ -1,5 +1,7 @@
 # ffxiv-opener-overlay
 
+![GitHub package.json version](https://img.shields.io/github/package-json/v/ChalkPE/ffxiv-opener-overlay) ![Global: Patch v5.08](https://img.shields.io/badge/patch-5.08-blueviolet) ![Korea: Patch v4.56](https://img.shields.io/badge/korea-4.56-red)
+
 [ACT](https://advancedcombattracker.com/) [overlay](https://github.com/hibiyasleep/OverlayPlugin) for [Final Fantasy XIV](https://www.finalfantasyxiv.com/) that shows your real-time skill sequences.
 
 ![Summoner opener](public/smn-sb-opener.png)
