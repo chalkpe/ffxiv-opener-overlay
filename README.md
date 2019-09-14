@@ -11,7 +11,7 @@
 ## Installation
 
 ```url
-https://chalkpe.github.io/ffxiv-opener-overlay
+https://chalkpe.github.io/ffxiv-opener-overlay/
 ```
 
 ### OverlayPlugin
