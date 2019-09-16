@@ -1,24 +1,53 @@
 <template>
-  <nav class="profile">
-    <span v-if="me.name">{{ me.name }}</span><span v-if="me.server"> @ {{ me.server }}</span>
-    <br>
-    <span v-if="me.job">
-      {{ me.job.name[me.client ? me.client.code : 'na'] }}
-      <span v-if="me.level">&ndash; Lv {{  me.level  }}</span>
+  <nav class="profile" v-show="!actions.length">
+    <span v-if="me.name">{{ me.name }}
+      <span v-if="me.server">@{{ me.server }}</span>
     </span>
+
+    <span v-if="me.job">
+      <img :src="icon + me.job.name.short + '.png'">{{ jobName }}
+      <span v-if="me.level">Lv {{ me.level }}</span>
+    </span>
+    <span v-else>Unknown</span>
+
+    <span class="version">v{{ version }}</span>
   </nav>
 </template>
 
 <script>
+import pkg from '../../package.json'
 export default {
   name: 'Profile',
-  props: ['me']
+  props: ['me', 'actions'],
+  data: () => pkg,
+  computed: {
+    icon () { return `https://github.com/hibiyasleep/kagerou/raw/master/share/img/class/` },
+    jobName() { return this.me.client ? this.me.job.name[this.me.client.code] : this.me.job.name.short.toUpperCase() }
+  }
 }
 </script>
 
 <style scoped>
   .profile {
-    text-align: center;
-    word-break: keep-all;
+    font-size: 0.85rem;
+    padding: 0.2rem 0.5rem;
+    background-color: rgba(0, 0, 0, 0.5);
+  }
+
+  .profile img {
+    height: 1rem;
+    vertical-align: sub;
+  }
+
+  span {
+    display: inline-block;
+  }
+
+  span:not(:last-child) {
+    margin-right: 1rem;
+  }
+
+  .version {
+    float: right;
   }
 </style>

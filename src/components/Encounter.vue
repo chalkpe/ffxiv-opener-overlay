@@ -1,24 +1,36 @@
 <template>
-  <nav class="encounter">
-    <action
-      v-for="action of actions"
-      :action="action"
-      :key="action.timestamp"
-      @show="$emit('show', $event)"></action>
-  </nav>
+  <main class="encounter-wrapper">
+    <nav class="encounter">
+      <action
+        v-for="action of actions"
+        :action="action"
+        :key="action.timestamp"
+        @show="tooltip = $event"></action>
+    </nav>
+
+    <tooltip :action="tooltip"></tooltip>
+  </main>
 </template>
 
 <script>
 import Action from './Action.vue'
+import Tooltip from './Tooltip.vue'
 
 export default {
   name: 'Encounter',
   props: ['actions'],
-  components: { Action }
+  components: { Action, Tooltip },
+  data: () => ({ tooltip: null })
 }
 </script>
 
 <style scoped>
+  .encounter-wrapper {
+    flex-grow: 1;
+    padding: 0.5rem;
+    position: relative;
+  }
+
   .encounter {
     display: flex;
     flex-wrap: wrap;

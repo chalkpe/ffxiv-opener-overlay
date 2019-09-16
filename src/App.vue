@@ -1,8 +1,7 @@
 <template>
   <div id="app" :hidden="hidden">
-    <profile :me="me" v-show="!actions.length"></profile>
-    <encounter :actions="actions" @show="tooltip = $event"></encounter>
-    <tooltip :action="tooltip"></tooltip>
+    <encounter :actions="actions"></encounter>
+    <profile :me="me" :actions="actions"></profile>
   </div>
 </template>
 
@@ -10,20 +9,16 @@
 import listen from './listener'
 import clients from './clients'
 import database from './database'
-import jobs from './assets/jobs.json'
 
 import Profile from './components/Profile.vue'
-import Tooltip from './components/Tooltip.vue'
 import Encounter from './components/Encounter.vue'
 
 export default {
   name: 'app',
-  components: { Tooltip, Profile, Encounter },
+  components: { Profile, Encounter },
 
   data: () => ({
     hidden: false,
-    tooltip: null,
-
     actions: [],
     me: {
       id: 0,
@@ -36,7 +31,7 @@ export default {
 
   mounted () {
     listen(d => this.onLogLine(d))
-    if (window.location.hostname === 'localhost') console.log(this)
+    if (window.location.hostname === 'localhost') console.log(this, database)
   },
 
   methods: {
@@ -59,7 +54,7 @@ export default {
 
       this.me.level = level
       this.me.server = server
-      this.me.job = database[jobs[job.toLowerCase()][0]]
+      this.me.job = Object.values(database).find(j => j.name.code === job)
     },
 
     onUse ({ message }) {
@@ -131,12 +126,14 @@ export default {
   #app {
     width: 100vw;
     height: 100vh;
-    padding: 0.5rem;
-    box-sizing: border-box;
-    overflow-x: hidden;
-
     border-radius: 0.5rem;
+
+    overflow-x: hidden;
+    box-sizing: border-box;
     background-color: rgba(0, 0, 0, 0.3);
+
+    display: flex;
+    flex-direction: column;
   }
 
   #app[hidden] {

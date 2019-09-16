@@ -2,6 +2,8 @@
   {
     "id": "paladin",
     "name": {
+      "code": "13",
+      "short": "pld",
       "na": "Paladin",
       "jp": "ナイト",
       "de": "Paladin",
@@ -1926,6 +1928,8 @@
   {
     "id": "warrior",
     "name": {
+      "code": "15",
+      "short": "war",
       "na": "Warrior",
       "jp": "戦士",
       "de": "Krieger",
@@ -3832,6 +3836,8 @@
   {
     "id": "darkknight",
     "name": {
+      "code": "20",
+      "short": "drk",
       "na": "Dark Knight",
       "jp": "暗黒騎士",
       "de": "Dunkelritter",
@@ -5558,6 +5564,8 @@
   {
     "id": "gunbreaker",
     "name": {
+      "code": "25",
+      "short": "gnb",
       "na": "Gunbreaker",
       "jp": "ガンブレイカー",
       "de": "Revolverklinge",
@@ -7061,6 +7069,8 @@
   {
     "id": "whitemage",
     "name": {
+      "code": "18",
+      "short": "whm",
       "na": "White Mage",
       "jp": "白魔道士",
       "de": "Weißmagier",
@@ -9003,6 +9013,8 @@
   {
     "id": "scholar",
     "name": {
+      "code": "1c",
+      "short": "sch",
       "na": "Scholar",
       "jp": "学者",
       "de": "Gelehrter",
@@ -11299,6 +11311,8 @@
   {
     "id": "astrologian",
     "name": {
+      "code": "21",
+      "short": "ast",
       "na": "Astrologian",
       "jp": "占星術師",
       "de": "Astrologe",
@@ -13685,6 +13699,8 @@
   {
     "id": "monk",
     "name": {
+      "code": "14",
+      "short": "mnk",
       "na": "Monk",
       "jp": "モンク",
       "de": "Mönch",
@@ -15639,6 +15655,8 @@
   {
     "id": "dragoon",
     "name": {
+      "code": "16",
+      "short": "drg",
       "na": "Dragoon",
       "jp": "竜騎士",
       "de": "Dragoon",
@@ -17533,6 +17551,8 @@
   {
     "id": "ninja",
     "name": {
+      "code": "1e",
+      "short": "nin",
       "na": "Ninja",
       "jp": "忍者",
       "de": "Ninja",
@@ -19691,6 +19711,8 @@
   {
     "id": "samurai",
     "name": {
+      "code": "22",
+      "short": "sam",
       "na": "Samurai",
       "jp": "侍",
       "de": "Samurai",
@@ -21759,6 +21781,8 @@
   {
     "id": "bard",
     "name": {
+      "code": "17",
+      "short": "brd",
       "na": "Bard",
       "jp": "吟遊詩人",
       "de": "Barde",
@@ -23713,6 +23737,8 @@
   {
     "id": "machinist",
     "name": {
+      "code": "1f",
+      "short": "mch",
       "na": "Machinist",
       "jp": "機工士",
       "de": "Maschinist",
@@ -25721,6 +25747,8 @@
   {
     "id": "dancer",
     "name": {
+      "code": "26",
+      "short": "dnc",
       "na": "Dancer",
       "jp": "踊り子",
       "de": "Tänzer",
@@ -27296,6 +27324,8 @@
   {
     "id": "blackmage",
     "name": {
+      "code": "19",
+      "short": "blm",
       "na": "Black Mage",
       "jp": "黒魔道士",
       "de": "Schwarzmagier",
@@ -29364,6 +29394,8 @@
   {
     "id": "summoner",
     "name": {
+      "code": "1b",
+      "short": "smn",
       "na": "Summoner",
       "jp": "召喚士",
       "de": "Beschwörer",
@@ -32422,6 +32454,8 @@
   {
     "id": "redmage",
     "name": {
+      "code": "23",
+      "short": "rdm",
       "na": "Red Mage",
       "jp": "赤魔道士",
       "de": "Rotmagier",

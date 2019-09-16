@@ -1,4 +1,4 @@
-import db from './assets/database.json'
+import database from './assets/database.json'
 
 // export default new Proxy(db, {
 //   get: (jobs, id) => id in jobs ? jobs[id] :
@@ -10,5 +10,6 @@ import db from './assets/database.json'
 
 // Chrome 45...
 
-const entries = job => job.skills.pve.map(s => ({ [`${s.client}:${s.name}`]: s }))
-export default Object.assign({}, ...db.map(job => ({ [job.id]: Object.assign({}, job, ...entries(job)) })))
+const o = entries => Object.assign({}, ...entries)
+const skills = j => j.skills.pve.map(s => ({ [`${s.client}:${s.name}`]: s }))
+export default o(database.map(job => ({ [job.id]: o([job, ...skills(job)]) })))
