@@ -1,11 +1,11 @@
 <template>
-  <nav class="profile" v-show="!actions.length">
+  <nav class="profile">
     <span v-if="me.name">{{ me.name }}
       <span v-if="me.server">@{{ me.server }}</span>
     </span>
 
     <span v-if="me.job">
-      <img :src="icon + me.job.name.short + '.png'">{{ jobName }}
+      <img :src="`${iconPath}/${me.job.name.short}.png`">{{ jobName }}
       <span v-if="me.level">Lv {{ me.level }}</span>
     </span>
     <span v-else>Unknown</span>
@@ -18,11 +18,19 @@
 import pkg from '../../package.json'
 export default {
   name: 'Profile',
-  props: ['me', 'actions'],
-  data: () => pkg,
+  props: ['me'],
+
+  data: () => ({
+    version: pkg.version,
+    iconPath: 'https://github.com/hibiyasleep/kagerou/raw/master/share/img/class'
+  }),
+  
   computed: {
-    icon () { return `https://github.com/hibiyasleep/kagerou/raw/master/share/img/class/` },
-    jobName() { return this.me.client ? this.me.job.name[this.me.client.code] : this.me.job.name.short.toUpperCase() }
+    jobName () {
+      return this.me.client
+        ? this.me.job.name[this.me.client.code]
+        : this.me.job.name.short.toUpperCase()
+    }
   }
 }
 </script>

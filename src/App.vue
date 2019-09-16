@@ -1,7 +1,7 @@
 <template>
   <div id="app" :hidden="hidden">
     <encounter :actions="actions"></encounter>
-    <profile :me="me" :actions="actions"></profile>
+    <profile :me="me" v-if="!actions.length"></profile>
   </div>
 </template>
 
