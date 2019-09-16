@@ -21,27 +21,22 @@ export default {
   components: { Tooltip, Profile, Encounter },
 
   data: () => ({
+    hidden: false,
+    tooltip: null,
+
+    actions: [],
     me: {
       id: 0,
       name: '',
       level: 0,
       job: null,
       client: null
-    },
-
-    actions: [
-      // {timestamp: '0', job: {id: 'summoner', ...}, skill: {name:'루인가', ...}},
-      // {timestamp: '1', job: {id: 'summoner', ...}, skill: {name:'루인라', ...}},
-      // {timestamp: '2', job: {id: 'summoner', ...}, skill: {name:'트라이디재스터', ...}},
-    ],
-
-    hidden: false,
-    tooltip: null
+    }
   }),
-  
+
   mounted () {
-    console.log(this)
     listen(d => this.onLogLine(d))
+    if (window.location.hostname === 'localhost') console.log(this)
   },
 
   methods: {
@@ -61,7 +56,6 @@ export default {
 
     onEntityAdded ({ id, job, level, server }) {
       if (id !== this.me.id) return
-      if (job === '6') job = '18'
 
       this.me.level = level
       this.me.server = server
@@ -69,17 +63,21 @@ export default {
     },
 
     onUse ({ message }) {
-      if (this.me.client) return this.check(this.me.client, message)
-      for (const candidate of clients) if (this.check(candidate, message)) return this.me.client = candidate
+      this.checkUsage(message, this.me.client || clients)
     },
 
-    check (client, message) {
-      const m = client.pattern.exec(message)
-      if (!m || !client.identify(this.me.name, m[1])) return false
+    checkUsage (message, client) {
+      if (Array.isArray(client))
+        return client.forEach(c => this.checkUsage(message, c))
 
+      const m = client.patterns
+        .map(pattern => pattern.exec(message))
+        .find(m => m && (m[1] === client.you || m[1] === this.me.name))
+
+      if (!m) return
+      this.me.client = client
       const skill = this.me.job[`${client.code}:${m[2]}`]
-      if (skill) this.actions.push({ skill, job: this.me.job, timestamp: Date.now() })
-      return true
+      if(skill) this.actions.push({ skill, job: this.me.job, timestamp: Date.now() })
     },
 
     onCommand ({ args }) {

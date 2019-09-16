@@ -2,27 +2,44 @@ export default [
   {
     code: 'na',
     language: 'English',
-    pattern: /(You) cast (.+)\./,
-    identify: (_, match) => match === 'You'
-  }, {
+    you: 'You',
+    patterns: [
+      /(You) use (.+)\./,
+      /(You) cast (.+)\./,
+    ]
+  },
+
+  {
     code: 'jp',
     language: '日本語',
-    pattern: /(.+)の「(.+)」/,
-    identify: (me, match) => me === match
-  }, {
+    you: null,
+    patterns: [/(.+)の「(.+)」/]
+  },
+
+  {
     code: 'de',
     language: 'Deutsch',
-    pattern: /(Du) wirkst (.+)./,
-    identify: (_, match) => match === 'Du'
-  }, {
+    you: 'Du',
+    patterns: [
+      /(Du) setzt (.+) ein\./,
+      /(Du) wirkst (.+)\./,
+    ]
+  },
+
+  {
     code: 'fr',
     language: 'Français',
-    pattern: /(Vous) lancez (.+)\./,
-    identify: (_, match) => match === 'Vous'
-  }, {
+    you: 'Vous',
+    patterns: [
+      /(Vous) utilisez (.+)\./,
+      /(Vous) lancez (.+)\./,
+    ]
+  },
+
+  {
     code: 'kr',
     language: '한국어',
-    pattern: /(.+)[이가] (.+)[을를] 시전했습니다\./,
-    identify: (me, match) => me === match
+    you: null,
+    patterns: [/(.+)[이가] (.+)[을를] 시전했습니다\./]
   }
 ]
