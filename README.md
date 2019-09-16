@@ -38,7 +38,7 @@ https://chalkpe.github.io/ffxiv-opener-overlay/
 | English (`en`) | `5.08` |
 | Deutsch (`de`) | `5.08` |
 | Français (`fr`) | `5.08` |
-| 한국어 (`kr`) | `4.5` |
+| 한국어 (`kr`) | `4.56` |
 
 ### In-game configuration
 
