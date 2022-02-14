@@ -15,7 +15,7 @@
 https://chalkpe.github.io/ffxiv-opener-overlay/
 ```
 
-### OverlayPlugin
+### OverlayPlugin (recommended)
 
 1. Open ACT
 1. Plugins → OverlayPlugin.dll → `New`
