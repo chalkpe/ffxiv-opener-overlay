@@ -1,8 +1,8 @@
 # ffxiv-opener-overlay
 
-![GitHub package.json version](https://img.shields.io/github/package-json/v/ChalkPE/ffxiv-opener-overlay) ![Global: Patch v5.08](https://img.shields.io/badge/patch-5.08-blueviolet) ![Korea: Patch v4.56](https://img.shields.io/badge/korea-4.56-red)
+![GitHub package.json version](https://img.shields.io/github/package-json/v/ChalkPE/ffxiv-opener-overlay) ![Global: Patch v6.08](https://img.shields.io/badge/patch-6.08-blueviolet) ![Korea: Patch v5.58](https://img.shields.io/badge/korea-5.58-red)
 
-[ACT](https://advancedcombattracker.com/) [overlay](https://github.com/hibiyasleep/OverlayPlugin) for [Final Fantasy XIV](https://www.finalfantasyxiv.com/) that shows your real-time skill sequences.
+[ACT](https://advancedcombattracker.com/) [overlay](https://github.com/ngld/OverlayPlugin) for [Final Fantasy XIV](https://www.finalfantasyxiv.com/) that shows your real-time skill sequences.
 
 ![Red Mage opener](public/rdm-sb-opener.png)
 <!-- ![Summoner opener](public/smn-sb-opener.png) -->
@@ -35,11 +35,11 @@ https://chalkpe.github.io/ffxiv-opener-overlay/
 
 | Language | Patch |
 | :--: | :--: |
-| 日本語 (`jp`) | `5.08` |
-| English (`en`) | `5.08` |
-| Deutsch (`de`) | `5.08` |
-| Français (`fr`) | `5.08` |
-| 한국어 (`kr`) | `4.56` |
+| 日本語 (`jp`) | `6.08` |
+| English (`en`) | `6.08` |
+| Deutsch (`de`) | `6.08` |
+| Français (`fr`) | `6.08` |
+| 한국어 (`kr`) | `5.58` |
 
 ### In-game configuration
 
@@ -87,5 +87,5 @@ yarn build && yarn deploy
 ### /src/assets
 
 ```text
-© 2010 - 2019 SQUARE ENIX CO., LTD. All Rights Reserved.
+© 2010 - 2022 SQUARE ENIX CO., LTD. All Rights Reserved.
 ```

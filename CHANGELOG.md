@@ -1,5 +1,14 @@
 # Changelog
 
+## v0.2.2
+
+Released 2022-02-14
+
+* Features
+  * Updated database to Patch 6.08
+* Others
+  * Fix security vulnerabilities in dependencies
+
 ## v0.2.1
 
 Released 2019-09-16
