@@ -19,7 +19,7 @@ https://chalkpe.github.io/ffxiv-opener-overlay/
 
 1. Open ACT
 1. Plugins → OverlayPlugin.dll → `New`
-1. Add new **Log Parse** type overlay (name is your choice)
+1. Add new **Custom** preset, **MiniParse** type overlay (name is your choice)
 1. Switch to the new overlay tab and set **URL** as above
 
 ### ACTWebSocket
