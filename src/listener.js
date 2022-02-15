@@ -16,7 +16,7 @@ function listenOverlayPlugin (callback) {
   })
 
   window.addOverlayListener('LogLine', data => {
-    const [opcode, , ...payload] = data.line
+    const [opcode, timestamp, ...payload] = data.line
     switch (opcode) {
       case '03':
         return callback ({
@@ -29,7 +29,7 @@ function listenOverlayPlugin (callback) {
 
       case '00':
         if (isCmdOpcode(payload[0])) return callback({ type: 'cmd', args: payload[2] })
-        if (isUseOpcode(payload[0])) return callback({ type: 'use', message: payload[2] })
+        if (isUseOpcode(payload[0])) return callback({ type: 'use', timestamp, message: payload[2] })
         return
     }
   })
@@ -69,7 +69,7 @@ function listenACTWebSocket (url, callback) {
         }
 
         if (m[0] === '00' && isUseOpcode(m[2])) {
-          return callback({ type: 'use', message: m[4] })
+          return callback({ type: 'use', timestamp: m[1], message: m[4] })
         }
 
         if (m[0] === '03') {

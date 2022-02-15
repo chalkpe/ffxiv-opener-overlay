@@ -11,10 +11,10 @@
       </p>
 
       <span v-if="action.timestamp" class="timestamp">
-        {{ new Date(action.timestamp).toISOString() }}
+        {{ new Date(action.timestamp).toLocaleString() }}
       </span>
     </article>
-  </div>  
+  </div>
 </template>
 
 <script>
@@ -56,6 +56,5 @@ export default {
   .tooltip .timestamp {
     color: #888;
     font-size: 0.75rem;
-    font-family: Consolas, monospace;
   }
 </style>

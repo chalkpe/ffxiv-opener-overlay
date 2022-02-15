@@ -1,14 +1,16 @@
 <template>
   <nav class="profile">
     <span v-if="me.name">{{ me.name }}
-      <span v-if="me.server">@{{ me.server }}</span>
+      <span v-if="me.server">@{{ server }}</span>
     </span>
 
     <span v-if="me.job">
-      <img :src="`${iconPath}/${me.job.name.short}.png`">{{ jobName }}
+      <img :src="`${iconPath}/${me.job.name.short}.png`"> {{ jobName }}
       <span v-if="me.level">Lv {{ me.level }}</span>
     </span>
-    <span v-else>Unknown</span>
+    <span v-else>
+      <img :src="`${iconPath}/error.png`"> Adventurer
+    </span>
 
     <span class="version">v{{ version }}</span>
   </nav>
@@ -30,6 +32,16 @@ export default {
       return this.me.client
         ? this.me.job.name[this.me.client.code]
         : this.me.job.name.short.toUpperCase()
+    },
+    server () {
+      const map = {
+        'KrCarbuncle': '카벙클',
+        'KrChocobo': '초코보',
+        'KrMoogle': '모그리',
+        'KrTonberry': '톤베리',
+        'KrFenrir': '펜리르'
+      }
+      return map[this.me.server] ?? this.me.server
     }
   }
 }

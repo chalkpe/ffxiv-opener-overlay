@@ -1,7 +1,7 @@
 <template>
   <div id="app" :hidden="hidden">
     <ActionEncounter :actions="actions" />
-    <PlayerProfile v-if="!actions.length" :me="me" />
+    <PlayerProfile v-if="!actions.length || !me.job" :me="me" />
   </div>
 </template>
 
@@ -57,14 +57,15 @@ export default {
       this.me.job = Object.values(database).find(j => j.name.code === job)
     },
 
-    onUse ({ message }) {
-      this.checkUsage(message, this.me.client || clients)
+    onUse (data) {
+      this.checkUsage(data, this.me.client || clients)
     },
 
-    checkUsage (message, client) {
+    checkUsage (data, client) {
       if (Array.isArray(client))
-        return client.forEach(c => this.checkUsage(message, c))
+        return client.forEach(c => this.checkUsage(data, c))
 
+      const { message, timestamp } = data
       const m = client.patterns
         .map(pattern => pattern.exec(message))
         .find(m => m && (m[1] === client.you || m[1] === this.me.name))
@@ -74,7 +75,7 @@ export default {
 
       const key = `${client.code}:${m[2]}`
       const skill = this.me.job?.[key] ?? { name: m[2], effect: '', icon: '' }
-      this.actions.push({ skill, job: this.me.job, timestamp: Date.now() })
+      this.actions.push({ skill, job: this.me.job, timestamp })
     },
 
     onCommand ({ args }) {
@@ -104,7 +105,7 @@ export default {
 
   html {
     font-size: 16px;
-    font-family: Roboto, 'Noto Sans JP', 'Noto Sans KR', 'Malgun Gothic', sans-serif;
+    font-family: Pretendard, -apple-system, BlinkMacSystemFont, system-ui, Roboto, 'Helvetica Neue', 'Segoe UI', 'Apple SD Gothic Neo', 'Noto Sans KR', 'Malgun Gothic', sans-serif;
     color: white;
   }
 
