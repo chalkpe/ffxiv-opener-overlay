@@ -6,7 +6,7 @@
 
 ![Red Mage opener](public/rdm-ew-opener.png)
 
-* Watch in-game video: [English](https://gaming.youtube.com/watch?v=mKNK5xdRwsE&feature=share) &middot; [Korean](https://gaming.youtube.com/watch?v=sLJddcK1z6Y&feature=share)
+* Watch in-game video: [YouTube](https://youtu.be/j2YD54eWDWE)
 
 ## Installation
 
