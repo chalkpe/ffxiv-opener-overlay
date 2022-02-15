@@ -1,39 +1,43 @@
 const isCmdOpcode = (opcode) => opcode?.toLowerCase() === '0038'
 const isUseOpcode = (opcode) => opcode?.toLowerCase() === '082b'
 
-const getHost = () => new URLSearchParams(document.location.search).get('HOST_PORT')
+const getHostPort = () => new URLSearchParams(document.location.search).get('HOST_PORT')
+
+const num = (data) => (typeof data === 'string' ? parseInt(data, 16) : data)
+const hex = (data) => (typeof data === 'number' ? data.toString(16) : data).toLowerCase()
 
 function listenOverlayPlugin (callback) {
-  document.addEventListener('onLogLine', e => {
-    const { opcode, payload } = e.detail
+  window.addOverlayListener('ChangePrimaryPlayer', data => {
+    callback({
+      type: 'me',
+      name: data.charName,
+      id: hex(data.charID)
+    })
+  })
 
+  window.addOverlayListener('LogLine', data => {
+    const [opcode, , ...payload] = data.line
     switch (opcode) {
-      case 0:
+      case '03':
+        return callback ({
+          type: 'add',
+          id: hex(payload[0]),
+          job: hex(payload[2]),
+          level: num(payload[3]),
+          server: payload[6]
+        })
+
+      case '00':
         if (isCmdOpcode(payload[0])) return callback({ type: 'cmd', args: payload[2] })
         if (isUseOpcode(payload[0])) return callback({ type: 'use', message: payload[2] })
         return
-
-      case 2:
-        return callback({
-          type: 'me',
-          id: payload[0],
-          name: payload[1]
-        })
-
-      case 3:
-        return callback ({
-          type: 'add',
-          id: payload[0],
-          job: payload[2],
-          level: parseInt(payload[3], 16),
-          server: payload[6]
-        })
     }
   })
+
+  window.startOverlayEvents()
 }
 
 function listenACTWebSocket (url, callback) {
-  // TODO: Add support ModernApi for OverlayPlugin
   const ws = new WebSocket(new URL('/BeforeLogLineRead', url).href)
 
   ws.onerror = () => setTimeout(listenACTWebSocket(url, callback), 1000)
@@ -45,33 +49,38 @@ function listenACTWebSocket (url, callback) {
       case 'SendCharName':
         return callback({
           type: 'me',
-          id: payload.charID,
-          name: payload.charName
+          name: payload.charName,
+          id: hex(payload.charID)
         })
 
       case 'AddCombatant':
         return callback({
           type: 'add',
-          id: payload.id,
-          level: payload.level,
-          job: payload.job.toString(16),
+          id: hex(payload.id),
+          job: hex(payload.job),
+          level: num(payload.level)
         })
 
       case 'Chat': {
         const m = payload.split('|')
-        if (m[0] === '00' && isCmdOpcode(m[2])) return callback({ type: 'cmd', args: m[4] })
-        if (m[0] === '00' && isUseOpcode(m[2])) return callback({ type: 'use', message: m[4] })
+
+        if (m[0] === '00' && isCmdOpcode(m[2])) {
+          return callback({ type: 'cmd', args: m[4] })
+        }
+
+        if (m[0] === '00' && isUseOpcode(m[2])) {
+          return callback({ type: 'use', message: m[4] })
+        }
+
         if (m[0] === '03') {
           return callback({
             type: 'add',
-            id: parseInt(m[2], 16),
-            job: m[4].toLowerCase(),
-            level: parseInt(m[5], 16),
+            id: hex(m[2]),
+            job: hex(m[4]),
+            level: num(m[5]),
             server: m[8]
           })
         }
-
-        return
       }
     }
   }
@@ -80,9 +89,13 @@ function listenACTWebSocket (url, callback) {
 }
 
 export default function (callback) {
+  const hostPort = getHostPort()
   try {
-    const m = getHost()
-    m ? listenACTWebSocket(m, callback) : listenOverlayPlugin(callback)
+    if (hostPort) {
+      listenACTWebSocket(hostPort, callback)
+    } else {
+      listenOverlayPlugin(callback)
+    }
   } catch (err) {
     console.error(err)
   }
