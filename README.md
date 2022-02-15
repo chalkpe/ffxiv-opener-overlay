@@ -4,8 +4,7 @@
 
 [ACT](https://advancedcombattracker.com/) [overlay](https://github.com/ngld/OverlayPlugin) for [Final Fantasy XIV](https://www.finalfantasyxiv.com/) that shows your real-time skill sequences.
 
-![Red Mage opener](public/rdm-sb-opener.png)
-<!-- ![Summoner opener](public/smn-sb-opener.png) -->
+![Red Mage opener](public/rdm-ew-opener.png)
 
 * Watch in-game video: [English](https://gaming.youtube.com/watch?v=mKNK5xdRwsE&feature=share) &middot; [Korean](https://gaming.youtube.com/watch?v=sLJddcK1z6Y&feature=share)
 
