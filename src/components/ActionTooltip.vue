@@ -1,13 +1,16 @@
 <template>
-  <div class="tooltip" v-if="action">
+  <div v-if="action" class="tooltip">
     <article>
       <h1 class="name">
         {{ action.skill.name }}
-        <span class="job" v-if="action.job">{{ action.job.name[action.skill.client] }}</span>
+        <span v-if="action.job" class="job">{{ action.job.name[action.skill.client] }}</span>
       </h1>
 
-      <p class="effect" v-html="action.skill.effect"></p>
-      <span class="timestamp" v-if="action.timestamp">
+      <p class="effect">
+        {{ action.skill.effect.replace(/<br>/gi, '\n') }}
+      </p>
+
+      <span v-if="action.timestamp" class="timestamp">
         {{ new Date(action.timestamp).toISOString() }}
       </span>
     </article>
@@ -16,7 +19,7 @@
 
 <script>
 export default {
-  props: ['action']
+  props: { action: { type: Object, default: null } }
 }
 </script>
 
@@ -47,6 +50,7 @@ export default {
   .tooltip .effect {
     color: #aaa;
     font-size: 0.9rem;
+    white-space: pre-line;
   }
 
   .tooltip .timestamp {

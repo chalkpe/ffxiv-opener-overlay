@@ -5,16 +5,19 @@
       @mouseleave="$emit('show')"
       @mouseenter="$emit('show', action)"
     >
-      <img v-if="action.skill"
+      <img
+        v-if="action.skill"
         :src="action.skill.icon"
-        :alt="action.skill.name">
+        :alt="action.skill.name"
+      >
     </div>
   </div>
 </template>
 
 <script>
   export default {
-    props: ['action']
+    props: { action: { type: Object, required: true } },
+    emits: ['show']
   }
 </script>
 

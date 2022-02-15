@@ -1,7 +1,7 @@
 <template>
   <div id="app" :hidden="hidden">
-    <encounter :actions="actions"></encounter>
-    <profile :me="me" v-if="!actions.length"></profile>
+    <ActionEncounter :actions="actions" />
+    <PlayerProfile v-if="!actions.length" :me="me" />
   </div>
 </template>
 
@@ -10,12 +10,12 @@ import listen from './listener'
 import clients from './clients'
 import database from './database'
 
-import Profile from './components/Profile.vue'
-import Encounter from './components/Encounter.vue'
+import PlayerProfile from './components/PlayerProfile.vue'
+import ActionEncounter from './components/ActionEncounter.vue'
 
 export default {
-  name: 'app',
-  components: { Profile, Encounter },
+  name: 'App',
+  components: { PlayerProfile, ActionEncounter },
 
   data: () => ({
     hidden: false,

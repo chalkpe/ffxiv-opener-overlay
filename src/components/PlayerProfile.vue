@@ -17,8 +17,8 @@
 <script>
 import pkg from '../../package.json'
 export default {
-  name: 'Profile',
-  props: ['me'],
+  name: 'PlayerProfile',
+  props: { me: { type: Object, required: true } },
 
   data: () => ({
     version: pkg.version,

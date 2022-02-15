@@ -1,25 +1,26 @@
 <template>
   <main class="encounter-wrapper">
     <nav class="encounter">
-      <action
+      <ActionIcon
         v-for="action of actions"
-        :action="action"
         :key="action.timestamp"
-        @show="tooltip = $event"></action>
+        :action="action"
+        @show="tooltip = $event"
+      />
     </nav>
 
-    <tooltip :action="tooltip"></tooltip>
+    <ActionTooltip :action="tooltip" />
   </main>
 </template>
 
 <script>
-import Action from './Action.vue'
-import Tooltip from './Tooltip.vue'
+import ActionIcon from './ActionIcon.vue'
+import ActionTooltip from './ActionTooltip.vue'
 
 export default {
-  name: 'Encounter',
-  props: ['actions'],
-  components: { Action, Tooltip },
+  name: 'ActionEncounter',
+  components: { ActionIcon, ActionTooltip },
+  props: { actions: { type: Array, required: true } },
   data: () => ({ tooltip: null })
 }
 </script>
