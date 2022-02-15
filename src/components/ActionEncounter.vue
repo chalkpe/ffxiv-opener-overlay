@@ -8,12 +8,13 @@
         @show="tooltip = $event"
       />
     </nav>
-
+    <div ref="bottom" />
     <ActionTooltip :action="tooltip" />
   </main>
 </template>
 
 <script>
+import { nextTick } from 'vue'
 import ActionIcon from './ActionIcon.vue'
 import ActionTooltip from './ActionTooltip.vue'
 
@@ -21,7 +22,15 @@ export default {
   name: 'ActionEncounter',
   components: { ActionIcon, ActionTooltip },
   props: { actions: { type: Array, required: true } },
-  data: () => ({ tooltip: null })
+  data: () => ({ tooltip: null }),
+  watch: {
+    actions: {
+      deep: true,
+      handler () { 
+        nextTick(() => this.$refs.bottom.scrollIntoView({ behavior: 'smooth' }))
+      }
+    }
+  }
 }
 </script>
 
