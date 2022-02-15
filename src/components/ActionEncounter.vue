@@ -38,6 +38,7 @@ export default {
     flex-direction: row;
     align-content: flex-start;
     justify-content: flex-start;
+    row-gap: 0.25rem;
 
     transition: all 0.5s ease;
     transform-origin: top left;
