@@ -71,8 +71,10 @@ export default {
 
       if (!m) return
       this.me.client = client
-      const skill = this.me.job[`${client.code}:${m[2]}`]
-      if(skill) this.actions.push({ skill, job: this.me.job, timestamp: Date.now() })
+
+      const key = `${client.code}:${m[2]}`
+      const skill = this.me.job?.[key] ?? { name: m[2], effect: '', icon: '' }
+      this.actions.push({ skill, job: this.me.job, timestamp: Date.now() })
     },
 
     onCommand ({ args }) {

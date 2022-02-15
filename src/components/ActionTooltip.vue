@@ -1,12 +1,12 @@
 <template>
   <div v-if="action" class="tooltip">
     <article>
-      <h1 class="name">
+      <h1 v-if="action.skill" class="name">
         {{ action.skill.name }}
         <span v-if="action.job" class="job">{{ action.job.name[action.skill.client] }}</span>
       </h1>
 
-      <p class="effect">
+      <p v-if="action.skill" class="effect">
         {{ action.skill.effect.replace(/<br>/gi, '\n') }}
       </p>
 

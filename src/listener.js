@@ -34,7 +34,7 @@ function listenOverlayPlugin (callback) {
 
 function listenACTWebSocket (url, callback) {
   // TODO: Add support ModernApi for OverlayPlugin
-  const ws = new WebSocket(new URL('/BeforeLogLineRead', url))
+  const ws = new WebSocket(new URL('/BeforeLogLineRead', url).href)
 
   ws.onerror = () => setTimeout(listenACTWebSocket(url, callback), 1000)
   ws.onmessage = function (e) {
