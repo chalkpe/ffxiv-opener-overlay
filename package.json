@@ -1,6 +1,6 @@
 {
   "name": "ffxiv-opener-overlay",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "private": true,
   "description": "ACT overlay for Final Fantasy XIV that shows your real-time skill sequences",
   "repository": "https://github.com/ChalkPE/ffxiv-opener-overlay",
