@@ -2,15 +2,14 @@
   "name": "ffxiv-opener-overlay",
   "version": "1.0.1",
   "private": true,
-  "description": "ACT overlay for Final Fantasy XIV that shows your real-time skill sequences",
+  "description": "ACT overlay for FINAL FANTASY XIV that shows your real-time skill sequences",
   "repository": "https://github.com/ChalkPE/ffxiv-opener-overlay",
   "author": "ChalkPE",
   "license": "MIT",
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
-    "lint": "vue-cli-service lint",
-    "deploy": "push-dir --dir=dist --branch=gh-pages --cleanup"
+    "lint": "vue-cli-service lint"
   },
   "dependencies": {
     "vue": "^3.2.31"
@@ -22,12 +21,12 @@
     "@vue/cli-service": "^5.0.0-rc.3",
     "eslint": "^8.9.0",
     "eslint-plugin-vue": "^8.4.1",
-    "eslint-scope": "^7.1.1",
-    "push-dir": "^0.4.1",
     "vue-template-compiler": "^2.6.14"
   },
   "babel": {
-    "presets": ["@vue/app"]
+    "presets": [
+      "@vue/app"
+    ]
   },
   "eslintConfig": {
     "root": true,
@@ -40,14 +39,17 @@
     ],
     "rules": {
       "no-console": "off",
-      "vue/max-attributes-per-line": ["error", {
-        "singleline": {
-          "max": 2
-        },
-        "multiline": {
-          "max": 1
+      "vue/max-attributes-per-line": [
+        "error",
+        {
+          "singleline": {
+            "max": 3
+          },
+          "multiline": {
+            "max": 1
+          }
         }
-      }]
+      ]
     },
     "parserOptions": {
       "parser": "@babel/eslint-parser"
@@ -59,7 +61,7 @@
     }
   },
   "browserslist": [
-    "chrome 45"
+    "chrome 95"
   ],
   "vue": {
     "publicPath": "./",
