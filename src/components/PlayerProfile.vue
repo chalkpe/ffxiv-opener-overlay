@@ -4,8 +4,8 @@
       <span v-if="me.server">@{{ server }}</span>
     </span>
 
-    <span v-if="me.job">
-      <img :src="`${iconPath}/${me.job.name.short}.png`"> {{ jobName }}
+    <span v-if="job">
+      <img :src="`${iconPath}/${job.short}.png`"> {{ job.name }}
       <span v-if="me.level">Lv {{ me.level }}</span>
     </span>
     <span v-else>
@@ -20,7 +20,10 @@
 import pkg from '../../package.json'
 export default {
   name: 'PlayerProfile',
-  props: { me: { type: Object, required: true } },
+  props: {
+    me: { type: Object, required: true },
+    job: { type: Object, default: undefined }
+  },
 
   data: () => ({
     version: pkg.version,
@@ -28,11 +31,6 @@ export default {
   }),
   
   computed: {
-    jobName () {
-      return this.me.client
-        ? this.me.job.name[this.me.client.code]
-        : this.me.job.name.short.toUpperCase()
-    },
     server () {
       const map = {
         'KrCarbuncle': '카벙클',

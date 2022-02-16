@@ -1,6 +1,6 @@
 export default [
   {
-    code: 'na',
+    code: 'en',
     language: 'English',
     you: 'You',
     patterns: [
@@ -10,7 +10,7 @@ export default [
   },
 
   {
-    code: 'jp',
+    code: 'ja',
     language: '日本語',
     you: null,
     patterns: [/(.+)の「(.+)」/]
@@ -37,7 +37,7 @@ export default [
   },
 
   {
-    code: 'kr',
+    code: 'ko',
     language: '한국어',
     you: null,
     patterns: [/(.+)[이가] (.+)[을를] 시전했습니다\./]

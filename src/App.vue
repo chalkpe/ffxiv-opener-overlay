@@ -1,7 +1,7 @@
 <template>
   <div id="app" :hidden="hidden">
     <ActionEncounter :actions="actions" />
-    <PlayerProfile v-if="!actions.length || !me.job" :me="me" />
+    <PlayerProfile v-if="!actions.length || !jobId" :me="me" :job="job" />
   </div>
 </template>
 
@@ -20,18 +20,29 @@ export default {
   data: () => ({
     hidden: false,
     actions: [],
-    me: {
-      id: 0,
-      name: '',
-      level: 0,
-      job: null,
-      client: null
-    }
+
+    jobId: '00',
+    region: 'en',
+    me: { id: 0, name: '', level: 0, server: '' }
   }),
+
+  computed: {
+    job () {
+      const { jobId, database } = this
+      return database?.find((job) => job.code === jobId)
+    },
+
+    client () {
+      const { region } = this
+      return clients.find((client) => client.code === region)
+    }
+  },
 
   mounted () {
     listen(d => this.onLogLine(d))
-    if (window.location.hostname === 'localhost') console.log(this, database)
+    database.getLanguage().then((r) => this.updateDatabase(r))
+
+    if (window.location.hostname === 'localhost') console.log(this)
   },
 
   methods: {
@@ -44,6 +55,13 @@ export default {
       }
     },
 
+    async updateDatabase (region) {
+      this.region = region
+      this.database = await database.fetch(region)
+
+      if (window.location.hostname === 'localhost') console.log(this.database)
+    },
+
     onMeAdded ({ id, name }) {
       this.me.id = id
       this.me.name = name
@@ -52,16 +70,16 @@ export default {
     onEntityAdded ({ id, job, level, server }) {
       if (id !== this.me.id) return
 
+      this.jobId = job
       this.me.level = level
       this.me.server = server
-      this.me.job = Object.values(database).find(j => j.name.code === job)
     },
 
     onUse (data) {
-      this.checkUsage(data, this.me.client || clients)
+      this.checkUsage(data, this.client || clients)
     },
 
-    checkUsage (data, client) {
+    async checkUsage (data, client) {
       if (Array.isArray(client))
         return client.forEach(c => this.checkUsage(data, c))
 
@@ -71,15 +89,17 @@ export default {
         .find(m => m && (m[1] === client.you || m[1] === this.me.name))
 
       if (!m) return
-      this.me.client = client
+      if (this.client !== client) await this.updateClient(client.code)
 
-      const key = `${client.code}:${m[2]}`
-      const skill = this.me.job?.[key] ?? { name: m[2], effect: '', icon: '' }
-      this.actions.push({ skill, job: this.me.job, timestamp })
+      const job = this.job
+      const name = m[2].trim()
+      const skill = job?.skills?.pve?.find((s) => s.name === name) ?? { name, effect: '', icon: '' }
+
+      this.actions.push({ timestamp, skill, job })
     },
 
-    onCommand ({ args }) {
-      args = args.split(' ')
+    onCommand ({ args: command }) {
+      const args = command.split(' ')
 
       switch (args[0]) {
         case 'reset':
