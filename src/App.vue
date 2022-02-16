@@ -89,7 +89,7 @@ export default {
         .find(m => m && (m[1] === client.you || m[1] === this.me.name))
 
       if (!m) return
-      if (this.client !== client) await this.updateClient(client.code)
+      if (this.client !== client) await this.updateDatabase(client.code)
 
       const job = this.job
       const name = m[2].trim()

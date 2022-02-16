@@ -88,12 +88,9 @@ yarn build && yarn deploy
 © 2010 - 2022 SQUARE ENIX CO., LTD. All Rights Reserved.
 ```
 
-
-
-
 [MIT License]: LICENSE
 [Example]: public/rdm-ew-opener.png
-[Job actions data]: src/assets/database.json
+[Job actions data]: src/assets/actions
 [ffxiv-actions]: https://github.com/ChalkPE/ffxiv-actions
 
 [Package version]: https://img.shields.io/github/package-json/v/ChalkPE/ffxiv-opener-overlay
