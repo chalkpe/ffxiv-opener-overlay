@@ -13,6 +13,18 @@ import database from './database'
 import PlayerProfile from './components/PlayerProfile.vue'
 import ActionEncounter from './components/ActionEncounter.vue'
 
+const classMap = {
+  '01': '13', // GLA -> PLD
+  '02': '14', // PGL -> MNK
+  '03': '15', // MRD -> WAR
+  '04': '16', // LNC -> DRG
+  '05': '17', // ARC -> BRD
+  '06': '18', // CNJ -> WHM
+  '07': '19', // THM -> BLM
+  '1a': '1b', // ACN -> SMN
+  '1d': '1e', // ROG -> NIN
+}
+
 export default {
   name: 'App',
   components: { PlayerProfile, ActionEncounter },
@@ -70,9 +82,9 @@ export default {
     onEntityAdded ({ id, job, level, server }) {
       if (id !== this.me.id) return
 
-      this.jobId = job
       this.me.level = level
       this.me.server = server
+      this.jobId = classMap[job] ?? job
     },
 
     onUse (data) {
@@ -112,6 +124,7 @@ export default {
 
         case 'toggle':
           this.hidden = !this.hidden
+          break
       }
     }
   }
