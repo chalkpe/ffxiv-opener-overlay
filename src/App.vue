@@ -32,6 +32,7 @@ export default {
   data: () => ({
     hidden: false,
     actions: [],
+    database: [],
 
     jobId: '00',
     region: 'en',
@@ -53,6 +54,9 @@ export default {
   mounted () {
     listen(d => this.onLogLine(d))
     database.getLanguage().then((r) => this.updateDatabase(r))
+
+    this.onScale(this.$ls.get('scale', 1))
+    this.onToggle(this.$ls.get('hidden', false))
 
     if (window.location.hostname === 'localhost') console.log(this)
   },
@@ -119,13 +123,23 @@ export default {
           break
 
         case 'scale':
-          document.querySelector('html').style.fontSize = `${16 * parseFloat(args[1])}px`
+          this.onScale(parseFloat(args[1]))
           break
 
         case 'toggle':
-          this.hidden = !this.hidden
+          this.onToggle(!this.hidden)
           break
       }
+    },
+
+    onScale (scale) {
+      document.querySelector('html').style.fontSize = `${16 * scale}px`
+      this.$ls.set('scale', scale)
+    },
+
+    onToggle (hidden) {
+      this.hidden = hidden
+      this.$ls.set('hidden', hidden)
     }
   }
 }
@@ -164,7 +178,7 @@ export default {
     height: 100vh;
     border-radius: 0.5rem;
 
-    overflow-x: hidden;
+    overflow: hidden;
     box-sizing: border-box;
     background-color: rgba(0, 0, 0, 0.3);
 

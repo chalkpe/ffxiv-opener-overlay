@@ -12,7 +12,8 @@
     "lint": "vue-cli-service lint"
   },
   "dependencies": {
-    "vue": "^3.2.31"
+    "vue": "^3.2.31",
+    "vue-ls": "^4.1.0"
   },
   "devDependencies": {
     "@babel/eslint-parser": "^7.17.0",
