@@ -178,7 +178,7 @@ export default {
     height: 100vh;
     border-radius: 0.5rem;
 
-    overflow: hidden;
+    overflow-x: hidden;
     box-sizing: border-box;
     background-color: rgba(0, 0, 0, 0.3);
 
