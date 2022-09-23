@@ -34,11 +34,11 @@ https://chalkpe.github.io/ffxiv-opener-overlay/
 
 | Language | Patch |
 | :--: | :--: |
-| 日本語 (`jp`) | `6.11a` |
-| English (`en`) | `6.11a` |
-| Deutsch (`de`) | `6.11a` |
-| Français (`fr`) | `6.11a` |
-| 한국어 (`kr`) | `6.01` |
+| 日本語 (`jp`) | `6.21` |
+| English (`en`) | `6.21` |
+| Deutsch (`de`) | `6.21` |
+| Français (`fr`) | `6.21` |
+| 한국어 (`kr`) | `6.08` |
 
 ### In-game configuration
 
@@ -94,8 +94,8 @@ yarn build && yarn deploy
 [ffxiv-actions]: https://github.com/ChalkPE/ffxiv-actions
 
 [Package version]: https://img.shields.io/github/package-json/v/ChalkPE/ffxiv-opener-overlay
-[Global version]: https://img.shields.io/badge/global-6.11a-blueviolet
-[Korean version]: https://img.shields.io/badge/korea-6.01-red
+[Global version]: https://img.shields.io/badge/global-6.21-blueviolet
+[Korean version]: https://img.shields.io/badge/korea-6.08-red
 
 [YouTube]: https://youtu.be/j2YD54eWDWE
 [ACT]: https://advancedcombattracker.com/
