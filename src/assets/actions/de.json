@@ -14,12 +14,12 @@
         {
           "name": "Verwegenheit",
           "icon": "https://img.finalfantasyxiv.com/lds/d/87405b9b9f00d9957df252ea0116e4137bc4dbd1.png",
-          "effect": "Du erhöhst den ausgeteilten physischen Schaden um 25 %.<br>Dauer: 25 Sekunden"
+          "effect": "Du erhöhst den ausgeteilten Schaden um 25 %.<br>Dauer: 20 Sekunden"
         },
         {
           "name": "Donnerklinge",
           "icon": "https://img.finalfantasyxiv.com/lds/d/bdda04f3b284e3cbf7d07e50d9bffb21b74ce869.png",
-          "effect": "Du führst eine physische Attacke aus.<br>Attacke-Wert: 170<br>Kombo-Bedingung: Vortexschnitt<br>Attacke-Wert: 300<br>Bonus: MP werden regeneriert."
+          "effect": "Du führst eine physische Attacke aus.<br>Attacke-Wert: 120<br>Kombo-Bedingung: Vortexschnitt<br>Attacke-Wert: 280<br>Bonus: MP werden regeneriert."
         },
         {
           "name": "Eklipse",
@@ -35,6 +35,11 @@
           "name": "Schild-Eid",
           "icon": "https://img.finalfantasyxiv.com/lds/d/1e60c8b0c72bbc52497a163755dc855f5cdf7091.png",
           "effect": "Du erhöhst die Feindseligkeit von Gegnern, mit denen du dich im Kampf befindest, gegen dich immens.<br>Effekt endet bei erneuter Ausführung."
+        },
+        {
+          "name": "Bruch des Schild-Eids",
+          "icon": "https://img.finalfantasyxiv.com/lds/d/0b880866e9d45ac7b9b664dcf536acc46ecb4679.png",
+          "effect": "Beendet Schild-Eid."
         },
         {
           "name": "Schildwurf",
@@ -54,7 +59,7 @@
         {
           "name": "Schiltron",
           "icon": "https://img.finalfantasyxiv.com/lds/d/e622516a93fd2298b9fd40e0d2d60c3fc8485c5a.png",
-          "effect": "Du blockst die Attacken während der Wirkungsdauer.<br>Dauer: 6 Sekunden<br>Eidbalken-Kosten: 50"
+          "effect": "Du verringerst deinen erlittenen Schaden um 15 %.<br>Dauer: 6 Sekunden<br>Eidbalken-Kosten: 50"
         },
         {
           "name": "Sentinel",
@@ -64,7 +69,7 @@
         {
           "name": "Protuberanz",
           "icon": "https://img.finalfantasyxiv.com/lds/d/c0f8a1aa0ba0a20c0d8580e63932678c5c4a8b9b.png",
-          "effect": "Du führst eine physische Attacke auf alle umstehenden Gegner aus.<br>Attacke-Wert: 100<br>Kombo-Bedingung: Eklipse<br>Attacke-Wert: 170<br>Bonus: MP-Regeneration"
+          "effect": "Du führst eine physische Attacke auf alle umstehenden Gegner aus.<br>Attacke-Wert: 100<br>Kombo-Bedingung: Eklipse<br>Attacke-Wert: 170<br>Bonus: MP-Regeneration<br>Bonus: Göttliche Gunst<br>Dauer: 30 Sekunden<br>Effekt von Göttliche Gunst: Der nächste Heilige Geist oder Heilige Kreis kann sofort gewirkt werden und hat einen erhöhten Attacke-Wert."
         },
         {
           "name": "Deckung",
@@ -82,14 +87,19 @@
           "effect": "Du bist gegen fast alle Attacken unverwundbar.<br>Dauer: 10 Sekunden"
         },
         {
+          "name": "Bollwerk",
+          "icon": "https://img.finalfantasyxiv.com/lds/d/b0a3dcb47763055bc61ee9f90ba0ee3b46050197.png",
+          "effect": "Du blockst alle erlittenen Attacken.<br>Dauer: 10 Sekunden"
+        },
+        {
           "name": "Ausweiden",
           "icon": "https://img.finalfantasyxiv.com/lds/d/eb067afbfb5a4198760b2e28e9c3cf669d9866b8.png",
-          "effect": "Du führst eine physische Attacke aus.<br>Attacke-Wert: 100<br>Kombo-Bedingung: Donnerklinge<br>Attacke-Wert: 250<br>Bonus: Schaden über Zeit<br>Attacke-Wert: 65<br>Dauer: 21 Sekunden<br>Kann nicht zugleich mit dem Schaden über Zeit-Effekt von Klinge der Tapferkeit aktiv sein."
+          "effect": "Du führst eine physische Attacke aus.<br>Attacke-Wert: 700<br>Eigener Reaktivierungs-Timer"
         },
         {
           "name": "Heiliger Quell",
           "icon": "https://img.finalfantasyxiv.com/lds/d/495faab61344751872ca0867e2d5e59b04c6940c.png",
-          "effect": "Du errichtest eine Barriere um alle Mitglieder im Umkreis von 15y, sobald du von einem Gruppenmitglied oder dir selbst Heilmagie erhältst.<br>Dauer: 30 Sekunden<br>Zusatzeffekt: Regeneriert LP des Ziels.<br>Heilpotenzial: 400<br>Wirkung der Barriere: Schaden in Höhe von 10 % deiner Maximal-LP wird bei allen im Bereich neutralisiert.<br>Dauer: 30 Sekunden<br>Der Status endet, sobald der Barriereneffekt dieses Kommandos ausgelöst wird."
+          "effect": "Du errichtest eine Barriere um alle Mitglieder in deiner Nähe.<br>Wirkung der Barriere: Schaden in Höhe von 10 % deiner Maximal-LP wird neutralisiert.<br>Dauer: 30 Sekunden<br>Zusatzeffekt: Regeneriert LP des Ziels.<br>Heilpotenzial: 400"
         },
         {
           "name": "Klemenz",
@@ -99,7 +109,7 @@
         {
           "name": "Königsklinge",
           "icon": "https://img.finalfantasyxiv.com/lds/d/3fe523f08ebd0b93125ae42d5bcf8e18dce08a02.png",
-          "effect": "Du führst eine physische Attacke aus.<br>Attacke-Wert: 130<br>Kombo-Bedingung: Donnerklinge<br>Attacke-Wert: 420<br>Bonus: 3 Einheiten Schwert-Eid<br>Dauer: 30 Sekunden"
+          "effect": "Du führst eine physische Attacke aus.<br>Attacke-Wert: 120<br>Kombo-Bedingung: Donnerklinge<br>Attacke-Wert: 380<br>Bonus: Gewährt 3 Stapel Schwert-Eid.<br>Dauer: 30 Sekunden<br>Bonus: Göttliche Gunst<br>Dauer: 30 Sekunden<br>Effekt von Göttliche Gunst: Der nächste Heilige Geist oder Heilige Kreis kann sofort gewirkt werden und hat einen erhöhten Attacke-Wert."
         },
         {
           "name": "Intervention",
@@ -109,12 +119,12 @@
         {
           "name": "Heiliger Geist",
           "icon": "https://img.finalfantasyxiv.com/lds/d/b8ad098c5afaad79a847f3fb79298456c1e9d689.png",
-          "effect": "Du führst eine elementneutrale magische Attacke aus.<br>Attacke-Wert: 300<br>Attacke-Wert bei Requiescat: 600<br>Zusatzeffekt: Regeneriert eigene LP.<br>Heilpotenzial: 400"
+          "effect": "Du führst eine elementneutrale magische Attacke aus.<br>Attacke-Wert: 350<br>Attacke-Wert bei Göttliche Gunst: 450<br>Attacke-Wert bei Requiescat: 650<br>Sind sowohl Göttliche Gunst als auch Requiescat aktiv, so wird der Effekt von Göttliche Gunst vorrangig ausgelöst.<br>Zusatzeffekt: Regeneriert eigene LP.<br>Heilpotenzial: 400"
         },
         {
           "name": "Requiescat",
           "icon": "https://img.finalfantasyxiv.com/lds/d/acbcd4de5a1839e4fd8c96ae05eb4109caed9ca1.png",
-          "effect": "Du führst eine elementneutrale magische Attacke aus.<br>Attacke-Wert: 400<br>Zusatzeffekt: Gewährt 5 Stapel Requiescat.<br>Dauer: 30 Sekunden<br>Effekt von Requiescat: Zauber können sofort gewirkt werden und der Attacke-Wert von Heiliger Geist und Heiliger Kreis ist erhöht.<br>Zusatzeffekt: Gewährt Klinge der Frömmigkeit bei Ende von Requiescat.<br>Dauer: 30 Sekunden<br>Der Effekt endet bei Ausführung einer Waffenfertigkeit.<br>Während Klinge der Frömmigkeit ändert sich Confiteor zu Klinge der Frömmigkeit."
+          "effect": "Du führst eine elementneutrale magische Attacke aus.<br>Attacke-Wert: 300<br>Zusatzeffekt: Gewährt 4 Stapel Requiescat.<br>Dauer: 30 Sekunden<br>Effekt von Requiescat: Zauber können sofort gewirkt werden.<br>Darüber hinaus erhöht sich der Attacke-Wert von Heiliger Geist, Heiliger Kreis, sowie von Confiteor und dessen Kombo-Kommandos.<br>Zusatzeffekt: Confiteor<br>Dauer: 30 Sekunden"
         },
         {
           "name": "Waffengang",
@@ -124,7 +134,7 @@
         {
           "name": "Heiliger Kreis",
           "icon": "https://img.finalfantasyxiv.com/lds/d/afd455f208e2720a10a1b26e9a231fefac4d5be7.png",
-          "effect": "Du führst eine elementneutrale magische Attacke auf alle umstehenden Gegner aus.<br>Attacke-Wert: 130<br>Bei Requiescat: 300<br>Zusatzeffekt: Regeneriert eigene LP.<br>Heilpotenzial: 400"
+          "effect": "Du führst eine elementneutrale magische Attacke auf alle umstehenden Gegner aus.<br>Attacke-Wert: 100<br>Bei Göttliche Gunst: 200<br>Bei Requiescat: 300<br>Sind sowohl Göttliche Gunst als auch Requiescat aktiv, so wird der Effekt von Göttliche Gunst vorrangig ausgelöst.<br>Zusatzeffekt: Regeneriert eigene LP.<br>Heilpotenzial: 400"
         },
         {
           "name": "Einschreiten",
@@ -134,37 +144,37 @@
         {
           "name": "Absolution",
           "icon": "https://img.finalfantasyxiv.com/lds/d/f59cb1517f2f26c490a87d58366b5bccff372f19.png",
-          "effect": "Du führst eine physische Attacke aus.<br>Attacke-Wert: 420<br>Zusatzeffekt: MP-Regeneration<br>Bedingung: Schwert-Eid"
+          "effect": "Du führst eine physische Attacke aus.<br>Attacke-Wert: 380<br>Zusatzeffekt: MP-Regeneration<br>Bedingung: Schwert-Eid aktiv"
         },
         {
           "name": "Confiteor",
           "icon": "https://img.finalfantasyxiv.com/lds/d/362579dcb6dc2b7c9ea6eac6917c7b9c61f7ce1b.png",
-          "effect": "Du führst eine elementneutrale magische Attacke auf das Ziel und die Gegner in seiner Nähe aus.<br>Attacke-Wert: 1000<br>Zusatzeffekt: Regeneriert eigene LP.<br>Heilpotenzial: 400<br>Bedingung: Requiescat<br>Requiescat wird durch die Ausführung beendet."
+          "effect": "Du führst eine elementneutrale magische Attacke auf das Ziel und die Gegner in seiner Nähe aus.<br>Attacke-Wert: 400<br>Attacke-Wert verringert sich ab dem zweiten Gegner um 50 %.<br>Attacke-Wert bei Requiescat: 900<br>Zusatzeffekt: Regeneriert eigene LP.<br>Heilpotenzial: 400<br>Bedingung: Confiteor aktiv"
         },
         {
           "name": "Heiliges Schiltron",
           "icon": "https://img.finalfantasyxiv.com/lds/d/c856abb6dac68e4bfd6cbb98b309360cb6162ced.png",
-          "effect": "Du blockst alle Attacken während der Wirkungsdauer.<br>Dauer: 8 Sekunden<br>Zusatzeffekt: Gewährt dir Trutz des Ritters.<br>Dauer: 4 Sekunden<br>Effekt von Trutz des Ritters: Verringert erlittenen Schaden um 15 %.<br>Zusatzeffekt: Gewährt dir Schutz des Ritters.<br>Dauer: 12 Sekunden<br>Effekt von Schutz des Ritters: Regeneriert stetig LP des Ziels.<br>Heilpotenzial: 250<br>Eidbalken-Kosten: 50"
+          "effect": "Du verringerst deinen erlittenen Schaden um 15 %.<br>Dauer: 8 Sekunden<br>Zusatzeffekt: Gewährt dir Trutz des Ritters.<br>Dauer: 4 Sekunden<br>Effekt von Trutz des Ritters: Verringert erlittenen Schaden um 15 %.<br>Zusatzeffekt: Gewährt dir Schutz des Ritters.<br>Dauer: 12 Sekunden<br>Effekt von Schutz des Ritters: Regeneriert stetig LP des Ziels.<br>Heilpotenzial: 250<br>Eidbalken-Kosten: 50"
         },
         {
           "name": "Expiacion",
           "icon": "https://img.finalfantasyxiv.com/lds/d/5e4beef5d32f45954a62524cdebb8d535de32921.png",
-          "effect": "Du führst eine physische Attacke auf das Ziel und die Gegner in seiner Nähe aus.<br>Attacke-Wert: 420<br>Attacke-Wert verringert sich ab dem zweiten Gegner um 50 %.<br>Zusatzeffekt: MP werden regeneriert."
+          "effect": "Du führst eine physische Attacke auf das Ziel und die Gegner in seiner Nähe aus.<br>Attacke-Wert: 450<br>Attacke-Wert verringert sich ab dem zweiten Gegner um 60 %.<br>Zusatzeffekt: MP werden regeneriert."
         },
         {
           "name": "Klinge der Frömmigkeit",
           "icon": "https://img.finalfantasyxiv.com/lds/d/004ab8b8fc5c3fe5b362bf7f0e35f9ab9a91918a.png",
-          "effect": "Du führst eine elementneutrale magische Attacke auf das Ziel und die Gegner in seiner Nähe aus.<br>Attacke-Wert: 480<br>Attacke-Wert verringert sich ab dem zweiten Gegner um 50 %.<br>Zusatzeffekt: Regeneriert eigene LP.<br>Heilpotenzial: 400<br>Zusatzeffekt: MP werden regeneriert.<br>Bedingung: Klinge der Frömmigkeit aktiv, gewährt nach der Effektdauer von Requiescat<br>Kann nicht im Kommandomenü angelegt werden."
+          "effect": "Du führst eine elementneutrale magische Attacke auf das Ziel und die Gegner in seiner Nähe aus.<br>Attacke-Wert: 200<br>Attacke-Wert bei Requiescat: 700<br>Attacke-Wert verringert sich ab dem zweiten Gegner um 50 %.<br>Kombo-Bedingung: Confiteor<br>Zusatzeffekt: Regeneriert eigene LP.<br>Heilpotenzial: 400<br>Kann nicht im Kommandomenü angelegt werden."
         },
         {
           "name": "Klinge der Redlichkeit",
           "icon": "https://img.finalfantasyxiv.com/lds/d/31fd8e8a1827a2f830335a67cf52abb191d62485.png",
-          "effect": "Du führst eine elementneutrale magische Attacke auf das Ziel und die Gegner in seiner Nähe aus.<br>Attacke-Wert: 560<br>Attacke-Wert verringert sich ab dem zweiten Gegner um 50 %.<br>Kombo-Bedingung: Klinge der Frömmigkeit<br>Zusatzeffekt: Regeneriert eigene LP.<br>Heilpotenzial: 400<br>Zusatzeffekt: MP werden regeneriert.<br>Kann nicht im Kommandomenü angelegt werden."
+          "effect": "Du führst eine elementneutrale magische Attacke auf das Ziel und die Gegner in seiner Nähe aus.<br>Attacke-Wert: 300<br>Attacke-Wert bei Requiescat: 800<br>Attacke-Wert verringert sich ab dem zweiten Gegner um 50 %.<br>Kombo-Bedingung: Klinge der Frömmigkeit<br>Zusatzeffekt: Regeneriert eigene LP.<br>Heilpotenzial: 400<br>Kann nicht im Kommandomenü angelegt werden."
         },
         {
           "name": "Klinge der Tapferkeit",
           "icon": "https://img.finalfantasyxiv.com/lds/d/289629a47afee95a9d05e38bcc68a2b7fdd1cacd.png",
-          "effect": "Du führst eine elementneutrale magische Attacke auf das Ziel und die Gegner in seiner Nähe aus.<br>Attacke-Wert: 620<br>Attacke-Wert verringert sich ab dem zweiten Gegner um 50 %.<br>Kombo-Bedingung: Klinge der Redlichkeit<br>Zusatzeffekt: Regeneriert eigene LP.<br>Heilpotenzial: 400<br>Zusatzeffekt: MP werden regeneriert.<br>Bonus: Schaden über Zeit<br>Attacke-Wert: 80<br>Attacke-Wert verringert sich ab dem zweiten Gegner um 50 %.<br>Dauer: 21 Sekunden<br>Kann nicht zugleich mit dem Schaden über Zeit-Effekt von Ausweiden aktiv sein.<br>Kann nicht im Kommandomenü angelegt werden."
+          "effect": "Du führst eine elementneutrale magische Attacke auf das Ziel und die Gegner in seiner Nähe aus.<br>Attacke-Wert: 400<br>Attacke-Wert bei Requiescat: 900<br>Attacke-Wert verringert sich ab dem zweiten Gegner um 50 %.<br>Kombo-Bedingung: Klinge der Redlichkeit<br>Zusatzeffekt: Regeneriert eigene LP.<br>Heilpotenzial: 400<br>Kann nicht im Kommandomenü angelegt werden."
         },
         {
           "name": "Schutzwall",
@@ -224,12 +234,12 @@
         {
           "name": "Meister der Göttlichen Magie",
           "icon": "https://img.finalfantasyxiv.com/lds/d/12b652e6942ca7d5fcf19e7b2473c1ce8654b0d9.png",
-          "effect": "MP-Kosten für Magie sind halbiert und erlittener Schaden unterbricht das Wirken von Zaubern nicht."
+          "effect": "MP-Kosten für Magie sind halbiert und erlittener Schaden unterbricht das Wirken von Zaubern nicht.<br>Darüber hinaus werden Königsklinge die folgenden Effekte hinzugefügt:<br>Bonus: Göttliche Gunst<br>Dauer: 30 Sekunden<br>Effekt von Göttliche Gunst: Der nächste Heilige Geist oder Heilige Kreis kann sofort gewirkt werden und hat einen erhöhten Attacke-Wert.<br>Bedingung: Erfolgreiches Ausführen einer Kombo mit Königsklinge."
         },
         {
           "name": "Verbesserte Protuberanz",
           "icon": "https://img.finalfantasyxiv.com/lds/d/413518284f7ac59252bf26c3da7493fcae6c5b35.png",
-          "effect": "Erfolgreiches Ausführen von Protuberanz regeneriert MP."
+          "effect": "Protuberanz werden die folgenden Effekte hinzugefügt:<br>Bonus: MP-Regeneration<br>Bonus: Göttliche Gunst<br>Dauer: 30 Sekunden<br>Effekt von Göttliche Gunst: Der nächste Heilige Geist oder Heilige Kreis kann sofort gewirkt werden und hat einen erhöhten Attacke-Wert.<br>Bedingung: Erfolgreiches Ausführen einer Kombo mit Protuberanz."
         },
         {
           "name": "Verbessertes Schiltron",
@@ -240,6 +250,11 @@
           "name": "Schwert-Eid",
           "icon": "https://img.finalfantasyxiv.com/lds/d/7abcc7ab50300a442c5f0aa68261b9730a2070c0.png",
           "effect": "Gewährt dir beim erfolgreichen Ausführen einer Kombo mit Königsklinge drei Stapel Schwert-Eid.<br>Dauer: 30 Sekunden"
+        },
+        {
+          "name": "Verbessertes Requiescat",
+          "icon": "https://img.finalfantasyxiv.com/lds/d/124b4606e99d8cd89a1a52099ea8b8d69d3dabe6.png",
+          "effect": "Du gewährst dir den Status Confiteor.<br>Dauer: 30 Sekunden<br>Bedingung: Erfolgreiche Ausführung von Requiescat"
         },
         {
           "name": "Meister des Schiltron",
@@ -259,7 +274,7 @@
         {
           "name": "Verbesserte Kommandos",
           "icon": "https://img.finalfantasyxiv.com/lds/d/6acea5ac3fd49cd172fac240c194a5847b080ccf.png",
-          "effect": "Erhöht den Attacke-Wert folgender Kommandos:<br>Attacke-Wert von Vortexschnitt: 200<br>Attacke-Wert von Donnerklinge: 170<br>Attacke-Wert von Königsklinge: 130<br>Attacke-Wert von Heiliger Geist: 300<br>Attacke-Wert von Absolution: 420"
+          "effect": "Erhöht den Attacke-Wert folgender Kommandos:<br>Attacke-Wert von Vortexschnitt: 200<br>Attacke-Wert von Donnerklinge: 120<br>Attacke-Wert von Königsklinge: 120<br>Attacke-Wert von Heiliger Geist: 350<br>Attacke-Wert von Absolution: 380"
         },
         {
           "name": "Meister des Selbsterhaltungstriebs",
@@ -269,7 +284,7 @@
         {
           "name": "Verbesserter Heiliger Quell",
           "icon": "https://img.finalfantasyxiv.com/lds/d/7cdd930171cd46b5dae53f059704d0db413a7e82.png",
-          "effect": "Gewährt LP-Regeneration, wenn der Barriere-Effekt von Heiliger Quell ausgelöst wird.<br>Heilpotenzial: 400"
+          "effect": "Gewährt dem Ziel LP-Regeneration, wenn Heiliger Quell ausgeführt wird.<br>Heilpotenzial: 400"
         }
       ],
       "pvp": [
@@ -306,7 +321,7 @@
         {
           "name": "Wächter",
           "icon": "https://img.finalfantasyxiv.com/lds/d/058522fdb7c58e87b3ba52f85c1cb70f5c0501e8.png",
-          "effect": "Du bewegst dich augenblicklich vor dein anvisiertes Gruppenmitglied und nimmst allen Schaden auf dich, der das Gruppenmitglied treffen sollte.<br>Dauer: 10 Sekunden<br>Bedingung: Du darfst dich nicht weiter als 10 Yalme vom geschützten Gruppenmitglied entfernen.<br>Kann nicht während Fessel ausgeführt werden."
+          "effect": "Du bewegst dich augenblicklich vor dein anvisiertes Gruppenmitglied und nimmst allen Schaden auf dich, der das Gruppenmitglied treffen sollte.<br>Interagiert das Ziel jedoch mit einem Objekt, hat das Kommando keinen Effekt.<br>Dauer: 10 Sekunden<br>Bedingung: Du darfst dich nicht weiter als 10 Yalme vom geschützten Gruppenmitglied entfernen.<br>Kann nicht während Fessel ausgeführt werden."
         },
         {
           "name": "Heiliges Schiltron",
@@ -336,7 +351,7 @@
         {
           "name": "Phalanx",
           "icon": "https://img.finalfantasyxiv.com/lds/d/a94e3555b79c68a9eb7f5ca496bcac7ef7fdcbcf.png",
-          "effect": "Du gewährst dir Heiliger Boden und umstehenden Gruppenmitgliedern Phalanx.<br>Effekt von Heiliger Boden: Unverwundbar gegen fast alle Attacken.<br>Dauer: 10 Sekunden<br>Effekt von Phalanx: Erlittener Schaden ist um 50 % verringert.<br>Dauer: 10 Sekunden<br>Zusatzeffekt: Klinge der Frömmigkeit<br>Dauer: 10 Sekunden<br>Bedingung: Limitrausch-Balken voll<br>Ändert sich bei Ausführung zu Klinge der Frömmigkeit."
+          "effect": "Du gewährst dir Heiliger Boden und umstehenden Gruppenmitgliedern Phalanx.<br>Effekt von Heiliger Boden: Unverwundbar gegen fast alle Attacken.<br>Dauer: 10 Sekunden<br>Effekt von Phalanx: Erlittener Schaden ist um 50 % verringert.<br>Dauer: 10 Sekunden<br>Zusatzeffekt: Klinge der Frömmigkeit<br>Dauer: 10 Sekunden<br>Bedingung: Limitrausch-Balken voll<br>Aufladedauer: 120 Sekunden<br>Ändert sich bei Ausführung zu Klinge der Frömmigkeit."
         },
         {
           "name": "Frontenelixier",
@@ -361,7 +376,7 @@
         {
           "name": "Sprint",
           "icon": "https://img.finalfantasyxiv.com/lds/d/1b49a585ab241c7b5b8bb4d6f47ccec6b96fdaee.png",
-          "effect": "Du erhöhst deine Bewegungsgeschwindigkeit.<br>Effekt endet bei erneuter Ausführung oder nächstem Kommando."
+          "effect": "Du erhöhst deine Bewegungsgeschwindigkeit um 50 %.<br>Effekt endet bei erneuter Ausführung oder nächstem Kommando."
         }
       ]
     }
@@ -395,8 +410,13 @@
         },
         {
           "name": "Verteidiger",
-          "icon": "https://img.finalfantasyxiv.com/lds/d/f5880ed012aaf3626226f913cd8aa8bf8cbbae19.png",
+          "icon": "https://img.finalfantasyxiv.com/lds/d/e6cc16e225417ce3c68cde5eb28df034f349d25d.png",
           "effect": "Du erhöhst die Feindseligkeit von Gegnern, mit denen du dich im Kampf befindest, gegen dich immens.<br>Effekt endet bei erneuter Ausführung."
+        },
+        {
+          "name": "Bruch des Verteidigers",
+          "icon": "https://img.finalfantasyxiv.com/lds/d/1965311bb3fb720ba65258cb8f427bb986fa36c4.png",
+          "effect": "Beendet Verteidiger."
         },
         {
           "name": "Tomahawk",
@@ -415,7 +435,7 @@
         },
         {
           "name": "Tier in dir",
-          "icon": "https://img.finalfantasyxiv.com/lds/d/62364a0291b77c5fdce638f8bf28876ecabb4e55.png",
+          "icon": "https://img.finalfantasyxiv.com/lds/d/c72ea7de2c06ad8a03bc55598297aba5bf00b0b6.png",
           "effect": "Du führst eine physische Attacke aus.<br>Attacke-Wert: 330<br>Urkraftbalken-Kosten: 50"
         },
         {
@@ -425,7 +445,7 @@
         },
         {
           "name": "Mithril-Gewitter",
-          "icon": "https://img.finalfantasyxiv.com/lds/d/bb0574666af9be4b309f8bd2959c36b087716142.png",
+          "icon": "https://img.finalfantasyxiv.com/lds/d/b9efeaf988763dc594fc2497b603cfda4253064f.png",
           "effect": "Du führst eine physische Attacke auf alle umstehenden Gegner aus.<br>Attacke-Wert: 100<br>Kombo-Bedingung: Kahlrodung<br>Attacke-Wert: 150<br>Bonus: Tosender Sturm<br>Dauer: 30 Sekunden<br>Effekt von Tosender Sturm: Ausgeteilter Schaden ist um 10 % erhöht.<br>Ist dieser Status bereits aktiv, wird er um 30 Sekunden verlängert (max. 60 Sekunden).<br>Bonus: Urkraftbalken füllt sich um 20."
         },
         {
@@ -435,7 +455,7 @@
         },
         {
           "name": "Kreiselklinge",
-          "icon": "https://img.finalfantasyxiv.com/lds/d/54231491fed3c17cd4a7874afc839d7fa982715f.png",
+          "icon": "https://img.finalfantasyxiv.com/lds/d/caee561eee94d7ecc27ac396982ebe39df5c6893.png",
           "effect": "Du führst eine Attacke auf alle umstehenden Gegner aus.<br>Attacke-Wert: 170<br>Urkraftbalken-Kosten: 50"
         },
         {
@@ -445,77 +465,77 @@
         },
         {
           "name": "Schlachtruf",
-          "icon": "https://img.finalfantasyxiv.com/lds/d/60ebad5ec84e929fd05c2e7638d01db3bb3bb8b4.png",
+          "icon": "https://img.finalfantasyxiv.com/lds/d/ecd32b95358ef9b2756b005daef73afdde9fab80.png",
           "effect": "Du füllst den Urkraftbalken um 50.<br>Zusatzeffekt: Saat des Chaos<br>Dauer: 30 Sekunden<br>Maximale Aufladungen: 2<br>Nur im Kampf wirksam."
         },
         {
           "name": "Niedermähen",
-          "icon": "https://img.finalfantasyxiv.com/lds/d/ca3a9c031c67cc6a6c6356d31ea2c63895f308ed.png",
-          "effect": "Du führst eine physische Attacke aus.<br>Attacke-Wert: 470<br>Kommando ändert sich bei Saat des Chaos zu Inneres Chaos.<br>Urkraftbalken-Kosten: 50"
+          "icon": "https://img.finalfantasyxiv.com/lds/d/5d146522a8fc94788d96043b93034176eab59a10.png",
+          "effect": "Du führst eine physische Attacke aus.<br>Attacke-Wert: 490<br>Kommando ändert sich bei Saat des Chaos zu Inneres Chaos.<br>Urkraftbalken-Kosten: 50"
         },
         {
           "name": "Urinstinkt",
-          "icon": "https://img.finalfantasyxiv.com/lds/d/b39adc1c0e18ee5f19db64a6936b075d372b2206.png",
+          "icon": "https://img.finalfantasyxiv.com/lds/d/1d9a63cc19bbec0e2f99d192040c26e306e2e675.png",
           "effect": "Du verringerst den erlittenen Schaden um 10 %.<br>Dauer: 6 Sekunden<br>Zusatzeffekt: Jeder deiner erfolgreich ausgeführten Waffenfertigkeiten regeneriert deine LP.<br>Heilpotenzial: 400<br>Gemeinsamer Reaktivierungs-Timer mit Urflackern."
         },
         {
           "name": "Äquilibrium",
-          "icon": "https://img.finalfantasyxiv.com/lds/d/af5fb54416b09c314db4c611a7f21307f67c2b31.png",
+          "icon": "https://img.finalfantasyxiv.com/lds/d/b549a16dfa8cbde55ec19b81bad325c5480d98e2.png",
           "effect": "Du regenerierst einen Teil deiner LP.<br>Heilpotenzial: 1200<br><br>Zusatzeffekt: Regeneriert stetig eigene LP.<br>Heilpotenzial: 200<br>Dauer: 15 Sekunden"
         },
         {
           "name": "Dezimieren",
-          "icon": "https://img.finalfantasyxiv.com/lds/d/7ab93e4ae097af38f0f6f28225c8d0336ee01363.png",
+          "icon": "https://img.finalfantasyxiv.com/lds/d/f4fdd09a56a0b83a0cbe11a83f706dc0fb6781f5.png",
           "effect": "Du führst eine physische Attacke auf alle umstehenden Gegner aus.<br>Attacke-Wert: 200<br>Kommando ändert sich bei Saat des Chaos zu Chaosklinge.<br>Urkraftbalken-Kosten: 50"
         },
         {
           "name": "Sturmlauf",
-          "icon": "https://img.finalfantasyxiv.com/lds/d/781ec1b974535d856f8c326f48ed7659ca345532.png",
+          "icon": "https://img.finalfantasyxiv.com/lds/d/d0a1dad0fa6c8294ceb31b6879c765a02498e3fb.png",
           "effect": "Du schnellst zum Ziel hin und führst eine physische Attacke aus.<br>Attacke-Wert: 150<br>Maximale Aufladungen: 3<br>Kann nicht während Fessel ausgeführt werden."
         },
         {
           "name": "Umsturz",
-          "icon": "https://img.finalfantasyxiv.com/lds/d/04e2f480043122694d74baf4deb7ef712ba18ba8.png",
-          "effect": "Du führst eine physische Attacke aus.<br>Attacke-Wert: 360<br>Gemeinsamer Reaktivierungs-Timer mit Orogenese"
+          "icon": "https://img.finalfantasyxiv.com/lds/d/ba0b3b08d9b2ef02636e06148bc739680390fdd3.png",
+          "effect": "Du führst eine physische Attacke aus.<br>Attacke-Wert: 370<br>Gemeinsamer Reaktivierungs-Timer mit Orogenese"
         },
         {
           "name": "Abschütteln",
-          "icon": "https://img.finalfantasyxiv.com/lds/d/7aff2bd88ce74abd8689d264a05ffa2295653b5d.png",
-          "effect": "Du errichtest eine Barriere um dich und umstehende Gruppenmitglieder, die Schaden in der Höhe von 15 % der Maximal-LP des Ziels absorbiert.<br>Falls Kampfrausch, Rachsucht, Urinstinkt oder Urimpuls aktiv sind, werden diese Status entfernt und dafür die Wirkung der Barriere für jeden entfernten Status um 2 % erhöht.<br>Dauer: 15 Sekunden<br>Zusatzeffekt: Eigene LP und die von umstehenden Gruppenmitgliedern werden regeneriert.<br>Heilpotenzial: 300"
+          "icon": "https://img.finalfantasyxiv.com/lds/d/f71e2c46512c1e937c0ff316be668d853869c637.png",
+          "effect": "Du errichtest eine Barriere um dich und umstehende Gruppenmitglieder, die Schaden in der Höhe von 15 % der Maximal-LP des Ziels absorbiert.<br>Falls Kampfrausch, Rachsucht, und/oder Urimpuls aktiv sind, werden diese Status entfernt und dafür die Wirkung der Barriere für jeden entfernten Status um 2 % erhöht.<br>Dauer: 30 Sekunden<br>Zusatzeffekt: Regeneriert stetig LP der Ziele.<br>Heilpotential: 100<br>Dauer: 15 Sekunden<br>Zusatzeffekt: Eigene LP und die von umstehenden Gruppenmitgliedern werden regeneriert.<br>Heilpotenzial: 300"
         },
         {
           "name": "Urbefreiung",
-          "icon": "https://img.finalfantasyxiv.com/lds/d/30f43c07a31193e2510f0c054605ddaa09a080e2.png",
+          "icon": "https://img.finalfantasyxiv.com/lds/d/809168ffb23f67e3d4b720b3caa4a0a1773fea4c.png",
           "effect": "Du gewährst dir drei Stapel Urbefreiung.<br>Dauer: 15 Sekunden<br>Effekt von Urbefreiung: Niedermähen und Dezimieren treffen direkt und kritisch und verringern den Urkraftbalken nicht.<br>Ist ein Effekt aktiv, der deine Rate kritischer oder direkter Treffer steigert, erhöht sich auch der Attacke-Wert.<br>Zusatzeffekt: Urgewalt<br>Dauer: 15 Sekunden<br>Effekt von Urgewalt: Du bist immun gegen Betäubung, Schlaf, Fessel, Gewicht und fast alle Rückstoß- und Heranzieheffekte.<br>Zusatzeffekt: Tosender Sturm ist um 10 Sekunden verlängert (maximal 60 Sekunden)<br>Zusatzeffekt: Brachiale Gewalt<br>Dauer: 30 Sekunden"
         },
         {
           "name": "Chaosklinge",
-          "icon": "https://img.finalfantasyxiv.com/lds/d/20e265f3712b65e2b2192d371776ee14d4617b3b.png",
+          "icon": "https://img.finalfantasyxiv.com/lds/d/a5ea711252d08de0f9fd2e65313690c19b9f8773.png",
           "effect": "Du führst eine physische Attacke auf alle umstehenden Gegner aus, die direkt und kritisch trifft.<br>Attacke-Wert: 320<br>Ist ein Effekt aktiv, der deine Rate kritischer oder direkter Treffer steigert, erhöht sich auch der Attacke-Wert.<br>Zusatzeffekt: Reaktivierungszeit von Schlachtruf um 5 Sekunden verkürzt.<br>Bedingung: Saat des Chaos<br>Saat des Chaos wird durch die Ausführung beendet.<br>Urkraftbalken-Kosten: 50<br>Kann nicht im Kommandomenü angelegt werden."
         },
         {
           "name": "Urflackern",
-          "icon": "https://img.finalfantasyxiv.com/lds/d/070683472464595ee2f68f8cfec2457c9cf56c10.png",
+          "icon": "https://img.finalfantasyxiv.com/lds/d/0a4356e3696cea8f2c8cea9be200e773da6c7caa.png",
           "effect": "Du erhältst Urflackern und das anvisierte Gruppenmitglied Urglimmen.<br>Dauer: 8 Sekunden<br>Effekt von Urflackern: Jede deiner erfolgreich ausgeführten Waffenfertigkeiten regeneriert deine LP.<br>Heilpotenzial: 400<br>Effekt von Urglimmen: Regeneration von 100 % der durch Urflackern regenerierten LP und Reduktion des erlittenen Schadens um 10 %.<br>Zusatzeffekt: Blutgeruch<br>Dauer: 4 Sekunden<br>Effekt von Blutgeruch: Verringert erlittenen Schaden um 10 %.<br>Zusatzeffekt: Gewährt dir Jagdtrieb und errichtet eine Barriere um dich, die Schaden entsprechend einem Heilpotenzial von 400 absorbiert.<br>Dauer: 20 Sekunden<br>Nicht auf sich selbst anwendbar.<br>Gemeinsamer Reaktivierungs-Timer mit Urimpuls."
         },
         {
           "name": "Inneres Chaos",
-          "icon": "https://img.finalfantasyxiv.com/lds/d/d0ba4906397d297fbd8f531b000d7be6cb9853fa.png",
+          "icon": "https://img.finalfantasyxiv.com/lds/d/70a629706b7fa0dc566d988dbf32da064d0c3458.png",
           "effect": "Du führst eine physische Attacke aus, die direkt und kritisch trifft.<br>Attacke-Wert: 650<br>Ist ein Effekt aktiv, der deine Rate kritischer oder direkter Treffer steigert, erhöht sich auch der Attacke-Wert.<br>Zusatzeffekt: Reaktivierungszeit von Schlachtruf um 5 Sekunden verkürzt.<br>Bedingung: Saat des Chaos<br>Saat des Chaos wird durch die Ausführung beendet.<br>Urkraftbalken-Kosten: 50<br>Kann nicht im Kommandomenü angelegt werden."
         },
         {
           "name": "Urimpuls",
-          "icon": "https://img.finalfantasyxiv.com/lds/d/e328dc76d5de89b7048adebb03a9a81e6eec1f1a.png",
+          "icon": "https://img.finalfantasyxiv.com/lds/d/439c677f7cd4da8e9be9b92245865d2eb1ebceca.png",
           "effect": "Du verringerst deinen erlittenen Schaden um 10 %.<br>Dauer: 8 Sekunden<br>Zusatzeffekt: Jede deiner erfolgreich ausgeführten Waffenfertigkeiten regeneriert deine LP.<br>Heilpotenzial: 400<br>Zusatzeffekt: Blutgeruch<br>Dauer: 4 Sekunden<br>Effekt von Blutgeruch: Verringert erlittenen Schaden um 10 %.<br>Zusatzeffekt: Gewährt dir Jagdtrieb und errichtet eine Barriere um dich, die Schaden entsprechend einem Heilpotenzial von 400 absorbiert.<br>Dauer: 20 Sekunden<br>Gemeinsamer Reaktivierungs-Timer mit Urflackern"
         },
         {
           "name": "Orogenese",
-          "icon": "https://img.finalfantasyxiv.com/lds/d/9cda27e7ff8f6cf7c0b333b64857abf9d46257a5.png",
+          "icon": "https://img.finalfantasyxiv.com/lds/d/a746763655d8eb64a4f2577f4a19d445866aa8e5.png",
           "effect": "Du führst eine physische Attacke auf alle umstehenden Gegner aus.<br>Attacke-Wert: 150<br>Gemeinsamer Reaktivierungs-Timer mit Umsturz"
         },
         {
           "name": "Brachiale Gewalt",
-          "icon": "https://img.finalfantasyxiv.com/lds/d/a49d73d3f33892795417e0cb12614bb256ea8551.png",
+          "icon": "https://img.finalfantasyxiv.com/lds/d/e6ccdb7bd1a86153af07f02f06583113ac86c8eb.png",
           "effect": "Du führst eine Sprung-Attacke aus, die direkt und kritisch trifft, und fügst dem Ziel und den Gegnern in seiner Nähe physischen Schaden zu.<br>Attacke-Wert: 700<br>Attacke-Wert verringert sich ab dem zweiten Gegner um 70 %.<br>Ist ein Effekt aktiv, der deine Rate kritischer oder direkter Treffer steigert, erhöht sich auch der Attacke-Wert.<br>Verbraucht keinen Stapel von Urbefreiung.<br>Bedingung: durch Urbefreiung gewährte Brachiale Gewalt aktiv<br>Kann nicht während Fessel ausgeführt werden."
         },
         {
@@ -658,7 +678,7 @@
         {
           "name": "Orogenese",
           "icon": "https://img.finalfantasyxiv.com/lds/d/0c1021aeac66c93d12f000d6c469ebde0fad356d.png",
-          "effect": "Du opferst 20 % deiner momentanen LP und führst eine physische Attacke auf alle umstehenden Gegner aus.<br>Attacke-Wert: 1000 bis 10000<br>Attacke-Wert umso höher, je mehr LP dir verbleiben.<br>Zusatzeffekt: Ausgeteilter Schaden der Ziele um 10 % verringert.<br>Dauer: 10 Sekunden"
+          "effect": "Du opferst 10 % deiner momentanen LP und führst eine physische Attacke auf alle umstehenden Gegner aus.<br>Attacke-Wert: 1000 bis 10000<br>Attacke-Wert umso höher, je mehr LP dir verbleiben.<br>Zusatzeffekt: Ausgeteilter Schaden der Ziele um 10 % verringert.<br>Dauer: 10 Sekunden"
         },
         {
           "name": "Blot",
@@ -683,7 +703,7 @@
         {
           "name": "Urschrei",
           "icon": "https://img.finalfantasyxiv.com/lds/d/6bcfcb1fa456db189719af5c6e06d82f24c40191.png",
-          "effect": "Du fügst den fächerförmig vor dir stehenden Gegnern Wehrlos zu.<br>Dauer: 15 Sekunden<br>Zusatzeffekt: Urbefreiung und Kampfrausch<br>Effekt von Urbefreiung: Der Attacke-Wert von Brachiale Gewalt und Chaosklinge ist erhöht, sowie die Bewegungsgeschwindigkeit. Du bist außerdem immun gegen alle negativen Status, die auch von Purifikation entfernt werden können, sowie Rückstoß- und Heranzieheffekte.<br>Dauer: 15 Sekunden<br>Während Urbefreiung kann Wehr nicht ausgeführt werden.<br>Während Urbefreiung ändert sich Kombo Sturmkeil zu Niedermähen.<br>Effekt von Kampfrausch: Erhöht deine Maximal-LP um 20 % und füllt sie um diesen Betrag auf.<br>Dauer: 30 Sekunden<br>Bedingung: Limitrausch-Balken voll"
+          "effect": "Du fügst den fächerförmig vor dir stehenden Gegnern Wehrlos zu.<br>Dauer: 15 Sekunden<br>Zusatzeffekt: Urbefreiung und Kampfrausch<br>Effekt von Urbefreiung: Der Attacke-Wert von Brachiale Gewalt und Chaosklinge ist erhöht, sowie die Bewegungsgeschwindigkeit um 25 %. Du bist außerdem immun gegen alle negativen Status, die auch von Purifikation entfernt werden können, sowie Rückstoß- und Heranzieheffekte.<br>Dauer: 15 Sekunden<br>Während Urbefreiung kann Wehr nicht ausgeführt werden.<br>Während Urbefreiung ändert sich Kombo Sturmkeil zu Niedermähen.<br>Effekt von Kampfrausch: Erhöht deine Maximal-LP um 20 % und füllt sie um diesen Betrag auf.<br>Dauer: 30 Sekunden<br>Bedingung: Limitrausch-Balken voll<br>Aufladedauer: 90 Sekunden"
         },
         {
           "name": "Frontenelixier",
@@ -708,7 +728,7 @@
         {
           "name": "Sprint",
           "icon": "https://img.finalfantasyxiv.com/lds/d/1b49a585ab241c7b5b8bb4d6f47ccec6b96fdaee.png",
-          "effect": "Du erhöhst deine Bewegungsgeschwindigkeit.<br>Effekt endet bei erneuter Ausführung oder nächstem Kommando."
+          "effect": "Du erhöhst deine Bewegungsgeschwindigkeit um 50 %.<br>Effekt endet bei erneuter Ausführung oder nächstem Kommando."
         }
       ]
     }
@@ -741,6 +761,11 @@
           "effect": "Du erhöhst die Feindseligkeit von Gegnern, mit denen du dich im Kampf befindest, gegen dich immens.<br>Effekt endet bei erneuter Ausführung."
         },
         {
+          "name": "Bruch der Zähigkeit",
+          "icon": "https://img.finalfantasyxiv.com/lds/d/13a97691011df3c616e3181fd21b5f6805ce5799.png",
+          "effect": "Beendet Zähigkeit."
+        },
+        {
           "name": "Zerfall",
           "icon": "https://img.finalfantasyxiv.com/lds/d/6203d55695d1cdde37d875f7b4b4253606266ad0.png",
           "effect": "Du führst eine elementneutrale magische Attacke aus.<br>Attacke-Wert: 150<br>Zusatzeffekt: Erhöhte Feindseligkeit<br>Zusatzeffekt: Reaktivierungszeit von Hiebsprung um 5 Sekunden verkürzt."
@@ -752,7 +777,7 @@
         },
         {
           "name": "Finstere Flut",
-          "icon": "https://img.finalfantasyxiv.com/lds/d/263e659aeddb11f50de3b67afaed14824741c28e.png",
+          "icon": "https://img.finalfantasyxiv.com/lds/d/438927fdaa593ec9d1bd020e1c60fad9ca495f3f.png",
           "effect": "Du führst eine elementneutrale magische Attacke auf alle Gegner in gerader Linie vor dir aus.<br>Attacke-Wert: 100<br>Zusatzeffekt: Du erhältst Dunkle Seite, wodurch dein ausgeteilter Schaden um 10 % erhöht ist.<br>Dauer: 30 Sekunden<br>Ist dieser Status bereits aktiv, wird er um 30 Sekunden verlängert (max. 60 Sekunden).<br>Gemeinsamer Reaktivierungs-Timer mit Finstere Klinge"
         },
         {
@@ -762,27 +787,27 @@
         },
         {
           "name": "Schattenwand",
-          "icon": "https://img.finalfantasyxiv.com/lds/d/73117e612ec70c475d7b8a0c623ca20f9b6a25c3.png",
+          "icon": "https://img.finalfantasyxiv.com/lds/d/7ea7904a9e066bb33d542755b5984ad78c711a45.png",
           "effect": "Du verringerst den erlittenen Schaden um 30 %.<br>Dauer: 15 Sekunden"
         },
         {
           "name": "Seelenstärke",
-          "icon": "https://img.finalfantasyxiv.com/lds/d/e3d0d43b2f7ca826f14bf81b2bcf0a65b8f77890.png",
+          "icon": "https://img.finalfantasyxiv.com/lds/d/cc2fff4dcbf82d405c36a0d153fb28af5fcb9068.png",
           "effect": "Du führst eine elementneutrale magische Attacke auf alle umstehenden Gegner aus.<br>Attacke-Wert: 100<br>Kombo-Bedingung: Entfesselung<br>Attacke-Wert: 140<br>Bonus: MP-Regeneration<br>Bonus: Blutbalken füllt sich um 20."
         },
         {
           "name": "Finstere Klinge",
-          "icon": "https://img.finalfantasyxiv.com/lds/d/d367816c5257f0a1bb2644b54dc6de343fe00ba3.png",
+          "icon": "https://img.finalfantasyxiv.com/lds/d/e62374eb5036fcaa1201fec390bc266620501abe.png",
           "effect": "Du führst eine elementneutrale magische Attacke aus.<br>Attacke-Wert: 300<br>Zusatzeffekt: Du erhältst Dunkle Seite, wodurch dein ausgeteilter Schaden um 10 % erhöht ist.<br>Dauer: 30 Sekunden<br>Ist dieser Status bereits aktiv, wird er um 30 Sekunden verlängert (max. 60 Sekunden).<br>Gemeinsamer Reaktivierungs-Timer mit Finstere Flut"
         },
         {
           "name": "Dunkler Geist",
-          "icon": "https://img.finalfantasyxiv.com/lds/d/3c8714e34b5e19c496fec4e8f9ae6e931e9c3a30.png",
+          "icon": "https://img.finalfantasyxiv.com/lds/d/adb1f756a8cfa746f5ec2f97e487e41c06026a61.png",
           "effect": "Du verringerst den erlittenen Magieschaden um 20 %.<br>Dauer: 10 Sekunden"
         },
         {
           "name": "Totenerweckung",
-          "icon": "https://img.finalfantasyxiv.com/lds/d/5e2a1bcf614705c34b733b82569046a0722aba13.png",
+          "icon": "https://img.finalfantasyxiv.com/lds/d/968fc4ccd880ca468fff7b34680e793a80ffdab1.png",
           "effect": "Du erhältst den Status Totenerweckung.<br>Dauer: 10 Sekunden<br>Wenn du während der Wirkungsdauer k. o. gehst, wird das K. o. in den Status Erweckter umgewandelt.<br>Dauer: 10 Sekunden<br>Während Erweckter kann kaum eine Attacke deine LP auf 0 sinken lassen.<br>Zusatzeffekt: Regeneriert bei einem erfolgreichen Treffer deiner Waffenfertigkeiten oder Zauber HP.<br>Heilpotenzial: 1500<br>Wenn du während der Wirkungsdauer Heilung von insgesamt 100 % deiner Maximal-LP erhalten hast, ändert sich Erweckter zu Untote Auferstehung. Läuft die Wirkungsdauer davor ab, gehst du k. o.<br>Während Untote Auferstehung kann kaum eine Attacke deine LP auf 0 sinken lassen.<br>Dauer von Untote Auferstehung: Restdauer von Erweckter"
         },
         {
@@ -807,57 +832,57 @@
         },
         {
           "name": "Blutvergießen",
-          "icon": "https://img.finalfantasyxiv.com/lds/d/8b4bf704123c020c7f2dc6551fdba6049b3e36bd.png",
+          "icon": "https://img.finalfantasyxiv.com/lds/d/4e5cbcae7dcf48cf8e3522d308f0c86df9114f0d.png",
           "effect": "Du führst eine physische Attacke aus.<br>Attacke-Wert: 500<br>Blutbalken-Kosten: 50"
         },
         {
           "name": "Quietus",
-          "icon": "https://img.finalfantasyxiv.com/lds/d/2d4f3d971929b964874c8f85f01ad955fd80a7ae.png",
+          "icon": "https://img.finalfantasyxiv.com/lds/d/ea30bbaacc0da577820f8b027cec26738c1be840.png",
           "effect": "Du führst eine physische Attacke auf alle umstehenden Gegner aus.<br>Attacke-Wert: 200<br>Blutbalken-Kosten: 50"
         },
         {
           "name": "Blutdelirium",
-          "icon": "https://img.finalfantasyxiv.com/lds/d/9351d8c68997fe34d2a4135421ce0585d47ae438.png",
+          "icon": "https://img.finalfantasyxiv.com/lds/d/fbf4ae3878ecc04c6201114ce6b0aadf26bef857.png",
           "effect": "Du gewährst dir drei Stapel von Blutdelirium.<br>Dauer: 15 Sekunden<br>Effekt von Blutdelirium: Quietus und Blutvergießen können ohne Blutbalken-Kosten ausgeführt werden. Wenn diese Kommandos treffen, regenerierst du MP."
         },
         {
           "name": "Schwärzeste Nacht",
-          "icon": "https://img.finalfantasyxiv.com/lds/d/74f68b6ebb3ff6ebc46ff7d2b4e43cb040d8d84e.png",
+          "icon": "https://img.finalfantasyxiv.com/lds/d/f82c8fbcd6549c8cd72108a937aade172f8b98a8.png",
           "effect": "Du errichtest eine Barriere um dich oder ein Gruppenmitglied, die Schaden in einer bestimmten Höhe absorbiert.<br>Absorptionswirkung: 25 % der Maximal-LP des Ziels<br>Dauer: 7 Sekunden<br>Falls die Barriere den vollen Schaden absorbiert, erhältst du Dunkle Künste.<br>Effekt: Schattenklinge und Schattenflut verbrauchen Dunkle Künste anstelle von MP."
         },
         {
           "name": "Schattenflut",
-          "icon": "https://img.finalfantasyxiv.com/lds/d/5bec303d4fd83127cebe42385a72453e5a76b477.png",
+          "icon": "https://img.finalfantasyxiv.com/lds/d/de4960def285cc69e33455acae0f50808a6cd623.png",
           "effect": "Du führst eine elementneutrale magische Attacke auf alle Gegner in gerader Linie vor dir aus.<br>Attacke-Wert: 160<br>Zusatzeffekt: Du erhältst Dunkle Seite, wodurch dein ausgeteilter Schaden um 10 % erhöht ist.<br>Dauer: 30 Sekunden<br>Ist dieser Status bereits aktiv, wird er um 30 Sekunden verlängert (max. 60 Sekunden).<br>Gemeinsamer Reaktivierungs-Timer mit Schattenklinge"
         },
         {
           "name": "Schattenklinge",
-          "icon": "https://img.finalfantasyxiv.com/lds/d/29bc7944d1945a9159a7c199c1c5139f1fdd7e50.png",
+          "icon": "https://img.finalfantasyxiv.com/lds/d/e4536e75673663bf1b91d1a78a565dabc2f041f6.png",
           "effect": "Du führst eine elementneutrale magische Attacke aus.<br>Attacke-Wert: 460<br>Zusatzeffekt: Du erhältst Dunkle Seite, wodurch dein ausgeteilter Schaden um 10 % erhöht ist.<br>Dauer: 30 Sekunden<br>Ist dieser Status bereits aktiv, wird er um 30 Sekunden verlängert (max. 60 Sekunden).<br>Gemeinsamer Reaktivierungs-Timer mit Schattenflut"
         },
         {
           "name": "Dunkler Bote",
-          "icon": "https://img.finalfantasyxiv.com/lds/d/c41a1c3ef9acfbd06192e7c6d0c78c7f1382fb93.png",
+          "icon": "https://img.finalfantasyxiv.com/lds/d/1dc1a1d830e5355e2cd251531e85932c24ba1b8d.png",
           "effect": "Du verringerst den erlittenen Magieschaden von dir und den umstehenden Gruppenmitgliedern um 10 %.<br>Dauer: 15 Sekunden"
         },
         {
           "name": "Schattenschemen",
-          "icon": "https://img.finalfantasyxiv.com/lds/d/bdd4500fb2f72c7185b4fe5596d679a821e0416f.png",
+          "icon": "https://img.finalfantasyxiv.com/lds/d/5150a7bff7be43d689f896e7be140f4720a23f6e.png",
           "effect": "Du lässt ein Abbild deiner selbst erscheinen, das an deiner Seite kämpft.<br>Attacke-Wert des Heldenschemens: 350<br>Dauer: 20 Sekunden<br>Attacke-Wert von Schattenbringer: 500<br>Attacke-Wert verringert sich ab dem zweiten Gegner um 25 %.<br>Blutbalken-Kosten: 50"
         },
         {
           "name": "Opfergabe",
-          "icon": "https://img.finalfantasyxiv.com/lds/d/f447bc2028f9765dcccb1f35612acfba13846390.png",
+          "icon": "https://img.finalfantasyxiv.com/lds/d/5a42ca000eb7ab0c80e3952539ed260af3d4c5e8.png",
           "effect": "Du verringerst deinen erlittenen Schaden oder den des Ziels um 10 %.<br>Dauer: 10 Sekunden<br>Maximale Aufladungen: 2"
         },
         {
           "name": "Salz und Schwärze",
-          "icon": "https://img.finalfantasyxiv.com/lds/d/6fec45c5e5bda8835d61222404d6675b2b3e4027.png",
+          "icon": "https://img.finalfantasyxiv.com/lds/d/bb0216fb548f749ceb5bf25f071af462129be59b.png",
           "effect": "Du führst eine elementneutrale magische Attacke auf alle Ziele im Wirkungsbereich deiner Salzigen Erde aus.<br>Attacke-Wert: 500<br>Attacke-Wert verringert sich ab dem zweiten Gegner um 50 %.<br>Bedingung: Salzige Erde aktiv<br>Kann nicht im Kommandomenü angelegt werden."
         },
         {
           "name": "Schattenbringer",
-          "icon": "https://img.finalfantasyxiv.com/lds/d/78fe2c9b18f1ce4b7a87bc019486f121b0a48471.png",
+          "icon": "https://img.finalfantasyxiv.com/lds/d/bb5281f6fd7eb6900cbda1c39722b4d3c7e51b6e.png",
           "effect": "Du führst eine elementneutrale magische Attacke auf alle Gegner in gerader Linie vor dir aus.<br>Attacke-Wert: 600<br>Attacke-Wert verringert sich ab dem zweiten Gegner um 50 %.<br>Bedingung: Dunkle Seite aktiv<br>Maximale Aufladungen: 2"
         },
         {
@@ -990,12 +1015,12 @@
         {
           "name": "Salz und Schwärze",
           "icon": "https://img.finalfantasyxiv.com/lds/d/5aa3108720c2431e655adb077eb533b60ce21312.png",
-          "effect": "Du führst eine magische Attacke auf alle Gegner aus, die sich in deiner Salzigen Erde befinden.<br>Attacke-Wert: 4000<br>Zusatzeffekt: Fessel<br>Dauer: 3 Sekunden<br>Kann nicht im Kommandomenü angelegt werden."
+          "effect": "Du führst eine magische Attacke auf alle Gegner aus, die sich in deiner Salzigen Erde befinden.<br>Attacke-Wert: 4000<br>Zusatzeffekt: Fessel<br>Dauer: 2 Sekunden<br>Kann nicht im Kommandomenü angelegt werden."
         },
         {
           "name": "Dämmerung",
           "icon": "https://img.finalfantasyxiv.com/lds/d/2f52efe634939c12aaf8d17525fd4a52a54002f9.png",
-          "effect": "Du opferst alle deine LP bis auf 1 und führst eine physische Attacke auf alle Gegner in gerader Linie vor und hinter dir aus.<br>Attacke-Wert: 10000 bis 20000<br>Attacke-Wert umso höher, je mehr LP du bei Ausführung des Kommandos hast.<br>Zusatzeffekt: Untote Erlösung<br>Dauer: 10 Sekunden<br>Effekt von Untote Erlösung: Du überstehst fast jede Attacke, sodass dir mindestens 1 LP bleibt und 100 % des durch Waffenfertigkeiten ausgeteilten Schadens werden als LP absorbiert.<br>Zusatzeffekt: Schwarzes Blut<br>Dauer: 10 Sekunden<br>Während Schwarzes Blut ändert sich Kombo Seelenfresser zu Blutvergießen.<br>Bedingung: Limitrausch-Balken voll"
+          "effect": "Du opferst alle deine LP bis auf 1 und führst eine physische Attacke auf alle Gegner in gerader Linie vor und hinter dir aus.<br>Attacke-Wert: 6000 bis 24000<br>Attacke-Wert umso höher, je mehr LP du bei Ausführung des Kommandos hast.<br>Zusatzeffekt: Untote Erlösung<br>Dauer: 10 Sekunden<br>Effekt von Untote Erlösung: Du überstehst fast jede Attacke, sodass dir mindestens 1 LP bleibt und 100 % des durch Waffenfertigkeiten ausgeteilten Schadens werden als LP absorbiert.<br>Zusatzeffekt: Schwarzes Blut<br>Dauer: 10 Sekunden<br>Während Schwarzes Blut ändert sich Kombo Seelenfresser zu Blutvergießen.<br>Bedingung: Limitrausch-Balken voll<br>Aufladedauer: 105 Sekunden"
         },
         {
           "name": "Frontenelixier",
@@ -1020,7 +1045,7 @@
         {
           "name": "Sprint",
           "icon": "https://img.finalfantasyxiv.com/lds/d/1b49a585ab241c7b5b8bb4d6f47ccec6b96fdaee.png",
-          "effect": "Du erhöhst deine Bewegungsgeschwindigkeit.<br>Effekt endet bei erneuter Ausführung oder nächstem Kommando."
+          "effect": "Du erhöhst deine Bewegungsgeschwindigkeit um 50 %.<br>Effekt endet bei erneuter Ausführung oder nächstem Kommando."
         }
       ]
     }
@@ -1063,6 +1088,11 @@
           "effect": "Du erhöhst die Feindseligkeit von Gegnern, mit denen du dich im Kampf befindest, gegen dich immens.<br>Effekt endet bei erneuter Ausführung."
         },
         {
+          "name": "Bruch des Leibgardisten",
+          "icon": "https://img.finalfantasyxiv.com/lds/d/bf2a6455e06637fe409340c4dba7530e55d8bfee.png",
+          "effect": "Beendet Eid der Leibgardisten."
+        },
+        {
           "name": "Donnerkugel",
           "icon": "https://img.finalfantasyxiv.com/lds/d/da2f213272cf4d4c2c5df5ccf597dd8e01ddb58b.png",
           "effect": "Du führst eine physische Fernkampfattacke aus.<br>Attacke-Wert: 150<br>Zusatzeffekt: Erhöhte Feindseligkeit"
@@ -1079,7 +1109,7 @@
         },
         {
           "name": "Explosiver Stoß",
-          "icon": "https://img.finalfantasyxiv.com/lds/d/d35d6f4b6d9772b2b0f8f75e4a2134be89ca5208.png",
+          "icon": "https://img.finalfantasyxiv.com/lds/d/43828414469ebc6fd88ef500ab2e941177b833ec.png",
           "effect": "Du führst eine physische Attacke aus.<br>Attacke-Wert: 380<br>Zusatzeffekt: Knallender Stoß<br>Dauer: 10 Sekunden<br>Effekt endet bei Ausführung einer Waffenfertigkeit.<br>Erda-Patronen-Kosten: 1"
         },
         {
@@ -1139,7 +1169,7 @@
         },
         {
           "name": "Steinernes Herz",
-          "icon": "https://img.finalfantasyxiv.com/lds/d/5e1cf3a583340f7131c4317ac9b0fe94c940261a.png",
+          "icon": "https://img.finalfantasyxiv.com/lds/d/059baae88deccf4ffdc31f8afd0074ec4589f81f.png",
           "effect": "Du verringerst deinen erlittenen Schaden oder den eines Gruppenmitglieds um 15 %.<br>Dauer: 7 Sekunden<br>Zusatzeffekt: Wirkst du diese Aktion auf ein Gruppenmitglied, während du unter dem Effekt von Brutaler Einschlag stehst, wird dieser Status geteilt.<br>Dauer: 30 Sekunden"
         },
         {
@@ -1164,32 +1194,32 @@
         },
         {
           "name": "Schicksalszirkel",
-          "icon": "https://img.finalfantasyxiv.com/lds/d/94c6b85de18b7d157c5c050bb521899668ad2d7e.png",
+          "icon": "https://img.finalfantasyxiv.com/lds/d/72b126aa8a17d9d94ee177b98af27d512aa6e01f.png",
           "effect": "Du führst eine physische Attacke auf alle umstehenden Gegner aus.<br>Attacke-Wert: 300<br>Erda-Patronen-Kosten: 1"
         },
         {
           "name": "Blutpatronen",
-          "icon": "https://img.finalfantasyxiv.com/lds/d/44d346ee98a8b14fc68ec9f25256c6d436ac6b47.png",
+          "icon": "https://img.finalfantasyxiv.com/lds/d/90de52fbbbc0de9309a2b2aceb1b0146e3b7283a.png",
           "effect": "Du ziehst Magie aus einem Gegner und erhältst dafür 3 Erda-Patronen."
         },
         {
           "name": "Erda-Detonation",
-          "icon": "https://img.finalfantasyxiv.com/lds/d/73de2852a4199c15e00fbb5aa63595345b591b5a.png",
+          "icon": "https://img.finalfantasyxiv.com/lds/d/d35fea54a4ec47a5d8227e13b5dba247a5c8a5a6.png",
           "effect": "Du führst eine physische Attacke aus.<br>Attacke-Wert: 720"
         },
         {
           "name": "Herz des Korunds",
-          "icon": "https://img.finalfantasyxiv.com/lds/d/d43c8c43d6ac548c94a4f0f629827f00d2991c11.png",
+          "icon": "https://img.finalfantasyxiv.com/lds/d/493de7202ca9b1e4bed75fdd4e5b1e7a8c61d58a.png",
           "effect": "Du verringerst deinen erlittenen Schaden oder den eines Gruppenmitglieds um 15 %.<br>Dauer: 8 Sekunden<br>Zusatzeffekt: Wirkst du diese Aktion auf ein Gruppenmitglied, während du unter dem Effekt von Brutaler Einschlag stehst, wird dieser Status geteilt.<br>Dauer: 30 Sekunden<br>Zusatzeffekt: Klarheit des Korunds<br>Dauer: 4 Sekunden<br>Effekt von Klarheit des Korunds: Verringert erlittenen Schaden um 15 %.<br>Zusatzeffekt: Katharsis des Korunds<br>Dauer: 20 Sekunden<br>Effekt von Katharsis des Korunds: Sobald die LP unter 50 % sinken oder die Wirkungsdauer endet, werden LP regeneriert.<br>Heilpotenzial: 900"
         },
         {
           "name": "Überschall",
-          "icon": "https://img.finalfantasyxiv.com/lds/d/d8e9514f76e618bc9abc97f1d38cedb207373632.png",
+          "icon": "https://img.finalfantasyxiv.com/lds/d/7d7143520a9ec0306e977c10b4594ad0b5eee50f.png",
           "effect": "Du führst eine physische Attacke aus.<br>Attacke-Wert: 180<br>Bedingung: Knallender Stoß<br>Kann nicht im Kommandomenü angelegt werden."
         },
         {
           "name": "Doppelpack",
-          "icon": "https://img.finalfantasyxiv.com/lds/d/92284ac4aba57769fadcc869edf9f30723270820.png",
+          "icon": "https://img.finalfantasyxiv.com/lds/d/9431f382886a5bac654058624ed21082deaae9d9.png",
           "effect": "Du führst eine physische Attacke auf alle umstehenden Gegner aus.<br>Attacke-Wert: 1200<br>Attacke-Wert verringert sich ab dem zweiten Gegner um 15 %.<br>Erda-Patronen-Kosten: 2<br>Eigener Reaktivierungs-Timer"
         },
         {
@@ -1307,7 +1337,7 @@
         {
           "name": "Grobspalter",
           "icon": "https://img.finalfantasyxiv.com/lds/d/d8dcaa43ef97b6ffd9cdacfbef4f3917f24c366e.png",
-          "effect": "Du schnellst zum Ziel hin und führst eine physische Attacke aus.<br>Attacke-Wert: 2000<br>Zusatzeffekt: Ohne Gnade<br>Dauer: 7 Sekunden<br>Effekt von Ohne Gnade: Dein ausgeteilter Schaden und Heileffekte werden um 20 % erhöht, sowie deine Bewegungsgeschwindigkeit.<br>Maximale Aufladungen: 2<br>Kann nicht während Fessel ausgeführt werden."
+          "effect": "Du schnellst zum Ziel hin und führst eine physische Attacke aus.<br>Attacke-Wert: 2000<br>Zusatzeffekt: Ohne Gnade<br>Dauer: 7 Sekunden<br>Effekt von Ohne Gnade: Dein ausgeteilter Schaden und Heileffekte werden um 20 % erhöht, sowie deine Bewegungsgeschwindigkeit um 25 %.<br>Maximale Aufladungen: 2<br>Kann nicht während Fessel ausgeführt werden."
         },
         {
           "name": "Blut-Erda",
@@ -1357,7 +1387,7 @@
         {
           "name": "Nebula",
           "icon": "https://img.finalfantasyxiv.com/lds/d/e45508c1f8ad683ed98587d6df29b935b4a1fe68.png",
-          "effect": "Du verringerst erlittenen Schaden um 20 % und führst bei erlittenem Schaden eine Konterattacke auf den Angreifer aus.<br>Attacke-Wert: 3000<br>Dauer: 10 Sekunden<br>Bedingung: Blut-Erda: Verteidiger aktiv<br>Gemeinsamer Reaktivierungs-Timer mit Erda-Detonation und Aurora<br>Kann nicht im Kommandomenü angelegt werden."
+          "effect": "Du verringerst erlittenen Schaden um 20 % und führst bei erlittenem Schaden eine Konterattacke auf den Angreifer aus.<br>Attacke-Wert: 4000<br>Dauer: 10 Sekunden<br>Bedingung: Blut-Erda: Verteidiger aktiv<br>Gemeinsamer Reaktivierungs-Timer mit Erda-Detonation und Aurora<br>Kann nicht im Kommandomenü angelegt werden."
         },
         {
           "name": "Erda-Detonation",
@@ -1367,12 +1397,12 @@
         {
           "name": "Aurora",
           "icon": "https://img.finalfantasyxiv.com/lds/d/acaf4d3fc4adf9d9d241bec0be8376d207647c8c.png",
-          "effect": "Du regenerierst eigene LP oder die eines Gruppenmitglieds.<br>Heilpotenzial: 8000<br>Zusatzeffekt: Regeneriert stetig LP des Ziels.<br>Heilpotenzial: 3000<br>Dauer: 12 Sekunden<br>Bedingung: Blut-Erda: Heiler aktiv<br>Gemeinsamer Reaktivierungs-Timer mit Nebula und Erda-Detonation<br>Kann nicht im Kommandomenü angelegt werden."
+          "effect": "Du regenerierst eigene LP oder die eines Gruppenmitglieds.<br>Heilpotenzial: 12000<br>Zusatzeffekt: Regeneriert stetig LP des Ziels.<br>Heilpotenzial: 3000<br>Dauer: 12 Sekunden<br>Bedingung: Blut-Erda: Heiler aktiv<br>Gemeinsamer Reaktivierungs-Timer mit Nebula und Erda-Detonation<br>Kann nicht im Kommandomenü angelegt werden."
         },
         {
           "name": "Multi",
           "icon": "https://img.finalfantasyxiv.com/lds/d/c883909d21cab4cc8054d19c6cbb8156a3e6ac96.png",
-          "effect": "Du führst kontinuierlich physische Attacken auf alle umstehenden Gegner aus. Während dieser Multiattacke kannst du dich bewegen, dein erlittener Schaden ist um 25 % verringert und am Ende führst du Finaler Trigger aus.<br>Attacke-Wert: 4000<br>Dauer: 4 Sekunden<br>Zusatzeffekt: Ziele erleiden 4 % mehr Schaden.<br>Maximalstapelzahl: 5<br>Dauer: 5 Sekunden<br>Bedingung: Limitrausch-Balken voll<br>Ändert sich bei Ausführung zu Finaler Trigger."
+          "effect": "Du führst kontinuierlich physische Attacken auf alle umstehenden Gegner aus. Während dieser Multiattacke kannst du dich bewegen, dein erlittener Schaden ist um 25 % verringert und am Ende führst du Finaler Trigger aus.<br>Attacke-Wert: 4000<br>Dauer: 4 Sekunden<br>Zusatzeffekt: Ausgeteilter Schaden der Ziele ist um 4 % verringert und Ziele erleiden 4 % mehr Schaden.<br>Maximalstapelzahl: 5<br>Dauer: 5 Sekunden<br>Bedingung: Limitrausch-Balken voll<br>Aufladedauer: 60 Sekunden<br>Ändert sich bei Ausführung zu Finaler Trigger."
         },
         {
           "name": "Finaler Trigger",
@@ -1402,7 +1432,7 @@
         {
           "name": "Sprint",
           "icon": "https://img.finalfantasyxiv.com/lds/d/1b49a585ab241c7b5b8bb4d6f47ccec6b96fdaee.png",
-          "effect": "Du erhöhst deine Bewegungsgeschwindigkeit.<br>Effekt endet bei erneuter Ausführung oder nächstem Kommando."
+          "effect": "Du erhöhst deine Bewegungsgeschwindigkeit um 50 %.<br>Effekt endet bei erneuter Ausführung oder nächstem Kommando."
         }
       ]
     }
@@ -1462,7 +1492,7 @@
         {
           "name": "Vitaga",
           "icon": "https://img.finalfantasyxiv.com/lds/d/33c3597ee1004e364a6331f732f077666e798acd.png",
-          "effect": "Du regenerierst LP des Ziels und aller Gruppenmitglieder in seiner Nähe.<br>Heilpotenzial: 600"
+          "effect": "Du regenerierst eigene LP oder die eines Gruppenmitglieds und aller umstehenden Gruppenmitglieder.<br>Heilpotenzial: 600"
         },
         {
           "name": "Sanctus",
@@ -1724,7 +1754,7 @@
         {
           "name": "Afflatus purgatio",
           "icon": "https://img.finalfantasyxiv.com/lds/d/885443eeb029d7cbca537be10edca5eb6c920401.png",
-          "effect": "Du führst eine magische Attacke auf alle Gegner in gerader Linie vor dir aus.<br>Attacke-Wert: 18000<br>Zusatzeffekt: Betäubung<br>Dauer: 2 Sekunden<br>Zusatzeffekt: Linderung<br>Dauer: 15 Sekunden<br>Effekt von Linderung: Erhöht eigenen ausgeteilten Schaden und das Heilpotenzial eigener Zauber um 10 % und regeneriert stetig LP von Gruppenmitgliedern im Umkreis von 30y.<br>Heilpotenzial: 4000<br>Bedingung: Limitrausch-Balken voll"
+          "effect": "Du führst eine magische Attacke auf alle Gegner in gerader Linie vor dir aus.<br>Attacke-Wert: 18000<br>Zusatzeffekt: Betäubung<br>Dauer: 2 Sekunden<br>Zusatzeffekt: Linderung<br>Dauer: 15 Sekunden<br>Effekt von Linderung: Erhöht eigenen ausgeteilten Schaden und das Heilpotenzial eigener Zauber um 10 % und regeneriert stetig LP von Gruppenmitgliedern im Umkreis von 30y.<br>Heilpotenzial: 4000<br>Bedingung: Limitrausch-Balken voll<br>Aufladedauer: 60 Sekunden"
         },
         {
           "name": "Frontenelixier",
@@ -1749,7 +1779,7 @@
         {
           "name": "Sprint",
           "icon": "https://img.finalfantasyxiv.com/lds/d/1b49a585ab241c7b5b8bb4d6f47ccec6b96fdaee.png",
-          "effect": "Du erhöhst deine Bewegungsgeschwindigkeit.<br>Effekt endet bei erneuter Ausführung oder nächstem Kommando."
+          "effect": "Du erhöhst deine Bewegungsgeschwindigkeit um 50 %.<br>Effekt endet bei erneuter Ausführung oder nächstem Kommando."
         }
       ]
     }
@@ -1859,7 +1889,7 @@
         {
           "name": "Dislokation",
           "icon": "https://img.finalfantasyxiv.com/lds/d/307e3a65fff1e38b28235509dd392323642d6965.png",
-          "effect": "Du erweiterst die Wirkung von Dynamisieren, das du selbst beim Ziel bewirkt hast, auf die Gruppenmitglieder in seiner Nähe.<br>Dauer: Jeweilige Wirkungsdauer ab Erweiterung der Wirkung"
+          "effect": "Du erweiterst die Wirkung von Dynamisieren, das du dir selbst oder einem Gruppenmitglied gegeben hast, auf alle umstehenden Gruppenmitglieder.<br>Dauer: Jeweilige Wirkungsdauer ab Erweiterung der Wirkung"
         },
         {
           "name": "Apotropaion",
@@ -2101,7 +2131,7 @@
         {
           "name": "Dislokation",
           "icon": "https://img.finalfantasyxiv.com/lds/d/ba157dccbbb4761461ca40b5e03c2a882498cdf3.png",
-          "effect": "Wirkst du diesen Zauber auf dich selbst oder ein Gruppenmitglied, erweiterst du die Wirkung von dem dir gewährten Dynamisieren und Katalyse auf die umstehenden Gruppenmitglieder. Wirkst du ihn auf einen Gegner, erweiterst du die Wirkung von dem dir gewährten Causae et Curae und Causae auf die umstehenden Gegner. Ist keiner dieser Status aktiv, hat auch Dislokation keine Wirkung.<br>Dauer: Jeweilige Wirkungsdauer ab Erweiterung der Wirkung<br>Maximale Aufladungen: 2"
+          "effect": "Wirkst du diesen Zauber auf dich selbst oder ein Gruppenmitglied, erweiterst du die Wirkung von dem dir gewährten Dynamisieren und Katalyse auf die umstehenden Gruppenmitglieder. Wirkst du ihn auf einen Gegner, erweiterst du die Wirkung von dem dir gewährten Causae et Curae und Causae auf die umstehenden Gegner. Ist keiner dieser Status aktiv, hat auch Dislokation keine Wirkung.<br>Unwirksam gegen Spieler in Kriegsmaschinen und Ziele, die keine Spieler sind.<br>Dauer: Jeweilige Wirkungsdauer ab Erweiterung der Wirkung<br>Maximale Aufladungen: 2"
         },
         {
           "name": "Mumifizierung",
@@ -2111,7 +2141,7 @@
         {
           "name": "Sturm und Drang",
           "icon": "https://img.finalfantasyxiv.com/lds/d/5f98fdab5e9b3c01f61588afd6f60ceeb8fc7966.png",
-          "effect": "Du gewährst dir und umstehenden Gruppenmitgliedern Sturm und Drang.<br>Effekt von Sturm: Bewegungsgeschwindigkeit ist erhöht.<br>Effekt von Drang: Erlittener Schaden ist um 10 % verringert.<br>Dauer: 10 Sekunden<br>Zusatzeffekt: Raffinesse<br>Dauer: 15 Sekunden<br>Effekt von Raffinesse: Erhöht die Wirkung von Adloquium und Causae et Curae."
+          "effect": "Du gewährst dir und umstehenden Gruppenmitgliedern Sturm und Drang.<br>Effekt von Sturm: Bewegungsgeschwindigkeit ist um 25 % erhöht.<br>Effekt von Drang: Erlittener Schaden ist um 10 % verringert.<br>Dauer: 10 Sekunden<br>Zusatzeffekt: Raffinesse<br>Dauer: 15 Sekunden<br>Effekt von Raffinesse: Erhöht die Wirkung von Adloquium und Causae et Curae."
         },
         {
           "name": "Seelentrost",
@@ -2131,7 +2161,7 @@
         {
           "name": "Seraph-Beschwörung",
           "icon": "https://img.finalfantasyxiv.com/lds/d/614407d07c71d678c0f13c555dfb338d69fbf9e7.png",
-          "effect": "Du rufst deinen Seraphen an den von dir bestimmten Punkt, der bei der Beschwörung Flug der Seraphim ausführt. Mit Schleier der Seraphim regeneriert er bei einem Gruppenmitglied automatisch LP und priorisiert dabei das Gruppenmitglied mit den wenigsten verbliebenen LP.<br>Zusatzeffekt: Raffinesse<br>Dauer: 15 Sekunden<br>Effekt von Raffinesse: Erhöht die Wirkung von Adloquium und Causae et Curae.<br>Bedingung: Limitrausch-Balken voll<br>Ändert sich bei Ausführung zu Seelentrost."
+          "effect": "Du rufst deinen Seraphen an den von dir bestimmten Punkt, der bei der Beschwörung Flug der Seraphim ausführt. Mit Schleier der Seraphim regeneriert er bei einem Gruppenmitglied automatisch LP und priorisiert dabei das Gruppenmitglied mit den wenigsten verbliebenen LP.<br>Zusatzeffekt: Raffinesse<br>Dauer: 15 Sekunden<br>Effekt von Raffinesse: Erhöht die Wirkung von Adloquium und Causae et Curae.<br>Bedingung: Limitrausch-Balken voll<br>Aufladedauer: 90 Sekunden<br>Ändert sich bei Ausführung zu Seelentrost."
         },
         {
           "name": "Flug der Seraphim",
@@ -2161,7 +2191,7 @@
         {
           "name": "Sprint",
           "icon": "https://img.finalfantasyxiv.com/lds/d/1b49a585ab241c7b5b8bb4d6f47ccec6b96fdaee.png",
-          "effect": "Du erhöhst deine Bewegungsgeschwindigkeit.<br>Effekt endet bei erneuter Ausführung oder nächstem Kommando."
+          "effect": "Du erhöhst deine Bewegungsgeschwindigkeit um 50 %.<br>Effekt endet bei erneuter Ausführung oder nächstem Kommando."
         }
       ]
     }
@@ -2568,7 +2598,7 @@
         {
           "name": "Pfeil",
           "icon": "https://img.finalfantasyxiv.com/lds/d/85a1d6205ebc89fc139d8fde7966e578fcdc4c2f.png",
-          "effect": "Du verkürzt die Intervalle zwischen Auto-Attacken und die (Re-)Aktivierungszeiten von Waffenfertigkeiten und Magie bei dir selbst oder beim Ziel und bei den Gruppenmitgliedern in seiner Nähe um 10 % und erhöhst die Bewegungsgeschwindigkeit aller betroffenen Ziele.<br>Dauer: 10 Sekunden<br>Kann nicht im Kommandomenü angelegt werden."
+          "effect": "Du verkürzt die Intervalle zwischen Auto-Attacken und die (Re-)Aktivierungszeiten von Waffenfertigkeiten und Magie bei dir selbst oder beim Ziel und bei den Gruppenmitgliedern in seiner Nähe um 10 % und erhöhst die Bewegungsgeschwindigkeit aller betroffenen Ziele um 25 %.<br>Dauer: 15 Sekunden<br>Kann nicht im Kommandomenü angelegt werden."
         },
         {
           "name": "Mikrokosmos",
@@ -2578,7 +2608,7 @@
         {
           "name": "Säule der Herrlichkeit",
           "icon": "https://img.finalfantasyxiv.com/lds/d/184ffb6c90cb6ab81b25f68ba19510ee469ce306.png",
-          "effect": "Du verringerst den ausgeteilten Schaden der umstehenden Gegner um 30 %.<br>Die Wirkung wird alle 5 Sekunden um 10 % verringert.<br>Dauer: 15 Sekunden.<br>Zusatzeffekt: Erhöht den ausgeteilten Schaden von dir und umstehenden Gruppenmitgliedern um 30 %.<br>Die Wirkung wird alle 5 Sekunden um 10 % verringert.<br>Dauer: 15 Sekunden<br>Bedingung: Limitrausch-Balken voll"
+          "effect": "Du verringerst den ausgeteilten Schaden der umstehenden Gegner um 30 %.<br>Die Wirkung wird alle 5 Sekunden um 10 % verringert.<br>Dauer: 15 Sekunden.<br>Zusatzeffekt: Erhöht den ausgeteilten Schaden von dir und umstehenden Gruppenmitgliedern um 30 %.<br>Die Wirkung wird alle 5 Sekunden um 10 % verringert.<br>Dauer: 15 Sekunden<br>Bedingung: Limitrausch-Balken voll<br>Aufladedauer: 105 Sekunden"
         },
         {
           "name": "Frontenelixier",
@@ -2603,7 +2633,7 @@
         {
           "name": "Sprint",
           "icon": "https://img.finalfantasyxiv.com/lds/d/1b49a585ab241c7b5b8bb4d6f47ccec6b96fdaee.png",
-          "effect": "Du erhöhst deine Bewegungsgeschwindigkeit.<br>Effekt endet bei erneuter Ausführung oder nächstem Kommando."
+          "effect": "Du erhöhst deine Bewegungsgeschwindigkeit um 50 %.<br>Effekt endet bei erneuter Ausführung oder nächstem Kommando."
         }
       ]
     }
@@ -2768,7 +2798,7 @@
         {
           "name": "Phlegma III",
           "icon": "https://img.finalfantasyxiv.com/lds/d/93dc61daa2db9449d34a5198669e59de306451e1.png",
-          "effect": "Du führst eine elementneutrale magische Attacke auf das Ziel und die Gegner in seiner Nähe aus.<br>Attacke-Wert: 510<br>Attacke-Wert verringert sich ab dem zweiten Gegner um 50 %.<br>Zusatzeffekt: Regeneriert LP bei dem Ziel mit von dir gewährtem Kardion.<br>Heilpotenzial: 170<br>Maximale Aufladungen: 2<br>Eigener Reaktivierungs-Timer, der nicht von Statuseffekten oder Ausrüstung beeinflusst wird."
+          "effect": "Du führst eine elementneutrale magische Attacke auf das Ziel und die Gegner in seiner Nähe aus.<br>Attacke-Wert: 600<br>Attacke-Wert verringert sich ab dem zweiten Gegner um 50 %.<br>Zusatzeffekt: Regeneriert LP bei dem Ziel mit von dir gewährtem Kardion.<br>Heilpotenzial: 170<br>Maximale Aufladungen: 2<br>Eigener Reaktivierungs-Timer, der nicht von Statuseffekten oder Ausrüstung beeinflusst wird."
         },
         {
           "name": "Eukratische Dosis III",
@@ -2858,7 +2888,7 @@
         {
           "name": "Komplexion",
           "icon": "https://img.finalfantasyxiv.com/lds/d/cfb87ef1a74d592d9dcfe7cb33621fb314a1ed01.png",
-          "effect": "Gewährt dir einen Stapel Komplexion, wenn die von Eukratische Diagnose gewährte Barriere den vollen Schaden absorbiert.<br>Maximalstapelzahl: 3"
+          "effect": "Gewährt dir einen Stapel Komplexion, wenn die von Eukratische Diagnose oder Eukratische Prognose auf dir selbst gewährte Barriere den vollen Schaden absorbiert.<br>Maximalstapelzahl: 3"
         },
         {
           "name": "Meister der Offensivmagie",
@@ -2935,7 +2965,7 @@
         {
           "name": "Mesotes",
           "icon": "https://img.finalfantasyxiv.com/lds/d/b7c802ff27b9c70dfeee638a7c41db4e7ffd642a.png",
-          "effect": "Du erschaffst einen Schild um den anvisierten Bereich. Gruppenmitgliedern in diesem Bereich gewährst du Mesotes, Feinde belegst du hingegen mit Lypros Während der Effektdauer kannst du das Schild einmalig neu platzieren, wobei die Effektdauer dadurch nicht zurückgesetzt wird.<br>Dauer des Schildes: 15 Sekunden<br>Effekt von Mesotes: Unverwundbar gegen alle Attacken von Gegnern ohne Lypros.<br>Dauer: 5 Sekunden<br>Effekt von Lypros: Schaden über Zeit<br>Attacke-Wert: 8000<br>Dauer: 5 Sekunden<br>Bedingung: Limitrausch-Balken voll"
+          "effect": "Du erschaffst einen Schild um den anvisierten Bereich. Gruppenmitgliedern in diesem Bereich gewährst du Mesotes, Feinde belegst du hingegen mit Lypros Während der Effektdauer kannst du das Schild einmalig neu platzieren, wobei die Effektdauer dadurch nicht zurückgesetzt wird.<br>Dauer des Schildes: 15 Sekunden<br>Effekt von Mesotes: Unverwundbar gegen alle Attacken von Gegnern ohne Lypros.<br>Dauer: 5 Sekunden<br>Effekt von Lypros: Schaden über Zeit<br>Attacke-Wert: 8000<br>Dauer: 5 Sekunden<br>Bedingung: Limitrausch-Balken voll<br>Aufladedauer: 120 Sekunden"
         },
         {
           "name": "Frontenelixier",
@@ -2960,7 +2990,7 @@
         {
           "name": "Sprint",
           "icon": "https://img.finalfantasyxiv.com/lds/d/1b49a585ab241c7b5b8bb4d6f47ccec6b96fdaee.png",
-          "effect": "Du erhöhst deine Bewegungsgeschwindigkeit.<br>Effekt endet bei erneuter Ausführung oder nächstem Kommando."
+          "effect": "Du erhöhst deine Bewegungsgeschwindigkeit um 50 %.<br>Effekt endet bei erneuter Ausführung oder nächstem Kommando."
         }
       ]
     }
@@ -3085,7 +3115,7 @@
         {
           "name": "Steinernes Enigma",
           "icon": "https://img.finalfantasyxiv.com/lds/d/84e3e679f5393f9a83e3b8204aad5192ecc483d1.png",
-          "effect": "Du gewährst dir drei Stapel von Steinernes Enigma.<br>Dauer: 10 Sekunden<br>Effekt von Steinernes Enigma: Erlittener Schaden ist um 20 % verringert.<br>Maximale Aufladungen: 3<br>Effekt endet nach 3 Waffenfertigkeiten bzw. bei Ablauf der Wirkungsdauer."
+          "effect": "Du verringerst deinen erlittenen Schaden um 20 %.<br>Dauer: 10 Sekunden<br>Zusatzeffekt: Erleidest du während der Wirkungsdauer Schaden, wird Steinerne Klarheit gewährt.<br>Effekt von Steinerne Klarheit: Regeneriert stetig eigene LP.<br>Heilpotenzial: 100<br>Dauer: 15 Sekunden"
         },
         {
           "name": "Flammendes Enigma",
@@ -3252,7 +3282,7 @@
         {
           "name": "Peitschenhieb",
           "icon": "https://img.finalfantasyxiv.com/lds/d/5216fce6eb0e1f98a22673993403c01005144e3e.png",
-          "effect": "Kombo-Kommando<br>Du führst eine physische Attacke aus.<br>Attacke-Wert: 5000<br>Kombo-Bedingung: Schlag auf Schlag<br>Zusatzeffekt: Wesen des Windes ist um 5 Sekunden verlängert (maximal 15 Sekunden).<br>Kann nicht im Kommandomenü angelegt werden."
+          "effect": "Kombo-Kommando<br>Du führst eine physische Attacke aus.<br>Attacke-Wert: 6000<br>Kombo-Bedingung: Wahrer Schlag<br>Zusatzeffekt: Wesen des Windes ist um 5 Sekunden verlängert (maximal 15 Sekunden).<br>Kann nicht im Kommandomenü angelegt werden."
         },
         {
           "name": "Drachentritt",
@@ -3267,7 +3297,7 @@
         {
           "name": "Demolieren",
           "icon": "https://img.finalfantasyxiv.com/lds/d/67078f08b4af6bacf409e67e4afca97ade589d1d.png",
-          "effect": "Kombo-Kommando<br>Du führst eine physische Attacke aus.<br>Attacke-Wert: 5000<br>Kombo-Bedingung: Doppelviper<br>Zusatzeffekt: Wesen des Windes ist um 5 Sekunden verlängert (maximal 15 Sekunden).<br>Kann nicht im Kommandomenü angelegt werden."
+          "effect": "Kombo-Kommando<br>Du führst eine physische Attacke aus.<br>Attacke-Wert: 6000<br>Kombo-Bedingung: Doppelviper<br>Zusatzeffekt: Wesen des Windes ist um 5 Sekunden verlängert (maximal 15 Sekunden).<br>Kann nicht im Kommandomenü angelegt werden."
         },
         {
           "name": "Phantomstoß",
@@ -3277,7 +3307,7 @@
         {
           "name": "Sechsstern-Tritt",
           "icon": "https://img.finalfantasyxiv.com/lds/d/4092af75879715af0b2b3ed04d26c4ebaee5aa1e.png",
-          "effect": "Du führst eine physische Attacke aus.<br>Attacke-Wert: 4000<br>Zusatzeffekt: Betäubung<br>Dauer: 2 Sekunden<br>Zusatzeffekt: Bewegungsgeschwindigkeit ist erhöht.<br>Dauer: 5 Sekunden<br>Kann nicht im Kommandomenü angelegt werden."
+          "effect": "Du führst eine physische Attacke aus.<br>Attacke-Wert: 4000<br>Zusatzeffekt: Betäubung<br>Dauer: 2 Sekunden<br>Zusatzeffekt: Bewegungsgeschwindigkeit ist um 25 % erhöht.<br>Dauer: 5 Sekunden<br>Kann nicht im Kommandomenü angelegt werden."
         },
         {
           "name": "Weg zur Erleuchtung",
@@ -3307,7 +3337,7 @@
         {
           "name": "Meteorschub",
           "icon": "https://img.finalfantasyxiv.com/lds/d/db4da14c2bf5aabe9de5c2cc782225c7fb13b9a8.png",
-          "effect": "Du schnellst zum Ziel hin und führst eine physische Attacke aus.<br>Attacke-Wert: 12000<br>Zusatzeffekt: Entfernt Wehr vom Ziel.<br>Ist Wehr nicht aktiv, erleidet das Ziel Meteorschub und einen zusätzlichen Schadenseffekt. Unwirksam gegen Spieler in Kriegsmaschinen und Ziele, die keine Spieler sind.<br>Dauer: 3 Sekunden<br>Effekt von Meteorschub: Kommandos können nicht ausgeführt werden.<br>Attacke-Wert des zusätzlichen Schadenseffekts: 4000x3<br>Bedingung: Limitrausch-Balken voll<br>Kann nicht während Fessel ausgeführt werden."
+          "effect": "Du schnellst zum Ziel hin und führst eine physische Attacke aus.<br>Attacke-Wert: 12000<br>Zusatzeffekt: Entfernt Wehr vom Ziel.<br>Ist Wehr nicht aktiv, erleidet das Ziel Meteorschub und einen zusätzlichen Schadenseffekt. Unwirksam gegen Spieler in Kriegsmaschinen und Ziele, die keine Spieler sind.<br>Dauer: 3 Sekunden<br>Effekt von Meteorschub: Kommandos können nicht ausgeführt werden.<br>Attacke-Wert des zusätzlichen Schadenseffekts: 4000x3<br>Bedingung: Limitrausch-Balken voll<br>Aufladedauer: 75 Sekunden<br>Kann nicht während Fessel ausgeführt werden."
         },
         {
           "name": "Frontenelixier",
@@ -3332,7 +3362,7 @@
         {
           "name": "Sprint",
           "icon": "https://img.finalfantasyxiv.com/lds/d/1b49a585ab241c7b5b8bb4d6f47ccec6b96fdaee.png",
-          "effect": "Du erhöhst deine Bewegungsgeschwindigkeit.<br>Effekt endet bei erneuter Ausführung oder nächstem Kommando."
+          "effect": "Du erhöhst deine Bewegungsgeschwindigkeit um 50 %.<br>Effekt endet bei erneuter Ausführung oder nächstem Kommando."
         }
       ]
     }
@@ -3609,7 +3639,7 @@
         {
           "name": "Ausweichsprung",
           "icon": "https://img.finalfantasyxiv.com/lds/d/c8b07f7484cef5f2ea4a7a3b11fd71d2526a7eb6.png",
-          "effect": "Du weichst Attacken durch einen 15-Yalm-Sprung nach hinten aus und entfernst Gewicht und Fessel.<br>Zusatzeffekt: Bewegungsgeschwindigkeit ist erhöht.<br>Dauer: 5 Sekunden<br>Zusatzeffekt: Wyrmauge<br>Dauer: 10 Sekunden<br>Effekt von Wyrmauge: Ausweichsprung ändert sich zu Zwillingswyrm."
+          "effect": "Du weichst Attacken durch einen 15-Yalm-Sprung nach hinten aus und entfernst Gewicht und Fessel.<br>Zusatzeffekt: Bewegungsgeschwindigkeit ist um 25 % erhöht.<br>Dauer: 5 Sekunden<br>Zusatzeffekt: Wyrmauge<br>Dauer: 10 Sekunden<br>Effekt von Wyrmauge: Ausweichsprung ändert sich zu Zwillingswyrm."
         },
         {
           "name": "Entsetzliches Brüllen",
@@ -3634,7 +3664,7 @@
         {
           "name": "Himmelhoch",
           "icon": "https://img.finalfantasyxiv.com/lds/d/7024a69ca8e1a03ac68e8680380d47e443f6e6a3.png",
-          "effect": "Du springst hoch in den Himmel, wo dich kein Gegner anvisieren kann. Dabei entfernst du Gewicht, Fessel und Schlaftrunken, und kannst dich während des Sprungs bewegen.<br>Dauer: 5 Sekunden<br>Bei Ablauf der Wirkungsdauer oder erneuter Ausführung führst du Himmelsbrecher aus und damit eine physische Attacke auf alle umstehenden Gegner.<br>Attacke-Wert: 20000<br>Der Attacke-Wert ist für Gegner im Umkreis von 5y um 50 % erhöht.<br>Bedingung: Limitrausch-Balken voll<br>Ändert sich bei Ausführung zu Himmelsbrecher."
+          "effect": "Du springst hoch in den Himmel, wo dich kein Gegner anvisieren kann. Dabei entfernst du Gewicht, Fessel und Schlaftrunken, und kannst dich während des Sprungs bewegen.<br>Dauer: 5 Sekunden<br>Bei Ablauf der Wirkungsdauer oder erneuter Ausführung führst du Himmelsbrecher aus und damit eine physische Attacke auf alle umstehenden Gegner.<br>Attacke-Wert: 20000<br>Der Attacke-Wert ist für Gegner im Umkreis von 5y um 50 % erhöht.<br>Bedingung: Limitrausch-Balken voll<br>Aufladezeit: 90 Sekunden<br>Ändert sich bei Ausführung zu Himmelsbrecher."
         },
         {
           "name": "Himmelsbrecher",
@@ -3664,7 +3694,7 @@
         {
           "name": "Sprint",
           "icon": "https://img.finalfantasyxiv.com/lds/d/1b49a585ab241c7b5b8bb4d6f47ccec6b96fdaee.png",
-          "effect": "Du erhöhst deine Bewegungsgeschwindigkeit.<br>Effekt endet bei erneuter Ausführung oder nächstem Kommando."
+          "effect": "Du erhöhst deine Bewegungsgeschwindigkeit um 50 %.<br>Effekt endet bei erneuter Ausführung oder nächstem Kommando."
         }
       ]
     }
@@ -4006,7 +4036,7 @@
         {
           "name": "Shukuchi",
           "icon": "https://img.finalfantasyxiv.com/lds/d/cf1bb42ed0500b95e768ec8fff4aa0f7b3d1c20a.png",
-          "effect": "Du bewegst dich blitzschnell an den anvisierten Ort.<br>Zusatzeffekt: Versteckt<br>Dauer: 5 Sekunden<br>Effekt von Versteckt: Du kannst nicht gesehen oder anvisiert werden.<br>Wirkung von Versteckt endet, wenn Schaden erlitten oder ein Kommando ausgeführt wird.<br>Während Versteckt ändert sich Kombo Äolusklinge zu Meuchelsprung.<br>Kommando ändert sich bei Tri-Mudra zu Doton.<br>Kann nicht während Fessel ausgeführt werden."
+          "effect": "Du bewegst dich blitzschnell an den anvisierten Ort.<br>Zusatzeffekt: Versteckt<br>Dauer: 4 Sekunden<br>Effekt von Versteckt: Du kannst nicht gesehen oder anvisiert werden.<br>Wirkung von Versteckt endet, wenn Schaden erlitten oder ein Kommando ausgeführt wird.<br>Während Versteckt ändert sich Kombo Äolusklinge zu Meuchelsprung.<br>Kommando ändert sich bei Tri-Mudra zu Doton.<br>Kann nicht während Fessel ausgeführt werden."
         },
         {
           "name": "Tanzendes Raiju",
@@ -4036,7 +4066,7 @@
         {
           "name": "Huton",
           "icon": "https://img.finalfantasyxiv.com/lds/d/839919eb2756e950cdae46be906b564ce77bd4b6.png",
-          "effect": "Du gewährst dir Huton, errichtest somit eine Barriere um dich, die Schaden entsprechend einem Heilpotenzial von 16000 absorbiert und erhöhst außerdem deine Bewegungsgeschwindigkeit.<br>Dauer: 10 Sekunden<br>Fällt die Barriere von dir ab, verlierst du auch den Bewegungsgeschwindigkeitseffekt.<br>Bedingung: Tri-Mudra aktiv<br>Kann nicht im Kommandomenü angelegt werden."
+          "effect": "Du gewährst dir Huton, errichtest somit eine Barriere um dich, die Schaden entsprechend einem Heilpotenzial von 16000 absorbiert und erhöhst außerdem deine Bewegungsgeschwindigkeit um 25 %.<br>Dauer: 10 Sekunden<br>Fällt die Barriere von dir ab, verlierst du auch den Bewegungsgeschwindigkeitseffekt.<br>Bedingung: Tri-Mudra aktiv<br>Kann nicht im Kommandomenü angelegt werden."
         },
         {
           "name": "Doton",
@@ -4056,7 +4086,7 @@
         {
           "name": "Seiton Tenchu",
           "icon": "https://img.finalfantasyxiv.com/lds/d/b3cc3f2b23553fa8ce5a4a46fe159c12a2f82aaa.png",
-          "effect": "Du schnellst zum Ziel hin und führst eine physische Attacke aus. Verbleiben dem Ziel weniger als 50 % Maximal-LP, wird es kampfunfähig.<br>Attacke-Wert: 10000<br>Zusatzeffekt: Totenbund<br>Unwirksam gegen Spieler in Kriegsmaschinen und Ziele, die keine Spieler sind.<br>Dauer: 5 Sekunden<br>Wird das Ziel durch dieses Kommando oder während der Effektdauer von Totenbund kampfunfähig, wird dir Seiton Tenchu gewährt.<br>Dauer: 8 Sekunden<br>Die Dauer wird jedes Mal um 1 Sekunde verringert, wenn ein Ziel erfolgreich mit einer minimalen Statusdauer von 4 Sekunden belegt wird.<br>Effekt von Seiton Tenchu: Seiton Tenchu kann abermals ausgeführt werden.<br>Bedingung: Limitrausch-Balken voll oder Seiton Tenchu aktiv<br>Kann nicht während Fessel ausgeführt werden."
+          "effect": "Du schnellst zum Ziel hin und führst eine physische Attacke aus. Verbleiben dem Ziel weniger als 50 % Maximal-LP, wird es kampfunfähig.<br>Attacke-Wert: 10000<br>Zusatzeffekt: Totenbund<br>Unwirksam gegen Spieler in Kriegsmaschinen und Ziele, die keine Spieler sind.<br>Dauer: 4 Sekunden<br>Wird das Ziel durch dieses Kommando oder während der Effektdauer von Totenbund kampfunfähig, wird dir Seiton Tenchu gewährt.<br>Dauer: 8 Sekunden<br>Die Dauer wird jedes Mal um 1 Sekunde verringert, wenn ein Ziel erfolgreich mit einer minimalen Statusdauer von 4 Sekunden belegt wird.<br>Effekt von Seiton Tenchu: Seiton Tenchu kann abermals ausgeführt werden.<br>Bedingung: Limitrausch-Balken voll oder Seiton Tenchu aktiv<br>Aufladedauer: 90 Sekunden<br>Kann nicht während Fessel ausgeführt werden."
         },
         {
           "name": "Frontenelixier",
@@ -4081,7 +4111,7 @@
         {
           "name": "Sprint",
           "icon": "https://img.finalfantasyxiv.com/lds/d/1b49a585ab241c7b5b8bb4d6f47ccec6b96fdaee.png",
-          "effect": "Du erhöhst deine Bewegungsgeschwindigkeit.<br>Effekt endet bei erneuter Ausführung oder nächstem Kommando."
+          "effect": "Du erhöhst deine Bewegungsgeschwindigkeit um 50 %.<br>Effekt endet bei erneuter Ausführung oder nächstem Kommando."
         }
       ]
     }
@@ -4413,7 +4443,7 @@
         {
           "name": "Zantetsuken",
           "icon": "https://img.finalfantasyxiv.com/lds/d/ff8b2867c7cbf972efb8da7deaf7a5c4f48d60cb.png",
-          "effect": "Du bewegst dich blitzschnell durch dein anvisiertes Ziel und führst eine physische Attacke auf das Ziel und umstehende Gegner aus, jeglichen Effekt von Wehr ignorierend.<br>Attacke-Wert: 24000<br>Leidet ein Ziel unter Kuzushi, erhöht sich der Schaden auf 100 % seiner Maximal-LP.<br>Unwirksam gegen Spieler in Kriegsmaschinen und Ziele, die keine Spieler sind.<br>Bedingung: Limitrausch-Balken voll<br>Kann nicht während Fessel ausgeführt werden."
+          "effect": "Du bewegst dich blitzschnell durch dein anvisiertes Ziel und führst eine physische Attacke auf das Ziel und umstehende Gegner aus, jeglichen Effekt von Wehr ignorierend.<br>Attacke-Wert: 24000<br>Leidet ein Ziel unter Kuzushi, erhöht sich der Schaden auf 100 % seiner Maximal-LP.<br>Unwirksam gegen Spieler in Kriegsmaschinen und Ziele, die keine Spieler sind.<br>Bedingung: Limitrausch-Balken voll<br>Aufladedauer: 120 Sekunden<br>Kann nicht während Fessel ausgeführt werden."
         },
         {
           "name": "Frontenelixier",
@@ -4438,7 +4468,7 @@
         {
           "name": "Sprint",
           "icon": "https://img.finalfantasyxiv.com/lds/d/1b49a585ab241c7b5b8bb4d6f47ccec6b96fdaee.png",
-          "effect": "Du erhöhst deine Bewegungsgeschwindigkeit.<br>Effekt endet bei erneuter Ausführung oder nächstem Kommando."
+          "effect": "Du erhöhst deine Bewegungsgeschwindigkeit um 50 %.<br>Effekt endet bei erneuter Ausführung oder nächstem Kommando."
         }
       ]
     }
@@ -4598,7 +4628,7 @@
         {
           "name": "Lemurenschlitzer",
           "icon": "https://img.finalfantasyxiv.com/lds/d/c9ae486399356401f032b455ea5b13f986236c82.png",
-          "effect": "Du führst eine physische Attacke aus.<br>Attacke-Wert: 200<br>Seelenkosten: 2 Nichtsseelen<br>Gemeinsamer Reaktivierungs-Timer mit Lemurensense<br>Kann nicht im Kommandomenü angelegt werden."
+          "effect": "Du führst eine physische Attacke aus.<br>Attacke-Wert: 220<br>Seelenkosten: 2 Nichtsseelen<br>Gemeinsamer Reaktivierungs-Timer mit Lemurensense<br>Kann nicht im Kommandomenü angelegt werden."
         },
         {
           "name": "Lemurensense",
@@ -4608,12 +4638,12 @@
         {
           "name": "Große Mahd",
           "icon": "https://img.finalfantasyxiv.com/lds/d/08babf4d2bf7ce046d03f459af8fa4c9921f96cc.png",
-          "effect": "Du führst eine physische Attacke auf alle Gegner in gerader Linie vor dir aus.<br>Attacke-Wert umso höher, je mehr Stapel Totenopfer auf dir aktiv sind.<br>Attacke-Wert: 520 bis 800<br>Attacke-Wert verringert sich ab dem zweiten Gegner um 60 %.<br>Bei Ausführung werden alle Totenopfer verbraucht.<br>Zusatzeffekt: Schleierbalken füllt sich um 50.<br>Bedingung: Opfergeist nicht aktiv und mind. 1 Totenopfer aktiv"
+          "effect": "Du führst eine physische Attacke auf alle Gegner in gerader Linie vor dir aus.<br>Attacke-Wert umso höher, je mehr Stapel Totenopfer auf dir aktiv sind.<br>Attacke-Wert: 720 bis 1000<br>Attacke-Wert verringert sich ab dem zweiten Gegner um 60 %.<br>Bei Ausführung werden alle Totenopfer verbraucht.<br>Zusatzeffekt: Schleierbalken füllt sich um 50.<br>Bedingung: Opfergeist nicht aktiv und mind. 1 Totenopfer aktiv"
         },
         {
           "name": "Communio",
           "icon": "https://img.finalfantasyxiv.com/lds/d/3b0daa7e454abbd2b6ce037b5c77157462fadbf7.png",
-          "effect": "Du führst eine elementneutrale magische Attacke auf das Ziel und die Gegner in seiner Nähe aus.<br>Attacke-Wert: 1000<br>Attacke-Wert verringert sich ab dem zweiten Gegner um 60 %.<br>Lemure wird dadurch beendet.<br>Bedingung: mind. 1 Lemurenseele aktiv"
+          "effect": "Du führst eine elementneutrale magische Attacke auf das Ziel und die Gegner in seiner Nähe aus.<br>Attacke-Wert: 1100<br>Attacke-Wert verringert sich ab dem zweiten Gegner um 60 %.<br>Lemure wird dadurch beendet.<br>Bedingung: mind. 1 Lemurenseele aktiv"
         },
         {
           "name": "Chakra",
@@ -4735,7 +4765,7 @@
         {
           "name": "Höllischer Auftritt",
           "icon": "https://img.finalfantasyxiv.com/lds/d/2424ad75e462d533b623f1371216bc130c82b109.png",
-          "effect": "Du schnellst 15 Yalme nach vorne.<br>Zusatzeffekt: Erzeugt am ursprünglichen Standort ein Höllentor und aktiviert den Status Rückkehr möglich.<br>Dauer: 10 Sekunden<br>Zusatzeffekt: Bewegungsgeschwindigkeit ist erhöht.<br>Dauer: 5 Sekunden<br>Ändert sich bei Ausführung zu Rückkehr.<br>Kann nicht während Fessel ausgeführt werden."
+          "effect": "Du schnellst 15 Yalme nach vorne.<br>Zusatzeffekt: Erzeugt am ursprünglichen Standort ein Höllentor und aktiviert den Status Rückkehr möglich.<br>Dauer: 10 Sekunden<br>Zusatzeffekt: Bewegungsgeschwindigkeit ist um 25 % erhöht.<br>Dauer: 5 Sekunden<br>Ändert sich bei Ausführung zu Rückkehr.<br>Kann nicht während Fessel ausgeführt werden."
         },
         {
           "name": "Arkanes Wappen",
@@ -4785,7 +4815,7 @@
         {
           "name": "Tenebrae Lemurum",
           "icon": "https://img.finalfantasyxiv.com/lds/d/a2c6adec36c8eeace712802c88eb896c788a8c94.png",
-          "effect": "Dein Avatar umhüllt dich und macht dich zu einer Lemure, dir 5 Stapel dieses Status gewährend.<br>Dauer: 15 Sekunden<br>Während der Effektdauer ändert sich Nachtschwad zu Lemurensense, Kombo Infernalischer Schlitzer zu Nichtsmäher und Tenebrae Lemurum zu Communio.<br>Zusatzeffekt: Umstehende Gegner erleiden Panik.<br>Dauer: 2 Sekunden<br>Effekt von Panik: Verliert vor Angst jegliche Kontrolle über die eigene Bewegung.<br>Unwirksam gegen Spieler in Kriegsmaschinen und Ziele, die keine Spieler sind.<br>Bedingung: Limitrausch-Balken voll"
+          "effect": "Dein Avatar umhüllt dich und macht dich zu einer Lemure, dir 5 Stapel dieses Status gewährend.<br>Dauer: 15 Sekunden<br>Während der Effektdauer ändert sich Nachtschwad zu Lemurensense, Kombo Infernalischer Schlitzer zu Nichtsmäher und Tenebrae Lemurum zu Communio.<br>Zusatzeffekt: Umstehende Gegner erleiden Panik.<br>Dauer: 2 Sekunden<br>Effekt von Panik: Verliert vor Angst jegliche Kontrolle über die eigene Bewegung.<br>Unwirksam gegen Spieler in Kriegsmaschinen und Ziele, die keine Spieler sind.<br>Bedingung: Limitrausch-Balken voll<br>Aufladedauer: 75 Sekunden"
         },
         {
           "name": "Frontenelixier",
@@ -4810,7 +4840,7 @@
         {
           "name": "Sprint",
           "icon": "https://img.finalfantasyxiv.com/lds/d/1b49a585ab241c7b5b8bb4d6f47ccec6b96fdaee.png",
-          "effect": "Du erhöhst deine Bewegungsgeschwindigkeit.<br>Effekt endet bei erneuter Ausführung oder nächstem Kommando."
+          "effect": "Du erhöhst deine Bewegungsgeschwindigkeit um 50 %.<br>Effekt endet bei erneuter Ausführung oder nächstem Kommando."
         }
       ]
     }
@@ -4905,7 +4935,7 @@
         {
           "name": "Empyreischer Pfeil",
           "icon": "https://img.finalfantasyxiv.com/lds/d/06f5720224fc5d70aaf47a8850f683e0d4e89b02.png",
-          "effect": "Du führst eine physische Attacke aus.<br>Attacke-Wert: 200"
+          "effect": "Du führst eine physische Attacke aus.<br>Attacke-Wert: 230"
         },
         {
           "name": "Eiserne Kiefer",
@@ -4935,7 +4965,7 @@
         {
           "name": "Nophicas Minne",
           "icon": "https://img.finalfantasyxiv.com/lds/d/18695708d8d7ea8d7f9a7ffe0857dafcaea57694.png",
-          "effect": "Du erhöhst LP-Regenerationseffekte auf dich oder ein Gruppenmitglied um 20 %.<br>Dauer: 15 Sekunden"
+          "effect": "Du erhöhst LP-Regenerationseffekte auf dich und umstehende Gruppenmitglieder um 15 %.<br>Dauer: 15 Sekunden"
         },
         {
           "name": "Glänzender Pfeil",
@@ -5127,7 +5157,7 @@
         {
           "name": "Fantasie des Helden",
           "icon": "https://img.finalfantasyxiv.com/lds/d/671e19fca51076d955a751ca8cf0b8f0c024d13b.png",
-          "effect": "Du gewährst dir selbst Fantasie des Helden und umstehenden Gruppenmitgliedern Heroische Fantasie.<br>Dauer: 30 Sekunden<br>Effekt von Fantasie des Helden: (Re-)Aktivierungszeit von eigenen Waffenfertigkeiten sind um 10 % reduziert und Bewegungsgeschwindigkeit ist erhöht.<br>Effekt von Heroische Fantasie: Ausgeteilter Schaden ist um 10 % erhöht und der Limitrausch-Balken füllt sich stetig.<br>Nur wirksam, wenn sich die Ziele im Kampf befinden.<br>Bedingung: Limitrausch-Balken voll"
+          "effect": "Du reduzierst die (Re-)Aktivierungszeit deiner eigenen Waffenfertigkeiten um 10 % und erhöhst deine Bewegungsgeschwindigkeit um 25 %.<br>Dauer: 30 Sekunden<br>Zusatzeffekt: Eigener ausgeteilter Schaden und der von Gruppenmitgliedern im Umkreis von 30y ist um 10 % erhöht und der Limitrausch-Balken füllt sich stetig.<br>Nur wirksam, wenn sich die Ziele im Kampf befinden.<br>Bedingung: Limitrausch-Balken voll<br>Aufladedauer: 120 Sekunden"
         },
         {
           "name": "Frontenelixier",
@@ -5152,7 +5182,7 @@
         {
           "name": "Sprint",
           "icon": "https://img.finalfantasyxiv.com/lds/d/1b49a585ab241c7b5b8bb4d6f47ccec6b96fdaee.png",
-          "effect": "Du erhöhst deine Bewegungsgeschwindigkeit.<br>Effekt endet bei erneuter Ausführung oder nächstem Kommando."
+          "effect": "Du erhöhst deine Bewegungsgeschwindigkeit um 50 %.<br>Effekt endet bei erneuter Ausführung oder nächstem Kommando."
         }
       ]
     }
@@ -5187,7 +5217,7 @@
         {
           "name": "Gauß-Geschoss",
           "icon": "https://img.finalfantasyxiv.com/lds/d/e6959a3306b601fc9e5987712f6d9ea247a7a566.png",
-          "effect": "Du führst eine physische Attacke aus.<br>Attacke-Wert: 120<br>Maximale Aufladungen: 3"
+          "effect": "Du führst eine physische Attacke aus.<br>Attacke-Wert: 130<br>Maximale Aufladungen: 3"
         },
         {
           "name": "Splitterschuss",
@@ -5197,17 +5227,17 @@
         {
           "name": "Sauberer Schuss",
           "icon": "https://img.finalfantasyxiv.com/lds/d/d6d762f987ab51e9840cbf5229251838b16078b5.png",
-          "effect": "Du führst eine physische Attacke aus.<br>Attacke-Wert: 100<br>Kombo-Bedingung: Flintenlaufgeschoss oder Höllen-Flintenlaufgeschoss<br>Attacke-Wert: 270<br>Bonus: Hitzebalken füllt sich um 5.<br>Bonus: Batteriebalken füllt sich um 10.<br>"
+          "effect": "Du führst eine physische Attacke aus.<br>Attacke-Wert: 100<br>Kombo-Bedingung: Flintenlaufgeschoss oder Höllen-Flintenlaufgeschoss<br>Attacke-Wert: 270<br>Bonus: Hitzebalken füllt sich um 5.<br>Bonus: Batteriebalken füllt sich um 10."
         },
         {
           "name": "Hyperladung",
           "icon": "https://img.finalfantasyxiv.com/lds/d/273150b6ebb3357688de07d86ec37a02da8e9348.png",
-          "effect": "Du erhältst Überhitzung. Während der Wirkungsdauer ausgeführte Waffenfertigkeiten gegen Einzelziele haben einen um 20 erhöhten Attacke-Wert.<br>Dauer: 8 Sekunden<br>Bedingung: Hitzebalken bei min. 50<br>Überhitzung wirkt nur auf Job-Kommandos des Maschinisten."
+          "effect": "Du erhältst Überhitzung. Während der Wirkungsdauer ausgeführte Waffenfertigkeiten gegen Einzelziele haben einen um 20 erhöhten Attacke-Wert.<br>Darüber hinaus können Hitzeschuss und Armbrust ausgeführt werden.<br>Bedingung: Hitzebalken bei min. 50<br>Überhitzung wirkt nur auf Job-Kommandos des Maschinisten."
         },
         {
           "name": "Hitzeschuss",
           "icon": "https://img.finalfantasyxiv.com/lds/d/009d06297b1776f1404cdf4de9c5bd8b17a447e6.png",
-          "effect": "Du führst eine physische Attacke aus.<br>Attacke-Wert: 180<br>Zusatzeffekt: Reaktivierungszeit von Gauß-Geschoss und Rikoschettschuss um 15 Sekunden verkürzt<br>Bedingung: Überhitzung<br>Eigener Reaktivierungs-Timer. Bei Ausführung wird der Reaktivierungs-Timer dieses Kommandos auf alle anderen Waffenfertigkeiten und Magie angewendet."
+          "effect": "Du führst eine physische Attacke aus.<br>Attacke-Wert: 200<br>Zusatzeffekt: Reaktivierungszeit von Gauß-Geschoss und Rikoschettschuss um 15 Sekunden verkürzt<br>Bedingung: Überhitzung<br>Eigener Reaktivierungs-Timer. Bei Ausführung wird der Reaktivierungs-Timer dieses Kommandos auf alle anderen Waffenfertigkeiten und Magie angewendet."
         },
         {
           "name": "Selbstschuss-Gyrocopter TURM",
@@ -5227,7 +5257,7 @@
         {
           "name": "Wildfeuer",
           "icon": "https://img.finalfantasyxiv.com/lds/d/6d73e45fbbfb35ad0a4f8b4a73753e6a06a37651.png",
-          "effect": "Du übergießt das Ziel mit langsam brennendem Pech und fügst ihm dadurch Wildfeuer zu. Kommando ändert sich zu Detonator. Der Schaden wird am Ende der Wirkungsdauer oder beim Ausführen von Detonator auf das Ziel entladen.<br>Attacke-Wert: 220 für jeden deiner Treffer einer Waffenfertigkeit beim Ziel während der Wirkungsdauer<br>Dauer: 10 Sekunden"
+          "effect": "Du übergießt das Ziel mit langsam brennendem Pech und fügst ihm dadurch Wildfeuer zu. Kommando ändert sich zu Detonator. Der Schaden wird am Ende der Wirkungsdauer oder beim Ausführen von Detonator auf das Ziel entladen.<br>Attacke-Wert: 240 für jeden deiner Treffer einer Waffenfertigkeit beim Ziel während der Wirkungsdauer (maximal 6 Treffer)<br>Dauer: 10 Sekunden"
         },
         {
           "name": "Detonator",
@@ -5237,12 +5267,12 @@
         {
           "name": "Rikoschettschuss",
           "icon": "https://img.finalfantasyxiv.com/lds/d/5556960a2e8ce389c2117d13c6d182f41943c3c9.png",
-          "effect": "Du führst eine physische Attacke auf das Ziel und die Gegner in seiner Nähe aus.<br>Attacke-Wert: 120<br>Attacke-Wert verringert sich ab dem zweiten Gegner um 50 %.<br>Maximale Aufladungen: 3"
+          "effect": "Du führst eine physische Attacke auf das Ziel und die Gegner in seiner Nähe aus.<br>Attacke-Wert: 130<br>Attacke-Wert verringert sich ab dem zweiten Gegner um 50 %.<br>Maximale Aufladungen: 3"
         },
         {
           "name": "Armbrust",
           "icon": "https://img.finalfantasyxiv.com/lds/d/8c8ae8bf5d1dbcae1bf932cfed578e4fda8d80f3.png",
-          "effect": "Du führst eine physische Attacke auf die fächerförmig vor dir stehenden Gegner aus.<br>Attacke-Wert: 140<br>Bedingung: Überhitzung<br>Eigener Reaktivierungs-Timer. Bei Ausführung wird der Reaktivierungs-Timer dieses Kommandos auf alle anderen Waffenfertigkeiten und Magie angewendet."
+          "effect": "Du führst eine physische Attacke auf die fächerförmig vor dir stehenden Gegner aus.<br>Attacke-Wert: 140<br>Bedingung: Überhitzung aktiv<br>Eigener Reaktivierungs-Timer. Bei Ausführung wird der Reaktivierungs-Timer dieses Kommandos auf alle anderen Waffenfertigkeiten und Magie angewendet."
         },
         {
           "name": "Höllenfeuer frei",
@@ -5257,17 +5287,22 @@
         {
           "name": "Bohrer",
           "icon": "https://img.finalfantasyxiv.com/lds/d/c8bd9fe712521ac377c3359846437a640c0516b7.png",
-          "effect": "Du führst eine physische Attacke aus.<br>Attacke-Wert: 580<br>Gemeinsamer Reaktivierungs-Timer mit Bioblaster"
+          "effect": "Du führst eine physische Attacke aus.<br>Attacke-Wert: 600<br>Gemeinsamer Reaktivierungs-Timer mit Bioblaster"
         },
         {
           "name": "Höllen-Flintenlaufgeschoss",
           "icon": "https://img.finalfantasyxiv.com/lds/d/7f91784177366a8b4dd069a15915b41601231f83.png",
-          "effect": "Du führst eine physische Attacke aus.<br>Attacke-Wert: 120<br>Kombo-Bedingung: Höllenfeuer frei<br>Attacke-Wert: 280<br>Bonus: Hitzebalken füllt sich um 5."
+          "effect": "Du führst eine physische Attacke aus.<br>Attacke-Wert: 120<br>Kombo-Bedingung: Höllenfeuer frei<br>Attacke-Wert: 300<br>Bonus: Hitzebalken füllt sich um 5."
+        },
+        {
+          "name": "Zerlegen",
+          "icon": "https://img.finalfantasyxiv.com/lds/d/94eaa7aadfa4d857c00551af690f42bb5d7a4a94.png",
+          "effect": "Du verringerst den ausgeteilten Schaden des Ziels um 10 %.<br>Dauer: 10 Sekunden"
         },
         {
           "name": "Sauberer Höllenschuss",
           "icon": "https://img.finalfantasyxiv.com/lds/d/3c8cababe00b6d512baada3b68a32cb866758a17.png",
-          "effect": "Du führst eine physische Attacke aus.<br>Attacke-Wert: 110<br>Kombo-Bedingung: Höllen-Flintenlaufgeschoss<br>Attacke-Wert: 360<br>Bonus: Hitzebalken füllt sich um 5.<br>Bonus: Batteriebalken füllt sich um 10."
+          "effect": "Du führst eine physische Attacke aus.<br>Attacke-Wert: 120<br>Kombo-Bedingung: Höllen-Flintenlaufgeschoss<br>Attacke-Wert: 380<br>Bonus: Hitzebalken füllt sich um 5.<br>Bonus: Batteriebalken füllt sich um 10."
         },
         {
           "name": "Laufstabilisator",
@@ -5287,7 +5322,7 @@
         {
           "name": "Luftanker",
           "icon": "https://img.finalfantasyxiv.com/lds/d/85abf6ce8fa5c7b7bda98e11f37df0e8c024015e.png",
-          "effect": "Du führst eine physische Attacke aus.<br>Attacke-Wert: 580<br>Zusatzeffekt: Batteriebalken füllt sich um 20.<br>Eigener Reaktivierungs-Timer"
+          "effect": "Du führst eine physische Attacke aus.<br>Attacke-Wert: 600<br>Zusatzeffekt: Batteriebalken füllt sich um 20.<br>Eigener Reaktivierungs-Timer"
         },
         {
           "name": "Automaton DAME",
@@ -5327,7 +5362,7 @@
         {
           "name": "Kreissäge",
           "icon": "https://img.finalfantasyxiv.com/lds/d/2f788128862828a0a36c66d4dcd6f521f8391d04.png",
-          "effect": "Du führst eine physische Attacke auf alle Gegner in gerader Linie vor dir aus.<br>Attacke-Wert: 580<br>Attacke-Wert verringert sich ab dem zweiten Gegner um 65 %.<br>Zusatzeffekt: Batteriebalken füllt sich um 20.<br>Eigener Reaktivierungs-Timer"
+          "effect": "Du führst eine physische Attacke auf alle Gegner in gerader Linie vor dir aus.<br>Attacke-Wert: 600<br>Attacke-Wert verringert sich ab dem zweiten Gegner um 65 %.<br>Zusatzeffekt: Batteriebalken füllt sich um 20.<br>Eigener Reaktivierungs-Timer"
         },
         {
           "name": "Beinschuss",
@@ -5397,7 +5432,7 @@
         {
           "name": "Verbessertes Wildfeuer",
           "icon": "https://img.finalfantasyxiv.com/lds/d/ee45320e4da5dfac149b4d204d8b6d300cdc9623.png",
-          "effect": "Jede während Wildfeuer erfolgreich ausgeführte Waffenfertigkeit ist nun einen Attacke-Wert von 220 wert."
+          "effect": "Jede während Wildfeuer erfolgreich ausgeführte Waffenfertigkeit ist nun einen Attacke-Wert von 240 wert."
         },
         {
           "name": "Umwandlung",
@@ -5417,7 +5452,7 @@
         {
           "name": "Verbesserte Kommandos",
           "icon": "https://img.finalfantasyxiv.com/lds/d/6acea5ac3fd49cd172fac240c194a5847b080ccf.png",
-          "effect": "Erhöht den Attacke-Wert folgender Kommandos:<br>Attacke-Wert von Höllenfeuer frei: 200<br>Attacke-Wert von Höllen-Flintenlaufgeschoss: 120<br>Attacke-Wert von Sauberer Höllenschuss: 110"
+          "effect": "Erhöht den Attacke-Wert folgender Kommandos:<br>Attacke-Wert von Höllenfeuer frei: 200<br>Attacke-Wert von Höllen-Flintenlaufgeschoss: 120<br>Attacke-Wert von Sauberer Höllenschuss: 120"
         },
         {
           "name": "Damengambit",
@@ -5434,7 +5469,7 @@
         {
           "name": "Explosiver Schuss",
           "icon": "https://img.finalfantasyxiv.com/lds/d/e15fdee2a9a849495d10440d6d5f007a66f636e0.png",
-          "effect": "Du führst eine physische Fernkampfattacke aus.<br>Attacke-Wert: 4000<br>Zusatzeffekt: Hitze<br>Maximalstapelzahl: 5<br>Dauer: 15 Sekunden<br>Bei maximaler Stapelzahl ändert sich der Status zu Überhitzung.<br>Dauer: 5 Sekunden<br>Effekt von Überhitzung: Explosiver Schuss ändert sich zu Hitzeschuss und eigene Bewegungsgeschwindigkeit ist erhöht.<br>Dieses Kommando hat eine Ausführungszeit, doch du kannst dich währenddessen bewegen."
+          "effect": "Du führst eine physische Fernkampfattacke aus.<br>Attacke-Wert: 4000<br>Zusatzeffekt: Hitze<br>Maximalstapelzahl: 5<br>Dauer: 15 Sekunden<br>Bei maximaler Stapelzahl ändert sich der Status zu Überhitzung.<br>Dauer: 5 Sekunden<br>Effekt von Überhitzung: Explosiver Schuss ändert sich zu Hitzeschuss und eigene Bewegungsgeschwindigkeit ist um 25 % erhöht.<br>Dieses Kommando hat eine Ausführungszeit, doch du kannst dich währenddessen bewegen."
         },
         {
           "name": "Schrotflinte",
@@ -5454,7 +5489,7 @@
         {
           "name": "Selbstschuss-Gyrocopter LÄUFER",
           "icon": "https://img.finalfantasyxiv.com/lds/d/5b81ea0d7793a71e83ebe7472ce3f860a51a842a.png",
-          "effect": "Du setzt einen Geschützturm an die anvisierte Stelle, woraufhin er kontinuierlich magische Attacken auf alle umstehenden Gegner ausführt.<br>Attacke-Wert: 6000<br>Dauer: 10 Sekunden<br>Zusatzeffekt: Ziele erleiden 10 % mehr Schaden.<br>Dauer: 5 Sekunden<br>Zusatzeffekt: Errichtet eine Barriere um umstehende Gruppenmitglieder, die Schaden entsprechend eines Heilpotenzials von 6000 absorbiert.<br>Dauer: 5 Sekunden"
+          "effect": "Du setzt einen Geschützturm an die anvisierte Stelle, woraufhin er kontinuierlich magische Attacken auf alle umstehenden Gegner ausführt.<br>Attacke-Wert: 6000<br>Dauer: 10 Sekunden<br>Zusatzeffekt: Ziele erleiden 10 % mehr Schaden.<br>Dauer: 7 Sekunden<br>Zusatzeffekt: Errichtet eine Barriere um umstehende Gruppenmitglieder, die Schaden entsprechend eines Heilpotenzials von 6000 absorbiert.<br>Dauer: 7 Sekunden"
         },
         {
           "name": "Analyse",
@@ -5484,12 +5519,12 @@
         {
           "name": "Äthermörser",
           "icon": "https://img.finalfantasyxiv.com/lds/d/e630bb066bbc76a8e961d011612bbdcdaf9509d2.png",
-          "effect": "Führt eine magische Attacke auf alle umstehenden Gegner aus.<br>Attacke-Wert: 6000<br>Zusatzeffekt: Ziel erleidet 10 % mehr Schaden.<br>Dauer: 5 Sekunden<br>Zusatzeffekt: Errichtet eine Barriere um umstehende Gruppenmitglieder, die Schaden entsprechend eines Heilpotenzials von 6000 absorbiert.<br>Dauer: 5 Sekunden<br>Kann nicht im Kommandomenü angelegt werden."
+          "effect": "Führt eine magische Attacke auf alle umstehenden Gegner aus.<br>Attacke-Wert: 6000<br>Zusatzeffekt: Ziel erleidet 10 % mehr Schaden.<br>Dauer: 7 Sekunden<br>Zusatzeffekt: Errichtet eine Barriere um umstehende Gruppenmitglieder, die Schaden entsprechend eines Heilpotenzials von 6000 absorbiert.<br>Dauer: 7 Sekunden<br>Kann nicht im Kommandomenü angelegt werden."
         },
         {
           "name": "Freischütz",
           "icon": "https://img.finalfantasyxiv.com/lds/d/b641fb27f646df1959aa4754f6389d54fd20b9d5.png",
-          "effect": "Du führst eine physische Fernkampfattacke aus.<br>Attacke-Wert: 36000<br>Bedingung: Limitrausch-Balken voll"
+          "effect": "Du führst eine physische Fernkampfattacke aus.<br>Attacke-Wert: 36000<br>Bedingung: Limitrausch-Balken voll<br>Aufladedauer: 90 Sekunden"
         },
         {
           "name": "Frontenelixier",
@@ -5514,7 +5549,7 @@
         {
           "name": "Sprint",
           "icon": "https://img.finalfantasyxiv.com/lds/d/1b49a585ab241c7b5b8bb4d6f47ccec6b96fdaee.png",
-          "effect": "Du erhöhst deine Bewegungsgeschwindigkeit.<br>Effekt endet bei erneuter Ausführung oder nächstem Kommando."
+          "effect": "Du erhöhst deine Bewegungsgeschwindigkeit um 50 %.<br>Effekt endet bei erneuter Ausführung oder nächstem Kommando."
         }
       ]
     }
@@ -5544,7 +5579,7 @@
         {
           "name": "Einfache Choreographie",
           "icon": "https://img.finalfantasyxiv.com/lds/d/601122ac0085d666731203ba91b41a5099457eca.png",
-          "effect": "Tanzgrundschritt. Du erhältst den Status Einfache Choreographie.<br>Dauer: 15 Sekunden<br>Wechselt zu Kommando Einfaches Finale während des Tanzes. Nur Einfaches Finale, En Avant, Tanzschritte, Sprint, Limitrausch und Rollenkommandos können im Tanz ausgeführt werden.<br>Eigener Reaktivierungs-Timer. Bei Ausführung wird der Reaktivierungs-Timer dieses Kommandos auf alle anderen Waffenfertigkeiten und Magie angewendet."
+          "effect": "Tanzgrundschritt. Du erhältst den Status Einfache Choreographie.<br>Dauer: 15 Sekunden<br>Wechselt zu Kommando Einfaches Finale während des Tanzes. Nur Einfaches Finale, En Avant, Heilender Walzer, Schildsamba, Tanzschritte, Sprint, Limitrausch und Rollenkommandos können im Tanz ausgeführt werden.<br>Eigener Reaktivierungs-Timer. Bei Ausführung wird der Reaktivierungs-Timer dieses Kommandos auf alle anderen Waffenfertigkeiten und Magie angewendet."
         },
         {
           "name": "Einfaches Finale",
@@ -5624,7 +5659,7 @@
         {
           "name": "Komplexe Choreographie",
           "icon": "https://img.finalfantasyxiv.com/lds/d/2b0f0944de8d90ce1e9413cc3294bde99b7e1d7a.png",
-          "effect": "Tanzgrundschritt. Du erhältst den Status Komplexe Choreographie.<br>Dauer: 15 Sekunden<br>Wechselt zu Kommando Komplexes Finale während des Tanzes. Nur Komplexes Finale, En Avant, Tanzschritte, Sprint, Limitrausch und Rollenkommandos können im Tanz ausgeführt werden.<br>Eigener Reaktivierungs-Timer. Bei Ausführung wird der Reaktivierungs-Timer dieses Kommandos auf alle anderen Waffenfertigkeiten und Magie angewendet."
+          "effect": "Tanzgrundschritt. Du erhältst den Status Komplexe Choreographie.<br>Dauer: 15 Sekunden<br>Wechselt zu Kommando Komplexes Finale während des Tanzes. Nur Komplexes Finale, En Avant, Heilender Walzer, Schildsamba, Tanzschritte, Sprint, Limitrausch und Rollenkommandos können im Tanz ausgeführt werden.<br>Eigener Reaktivierungs-Timer. Bei Ausführung wird der Reaktivierungs-Timer dieses Kommandos auf alle anderen Waffenfertigkeiten und Magie angewendet."
         },
         {
           "name": "Komplexes Finale",
@@ -5791,7 +5826,7 @@
         {
           "name": "Klingentanz",
           "icon": "https://img.finalfantasyxiv.com/lds/d/cecaa07a349b4c21c5645a3b3527e6bddfcdd76e.png",
-          "effect": "Du führst kontinuierlich physische Attacken auf alle umstehenden Gegner aus. Während dieser Multiattacke kannst du dich bewegen, dein erlittener Schaden ist um 20 % verringert und am Ende führst du Scharfes Finale aus.<br>Attacke-Wert: 4000<br>Zusatzeffekt: Beifall<br>Maximalstapelzahl: 4<br>Dauer: 5 Sekunden<br>Effekt von Beifall: Der Attacke-Wert und die Effektwirkung von Scharfes Finale sind erhöht.<br>Ändert sich bei Ausführung zu Scharfes Finale."
+          "effect": "Du führst kontinuierlich physische Attacken auf alle umstehenden Gegner aus. Während dieser Multiattacke kannst du dich bewegen, dein erlittener Schaden ist um 25 % verringert und am Ende führst du Scharfes Finale aus.<br>Attacke-Wert: 4000<br>Zusatzeffekt: Beifall<br>Maximalstapelzahl: 4<br>Dauer: 5 Sekunden<br>Effekt von Beifall: Der Attacke-Wert und die Effektwirkung von Scharfes Finale sind erhöht.<br>Ändert sich bei Ausführung zu Scharfes Finale."
         },
         {
           "name": "Fächertanz",
@@ -5836,7 +5871,7 @@
         {
           "name": "Kontratanz",
           "icon": "https://img.finalfantasyxiv.com/lds/d/8389226ba5e7eab65952af115123a4db1357a03c.png",
-          "effect": "Du führst die umstehenden Gegner in Versuchung.<br>Dauer: 2 Sekunden<br>Wenn du einem von dir verführten Ziel Schaden zufügst, verlängert sich die Dauer von Versuchung um 2 Sekunden.<br>Dieser Effekt wird nur einmalig ausgelöst.<br>Bedingung: Limitrausch-Balken voll"
+          "effect": "Du führst die umstehenden Gegner in Versuchung.<br>Dauer: 2 Sekunden<br>Wenn du einem von dir verführten Ziel Schaden zufügst, verlängert sich die Dauer von Versuchung um 2 Sekunden.<br>Dieser Effekt wird nur einmalig ausgelöst.<br>Bedingung: Limitrausch-Balken voll<br>Aufladedauer: 90 Sekunden"
         },
         {
           "name": "Frontenelixier",
@@ -5861,7 +5896,7 @@
         {
           "name": "Sprint",
           "icon": "https://img.finalfantasyxiv.com/lds/d/1b49a585ab241c7b5b8bb4d6f47ccec6b96fdaee.png",
-          "effect": "Du erhöhst deine Bewegungsgeschwindigkeit.<br>Effekt endet bei erneuter Ausführung oder nächstem Kommando."
+          "effect": "Du erhöhst deine Bewegungsgeschwindigkeit um 50 %.<br>Effekt endet bei erneuter Ausführung oder nächstem Kommando."
         }
       ]
     }
@@ -5991,7 +6026,7 @@
         {
           "name": "Moder",
           "icon": "https://img.finalfantasyxiv.com/lds/d/4a87efd9bcba0589fb9e9a86b1f9dcd38157c1ee.png",
-          "effect": "Du führst eine elementneutrale magische Attacke auf das Ziel und die Gegner in seiner Nähe aus.<br>Attacke-Wert: 560<br>Attacke-Wert verringert sich ab dem zweiten Gegner um 60 %.<br>Bedingung: Polyglott"
+          "effect": "Du führst eine elementneutrale magische Attacke auf das Ziel und die Gegner in seiner Nähe aus.<br>Attacke-Wert: 600<br>Attacke-Wert verringert sich ab dem zweiten Gegner um 60 %.<br>Bedingung: Polyglott"
         },
         {
           "name": "Verzweiflung",
@@ -6006,7 +6041,7 @@
         {
           "name": "Xenoglossie",
           "icon": "https://img.finalfantasyxiv.com/lds/d/428eac2232a6d9531a9a02e344dc48bb06310c6c.png",
-          "effect": "Du führst eine elementneutrale magische Attacke aus.<br>Attacke-Wert: 760<br>Bedingung: Polyglott"
+          "effect": "Du führst eine elementneutrale magische Attacke aus.<br>Attacke-Wert: 800<br>Bedingung: Polyglott"
         },
         {
           "name": "Hohes Feura",
@@ -6144,9 +6179,9 @@
           "effect": "Verkürzt die Reaktivierungszeit von Mana-Brunnen auf 120 Sekunden."
         },
         {
-          "name": "Verbessertes Henochisch II",
+          "name": "Verbessertes Henochisch III",
           "icon": "https://img.finalfantasyxiv.com/lds/d/72578b4df3af511dffc110405fba9737cff7d922.png",
-          "effect": "Erhöht den Effekt von Henochisch auf 20 %."
+          "effect": "Erhöht den Effekt von Henochisch auf 21 %."
         },
         {
           "name": "Verbesserte Augmentierung II",
@@ -6223,7 +6258,7 @@
         {
           "name": "Seelenresonanz",
           "icon": "https://img.finalfantasyxiv.com/lds/d/b834e18e2f5e1eb8dcdde2e1360761650e6296a3.png",
-          "effect": "Du gewährst dir 6 Stapel Seelenresonanz.<br>Effekt von Seelenresonanz: Feuer ändert sich zu Flare, Eis ändert sich zu Einfrieren und beide Zauber können sofort gewirkt werden.<br>Dauer: 30 Sekunden<br>Zusatzeffekt: Polyglott und Apokatastasis<br>Effekt von Polyglott: Kommando ändert sich zu Moder.<br>Dauer: 60 Sekunden<br>Effekt von Apokatastasis: Erlittener Schaden ist um 10 % verringert.<br>Dauer: 15 Sekunden<br>Zusatzeffekt: Reaktivierungszeit von Supereruption um 15 Sekunden verkürzt.<br>Bedingung: Limitrausch-Balken voll"
+          "effect": "Du gewährst dir 6 Stapel Seelenresonanz.<br>Effekt von Seelenresonanz: Feuer ändert sich zu Flare, Eis ändert sich zu Einfrieren und beide Zauber können sofort gewirkt werden.<br>Dauer: 30 Sekunden<br>Zusatzeffekt: Polyglott<br>Effekt von Polyglott: Kommando ändert sich zu Moder.<br>Dauer: 60 Sekunden<br>Zusatzeffekt: Reaktivierungszeit von Supereruption um 15 Sekunden verkürzt.<br>Bedingung: Limitrausch-Balken voll<br>Aufladedauer: 60 Sekunden"
         },
         {
           "name": "Frontenelixier",
@@ -6248,7 +6283,7 @@
         {
           "name": "Sprint",
           "icon": "https://img.finalfantasyxiv.com/lds/d/1b49a585ab241c7b5b8bb4d6f47ccec6b96fdaee.png",
-          "effect": "Du erhöhst deine Bewegungsgeschwindigkeit.<br>Effekt endet bei erneuter Ausführung oder nächstem Kommando."
+          "effect": "Du erhöhst deine Bewegungsgeschwindigkeit um 50 %.<br>Effekt endet bei erneuter Ausführung oder nächstem Kommando."
         }
       ]
     }
@@ -6303,7 +6338,7 @@
         {
           "name": "Schwäre",
           "icon": "https://img.finalfantasyxiv.com/lds/d/b2df31cca5d00be7bba89943c76b799ae82aba8d.png",
-          "effect": "Du führst eine elementneutrale magische Attacke aus.<br>Attacke-Wert: 300<br>Ätherfluss-Kosten: 1"
+          "effect": "Du führst eine elementneutrale magische Attacke aus.<br>Attacke-Wert: 340<br>Ätherfluss-Kosten: 1"
         },
         {
           "name": "Energieentzug",
@@ -6593,17 +6628,17 @@
         {
           "name": "Rubin-Ifrit-Beschwörung",
           "icon": "https://img.finalfantasyxiv.com/lds/d/e49b3a55b75a637cb0e6e794d588b2ba4886c742.png",
-          "effect": "Du rufst Rubin-Ifrit an deine Seite und lässt ihn Inferno ausführen, was dem Ziel und allen ihn umstehenden Gegnern innerhalb von 5y feuerbasierten magischen Schaden zufügt.<br>Attacke-Wert: 700<br>Attacke-Wert verringert sich ab dem zweiten Gegner um 60 %.<br>Zusatzeffekt: 2 Stapel Feueräther<br>Dauer: 30 Sekunden<br>Effekt von Feueräther: Juwelenschein und Edelglanz werden feuerbasiert.<br>Zusatzeffekt: Ifrits Gunst<br>Dieser Effekt wird aufgehoben, sobald du ein anderes Beschwörungs-Kommando ausführst.<br>Bedingung: Rubin-Arkanum aktiv und Karfunkel bereits gerufen.<br>Dein Karfunkel verschwindet während der Beschwörung von Rubin-Ifrit, kehrt danach aber an deine Seite zurück."
+          "effect": "Du rufst Rubin-Ifrit an deine Seite und lässt ihn Inferno ausführen, was dem Ziel und allen ihn umstehenden Gegnern innerhalb von 5y feuerbasierten magischen Schaden zufügt.<br>Attacke-Wert: 750<br>Attacke-Wert verringert sich ab dem zweiten Gegner um 60 %.<br>Zusatzeffekt: 2 Stapel Feueräther<br>Dauer: 30 Sekunden<br>Effekt von Feueräther: Juwelenschein und Edelglanz werden feuerbasiert.<br>Zusatzeffekt: Ifrits Gunst<br>Dieser Effekt wird aufgehoben, sobald du ein anderes Beschwörungs-Kommando ausführst.<br>Bedingung: Rubin-Arkanum aktiv und Karfunkel bereits gerufen.<br>Dein Karfunkel verschwindet während der Beschwörung von Rubin-Ifrit, kehrt danach aber an deine Seite zurück."
         },
         {
           "name": "Topas-Titan-Beschwörung",
           "icon": "https://img.finalfantasyxiv.com/lds/d/d5e3edcb915673621b1ccb51774abf494eba6b5e.png",
-          "effect": "Du rufst Topas-Titan an deine Seite und lässt ihn Gaias Zorn ausführen, was dem Ziel und allen ihn umstehenden Gegnern innerhalb von 5y erdbasierten magischen Schaden zufügt.<br>Attacke-Wert: 700<br>Attacke-Wert verringert sich ab dem zweiten Gegner um 60 %.<br>Zusatzeffekt: 4 Stapel Erdäther<br>Dauer: 30 Sekunden<br>Effekt von Erdäther: Juwelenschein und Edelglanz werden erdbasiert.<br>Bedingung: Topas-Arkanum aktiv und Karfunkel bereits gerufen.<br>Dein Karfunkel verschwindet während der Beschwörung von Topas-Titan, kehrt danach aber an deine Seite zurück."
+          "effect": "Du rufst Topas-Titan an deine Seite und lässt ihn Gaias Zorn ausführen, was dem Ziel und allen ihn umstehenden Gegnern innerhalb von 5y erdbasierten magischen Schaden zufügt.<br>Attacke-Wert: 750<br>Attacke-Wert verringert sich ab dem zweiten Gegner um 60 %.<br>Zusatzeffekt: 4 Stapel Erdäther<br>Dauer: 30 Sekunden<br>Effekt von Erdäther: Juwelenschein und Edelglanz werden erdbasiert.<br>Bedingung: Topas-Arkanum aktiv und Karfunkel bereits gerufen.<br>Dein Karfunkel verschwindet während der Beschwörung von Topas-Titan, kehrt danach aber an deine Seite zurück."
         },
         {
           "name": "Smaragd-Garuda-Beschwörung",
           "icon": "https://img.finalfantasyxiv.com/lds/d/f25f4c81570c889872295e4ba99496ee6bf3fc89.png",
-          "effect": "Du rufst Smaragd-Garuda an deine Seite und lässt sie Windschlag ausführen, was dem Ziel und allen ihn umstehenden Gegnern innerhalb von 5y windbasierten magischen Schaden zufügt.<br>Attacke-Wert: 700<br>Attacke-Wert verringert sich ab dem zweiten Gegner um 60 %.<br>Zusatzeffekt: 4 Stapel Windäther<br>Dauer: 30 Sekunden<br>Effekt von Windäther: Juwelenschein und Edelglanz werden windbasiert.<br>Zusatzeffekt: Garudas Gunst<br>Dieser Effekt wird aufgehoben, sobald du ein anderes Beschwörungs-Kommando ausführst.<br>Bedingung: Smaragd-Arkanum aktiv und Karfunkel bereits gerufen.<br>Dein Karfunkel verschwindet während der Beschwörung von Smaragd-Garuda, kehrt danach aber an deine Seite zurück."
+          "effect": "Du rufst Smaragd-Garuda an deine Seite und lässt sie Windschlag ausführen, was dem Ziel und allen ihn umstehenden Gegnern innerhalb von 5y windbasierten magischen Schaden zufügt.<br>Attacke-Wert: 750<br>Attacke-Wert verringert sich ab dem zweiten Gegner um 60 %.<br>Zusatzeffekt: 4 Stapel Windäther<br>Dauer: 30 Sekunden<br>Effekt von Windäther: Juwelenschein und Edelglanz werden windbasiert.<br>Zusatzeffekt: Garudas Gunst<br>Dieser Effekt wird aufgehoben, sobald du ein anderes Beschwörungs-Kommando ausführst.<br>Bedingung: Smaragd-Arkanum aktiv und Karfunkel bereits gerufen.<br>Dein Karfunkel verschwindet während der Beschwörung von Smaragd-Garuda, kehrt danach aber an deine Seite zurück."
         },
         {
           "name": "Schimmerschild",
@@ -6745,7 +6780,7 @@
         {
           "name": "Ruinga",
           "icon": "https://img.finalfantasyxiv.com/lds/d/38c2df65f188c9a5f9a3ad26343f8d835f309628.png",
-          "effect": "Du führst eine magische Attacke aus.<br>Attacke-Wert: 4000<br>Kommando ändert sich während Bahamut-Trance zu Lichtimpuls.<br>Kommando ändert sich während Phönix-Trance zu Quell des Feuers."
+          "effect": "Du führst eine magische Attacke aus.<br>Attacke-Wert: 5000<br>Kommando ändert sich während Bahamut-Trance zu Lichtimpuls.<br>Kommando ändert sich während Phönix-Trance zu Quell des Feuers."
         },
         {
           "name": "Zinnober-Zyklon",
@@ -6755,7 +6790,7 @@
         {
           "name": "Wirbelströmung",
           "icon": "https://img.finalfantasyxiv.com/lds/d/ce754803ec26e9785e32a9650cffcfc65c56409e.png",
-          "effect": "Du führst eine magische Attacke auf das Ziel und die Gegner in seiner Nähe aus.<br>Attacke-Wert: 8000<br>Zusatzeffekt: Errichtet eine Wirbelströmung in 5y Entfernung um das Ziel herum.<br>Dauer: 10 Sekunden<br>Effekt von Wirbelströmung bei verbündeten Zielen: Erhöht die Bewegungsgeschwindigkeit von allen Zielen im Bereich.<br>Effekt von Wirbelströmung bei gegnerischen Zielen: Fügt allen Gegnern im Bereich Schaden über Zeit zu.<br>Attacke-Wert: 4000<br>Eigener Reaktivierungs-Timer"
+          "effect": "Du führst eine magische Attacke auf das Ziel und die Gegner in seiner Nähe aus.<br>Attacke-Wert: 8000<br>Zusatzeffekt: Errichtet eine Wirbelströmung in 5y Entfernung um das Ziel herum.<br>Dauer: 10 Sekunden<br>Effekt von Wirbelströmung bei verbündeten Zielen: Erhöht die Bewegungsgeschwindigkeit von allen Zielen im Bereich um 25 %.<br>Effekt von Wirbelströmung bei gegnerischen Zielen: Fügt allen Gegnern im Bereich Schaden über Zeit zu.<br>Attacke-Wert: 4000<br>Eigener Reaktivierungs-Timer"
         },
         {
           "name": "Schimmerschild",
@@ -6775,12 +6810,12 @@
         {
           "name": "Lichtimpuls",
           "icon": "https://img.finalfantasyxiv.com/lds/d/a4f03f56fc241517b2f1d3b66f44968caf83d6f7.png",
-          "effect": "Du führst eine magische Attacke aus.<br>Attacke-Wert: 6000<br>Bedingung: Bahamut-Trance aktiv<br>Kann nicht im Kommandomenü angelegt werden."
+          "effect": "Du führst eine magische Attacke aus.<br>Attacke-Wert: 7500<br>Bedingung: Bahamut-Trance aktiv<br>Kann nicht im Kommandomenü angelegt werden."
         },
         {
           "name": "Quell des Feuers",
           "icon": "https://img.finalfantasyxiv.com/lds/d/38e05864b47b78020da96fc263981869c4b6a5c9.png",
-          "effect": "Du führst eine magische Attacke aus.<br>Attacke-Wert: 4000<br>Bedingung: Phönix-Trance aktiv<br>Kann nicht im Kommandomenü angelegt werden."
+          "effect": "Du führst eine magische Attacke aus.<br>Attacke-Wert: 5000<br>Bedingung: Phönix-Trance aktiv<br>Kann nicht im Kommandomenü angelegt werden."
         },
         {
           "name": "Zinnober-Schlag",
@@ -6820,7 +6855,7 @@
         {
           "name": "Bahamut-Beschwörung",
           "icon": "https://img.finalfantasyxiv.com/lds/d/7ef1dd621306bd909533ec27e89d0c1dc00da182.png",
-          "effect": "Du rufst Demi-Bahamut an den von dir bestimmten Punkt, der bei seiner Beschwörung Megaflare ausführt, und gewährst dir selbst Bahamut-Trance. Während Demi-Bahamut beschworen ist, führt er Drachenwelle aus und priorisiert dabei den Gegner mit den wenigsten verbliebenen Maximal-LP in einem Umkreis von 30y.<br>Dauer der Beschwörung: 20 Sekunden<br>Effekt von Bahamut-Trance: Ruinga ändert sich zu Lichtimpuls.<br>Bedingung: Limitrausch-Balken voll<br>Ändert sich bei Ausführung zu Bahamut-Entflammung."
+          "effect": "Du rufst Demi-Bahamut an den von dir bestimmten Punkt, der bei seiner Beschwörung Megaflare ausführt, und gewährst dir selbst Bahamut-Trance. Während Demi-Bahamut beschworen ist, führt er Drachenwelle aus und priorisiert dabei den Gegner mit den wenigsten verbliebenen Maximal-LP in einem Umkreis von 30y.<br>Dauer der Beschwörung: 20 Sekunden<br>Effekt von Bahamut-Trance: Ruinga ändert sich zu Lichtimpuls.<br>Bedingung: Limitrausch-Balken voll<br>Aufladedauer: 90 Sekunden<br>Ändert sich bei Ausführung zu Bahamut-Entflammung."
         },
         {
           "name": "Megaflare",
@@ -6830,7 +6865,7 @@
         {
           "name": "Phönix-Beschwörung",
           "icon": "https://img.finalfantasyxiv.com/lds/d/43a7121c604b4da78f2a9d4110cc2a85bc6c6425.png",
-          "effect": "Du rufst Demi-Phönix an den von dir bestimmten Punkt, der bei seiner Beschwörung Schwingen der Unsterblichkeit ausführt, und gewährst dir selbst Phönix-Trance. Während Demi-Phönix beschworen ist, führt er Scharlachflamme aus und priorisiert dabei den nähesten Gegner in einem Umkreis von 30y.<br>Dauer der Beschwörung: 20 Sekunden<br>Effekt von Phönix-Trance: Ruinga ändert sich zu Quell des Feuers.<br>Bedingung: Limitrausch-Balken voll<br>Ändert sich bei Ausführung zu Phönix-Entflammung."
+          "effect": "Du rufst Demi-Phönix an den von dir bestimmten Punkt, der bei seiner Beschwörung Schwingen der Unsterblichkeit ausführt, und gewährst dir selbst Phönix-Trance. Während Demi-Phönix beschworen ist, führt er Scharlachflamme aus und priorisiert dabei den nähesten Gegner in einem Umkreis von 30y.<br>Dauer der Beschwörung: 20 Sekunden<br>Effekt von Phönix-Trance: Ruinga ändert sich zu Quell des Feuers.<br>Bedingung: Limitrausch-Balken voll<br>Aufladedauer: 90 Sekunden<br>Ändert sich bei Ausführung zu Phönix-Entflammung."
         },
         {
           "name": "Schwingen der Unsterblichkeit",
@@ -6860,7 +6895,7 @@
         {
           "name": "Sprint",
           "icon": "https://img.finalfantasyxiv.com/lds/d/1b49a585ab241c7b5b8bb4d6f47ccec6b96fdaee.png",
-          "effect": "Du erhöhst deine Bewegungsgeschwindigkeit.<br>Effekt endet bei erneuter Ausführung oder nächstem Kommando."
+          "effect": "Du erhöhst deine Bewegungsgeschwindigkeit um 50 %.<br>Effekt endet bei erneuter Ausführung oder nächstem Kommando."
         }
       ]
     }
@@ -7035,17 +7070,17 @@
         {
           "name": "Magische Riposte",
           "icon": "https://img.finalfantasyxiv.com/lds/d/f3b5d72daa982d01b469e4d45a73b184b7056154.png",
-          "effect": "Du führst eine elementneutrale magische Attacke aus.<br>Attacke-Wert: 220<br>Zusatzeffekt: 1 Manasplitter<br>Balancebalken-Kosten: 20 Weißes Mana und 20 Schwarzes Mana<br>Kann nicht im Kommandomenü angelegt werden."
+          "effect": "Du führst eine elementneutrale magische Attacke aus.<br>Attacke-Wert: 280<br>Zusatzeffekt: 1 Manasplitter<br>Balancebalken-Kosten: 20 Weißes Mana und 20 Schwarzes Mana<br>Kann nicht im Kommandomenü angelegt werden."
         },
         {
           "name": "Magischer Zwerchhau",
           "icon": "https://img.finalfantasyxiv.com/lds/d/4740dd6eac66424c4d1b236f9002b979f7f993e7.png",
-          "effect": "Du führst eine elementneutrale magische Attacke aus.<br>Attacke-Wert: 100<br>Kombo-Bedingung: Riposte oder Magische Riposte<br>Attacke-Wert: 290<br>Zusatzeffekt: 1 Manasplitter<br>Balancebalken-Kosten: 15 Weißes Mana und 15 Schwarzes Mana<br>Kann nicht im Kommandomenü angelegt werden."
+          "effect": "Du führst eine elementneutrale magische Attacke aus.<br>Attacke-Wert: 150<br>Kombo-Bedingung: Riposte oder Magische Riposte<br>Attacke-Wert: 340<br>Zusatzeffekt: 1 Manasplitter<br>Balancebalken-Kosten: 15 Weißes Mana und 15 Schwarzes Mana<br>Kann nicht im Kommandomenü angelegt werden."
         },
         {
           "name": "Magisches Redoublement",
           "icon": "https://img.finalfantasyxiv.com/lds/d/12329935fdf53d176f290194929c91b4f96c5212.png",
-          "effect": "Du führst eine elementneutrale magische Attacke aus.<br>Attacke-Wert: 100<br>Kombo-Bedingung: Magischer Zwerchhau<br>Attacke-Wert: 470<br>Zusatzeffekt: 1 Manasplitter<br>Balancebalken-Kosten: 15 Weißes Mana und 15 Schwarzes Mana<br>Kann nicht im Kommandomenü angelegt werden."
+          "effect": "Du führst eine elementneutrale magische Attacke aus.<br>Attacke-Wert: 130<br>Kombo-Bedingung: Magischer Zwerchhau<br>Attacke-Wert: 500<br>Zusatzeffekt: 1 Manasplitter<br>Balancebalken-Kosten: 15 Weißes Mana und 15 Schwarzes Mana<br>Kann nicht im Kommandomenü angelegt werden."
         },
         {
           "name": "Magischer Moulinet",
@@ -7135,7 +7170,7 @@
         {
           "name": "Meister der Rotmagie III",
           "icon": "https://img.finalfantasyxiv.com/lds/d/ad98a9599086d8643f4d5808e2cabbc50cad1e44.png",
-          "effect": "Erhöht den Attacke-Wert folgender Kommandos:<br>Attacke-Wert von Erzblitzra: 140<br>Attacke-Wert von Erzwindra: 140<br>Attacke-Wert von Erzfeuer: 330<br>Attacke-Wert von Erzstein: 330<br>Attacke-Wert von Stoß II: 310<br>Attacke-Wert von Impakt: 210<br>Attacke-Wert von Magische Reprise: 330"
+          "effect": "Erhöht den Attacke-Wert folgender Kommandos:<br>Attacke-Wert von Magische Riposte: 280<br>Attacke-Wert von Erzblitzra: 140<br>Attacke-Wert von Erzwindra: 140<br>Attacke-Wert von Erzfeuer: 330<br>Attacke-Wert von Erzstein: 330<br>Attacke-Wert von Magischer Zwerchhau: 150<br>Attacke-Wert von Magisches Redoublement: 130<br>Attacke-Wert von Stoß II: 310<br>Attacke-Wert von Impakt: 210<br>Attacke-Wert von Magische Reprise: 330"
         },
         {
           "name": "Verbesserte Präparation",
@@ -7167,7 +7202,7 @@
         {
           "name": "Magiebarriere",
           "icon": "https://img.finalfantasyxiv.com/lds/d/a18eb34f3095e008c14b977841ebd45e02ef04d4.png",
-          "effect": "Du verringerst erlittenen Schaden bei dir und den Gruppenmitgliedern in der Nähe um 10 % und erhöhst Heileffekte um 20 %.<br>Dauer: 10 Sekunden<br>Bedingung: Weiße Gabe aktiv<br>Kommando ändert sich bei Schwarzer Gabe zu Fix und Fertig."
+          "effect": "Du verringerst erlittenen Schaden bei dir und den Gruppenmitgliedern in der Nähe um 10 % und erhöhst Heileffekte um 10 %.<br>Dauer: 8 Sekunden<br>Bedingung: Weiße Gabe aktiv<br>Kommando ändert sich bei Schwarzer Gabe zu Fix und Fertig."
         },
         {
           "name": "Corps-a-corps",
@@ -7222,7 +7257,7 @@
         {
           "name": "Fix und fertig",
           "icon": "https://img.finalfantasyxiv.com/lds/d/1acc1c44ad72be77ee1391495ad6b3a48254d7ba.png",
-          "effect": "Du erhöhst den erlittenen Schaden beim Ziel und umstehenden Gruppenmitgliedern um 10 % und verringerst Heileffekte um 20 %.<br>Dauer: 10 Sekunden<br>Bedingung: Schwarze Gabe aktiv<br>Gemeinsamer Reaktivierungs-Timer mit Magiebarriere.<br>Kann nicht im Kommandomenü angelegt werden."
+          "effect": "Du erhöhst den erlittenen Schaden beim Ziel und umstehenden Gruppenmitgliedern um 10 % und verringerst Heileffekte um 10 %.<br>Dauer: 8 Sekunden<br>Bedingung: Schwarze Gabe aktiv<br>Gemeinsamer Reaktivierungs-Timer mit Magiebarriere.<br>Kann nicht im Kommandomenü angelegt werden."
         },
         {
           "name": "Weiße Gabe",
@@ -7232,7 +7267,7 @@
         {
           "name": "Kreuz des Südens",
           "icon": "https://img.finalfantasyxiv.com/lds/d/7c93e62e034c1a0d6cfd0dfc01ed9fa386528e9e.png",
-          "effect": "Je nachdem, ob du dich selbst, ein Gruppenmitglied oder einen Gegner anvisierst, werden verschiedene Effekte in kreuzförmiger Fläche ausgehend vom anvisierten Ziel ausgelöst.<br>Bei dir selbst oder einem Gruppenmitglied: LP werden regeneriert.<br>Heilpotenzial: 6000<br>Bei einem Gegner: Ziele erleiden magischen Schaden.<br>Attacke-Wert: 6000<br>Bei Weißer Gabe verdoppelt sich das Heilpotenzial, bei Schwarzer Gabe verdoppelt sich der Attacke-Wert. Bei Zielen im Zentrum des Kreuzes ist die entsprechende Effektwirkung abermals verdoppelt.<br>Bedingung: Limitrausch-Balken voll"
+          "effect": "Je nachdem, ob du dich selbst, ein Gruppenmitglied oder einen Gegner anvisierst, werden verschiedene Effekte in kreuzförmiger Fläche ausgehend vom anvisierten Ziel ausgelöst.<br>Bei dir selbst oder einem Gruppenmitglied: LP werden regeneriert.<br>Heilpotenzial: 6000<br>Bei einem Gegner: Ziele erleiden magischen Schaden.<br>Attacke-Wert: 6000<br>Bei Weißer Gabe verdoppelt sich das Heilpotenzial, bei Schwarzer Gabe verdoppelt sich der Attacke-Wert. Bei Zielen im Zentrum des Kreuzes ist die entsprechende Effektwirkung abermals verdoppelt.<br>Bedingung: Limitrausch-Balken voll<br>Aufladedauer: 90 Sekunden"
         },
         {
           "name": "Frontenelixier",
@@ -7257,7 +7292,7 @@
         {
           "name": "Sprint",
           "icon": "https://img.finalfantasyxiv.com/lds/d/1b49a585ab241c7b5b8bb4d6f47ccec6b96fdaee.png",
-          "effect": "Du erhöhst deine Bewegungsgeschwindigkeit.<br>Effekt endet bei erneuter Ausführung oder nächstem Kommando."
+          "effect": "Du erhöhst deine Bewegungsgeschwindigkeit um 50 %.<br>Effekt endet bei erneuter Ausführung oder nächstem Kommando."
         }
       ]
     }

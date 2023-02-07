@@ -34,11 +34,11 @@ https://chalkpe.github.io/ffxiv-opener-overlay/
 
 | Language | Patch |
 | :--: | :--: |
-| 日本語 (`jp`) | `6.21` |
-| English (`en`) | `6.21` |
-| Deutsch (`de`) | `6.21` |
-| Français (`fr`) | `6.21` |
-| 한국어 (`kr`) | `6.08` |
+| 日本語 (`jp`) | `6.31` |
+| English (`en`) | `6.31` |
+| Deutsch (`de`) | `6.31` |
+| Français (`fr`) | `6.31` |
+| 한국어 (`kr`) | `6.15` |
 
 ### In-game configuration
 
@@ -94,8 +94,8 @@ yarn build && yarn deploy
 [ffxiv-actions]: https://github.com/ChalkPE/ffxiv-actions
 
 [Package version]: https://img.shields.io/github/package-json/v/ChalkPE/ffxiv-opener-overlay
-[Global version]: https://img.shields.io/badge/global-6.21-blueviolet
-[Korean version]: https://img.shields.io/badge/korea-6.08-red
+[Global version]: https://img.shields.io/badge/global-6.31-blueviolet
+[Korean version]: https://img.shields.io/badge/korea-6.15-red
 
 [YouTube]: https://youtu.be/j2YD54eWDWE
 [ACT]: https://advancedcombattracker.com/
@@ -104,4 +104,4 @@ yarn build && yarn deploy
 
 [Chalk Alt: Twitter]: https://twitter.com/chalk_alt
 [Chalk Alt: Lodestone]: https://na.finalfantasyxiv.com/lodestone/character/27400250/
-[Chalk Alt: Avatar]: https://img2.finalfantasyxiv.com/f/1734839702c1c1e9792782c2bc669472_393eb74047bb90c8d80dea54218430eefc0_96x96.jpg
+[Chalk Alt: Avatar]: https://img2.finalfantasyxiv.com/f/1734839702c1c1e9792782c2bc669472_cf768a751b1f5e355c2fd39a9ed91f3ffc0_96x96.jpg

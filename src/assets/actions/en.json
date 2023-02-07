@@ -14,12 +14,12 @@
         {
           "name": "Fight or Flight",
           "icon": "https://img.finalfantasyxiv.com/lds/d/87405b9b9f00d9957df252ea0116e4137bc4dbd1.png",
-          "effect": "Increases physical damage dealt by 25%.<br>Duration: 25s"
+          "effect": "Increases damage dealt by 25%.<br>Duration: 20s"
         },
         {
           "name": "Riot Blade",
           "icon": "https://img.finalfantasyxiv.com/lds/d/bdda04f3b284e3cbf7d07e50d9bffb21b74ce869.png",
-          "effect": "Delivers an attack with a potency of 170.<br>Combo Action: Fast Blade<br>Combo Potency: 300<br>Combo Bonus: Restores MP"
+          "effect": "Delivers an attack with a potency of 120.<br>Combo Action: Fast Blade<br>Combo Potency: 280<br>Combo Bonus: Restores MP"
         },
         {
           "name": "Total Eclipse",
@@ -35,6 +35,11 @@
           "name": "Iron Will",
           "icon": "https://img.finalfantasyxiv.com/lds/d/1e60c8b0c72bbc52497a163755dc855f5cdf7091.png",
           "effect": "Significantly increases enmity generation.<br>Effect ends upon reuse."
+        },
+        {
+          "name": "Release Iron Will",
+          "icon": "https://img.finalfantasyxiv.com/lds/d/0b880866e9d45ac7b9b664dcf536acc46ecb4679.png",
+          "effect": "Cancels the effect of Iron Will."
         },
         {
           "name": "Shield Lob",
@@ -54,7 +59,7 @@
         {
           "name": "Sheltron",
           "icon": "https://img.finalfantasyxiv.com/lds/d/e622516a93fd2298b9fd40e0d2d60c3fc8485c5a.png",
-          "effect": "Block incoming attacks.<br>Duration: 6s<br>Oath Gauge Cost: 50"
+          "effect": "Reduces damage taken by 15%.<br>Duration: 6s<br>Oath Gauge Cost: 50"
         },
         {
           "name": "Sentinel",
@@ -64,7 +69,7 @@
         {
           "name": "Prominence",
           "icon": "https://img.finalfantasyxiv.com/lds/d/c0f8a1aa0ba0a20c0d8580e63932678c5c4a8b9b.png",
-          "effect": "Delivers an attack with a potency of 100 to all nearby enemies.<br>Combo Action: Total Eclipse<br>Combo Potency: 170<br>Combo Bonus: Restores MP"
+          "effect": "Delivers an attack with a potency of 100 to all nearby enemies.<br>Combo Action: Total Eclipse<br>Combo Potency: 170<br>Combo Bonus: Restores MP<br>Combo Bonus: Grants Divine Might<br>Divine Might Effect: Allows next Holy Spirit or Holy Circle to be cast immediately with increased potency<br>Duration: 30s"
         },
         {
           "name": "Cover",
@@ -82,14 +87,19 @@
           "effect": "Renders you impervious to most attacks.<br>Duration: 10s"
         },
         {
+          "name": "Bulwark",
+          "icon": "https://img.finalfantasyxiv.com/lds/d/b0a3dcb47763055bc61ee9f90ba0ee3b46050197.png",
+          "effect": "Block incoming attacks.<br>Duration: 10s"
+        },
+        {
           "name": "Goring Blade",
           "icon": "https://img.finalfantasyxiv.com/lds/d/eb067afbfb5a4198760b2e28e9c3cf669d9866b8.png",
-          "effect": "Delivers an attack with a potency of 100.<br>Combo Action: Riot Blade<br>Combo Potency: 250<br>Combo Bonus: Damage over time<br>Potency: 65<br>Duration: 21s<br>Damage over time effect cannot be stacked with that of Blade of Valor."
+          "effect": "Delivers an attack with a potency of 700.<br>This weaponskill does not share a recast timer with any other actions."
         },
         {
           "name": "Divine Veil",
           "icon": "https://img.finalfantasyxiv.com/lds/d/495faab61344751872ca0867e2d5e59b04c6940c.png",
-          "effect": "Upon HP recovery via healing magic cast by self or a party member, a protective barrier is cast on all party members within a radius of 15 yalms.<br>Duration: 30s<br>Barrier Effect: Prevents damage up to 10% of your maximum HP<br>Duration: 30s<br>Additional Effect: Restore target's HP<br>Cure Potency: 400<br>Effect ends upon casting barrier on self and nearby party members."
+          "effect": "Creates a barrier around self and all party members near you that absorbs damage equivalent to 10% of your maximum HP.<br>Duration: 30s<br>Additional Effect: Restores target's HP<br>Cure Potency: 400"
         },
         {
           "name": "Clemency",
@@ -99,7 +109,7 @@
         {
           "name": "Royal Authority",
           "icon": "https://img.finalfantasyxiv.com/lds/d/3fe523f08ebd0b93125ae42d5bcf8e18dce08a02.png",
-          "effect": "Delivers an attack with a potency of 130.<br>Combo Action: Riot Blade<br>Combo Potency: 420<br>Combo Bonus: Grants 3 stacks of Sword Oath<br>Duration: 30s"
+          "effect": "Delivers an attack with a potency of 120.<br>Combo Action: Riot Blade<br>Combo Potency: 380<br>Combo Bonus: Grants 3 stacks of Sword Oath<br>Duration: 30s<br>Combo Bonus: Grants Divine Might<br>Divine Might Effect: Allows next Holy Spirit or Holy Circle to be cast immediately with increased potency<br>Duration: 30s"
         },
         {
           "name": "Intervention",
@@ -109,12 +119,12 @@
         {
           "name": "Holy Spirit",
           "icon": "https://img.finalfantasyxiv.com/lds/d/b8ad098c5afaad79a847f3fb79298456c1e9d689.png",
-          "effect": "Deals unaspected damage with a potency of 300.<br>Requiescat Potency: 600<br>Additional Effect: Restores own HP<br>Cure Potency: 400"
+          "effect": "Deals unaspected damage with a potency of 350.<br>Divine Might Potency: 450<br>Requiescat Potency: 650<br>The effect of Divine Might will be prioritized over Requiescat when under the effect of both.<br>Additional Effect: Restores own HP<br>Cure Potency: 400"
         },
         {
           "name": "Requiescat",
           "icon": "https://img.finalfantasyxiv.com/lds/d/acbcd4de5a1839e4fd8c96ae05eb4109caed9ca1.png",
-          "effect": "Deals unaspected damage with a potency of 400.<br>Additional Effect: Grants 5 stacks of Requiescat<br>Requiescat Effect: Increases the potency of Holy Spirit and Holy Circle and spells will require no cast time<br>Duration: 30s<br>Additional Effect: Grants Blade of Faith Ready when the effect of Requiescat ends<br>Duration: 30s<br>Effect of Blade of Faith Ready ends upon execution of any melee weaponskill.<br><br>※Confiteor changes to Blade of Faith while under the effect of Blade of Faith Ready."
+          "effect": "Deals unaspected damage with a potency of 300.<br>Additional Effect: Grants 4 stacks of Requiescat<br>Requiescat Effect: Increases the potency of Holy Spirit, Holy Circle, and all Confiteor combo actions and spells will require no cast time<br>Additional Effect: Grants Confiteor Ready<br>Duration: 30s"
         },
         {
           "name": "Passage of Arms",
@@ -124,7 +134,7 @@
         {
           "name": "Holy Circle",
           "icon": "https://img.finalfantasyxiv.com/lds/d/afd455f208e2720a10a1b26e9a231fefac4d5be7.png",
-          "effect": "Deals unaspected damage with a potency of 130 to all nearby enemies.<br>Requiescat Potency: 300<br>Additional Effect: Restores own HP<br>Cure Potency: 400"
+          "effect": "Deals unaspected damage with a potency of 100 to all nearby enemies.<br>Divine Might Potency: 200<br>Requiescat Potency: 300<br>The effect of Divine Might will be prioritized over Requiescat when under the effect of both.<br>Additional Effect: Restores own HP<br>Cure Potency: 400"
         },
         {
           "name": "Intervene",
@@ -134,37 +144,37 @@
         {
           "name": "Atonement",
           "icon": "https://img.finalfantasyxiv.com/lds/d/f59cb1517f2f26c490a87d58366b5bccff372f19.png",
-          "effect": "Delivers an attack with a potency of 420.<br>Additional Effect: Restores MP<br>Can only be executed while under the effect of Sword Oath."
+          "effect": "Delivers an attack with a potency of 380.<br>Additional Effect: Restores MP<br>Can only be executed while under the effect of Sword Oath."
         },
         {
           "name": "Confiteor",
           "icon": "https://img.finalfantasyxiv.com/lds/d/362579dcb6dc2b7c9ea6eac6917c7b9c61f7ce1b.png",
-          "effect": "Deals unaspected damage with a potency of 1000 to target and all enemies nearby it.<br>Additional Effect: Restores own HP<br>Cure Potency: 400<br>Can only be executed while under the effect of Requiescat. Effect fades upon execution."
+          "effect": "Deals unaspected damage to target and all enemies nearby it with a potency of 400 for the first enemy, and 50% less for all remaining enemies.<br>Requiescat Potency: 900<br>Additional Effect: Restores own HP<br>Cure Potency: 400<br>Can only be executed while under the effect of Confiteor Ready. Effect fades upon execution."
         },
         {
           "name": "Holy Sheltron",
           "icon": "https://img.finalfantasyxiv.com/lds/d/c856abb6dac68e4bfd6cbb98b309360cb6162ced.png",
-          "effect": "Block incoming attacks.<br>Duration: 8s<br>Additional Effect: Grants Knight's Resolve<br>Knight's Resolve Effect: Reduces damage taken by 15%<br>Duration: 4s<br>Additional Effect: Grants Knight's Benediction<br>Knight's Benediction Effect: Gradually restores HP<br>Cure Potency: 250<br>Duration: 12s<br>Oath Gauge Cost: 50"
+          "effect": "Reduces damage taken by 15%.<br>Duration: 8s<br>Additional Effect: Grants Knight's Resolve<br>Knight's Resolve Effect: Reduces damage taken by 15%<br>Duration: 4s<br>Additional Effect: Grants Knight's Benediction<br>Knight's Benediction Effect: Gradually restores HP<br>Cure Potency: 250<br>Duration: 12s<br>Oath Gauge Cost: 50"
         },
         {
           "name": "Expiacion",
           "icon": "https://img.finalfantasyxiv.com/lds/d/5e4beef5d32f45954a62524cdebb8d535de32921.png",
-          "effect": "Delivers an attack to target and all enemies nearby it with a potency of 420 for the first enemy, and 50% less for all remaining enemies.<br>Additional Effect: Restores MP"
+          "effect": "Delivers an attack to target and all enemies nearby it with a potency of 450 for the first enemy, and 60% less for all remaining enemies.<br>Additional Effect: Restores MP"
         },
         {
           "name": "Blade of Faith",
           "icon": "https://img.finalfantasyxiv.com/lds/d/004ab8b8fc5c3fe5b362bf7f0e35f9ab9a91918a.png",
-          "effect": "Deals unaspected damage to target and all enemies nearby it with a potency of 480 for the first enemy, and 50% less for all remaining enemies.<br>Additional Effect: Restores own HP<br>Cure Potency: 400<br>Additional Effect: Restores MP<br>Can only be executed while under the effect of Blade of Faith Ready, granted when the effect of Requiescat ends.<br><br>※This action cannot be assigned to a hotbar."
+          "effect": "Deals unaspected damage to target and all enemies nearby it with a potency of 200 for the first enemy, and 50% less for all remaining enemies.<br>Requiescat Potency: 700<br>Combo Action: Confiteor<br>Additional Effect: Restores own HP<br>Cure Potency: 400<br><br>※This action cannot be assigned to a hotbar."
         },
         {
           "name": "Blade of Truth",
           "icon": "https://img.finalfantasyxiv.com/lds/d/31fd8e8a1827a2f830335a67cf52abb191d62485.png",
-          "effect": "Deals unaspected damage to target and all enemies nearby it with a potency of 560 for the first enemy, and 50% less for all remaining enemies.<br>Combo Action: Blade of Faith<br>Combo Bonus: Restores MP<br>Additional Effect: Restores own HP<br>Cure Potency: 400<br><br>※This action cannot be assigned to a hotbar."
+          "effect": "Deals unaspected damage to target and all enemies nearby it with a potency of 300 for the first enemy, and 50% less for all remaining enemies.<br>Requiescat Potency: 800<br>Combo Action: Blade of Faith<br>Additional Effect: Restores own HP<br>Cure Potency: 400<br><br>※This action cannot be assigned to a hotbar."
         },
         {
           "name": "Blade of Valor",
           "icon": "https://img.finalfantasyxiv.com/lds/d/289629a47afee95a9d05e38bcc68a2b7fdd1cacd.png",
-          "effect": "Deals unaspected damage to target and all enemies nearby it with a potency of 620 for the first enemy, and 50% less for all remaining enemies.<br>Combo Action: Blade of Truth<br>Combo Bonus: Restores MP<br>Combo Bonus: Damage over time<br>Potency: 80 for the first enemy, and 50% less for all remaining enemies<br>Duration: 21s<br>Additional Effect: Restores own HP<br>Cure Potency: 400<br>Damage over time effect cannot be stacked with that of Goring Blade.<br><br>※This action cannot be assigned to a hotbar."
+          "effect": "Deals unaspected damage to target and all enemies nearby it with a potency of 400 for the first enemy, and 50% less for all remaining enemies.<br>Requiescat Potency: 900<br>Combo Action: Blade of Truth<br>Additional Effect: Restores own HP<br>Cure Potency: 400<br><br>※This action cannot be assigned to a hotbar."
         },
         {
           "name": "Rampart",
@@ -224,12 +234,12 @@
         {
           "name": "Divine Magic Mastery",
           "icon": "https://img.finalfantasyxiv.com/lds/d/12b652e6942ca7d5fcf19e7b2473c1ce8654b0d9.png",
-          "effect": "Halves MP cost for all spells while preventing casting interruptions via damage taken."
+          "effect": "Halves MP cost for all spells while preventing casting interruptions via damage taken. Grants the following effects after successfully completing a combo with Royal Authority:<br>Combo Bonus: Grants Divine Might<br>Divine Might Effect: Allows next Holy Spirit or Holy Circle to be cast immediately with increased potency<br>Duration: 30s"
         },
         {
           "name": "Enhanced Prominence",
           "icon": "https://img.finalfantasyxiv.com/lds/d/413518284f7ac59252bf26c3da7493fcae6c5b35.png",
-          "effect": "Restores MP when using Prominence."
+          "effect": "Grants the following effects after successfully completing a combo with Prominence:<br>Combo Bonus: Restores MP<br>Combo Bonus: Grants Divine Might<br>Divine Might Effect: Allows next Holy Spirit or Holy Circle to be cast immediately with increased potency<br>Duration: 30s"
         },
         {
           "name": "Enhanced Sheltron",
@@ -240,6 +250,11 @@
           "name": "Sword Oath",
           "icon": "https://img.finalfantasyxiv.com/lds/d/7abcc7ab50300a442c5f0aa68261b9730a2070c0.png",
           "effect": "Grants three stacks of Sword Oath after successfully completing a combo with Royal Authority.<br>Duration: 30s"
+        },
+        {
+          "name": "Enhanced Requiescat",
+          "icon": "https://img.finalfantasyxiv.com/lds/d/124b4606e99d8cd89a1a52099ea8b8d69d3dabe6.png",
+          "effect": "Grants the effect of Confiteor Ready upon landing Requiescat.<br>Duration: 30s"
         },
         {
           "name": "Sheltron Mastery",
@@ -259,7 +274,7 @@
         {
           "name": "Melee Mastery",
           "icon": "https://img.finalfantasyxiv.com/lds/d/6acea5ac3fd49cd172fac240c194a5847b080ccf.png",
-          "effect": "Increases the potency of Fast Blade to 200, Riot Blade to 170, Royal Authority to 130, Holy Spirit to 300, and Atonement to 420."
+          "effect": "Increases the potency of Fast Blade to 200, Riot Blade to 120, Royal Authority to 120, Holy Spirit to 350, and Atonement to 380."
         },
         {
           "name": "Spirits Within Mastery",
@@ -306,7 +321,7 @@
         {
           "name": "Guardian",
           "icon": "https://img.finalfantasyxiv.com/lds/d/058522fdb7c58e87b3ba52f85c1cb70f5c0501e8.png",
-          "effect": "Rush to a target party member's side.<br>Additional Effect: Take all damage intended for the targeted party member<br>Duration: 10s<br>Can only be executed when member is closer than 10 yalms.<br>Cannot be executed while bound."
+          "effect": "Rush to a target party member's side.<br>Additional Effect: Take all damage intended for the targeted party member<br>Duration: 10s<br>Can only be executed when member is closer than 10 yalms.<br>Cannot be executed while bound.<br>Has no effect on targets interacting with an object."
         },
         {
           "name": "Holy Sheltron",
@@ -336,7 +351,7 @@
         {
           "name": "Phalanx",
           "icon": "https://img.finalfantasyxiv.com/lds/d/a94e3555b79c68a9eb7f5ca496bcac7ef7fdcbcf.png",
-          "effect": "Grants the effect of Hallowed Ground to self and Phalanx to nearby party members.<br>Hallowed Ground Effect: Renders you impervious to most attacks<br>Duration: 10s<br>Phalanx Effect: Reduces damage taken by 50%<br>Duration: 10s<br>Additional Effect: Grants Blade of Faith Ready<br>Duration: 10s<br>Can only be executed when the limit gauge is full.<br><br>※Action changes to Blade of Faith upon execution."
+          "effect": "Grants the effect of Hallowed Ground to self and Phalanx to nearby party members.<br>Hallowed Ground Effect: Renders you impervious to most attacks<br>Duration: 10s<br>Phalanx Effect: Reduces damage taken by 50%<br>Duration: 10s<br>Additional Effect: Grants Blade of Faith Ready<br>Duration: 10s<br>Can only be executed when the limit gauge is full.<br>Gauge Charge Time: 120s<br><br>※Action changes to Blade of Faith upon execution."
         },
         {
           "name": "Standard-issue Elixir",
@@ -361,7 +376,7 @@
         {
           "name": "Sprint",
           "icon": "https://img.finalfantasyxiv.com/lds/d/1b49a585ab241c7b5b8bb4d6f47ccec6b96fdaee.png",
-          "effect": "Increases movement speed.<br>Effect ends upon reuse or execution of another action."
+          "effect": "Increases movement speed by 50%.<br>Effect ends upon reuse or execution of another action."
         }
       ]
     }
@@ -395,8 +410,13 @@
         },
         {
           "name": "Defiance",
-          "icon": "https://img.finalfantasyxiv.com/lds/d/f5880ed012aaf3626226f913cd8aa8bf8cbbae19.png",
+          "icon": "https://img.finalfantasyxiv.com/lds/d/e6cc16e225417ce3c68cde5eb28df034f349d25d.png",
           "effect": "Significantly increases enmity generation.<br>Effect ends upon reuse."
+        },
+        {
+          "name": "Release Defiance",
+          "icon": "https://img.finalfantasyxiv.com/lds/d/1965311bb3fb720ba65258cb8f427bb986fa36c4.png",
+          "effect": "Cancels the effect of Defiance."
         },
         {
           "name": "Tomahawk",
@@ -415,7 +435,7 @@
         },
         {
           "name": "Inner Beast",
-          "icon": "https://img.finalfantasyxiv.com/lds/d/62364a0291b77c5fdce638f8bf28876ecabb4e55.png",
+          "icon": "https://img.finalfantasyxiv.com/lds/d/c72ea7de2c06ad8a03bc55598297aba5bf00b0b6.png",
           "effect": "Delivers an attack with a potency of 330.<br>Beast Gauge Cost: 50"
         },
         {
@@ -425,7 +445,7 @@
         },
         {
           "name": "Mythril Tempest",
-          "icon": "https://img.finalfantasyxiv.com/lds/d/bb0574666af9be4b309f8bd2959c36b087716142.png",
+          "icon": "https://img.finalfantasyxiv.com/lds/d/b9efeaf988763dc594fc2497b603cfda4253064f.png",
           "effect": "Delivers an attack with a potency of 100 to all nearby enemies.<br>Combo Action: Overpower<br>Combo Potency: 150<br>Combo Bonus: Grants Surging Tempest, increasing damage dealt by 10%<br>Duration: 30s<br>Extends Surging Tempest duration by 30s to a maximum of 60s.<br>Combo Bonus: Increases Beast Gauge by 20"
         },
         {
@@ -435,7 +455,7 @@
         },
         {
           "name": "Steel Cyclone",
-          "icon": "https://img.finalfantasyxiv.com/lds/d/54231491fed3c17cd4a7874afc839d7fa982715f.png",
+          "icon": "https://img.finalfantasyxiv.com/lds/d/caee561eee94d7ecc27ac396982ebe39df5c6893.png",
           "effect": "Delivers an attack with a potency of 170 to all nearby enemies.<br>Beast Gauge Cost: 50"
         },
         {
@@ -445,77 +465,77 @@
         },
         {
           "name": "Infuriate",
-          "icon": "https://img.finalfantasyxiv.com/lds/d/60ebad5ec84e929fd05c2e7638d01db3bb3bb8b4.png",
+          "icon": "https://img.finalfantasyxiv.com/lds/d/ecd32b95358ef9b2756b005daef73afdde9fab80.png",
           "effect": "Increases Beast Gauge by 50.<br>Additional Effect: Grants Nascent Chaos<br>Duration: 30s<br>Maximum Charges: 2<br>Can only be executed while in combat."
         },
         {
           "name": "Fell Cleave",
-          "icon": "https://img.finalfantasyxiv.com/lds/d/ca3a9c031c67cc6a6c6356d31ea2c63895f308ed.png",
-          "effect": "Delivers an attack with a potency of 470.<br>Beast Gauge Cost: 50<br><br>※Action changes to Inner Chaos while under the effect of Nascent Chaos."
+          "icon": "https://img.finalfantasyxiv.com/lds/d/5d146522a8fc94788d96043b93034176eab59a10.png",
+          "effect": "Delivers an attack with a potency of 490.<br>Beast Gauge Cost: 50<br><br>※Action changes to Inner Chaos while under the effect of Nascent Chaos."
         },
         {
           "name": "Raw Intuition",
-          "icon": "https://img.finalfantasyxiv.com/lds/d/b39adc1c0e18ee5f19db64a6936b075d372b2206.png",
+          "icon": "https://img.finalfantasyxiv.com/lds/d/1d9a63cc19bbec0e2f99d192040c26e306e2e675.png",
           "effect": "Reduces damage taken by 10%.<br>Duration: 6s<br>Additional Effect: Restores HP with each weaponskill successfully delivered<br>Cure Potency: 400<br>Shares a recast timer with Nascent Flash."
         },
         {
           "name": "Equilibrium",
-          "icon": "https://img.finalfantasyxiv.com/lds/d/af5fb54416b09c314db4c611a7f21307f67c2b31.png",
+          "icon": "https://img.finalfantasyxiv.com/lds/d/b549a16dfa8cbde55ec19b81bad325c5480d98e2.png",
           "effect": "Restores own HP.<br>Cure Potency: 1,200<br>Additional Effect: Gradually restores HP<br>Cure Potency: 200<br>Duration: 15s"
         },
         {
           "name": "Decimate",
-          "icon": "https://img.finalfantasyxiv.com/lds/d/7ab93e4ae097af38f0f6f28225c8d0336ee01363.png",
+          "icon": "https://img.finalfantasyxiv.com/lds/d/f4fdd09a56a0b83a0cbe11a83f706dc0fb6781f5.png",
           "effect": "Delivers an attack to all nearby enemies with a potency of 200.<br>Beast Gauge Cost: 50<br><br>※Action changes to Chaotic Cyclone while under the effect of Nascent Chaos."
         },
         {
           "name": "Onslaught",
-          "icon": "https://img.finalfantasyxiv.com/lds/d/781ec1b974535d856f8c326f48ed7659ca345532.png",
+          "icon": "https://img.finalfantasyxiv.com/lds/d/d0a1dad0fa6c8294ceb31b6879c765a02498e3fb.png",
           "effect": "Rushes target and delivers an attack with a potency of 150.<br>Maximum Charges: 3<br>Cannot be executed while bound."
         },
         {
           "name": "Upheaval",
-          "icon": "https://img.finalfantasyxiv.com/lds/d/04e2f480043122694d74baf4deb7ef712ba18ba8.png",
-          "effect": "Delivers an attack with a potency of 360.<br>Shares a recast timer with Orogeny."
+          "icon": "https://img.finalfantasyxiv.com/lds/d/ba0b3b08d9b2ef02636e06148bc739680390fdd3.png",
+          "effect": "Delivers an attack with a potency of 370.<br>Shares a recast timer with Orogeny."
         },
         {
           "name": "Shake It Off",
-          "icon": "https://img.finalfantasyxiv.com/lds/d/7aff2bd88ce74abd8689d264a05ffa2295653b5d.png",
-          "effect": "Creates a barrier around self and all nearby party members that absorbs damage totaling 15% of maximum HP.<br>Dispels Thrill of Battle, Vengeance, and Bloodwhetting, increasing damage absorbed by 2% for each effect removed.<br>Duration: 15s<br>Additional Effect: Restores own HP and the HP of all nearby party members<br>Cure Potency: 300"
+          "icon": "https://img.finalfantasyxiv.com/lds/d/f71e2c46512c1e937c0ff316be668d853869c637.png",
+          "effect": "Creates a barrier around self and all nearby party members that absorbs damage totaling 15% of maximum HP.<br>Dispels Thrill of Battle, Vengeance, and Bloodwhetting, increasing damage absorbed by 2% for each effect removed.<br>Duration: 30s<br>Additional Effect: Gradually restores HP<br>Cure Potency: 100<br>Duration: 15s<br>Additional Effect: Restores target's HP<br>Cure Potency: 300"
         },
         {
           "name": "Inner Release",
-          "icon": "https://img.finalfantasyxiv.com/lds/d/30f43c07a31193e2510f0c054605ddaa09a080e2.png",
+          "icon": "https://img.finalfantasyxiv.com/lds/d/809168ffb23f67e3d4b720b3caa4a0a1773fea4c.png",
           "effect": "Grants 3 stacks of Inner Release, each stack allowing the use of Fell Cleave or Decimate without cost and guaranteeing they are critical and direct hits.<br>Increases damage dealt when under an effect that raises critical hit rate or direct hit rate.<br>Additional Effect: Grants Inner Strength, nullifying Stun, Sleep, Bind, Heavy, and most knockback and draw-in effects<br>Duration: 15s<br>Additional Effect: Extends Surging Tempest duration by 10s to a maximum of 60s<br>Additional Effect: Grants Primal Rend Ready<br>Duration: 30s"
         },
         {
           "name": "Chaotic Cyclone",
-          "icon": "https://img.finalfantasyxiv.com/lds/d/20e265f3712b65e2b2192d371776ee14d4617b3b.png",
+          "icon": "https://img.finalfantasyxiv.com/lds/d/a5ea711252d08de0f9fd2e65313690c19b9f8773.png",
           "effect": "Delivers a critical direct hit with a potency of 320 to all nearby enemies.<br>Damage dealt is increased when under an effect that raises critical hit rate or direct hit rate.<br>Additional Effect: Reduces the recast time of Infuriate by 5 seconds<br>Beast Gauge Cost: 50<br>Can only be executed while under the effect of Nascent Chaos. Effect fades upon execution.<br><br>※This action cannot be assigned to a hotbar."
         },
         {
           "name": "Nascent Flash",
-          "icon": "https://img.finalfantasyxiv.com/lds/d/070683472464595ee2f68f8cfec2457c9cf56c10.png",
+          "icon": "https://img.finalfantasyxiv.com/lds/d/0a4356e3696cea8f2c8cea9be200e773da6c7caa.png",
           "effect": "Grants Nascent Flash to self and Nascent Glint to target party member.<br>Nascent Flash Effect: Restores HP with each weaponskill successfully delivered<br>Cure Potency: 400<br>Nascent Glint Effect: Restores HP equaling 100% of that recovered by Nascent Flash while also reducing damage taken by 10%<br>Duration: 8s<br>Additional Effect: Grants Stem the Flow to target, reducing damage taken by 10%<br>Duration: 4s<br>Additional Effect: Grants Stem the Tide to target, nullifying damage equivalent to a heal of 400 potency<br>Duration: 20s<br>Shares a recast timer with Bloodwhetting."
         },
         {
           "name": "Inner Chaos",
-          "icon": "https://img.finalfantasyxiv.com/lds/d/d0ba4906397d297fbd8f531b000d7be6cb9853fa.png",
+          "icon": "https://img.finalfantasyxiv.com/lds/d/70a629706b7fa0dc566d988dbf32da064d0c3458.png",
           "effect": "Delivers a critical direct hit with a potency of 650.<br>Damage dealt is increased when under an effect that raises critical hit rate or direct hit rate.<br>Additional Effect: Reduces the recast time of Infuriate by 5 seconds<br>Beast Gauge Cost: 50<br>Can only be executed while under the effect of Nascent Chaos. Effect fades upon execution.<br><br>※This action cannot be assigned to a hotbar."
         },
         {
           "name": "Bloodwhetting",
-          "icon": "https://img.finalfantasyxiv.com/lds/d/e328dc76d5de89b7048adebb03a9a81e6eec1f1a.png",
+          "icon": "https://img.finalfantasyxiv.com/lds/d/439c677f7cd4da8e9be9b92245865d2eb1ebceca.png",
           "effect": "Reduces damage taken by 10%.<br>Duration: 8s<br>Additional Effect: Restores HP with each weaponskill successfully delivered<br>Cure Potency: 400<br>Additional Effect: Grants Stem the Flow<br>Stem the Flow Effect: Reduces damage taken by 10%<br>Duration: 4s<br>Additional Effect: Grants Stem the Tide<br>Stem the Tide Effect: Creates a barrier around self that absorbs damage equivalent to a heal of 400 potency<br>Duration: 20s<br>Shares a recast timer with Nascent Flash."
         },
         {
           "name": "Orogeny",
-          "icon": "https://img.finalfantasyxiv.com/lds/d/9cda27e7ff8f6cf7c0b333b64857abf9d46257a5.png",
+          "icon": "https://img.finalfantasyxiv.com/lds/d/a746763655d8eb64a4f2577f4a19d445866aa8e5.png",
           "effect": "Delivers an attack with a potency of 150 to all nearby enemies.<br>Shares a recast timer with Upheaval."
         },
         {
           "name": "Primal Rend",
-          "icon": "https://img.finalfantasyxiv.com/lds/d/a49d73d3f33892795417e0cb12614bb256ea8551.png",
+          "icon": "https://img.finalfantasyxiv.com/lds/d/e6ccdb7bd1a86153af07f02f06583113ac86c8eb.png",
           "effect": "Jumps to the target and delivers a critical direct hit to target and all enemies nearby it with a potency of 700 for the first enemy, and 70% less for all remaining enemies.<br>Damage dealt is increased when under an effect that raises critical hit rate or direct hit rate.<br>Stacks of Inner Release are not consumed upon execution.<br>Can only be executed while under the effect of Primal Rend Ready, granted by Inner Release.<br>Cannot be executed while bound."
         },
         {
@@ -658,7 +678,7 @@
         {
           "name": "Orogeny",
           "icon": "https://img.finalfantasyxiv.com/lds/d/0c1021aeac66c93d12f000d6c469ebde0fad356d.png",
-          "effect": "Delivers an attack with a potency of 1,000 to all nearby enemies.<br>Potency increases up to 10,000 as HP nears maximum.<br>Consumes 20% of current HP when executed.<br>Additional Effect: Reduces target's damage dealt by 10%<br>Duration: 10s"
+          "effect": "Delivers an attack with a potency of 1,000 to all nearby enemies.<br>Potency increases up to 10,000 as HP nears maximum.<br>Consumes 10% of current HP when executed.<br>Additional Effect: Reduces target's damage dealt by 10%<br>Duration: 10s"
         },
         {
           "name": "Blota",
@@ -668,7 +688,7 @@
         {
           "name": "Bloodwhetting",
           "icon": "https://img.finalfantasyxiv.com/lds/d/791304fb065ed36949c9ae74ae1a6a8b8e649948.png",
-          "effect": "Grants Bloodwhetting, Stem the Tide, and Nascent Chaos.<br>Bloodwhetting Effect: Converts 100% of damage dealt into HP<br>Duration: 10s<br>Stem the Tide Effect: Creates a barrier around self that absorbs damage totaling 10% of your maximum HP<br>Duration: 10s<br>Nascent Chaos Effect: Bloodwhetting changes to Chaotic Cyclone<br>Duration: 10s"
+          "effect": "Grants Bloodwhetting, Stem the Tide, and Nascent Chaos.<br>Bloodwhetting Effect: Converts 100% of weaponskill damage dealt into HP<br>Duration: 10s<br>Stem the Tide Effect: Creates a barrier around self that absorbs damage totaling 10% of your maximum HP<br>Duration: 10s<br>Nascent Chaos Effect: Bloodwhetting changes to Chaotic Cyclone<br>Duration: 10s"
         },
         {
           "name": "Fell Cleave",
@@ -683,7 +703,7 @@
         {
           "name": "Primal Scream",
           "icon": "https://img.finalfantasyxiv.com/lds/d/6bcfcb1fa456db189719af5c6e06d82f24c40191.png",
-          "effect": "Let out a bloodcurdling cry in a cone before you, rendering enemies unable to use Guard.<br>Duration: 15s<br>Additional Effect: Grants Inner Release and Thrill of Battle<br>Inner Release Effect: Increases the potency of Primal Rend and Chaotic Cyclone, while also increasing movement speed, and granting immunity to Stun, Heavy, Bind, Silence, Half-asleep, Sleep, Deep Freeze, and knockback and draw-in effects<br>Duration: 15s<br>Cannot execute Guard while under the effect of Inner Release.<br>Thrill of Battle Effect: Increases maximum HP by 20% and restores the amount increased<br>Duration: 30s<br>Can only be executed when the limit gauge is full.<br><br>※Storm's Path Combo changes to Fell Cleave while under the effect of Inner Release."
+          "effect": "Let out a bloodcurdling cry in a cone before you, rendering enemies unable to use Guard.<br>Duration: 15s<br>Additional Effect: Grants Inner Release and Thrill of Battle<br>Inner Release Effect: Increases the potency of Primal Rend and Chaotic Cyclone, while also increasing movement speed by 25%, and granting immunity to Stun, Heavy, Bind, Silence, Half-asleep, Sleep, Deep Freeze, and knockback and draw-in effects<br>Duration: 15s<br>Cannot execute Guard while under the effect of Inner Release.<br>Thrill of Battle Effect: Increases maximum HP by 20% and restores the amount increased<br>Duration: 30s<br>Can only be executed when the limit gauge is full.<br>Gauge Charge Time: 90s<br><br>※Storm's Path Combo changes to Fell Cleave while under the effect of Inner Release."
         },
         {
           "name": "Standard-issue Elixir",
@@ -708,7 +728,7 @@
         {
           "name": "Sprint",
           "icon": "https://img.finalfantasyxiv.com/lds/d/1b49a585ab241c7b5b8bb4d6f47ccec6b96fdaee.png",
-          "effect": "Increases movement speed.<br>Effect ends upon reuse or execution of another action."
+          "effect": "Increases movement speed by 50%.<br>Effect ends upon reuse or execution of another action."
         }
       ]
     }
@@ -741,6 +761,11 @@
           "effect": "Significantly increases enmity generation.<br>Effect ends upon reuse."
         },
         {
+          "name": "Release Grit",
+          "icon": "https://img.finalfantasyxiv.com/lds/d/13a97691011df3c616e3181fd21b5f6805ce5799.png",
+          "effect": "Cancels the effect of Grit."
+        },
+        {
           "name": "Unmend",
           "icon": "https://img.finalfantasyxiv.com/lds/d/6203d55695d1cdde37d875f7b4b4253606266ad0.png",
           "effect": "Deals unaspected damage with a potency of 150.<br>Additional Effect: Increased enmity<br>Additional Effect: Reduces the recast time of Plunge by 5 seconds"
@@ -752,7 +777,7 @@
         },
         {
           "name": "Flood of Darkness",
-          "icon": "https://img.finalfantasyxiv.com/lds/d/263e659aeddb11f50de3b67afaed14824741c28e.png",
+          "icon": "https://img.finalfantasyxiv.com/lds/d/438927fdaa593ec9d1bd020e1c60fad9ca495f3f.png",
           "effect": "Deals unaspected damage with a potency of 100 to all enemies in a straight line before you.<br>Additional Effect: Grants Darkside, increasing damage dealt by 10%<br>Duration: 30s<br>Extends Darkside duration by 30s to a maximum of 60s.<br>Shares a recast timer with Edge of Darkness."
         },
         {
@@ -762,27 +787,27 @@
         },
         {
           "name": "Shadow Wall",
-          "icon": "https://img.finalfantasyxiv.com/lds/d/73117e612ec70c475d7b8a0c623ca20f9b6a25c3.png",
+          "icon": "https://img.finalfantasyxiv.com/lds/d/7ea7904a9e066bb33d542755b5984ad78c711a45.png",
           "effect": "Reduces damage taken by 30%.<br>Duration: 15s"
         },
         {
           "name": "Stalwart Soul",
-          "icon": "https://img.finalfantasyxiv.com/lds/d/e3d0d43b2f7ca826f14bf81b2bcf0a65b8f77890.png",
+          "icon": "https://img.finalfantasyxiv.com/lds/d/cc2fff4dcbf82d405c36a0d153fb28af5fcb9068.png",
           "effect": "Deals unaspected damage with a potency of 100 to all nearby enemies.<br>Combo Action: Unleash<br>Combo Potency: 140<br>Combo Bonus: Restores MP<br>Combo Bonus: Increases Blood Gauge by 20"
         },
         {
           "name": "Edge of Darkness",
-          "icon": "https://img.finalfantasyxiv.com/lds/d/d367816c5257f0a1bb2644b54dc6de343fe00ba3.png",
+          "icon": "https://img.finalfantasyxiv.com/lds/d/e62374eb5036fcaa1201fec390bc266620501abe.png",
           "effect": "Deals unaspected damage with a potency of 300.<br>Additional Effect: Grants Darkside, increasing damage dealt by 10%<br>Duration: 30s<br>Extends Darkside duration by 30s to a maximum of 60s.<br>Shares a recast timer with Flood of Darkness."
         },
         {
           "name": "Dark Mind",
-          "icon": "https://img.finalfantasyxiv.com/lds/d/3c8714e34b5e19c496fec4e8f9ae6e931e9c3a30.png",
+          "icon": "https://img.finalfantasyxiv.com/lds/d/adb1f756a8cfa746f5ec2f97e487e41c06026a61.png",
           "effect": "Reduces magic vulnerability by 20%.<br>Duration: 10s"
         },
         {
           "name": "Living Dead",
-          "icon": "https://img.finalfantasyxiv.com/lds/d/5e2a1bcf614705c34b733b82569046a0722aba13.png",
+          "icon": "https://img.finalfantasyxiv.com/lds/d/968fc4ccd880ca468fff7b34680e793a80ffdab1.png",
           "effect": "Grants the effect of Living Dead.<br>When HP is reduced to 0 while under the effect of Living Dead, instead of becoming KO'd, your status will change to Walking Dead.<br>Living Dead Duration: 10s<br>Additional Effect: Restores HP with each weaponskill successfully delivered or spell cast<br>Cure Potency: 1500<br>While under the effect of Walking Dead, most attacks will not lower your HP below 1. If, before the Walking Dead timer runs out, an amount of HP totaling your maximum HP is restored, the effect will change to Undead Rebirth. If this amount is not restored, you will be KO'd.<br>Walking Dead Duration: 10s<br>While under the effect of Undead Rebirth, most attacks will not lower your HP below 1.<br>Undead Rebirth Duration: Time remaining on Walking Dead"
         },
         {
@@ -807,57 +832,57 @@
         },
         {
           "name": "Bloodspiller",
-          "icon": "https://img.finalfantasyxiv.com/lds/d/8b4bf704123c020c7f2dc6551fdba6049b3e36bd.png",
+          "icon": "https://img.finalfantasyxiv.com/lds/d/4e5cbcae7dcf48cf8e3522d308f0c86df9114f0d.png",
           "effect": "Delivers an attack with a potency of 500.<br>Blood Gauge Cost: 50"
         },
         {
           "name": "Quietus",
-          "icon": "https://img.finalfantasyxiv.com/lds/d/2d4f3d971929b964874c8f85f01ad955fd80a7ae.png",
+          "icon": "https://img.finalfantasyxiv.com/lds/d/ea30bbaacc0da577820f8b027cec26738c1be840.png",
           "effect": "Delivers an attack with a potency of 200 to all nearby enemies.<br>Blood Gauge Cost: 50"
         },
         {
           "name": "Delirium",
-          "icon": "https://img.finalfantasyxiv.com/lds/d/9351d8c68997fe34d2a4135421ce0585d47ae438.png",
+          "icon": "https://img.finalfantasyxiv.com/lds/d/fbf4ae3878ecc04c6201114ce6b0aadf26bef857.png",
           "effect": "Grants 3 stacks of Delirium, each stack allowing the execution of Quietus or Bloodspiller without Blackblood cost, restoring MP when landing either weaponskill.<br>Duration: 15s"
         },
         {
           "name": "The Blackest Night",
-          "icon": "https://img.finalfantasyxiv.com/lds/d/74f68b6ebb3ff6ebc46ff7d2b4e43cb040d8d84e.png",
+          "icon": "https://img.finalfantasyxiv.com/lds/d/f82c8fbcd6549c8cd72108a937aade172f8b98a8.png",
           "effect": "Creates a barrier around self or target party member that absorbs damage totaling 25% of target's maximum HP.<br>Duration: 7s<br>Grants Dark Arts when barrier is completely absorbed.<br>Dark Arts Effect: Consume Dark Arts instead of MP to execute Edge of Shadow or Flood of Shadow"
         },
         {
           "name": "Flood of Shadow",
-          "icon": "https://img.finalfantasyxiv.com/lds/d/5bec303d4fd83127cebe42385a72453e5a76b477.png",
+          "icon": "https://img.finalfantasyxiv.com/lds/d/de4960def285cc69e33455acae0f50808a6cd623.png",
           "effect": "Deals unaspected damage with a potency of 160 to all enemies in a straight line before you.<br>Additional Effect: Grants Darkside, increasing damage dealt by 10%<br>Duration: 30s<br>Extends Darkside duration by 30s to a maximum of 60s.<br>Shares a recast timer with Edge of Shadow."
         },
         {
           "name": "Edge of Shadow",
-          "icon": "https://img.finalfantasyxiv.com/lds/d/29bc7944d1945a9159a7c199c1c5139f1fdd7e50.png",
+          "icon": "https://img.finalfantasyxiv.com/lds/d/e4536e75673663bf1b91d1a78a565dabc2f041f6.png",
           "effect": "Deals unaspected damage with a potency of 460.<br>Additional Effect: Grants Darkside, increasing damage dealt by 10%<br>Duration: 30s<br>Extends Darkside duration by 30s to a maximum of 60s.<br>Shares a recast timer with Flood of Shadow."
         },
         {
           "name": "Dark Missionary",
-          "icon": "https://img.finalfantasyxiv.com/lds/d/c41a1c3ef9acfbd06192e7c6d0c78c7f1382fb93.png",
+          "icon": "https://img.finalfantasyxiv.com/lds/d/1dc1a1d830e5355e2cd251531e85932c24ba1b8d.png",
           "effect": "Reduces magic damage taken by self and nearby party members by 10%.<br>Duration: 15s"
         },
         {
           "name": "Living Shadow",
-          "icon": "https://img.finalfantasyxiv.com/lds/d/bdd4500fb2f72c7185b4fe5596d679a821e0416f.png",
+          "icon": "https://img.finalfantasyxiv.com/lds/d/5150a7bff7be43d689f896e7be140f4720a23f6e.png",
           "effect": "Conjure a simulacrum of your darkside to fight alongside you.<br>Simulacrum Attack Potency: 350<br>Duration: 20s<br>Blood Gauge Cost: 50<br>Additional Effect: Simulacrum is able to execute Shadowbringer, delivering an attack to all enemies in a straight line before it with a potency of 500 for the first enemy, and 25% less for all remaining enemies."
         },
         {
           "name": "Oblation",
-          "icon": "https://img.finalfantasyxiv.com/lds/d/f447bc2028f9765dcccb1f35612acfba13846390.png",
+          "icon": "https://img.finalfantasyxiv.com/lds/d/5a42ca000eb7ab0c80e3952539ed260af3d4c5e8.png",
           "effect": "Reduces damage taken by a party member or self by 10%.<br>Duration: 10s<br>Maximum Charges: 2"
         },
         {
           "name": "Salt and Darkness",
-          "icon": "https://img.finalfantasyxiv.com/lds/d/6fec45c5e5bda8835d61222404d6675b2b3e4027.png",
+          "icon": "https://img.finalfantasyxiv.com/lds/d/bb0216fb548f749ceb5bf25f071af462129be59b.png",
           "effect": "All enemies standing in the corrupted patch of Salted Earth take additional unaspected damage with a potency of 500 for the first enemy, and 50% less for all remaining enemies.<br><br>※This action cannot be assigned to a hotbar."
         },
         {
           "name": "Shadowbringer",
-          "icon": "https://img.finalfantasyxiv.com/lds/d/78fe2c9b18f1ce4b7a87bc019486f121b0a48471.png",
+          "icon": "https://img.finalfantasyxiv.com/lds/d/bb5281f6fd7eb6900cbda1c39722b4d3c7e51b6e.png",
           "effect": "Deals unaspected damage to all enemies in a straight line before you with a potency of 600 for the first enemy, and 50% less for all remaining enemies.<br>Maximum Charges: 2<br>Can only be executed while under the effect of Darkside."
         },
         {
@@ -990,12 +1015,12 @@
         {
           "name": "Salt and Darkness",
           "icon": "https://img.finalfantasyxiv.com/lds/d/5aa3108720c2431e655adb077eb533b60ce21312.png",
-          "effect": "All enemies standing in the corrupted patch of Salted Earth take additional unaspected damage with a potency of 4,000.<br>Additional Effect: Bind<br>Duration: 3s<br><br>※This action cannot be assigned to a hotbar."
+          "effect": "All enemies standing in the corrupted patch of Salted Earth take additional unaspected damage with a potency of 4,000.<br>Additional Effect: Bind<br>Duration: 2s<br><br>※This action cannot be assigned to a hotbar."
         },
         {
           "name": "Eventide",
           "icon": "https://img.finalfantasyxiv.com/lds/d/2f52efe634939c12aaf8d17525fd4a52a54002f9.png",
-          "effect": "Delivers an attack with a potency of 10,000 to all enemies in a straight line before and behind you.<br>Potency increases up to 20,000 as HP nears maximum.<br>HP is reduced to 1 upon execution.<br>Additional Effect: Grants Undead Redemption<br>Undead Redemption Effect: Most attacks cannot reduce your HP to less than 1, and you absorb 100% of weaponskill damage dealt as HP<br>Duration: 10s<br>Additional Effect: Grants Blackblood<br>Duration: 10s<br>Can only be executed when the limit gauge is full.<br><br>※Souleater Combo changes to Bloodspiller while under the effect of Blackblood."
+          "effect": "Delivers an attack with a potency of 6,000 to all enemies in a straight line before and behind you.<br>Potency increases up to 24,000 as HP nears maximum.<br>HP is reduced to 1 upon execution.<br>Additional Effect: Grants Undead Redemption<br>Undead Redemption Effect: Most attacks cannot reduce your HP to less than 1, and you absorb 100% of weaponskill damage dealt as HP<br>Duration: 10s<br>Additional Effect: Grants Blackblood<br>Duration: 10s<br>Can only be executed when the limit gauge is full.<br>Gauge Charge Time: 105s<br><br>※Souleater Combo changes to Bloodspiller while under the effect of Blackblood."
         },
         {
           "name": "Standard-issue Elixir",
@@ -1020,7 +1045,7 @@
         {
           "name": "Sprint",
           "icon": "https://img.finalfantasyxiv.com/lds/d/1b49a585ab241c7b5b8bb4d6f47ccec6b96fdaee.png",
-          "effect": "Increases movement speed.<br>Effect ends upon reuse or execution of another action."
+          "effect": "Increases movement speed by 50%.<br>Effect ends upon reuse or execution of another action."
         }
       ]
     }
@@ -1063,6 +1088,11 @@
           "effect": "Significantly increases enmity generation.<br>Effect ends upon reuse."
         },
         {
+          "name": "Release Royal Guard",
+          "icon": "https://img.finalfantasyxiv.com/lds/d/bf2a6455e06637fe409340c4dba7530e55d8bfee.png",
+          "effect": "Cancels the effect of Royal Guard."
+        },
+        {
           "name": "Lightning Shot",
           "icon": "https://img.finalfantasyxiv.com/lds/d/da2f213272cf4d4c2c5df5ccf597dd8e01ddb58b.png",
           "effect": "Delivers a ranged attack with a potency of 150.<br>Additional Effect: Increased enmity"
@@ -1079,7 +1109,7 @@
         },
         {
           "name": "Burst Strike",
-          "icon": "https://img.finalfantasyxiv.com/lds/d/d35d6f4b6d9772b2b0f8f75e4a2134be89ca5208.png",
+          "icon": "https://img.finalfantasyxiv.com/lds/d/43828414469ebc6fd88ef500ab2e941177b833ec.png",
           "effect": "Delivers an attack with a potency of 380.<br>Additional Effect: Grants Ready to Blast<br>Duration: 10s<br>Effect of Ready to Blast ends upon execution of any weaponskill.<br>Cartridge Cost: 1"
         },
         {
@@ -1139,7 +1169,7 @@
         },
         {
           "name": "Heart of Stone",
-          "icon": "https://img.finalfantasyxiv.com/lds/d/5e1cf3a583340f7131c4317ac9b0fe94c940261a.png",
+          "icon": "https://img.finalfantasyxiv.com/lds/d/059baae88deccf4ffdc31f8afd0074ec4589f81f.png",
           "effect": "Reduces damage taken by a party member or self by 15%.<br>Duration: 7s<br>Additional Effect: When targeting a party member while under the effect of Brutal Shell, that effect is also granted to the target<br>Duration: 30s"
         },
         {
@@ -1164,32 +1194,32 @@
         },
         {
           "name": "Fated Circle",
-          "icon": "https://img.finalfantasyxiv.com/lds/d/94c6b85de18b7d157c5c050bb521899668ad2d7e.png",
+          "icon": "https://img.finalfantasyxiv.com/lds/d/72b126aa8a17d9d94ee177b98af27d512aa6e01f.png",
           "effect": "Delivers an attack with a potency of 300 to all nearby enemies.<br>Cartridge Cost: 1"
         },
         {
           "name": "Bloodfest",
-          "icon": "https://img.finalfantasyxiv.com/lds/d/44d346ee98a8b14fc68ec9f25256c6d436ac6b47.png",
+          "icon": "https://img.finalfantasyxiv.com/lds/d/90de52fbbbc0de9309a2b2aceb1b0146e3b7283a.png",
           "effect": "Draws aetheric energy from target, adding 3 Cartridges to your Powder Gauge."
         },
         {
           "name": "Blasting Zone",
-          "icon": "https://img.finalfantasyxiv.com/lds/d/73de2852a4199c15e00fbb5aa63595345b591b5a.png",
+          "icon": "https://img.finalfantasyxiv.com/lds/d/d35fea54a4ec47a5d8227e13b5dba247a5c8a5a6.png",
           "effect": "Delivers an attack with a potency of 720."
         },
         {
           "name": "Heart of Corundum",
-          "icon": "https://img.finalfantasyxiv.com/lds/d/d43c8c43d6ac548c94a4f0f629827f00d2991c11.png",
+          "icon": "https://img.finalfantasyxiv.com/lds/d/493de7202ca9b1e4bed75fdd4e5b1e7a8c61d58a.png",
           "effect": "Reduces damage taken by a party member or self by 15%.<br>Duration: 8s<br>Additional Effect: When targeting a party member while under the effect of Brutal Shell, that effect is also granted to the target<br>Duration: 30s<br>Additional Effect: Grants Clarity of Corundum to target<br>Clarity of Corundum Effect: Reduces damage taken by 15%<br>Duration: 4s<br>Additional Effect: Grants Catharsis of Corundum to target<br>Catharsis of Corundum Effect: Restores HP when HP falls below 50% or upon effect duration expiration<br>Cure Potency: 900<br>Duration: 20s"
         },
         {
           "name": "Hypervelocity",
-          "icon": "https://img.finalfantasyxiv.com/lds/d/d8e9514f76e618bc9abc97f1d38cedb207373632.png",
+          "icon": "https://img.finalfantasyxiv.com/lds/d/7d7143520a9ec0306e977c10b4594ad0b5eee50f.png",
           "effect": "Delivers an attack with a potency of 180.<br>Can only be executed when Ready to Blast.<br><br>※This action cannot be assigned to a hotbar."
         },
         {
           "name": "Double Down",
-          "icon": "https://img.finalfantasyxiv.com/lds/d/92284ac4aba57769fadcc869edf9f30723270820.png",
+          "icon": "https://img.finalfantasyxiv.com/lds/d/9431f382886a5bac654058624ed21082deaae9d9.png",
           "effect": "Delivers an attack to all nearby enemies with a potency of 1,200 for the first enemy, and 15% less for all remaining enemies.<br>Cartridge Cost: 2<br>This weaponskill does not share a recast timer with any other actions."
         },
         {
@@ -1307,7 +1337,7 @@
         {
           "name": "Rough Divide",
           "icon": "https://img.finalfantasyxiv.com/lds/d/d8dcaa43ef97b6ffd9cdacfbef4f3917f24c366e.png",
-          "effect": "Rushes target and delivers an attack with a potency of 2,000.<br>Additional Effect: Grants No Mercy<br>No Mercy Effect: Increases damage dealt and healing potency by 20%, while also increasing movement speed<br>Duration: 7s<br>Maximum Charges: 2<br>Cannot be executed while bound."
+          "effect": "Rushes target and delivers an attack with a potency of 2,000.<br>Additional Effect: Grants No Mercy<br>No Mercy Effect: Increases damage dealt and healing potency by 20%, while also increasing movement speed by 25%<br>Duration: 7s<br>Maximum Charges: 2<br>Cannot be executed while bound."
         },
         {
           "name": "Draw and Junction",
@@ -1357,7 +1387,7 @@
         {
           "name": "Nebula",
           "icon": "https://img.finalfantasyxiv.com/lds/d/e45508c1f8ad683ed98587d6df29b935b4a1fe68.png",
-          "effect": "Reduces damage taken by 20% and delivers an attack with a potency of 3,000 every time you suffer damage.<br>Duration: 10s<br>Can only be executed while under the effect of Junction Tank.<br>Shares a recast timer with Blasting Zone and Aurora.<br><br>※This action cannot be assigned to a hotbar."
+          "effect": "Reduces damage taken by 20% and delivers an attack with a potency of 4,000 every time you suffer damage.<br>Duration: 10s<br>Can only be executed while under the effect of Junction Tank.<br>Shares a recast timer with Blasting Zone and Aurora.<br><br>※This action cannot be assigned to a hotbar."
         },
         {
           "name": "Blasting Zone",
@@ -1367,12 +1397,12 @@
         {
           "name": "Aurora",
           "icon": "https://img.finalfantasyxiv.com/lds/d/acaf4d3fc4adf9d9d241bec0be8376d207647c8c.png",
-          "effect": "Restores own or target party member's HP.<br>Cure Potency: 8,000<br>Additional Effect: Regen<br>Cure Potency: 3,000<br>Duration: 12s<br>Can only be executed while under the effect of Junction Healer.<br>Shares a recast timer with Nebula and Blasting Zone.<br><br>※This action cannot be assigned to a hotbar."
+          "effect": "Restores own or target party member's HP.<br>Cure Potency: 12,000<br>Additional Effect: Regen<br>Cure Potency: 3,000<br>Duration: 12s<br>Can only be executed while under the effect of Junction Healer.<br>Shares a recast timer with Nebula and Blasting Zone.<br><br>※This action cannot be assigned to a hotbar."
         },
         {
           "name": "Relentless Rush",
           "icon": "https://img.finalfantasyxiv.com/lds/d/c883909d21cab4cc8054d19c6cbb8156a3e6ac96.png",
-          "effect": "Unleashes a flurry of blade strikes on nearby enemies, dealing damage over time with a potency of 4,000 and reducing damage taken by 25% until effect expires.<br>Duration: 4s<br>Activates Terminal Trigger when effect duration expires.<br>Additional Effect: Afflicts target with Relentless Shrapnel, increasing damage taken by 4% per stack<br>Duration: 5s<br>Maximum Stacks: 5<br>Can be executed while moving.<br>Can only be executed when the limit gauge is full.<br><br>※Action changes to Terminal Trigger upon execution."
+          "effect": "Unleashes a flurry of blade strikes on nearby enemies, dealing damage over time with a potency of 4,000 and reducing damage taken by 25% until effect expires.<br>Duration: 4s<br>Activates Terminal Trigger when effect duration expires.<br>Additional Effect: Afflicts target with Relentless Shrapnel, reducing damage dealt by 4% while increasing damage taken by 4% per stack<br>Duration: 5s<br>Maximum Stacks: 5<br>Can be executed while moving.<br>Can only be executed when the limit gauge is full.<br>Gauge Charge Time: 60s<br><br>※Action changes to Terminal Trigger upon execution."
         },
         {
           "name": "Terminal Trigger",
@@ -1402,7 +1432,7 @@
         {
           "name": "Sprint",
           "icon": "https://img.finalfantasyxiv.com/lds/d/1b49a585ab241c7b5b8bb4d6f47ccec6b96fdaee.png",
-          "effect": "Increases movement speed.<br>Effect ends upon reuse or execution of another action."
+          "effect": "Increases movement speed by 50%.<br>Effect ends upon reuse or execution of another action."
         }
       ]
     }
@@ -1462,7 +1492,7 @@
         {
           "name": "Cure III",
           "icon": "https://img.finalfantasyxiv.com/lds/d/33c3597ee1004e364a6331f732f077666e798acd.png",
-          "effect": "Restores HP of target and all party members nearby target.<br>Cure Potency: 600"
+          "effect": "Restores own or target party member's HP and all party members nearby target.<br>Cure Potency: 600"
         },
         {
           "name": "Holy",
@@ -1724,7 +1754,7 @@
         {
           "name": "Afflatus Purgation",
           "icon": "https://img.finalfantasyxiv.com/lds/d/885443eeb029d7cbca537be10edca5eb6c920401.png",
-          "effect": "Deals unaspected damage with a potency of 18,000 to all enemies in a straight line before you.<br>Additional Effect: Stun<br>Duration: 2s<br>Additional Effect: Grants Temperance<br>Temperance Effect: Increases damage dealt and healing potency by 10%, and grants Regen to self and nearby party members within 30 yalms<br>Cure Potency: 4,000<br>Duration: 15s<br>Can only be executed when the limit gauge is full."
+          "effect": "Deals unaspected damage with a potency of 18,000 to all enemies in a straight line before you.<br>Additional Effect: Stun<br>Duration: 2s<br>Additional Effect: Grants Temperance<br>Temperance Effect: Increases damage dealt and healing potency by 10%, and grants Regen to self and nearby party members within 30 yalms<br>Cure Potency: 4,000<br>Duration: 15s<br>Can only be executed when the limit gauge is full.<br>Gauge Charge Time: 60s"
         },
         {
           "name": "Standard-issue Elixir",
@@ -1749,7 +1779,7 @@
         {
           "name": "Sprint",
           "icon": "https://img.finalfantasyxiv.com/lds/d/1b49a585ab241c7b5b8bb4d6f47ccec6b96fdaee.png",
-          "effect": "Increases movement speed.<br>Effect ends upon reuse or execution of another action."
+          "effect": "Increases movement speed by 50%.<br>Effect ends upon reuse or execution of another action."
         }
       ]
     }
@@ -1859,7 +1889,7 @@
         {
           "name": "Deployment Tactics",
           "icon": "https://img.finalfantasyxiv.com/lds/d/307e3a65fff1e38b28235509dd392323642d6965.png",
-          "effect": "Extends Galvanize effect cast on self or target to nearby party members.<br>Duration: Time remaining on original effect<br>No effect when target is not under the effect of Galvanize."
+          "effect": "Extends Galvanize effect cast on self or target party member to other nearby party members.<br>Duration: Time remaining on original effect<br>No effect when target is not under the effect of Galvanize."
         },
         {
           "name": "Emergency Tactics",
@@ -2101,7 +2131,7 @@
         {
           "name": "Deployment Tactics",
           "icon": "https://img.finalfantasyxiv.com/lds/d/ba157dccbbb4761461ca40b5e03c2a882498cdf3.png",
-          "effect": "Extends Galvanize and Catalyze effects cast on self or target to nearby party members.<br>When targeting an enemy, extends Biolysis and Biolytic effects to other nearby enemies.<br>Duration: Time remaining on original effect<br>No effect when target is not under effects applied by you.<br>Maximum Charges: 2"
+          "effect": "Extends Galvanize and Catalyze effects cast on self or target to nearby party members.<br>When targeting an enemy, extends Biolysis and Biolytic effects to other nearby enemies.<br>Duration: Time remaining on original effect<br>No effect on targets not under effects applied by you, players riding machina, or non-player combatants.<br>Maximum Charges: 2"
         },
         {
           "name": "Mummification",
@@ -2111,7 +2141,7 @@
         {
           "name": "Expedient",
           "icon": "https://img.finalfantasyxiv.com/lds/d/5f98fdab5e9b3c01f61588afd6f60ceeb8fc7966.png",
-          "effect": "Grants Expedience and Desperate Measures to self and all nearby party members.<br>Expedience Effect: Increases movement speed<br>Duration: 10s<br>Desperate Measures Effect: Reduces damage taken by 10%<br>Duration: 10s<br>Additional Effect: Grants Recitation<br>Recitation Effect: Increases the potency of Galvanize, Biolysis, and Biolytic effects<br>Duration: 15s"
+          "effect": "Grants Expedience and Desperate Measures to self and all nearby party members.<br>Expedience Effect: Increases movement speed by 25%<br>Duration: 10s<br>Desperate Measures Effect: Reduces damage taken by 10%<br>Duration: 10s<br>Additional Effect: Grants Recitation<br>Recitation Effect: Increases the potency of Galvanize, Biolysis, and Biolytic effects<br>Duration: 15s"
         },
         {
           "name": "Consolation",
@@ -2131,7 +2161,7 @@
         {
           "name": "Summon Seraph",
           "icon": "https://img.finalfantasyxiv.com/lds/d/614407d07c71d678c0f13c555dfb338d69fbf9e7.png",
-          "effect": "Summons Seraph to fight at a designated location.<br>Seraph will execute Seraph Flight immediately after being summoned.<br>Automatically casts Seraphic Veil on party members who suffer damage.<br>Additional Effect: Grants Recitation<br>Recitation Effect: Increases the potency of Galvanize, Biolysis, and Biolytic effects<br>Duration: 15s<br>Can only be executed when the limit gauge is full.<br><br>※Action changes to Consolation upon execution."
+          "effect": "Summons Seraph to fight at a designated location.<br>Seraph will execute Seraph Flight immediately after being summoned.<br>Automatically casts Seraphic Veil on party members who suffer damage.<br>Additional Effect: Grants Recitation<br>Recitation Effect: Increases the potency of Galvanize, Biolysis, and Biolytic effects<br>Duration: 15s<br>Can only be executed when the limit gauge is full.<br>Gauge Charge Time: 90s<br><br>※Action changes to Consolation upon execution."
         },
         {
           "name": "Seraph Flight",
@@ -2161,7 +2191,7 @@
         {
           "name": "Sprint",
           "icon": "https://img.finalfantasyxiv.com/lds/d/1b49a585ab241c7b5b8bb4d6f47ccec6b96fdaee.png",
-          "effect": "Increases movement speed.<br>Effect ends upon reuse or execution of another action."
+          "effect": "Increases movement speed by 50%.<br>Effect ends upon reuse or execution of another action."
         }
       ]
     }
@@ -2568,7 +2598,7 @@
         {
           "name": "The Arrow",
           "icon": "https://img.finalfantasyxiv.com/lds/d/85a1d6205ebc89fc139d8fde7966e578fcdc4c2f.png",
-          "effect": "Reduces weaponskill cast time and recast time, as well as spell cast time and recast time for self or target and nearby party members by 10%, while also increasing movement speed.<br>Duration: 10s<br><br>※This action cannot be assigned to a hotbar."
+          "effect": "Reduces weaponskill cast time and recast time, as well as spell cast time and recast time for self or target and nearby party members by 10%, while also increasing movement speed by 25%.<br>Duration: 15s<br><br>※This action cannot be assigned to a hotbar."
         },
         {
           "name": "Microcosmos",
@@ -2578,7 +2608,7 @@
         {
           "name": "Celestial River",
           "icon": "https://img.finalfantasyxiv.com/lds/d/184ffb6c90cb6ab81b25f68ba19510ee469ce306.png",
-          "effect": "Reduces damage dealt by nearby enemies by 30%. Effect is reduced by 10% every 5 seconds.<br>Duration: 15s<br>Additional Effect: Increases damage dealt by self and nearby party members by 30%. Effect is reduced by 10% every 5s.<br>Duration: 15s<br>Can only be executed when the limit gauge is full."
+          "effect": "Reduces damage dealt by nearby enemies by 30%. Effect is reduced by 10% every 5 seconds.<br>Duration: 15s<br>Additional Effect: Increases damage dealt by self and nearby party members by 30%. Effect is reduced by 10% every 5s.<br>Duration: 15s<br>Can only be executed when the limit gauge is full.<br>Gauge Charge Time: 105s"
         },
         {
           "name": "Standard-issue Elixir",
@@ -2603,7 +2633,7 @@
         {
           "name": "Sprint",
           "icon": "https://img.finalfantasyxiv.com/lds/d/1b49a585ab241c7b5b8bb4d6f47ccec6b96fdaee.png",
-          "effect": "Increases movement speed.<br>Effect ends upon reuse or execution of another action."
+          "effect": "Increases movement speed by 50%.<br>Effect ends upon reuse or execution of another action."
         }
       ]
     }
@@ -2768,7 +2798,7 @@
         {
           "name": "Phlegma III",
           "icon": "https://img.finalfantasyxiv.com/lds/d/93dc61daa2db9449d34a5198669e59de306451e1.png",
-          "effect": "Deals unaspected damage to target and all enemies nearby it with a potency of 510 for the first enemy, and 50% less for all remaining enemies.<br>Additional Effect: Restores HP to targets under the effect of Kardion granted by you<br>Cure Potency: 170<br>Maximum Charges: 2<br>Recast timer cannot be affected by status effects or gear attributes."
+          "effect": "Deals unaspected damage to target and all enemies nearby it with a potency of 600 for the first enemy, and 50% less for all remaining enemies.<br>Additional Effect: Restores HP to targets under the effect of Kardion granted by you<br>Cure Potency: 170<br>Maximum Charges: 2<br>Recast timer cannot be affected by status effects or gear attributes."
         },
         {
           "name": "Eukrasian Dosis III",
@@ -2858,7 +2888,7 @@
         {
           "name": "Addersting",
           "icon": "https://img.finalfantasyxiv.com/lds/d/cfb87ef1a74d592d9dcfe7cb33621fb314a1ed01.png",
-          "effect": "Grants 1 stack of Addersting when the barrier granted by Eukrasian Diagnosis is completely absorbed.<br>Maximum Stacks: 3"
+          "effect": "Grants 1 stack of Addersting when the barrier granted by Eukrasian Diagnosis to any party member or the barrier granted by Eukrasian Prognosis to self is completely absorbed.<br>Maximum Stacks: 3"
         },
         {
           "name": "Offensive Magic Mastery",
@@ -2935,7 +2965,7 @@
         {
           "name": "Mesotes",
           "icon": "https://img.finalfantasyxiv.com/lds/d/b7c802ff27b9c70dfeee638a7c41db4e7ffd642a.png",
-          "effect": "Erects a magicked barrier at a select location, granting party members the effect of Mesotes and afflicting enemies with the effect of Lype when standing inside.<br>Duration: 15s<br>Mesotes Effect: Negates all damage from enemies who are not under the effect of Lype<br>Duration: 5s<br>Lype Effect: Damage over time<br>Potency: 8,000<br>Duration: 5s<br>The barrier can be relocated once before its effect expires, but the effect duration will not be reset.<br>Can only be executed when the limit gauge is full."
+          "effect": "Erects a magicked barrier at a select location, granting party members the effect of Mesotes and afflicting enemies with the effect of Lype when standing inside.<br>Duration: 15s<br>Mesotes Effect: Negates all damage from enemies who are not under the effect of Lype<br>Duration: 5s<br>Lype Effect: Damage over time<br>Potency: 8,000<br>Duration: 5s<br>The barrier can be relocated once before its effect expires, but the effect duration will not be reset.<br>Can only be executed when the limit gauge is full.<br>Gauge Charge Time: 120s"
         },
         {
           "name": "Standard-issue Elixir",
@@ -2960,7 +2990,7 @@
         {
           "name": "Sprint",
           "icon": "https://img.finalfantasyxiv.com/lds/d/1b49a585ab241c7b5b8bb4d6f47ccec6b96fdaee.png",
-          "effect": "Increases movement speed.<br>Effect ends upon reuse or execution of another action."
+          "effect": "Increases movement speed by 50%.<br>Effect ends upon reuse or execution of another action."
         }
       ]
     }
@@ -3085,7 +3115,7 @@
         {
           "name": "Riddle of Earth",
           "icon": "https://img.finalfantasyxiv.com/lds/d/84e3e679f5393f9a83e3b8204aad5192ecc483d1.png",
-          "effect": "Grants 3 stacks of Riddle of Earth, each stack reducing damage taken by 20%.<br>Duration: 10s<br>Maximum Charges: 3<br>Effect ends when time expires or upon execution of three weaponskills."
+          "effect": "Reduces damage taken by 20%.<br>Duration: 10s<br>Additional Effect: Grants Earth's Reply upon taking damage<br>Earth's Reply Effect: Gradually restores HP<br>Cure Potency: 100<br>Duration: 15s"
         },
         {
           "name": "Riddle of Fire",
@@ -3252,7 +3282,7 @@
         {
           "name": "Snap Punch",
           "icon": "https://img.finalfantasyxiv.com/lds/d/5216fce6eb0e1f98a22673993403c01005144e3e.png",
-          "effect": "Delivers an attack with a potency of 5,000.<br>Combo Action: True Strike<br>Additional Effect: Extends Wind Resonance duration by 5s to a maximum of 15s<br><br>※This action cannot be assigned to a hotbar."
+          "effect": "Delivers an attack with a potency of 6,000.<br>Combo Action: True Strike<br>Additional Effect: Extends Wind Resonance duration by 5s to a maximum of 15s<br><br>※This action cannot be assigned to a hotbar."
         },
         {
           "name": "Dragon Kick",
@@ -3267,7 +3297,7 @@
         {
           "name": "Demolish",
           "icon": "https://img.finalfantasyxiv.com/lds/d/67078f08b4af6bacf409e67e4afca97ade589d1d.png",
-          "effect": "Delivers an attack with a potency of 5,000.<br>Combo Action: Twin Snakes<br>Additional Effect: Extends Wind Resonance duration by 5s to a maximum of 15s<br><br>※This action cannot be assigned to a hotbar."
+          "effect": "Delivers an attack with a potency of 6,000.<br>Combo Action: Twin Snakes<br>Additional Effect: Extends Wind Resonance duration by 5s to a maximum of 15s<br><br>※This action cannot be assigned to a hotbar."
         },
         {
           "name": "Phantom Rush",
@@ -3277,7 +3307,7 @@
         {
           "name": "Six-sided Star",
           "icon": "https://img.finalfantasyxiv.com/lds/d/4092af75879715af0b2b3ed04d26c4ebaee5aa1e.png",
-          "effect": "Delivers an attack with a potency of 4,000.<br>Additional Effect: Stun<br>Duration: 2s<br>Additional Effect: Increases movement speed<br>Duration: 5s"
+          "effect": "Delivers an attack with a potency of 4,000.<br>Additional Effect: Stun<br>Duration: 2s<br>Additional Effect: Increases movement speed by 25%<br>Duration: 5s"
         },
         {
           "name": "Enlightenment",
@@ -3307,7 +3337,7 @@
         {
           "name": "Meteodrive",
           "icon": "https://img.finalfantasyxiv.com/lds/d/db4da14c2bf5aabe9de5c2cc782225c7fb13b9a8.png",
-          "effect": "Rushes target and delivers an attack with a potency of 12,000.<br>Additional Effect: Removes target's Guard<br>Additional Effect: Afflicts target with Meteodrive, rendering them unable to move<br>Duration: 3s<br>If target does not have an active Guard effect, deals additional damage with a potency of 12,000.<br>Effect cannot be applied to players riding machina or non-player combatants.<br>Can only be executed when the limit gauge is full.<br>Cannot be executed while bound."
+          "effect": "Rushes target and delivers an attack with a potency of 12,000.<br>Additional Effect: Removes target's Guard<br>Additional Effect: Afflicts target with Meteodrive, rendering them unable to move<br>Duration: 3s<br>If target does not have an active Guard effect, deals additional damage with a potency of 12,000.<br>Effect cannot be applied to players riding machina or non-player combatants.<br>Can only be executed when the limit gauge is full.<br>Gauge Charge Time: 75s<br>Cannot be executed while bound."
         },
         {
           "name": "Standard-issue Elixir",
@@ -3332,7 +3362,7 @@
         {
           "name": "Sprint",
           "icon": "https://img.finalfantasyxiv.com/lds/d/1b49a585ab241c7b5b8bb4d6f47ccec6b96fdaee.png",
-          "effect": "Increases movement speed.<br>Effect ends upon reuse or execution of another action."
+          "effect": "Increases movement speed by 50%.<br>Effect ends upon reuse or execution of another action."
         }
       ]
     }
@@ -3609,7 +3639,7 @@
         {
           "name": "Elusive Jump",
           "icon": "https://img.finalfantasyxiv.com/lds/d/c8b07f7484cef5f2ea4a7a3b11fd71d2526a7eb6.png",
-          "effect": "Executes a jump to a location 15 yalms behind you.<br>Additional Effect: Removes Heavy and Bind<br>Additional Effect: Increases movement speed<br>Duration: 5s<br>Additional Effect: Grants Firstminds' Focus<br>Duration: 10s<br><br>※Action changes to Wyrmwind Thrust while under the effect of Firstminds' Focus."
+          "effect": "Executes a jump to a location 15 yalms behind you.<br>Additional Effect: Removes Heavy and Bind<br>Additional Effect: Increases movement speed by 25%<br>Duration: 5s<br>Additional Effect: Grants Firstminds' Focus<br>Duration: 10s<br><br>※Action changes to Wyrmwind Thrust while under the effect of Firstminds' Focus."
         },
         {
           "name": "Horrid Roar",
@@ -3634,7 +3664,7 @@
         {
           "name": "Sky High",
           "icon": "https://img.finalfantasyxiv.com/lds/d/7024a69ca8e1a03ac68e8680380d47e443f6e6a3.png",
-          "effect": "Jump high into the air, preventing enemies from targeting you. Movement is still possible before landing.<br>Duration: 5s<br>Additional Effect: Removes Heavy, Bind, and Half-asleep<br>Executes Sky Shatter automatically when effect duration expires.<br>Can only be executed when the limit gauge is full.<br><br>※Action changes to Sky Shatter upon execution."
+          "effect": "Jump high into the air, preventing enemies from targeting you. Movement is still possible before landing.<br>Duration: 5s<br>Additional Effect: Removes Heavy, Bind, and Half-asleep<br>Executes Sky Shatter automatically when effect duration expires.<br>Can only be executed when the limit gauge is full.<br>Gauge Charge Time: 90s<br><br>※Action changes to Sky Shatter upon execution."
         },
         {
           "name": "Sky Shatter",
@@ -3664,7 +3694,7 @@
         {
           "name": "Sprint",
           "icon": "https://img.finalfantasyxiv.com/lds/d/1b49a585ab241c7b5b8bb4d6f47ccec6b96fdaee.png",
-          "effect": "Increases movement speed.<br>Effect ends upon reuse or execution of another action."
+          "effect": "Increases movement speed by 50%.<br>Effect ends upon reuse or execution of another action."
         }
       ]
     }
@@ -4006,7 +4036,7 @@
         {
           "name": "Shukuchi",
           "icon": "https://img.finalfantasyxiv.com/lds/d/cf1bb42ed0500b95e768ec8fff4aa0f7b3d1c20a.png",
-          "effect": "Move quickly to the specified location.<br>Additional Effect: Grants Hidden<br>Hidden Effect: Blend in with your surroundings, making it impossible for enemies to see or target you<br>Duration: 5s<br>Effect ends upon use of any action or upon taking damage from an enemy.<br>Cannot be executed while bound.<br><br>※Action changes to Doton while under the effect of Three Mudra.<br>※Aeolian Edge Combo changes to Assassinate while under the effect of Hidden."
+          "effect": "Move quickly to the specified location.<br>Additional Effect: Grants Hidden<br>Hidden Effect: Blend in with your surroundings, making it impossible for enemies to see or target you<br>Duration: 4s<br>Effect ends upon use of any action or upon taking damage from an enemy.<br>Cannot be executed while bound.<br><br>※Action changes to Doton while under the effect of Three Mudra.<br>※Aeolian Edge Combo changes to Assassinate while under the effect of Hidden."
         },
         {
           "name": "Forked Raiju",
@@ -4036,7 +4066,7 @@
         {
           "name": "Huton",
           "icon": "https://img.finalfantasyxiv.com/lds/d/839919eb2756e950cdae46be906b564ce77bd4b6.png",
-          "effect": "Grants Huton, creating a barrier that absorbs damage equivalent to a heal of 16,000 potency, and increasing movement speed.<br>Duration: 10s<br>Movement speed returns to normal when barrier is completely absorbed.<br>Can only be executed while under the effect of Three Mudra.<br><br>※This action cannot be assigned to a hotbar."
+          "effect": "Grants Huton, creating a barrier that absorbs damage equivalent to a heal of 16,000 potency, and increasing movement speed by 25%.<br>Duration: 10s<br>Movement speed returns to normal when barrier is completely absorbed.<br>Can only be executed while under the effect of Three Mudra.<br><br>※This action cannot be assigned to a hotbar."
         },
         {
           "name": "Doton",
@@ -4056,7 +4086,7 @@
         {
           "name": "Seiton Tenchu",
           "icon": "https://img.finalfantasyxiv.com/lds/d/b3cc3f2b23553fa8ce5a4a46fe159c12a2f82aaa.png",
-          "effect": "Rushes target and delivers an attack with a potency of 10,000, incapacitating foes whose HP is below 50%.<br>Additional Effect: Afflicts target with Death Link<br>Duration: 5s<br>Defeating an enemy with this action, or one under the effect of Death Link, will grant Unsealed Seiton Tenchu, allowing a second execution of this action.<br>Duration: 8s<br>Effect duration is reduced by 1s each time it is applied to a target with a minimum duration of 4s.<br>Effect cannot be applied to players riding machina or non-player combatants.<br>Can only be executed when the limit gauge is full or while under the effect of Unsealed Seiton Tenchu.<br>Cannot be executed while bound."
+          "effect": "Rushes target and delivers an attack with a potency of 10,000, incapacitating foes whose HP is below 50%.<br>Additional Effect: Afflicts target with Death Link<br>Duration: 4s<br>Defeating an enemy with this action, or one under the effect of Death Link, will grant Unsealed Seiton Tenchu, allowing a second execution of this action.<br>Duration: 8s<br>Effect duration is reduced by 1s each time it is applied to a target with a minimum duration of 4s.<br>Effect cannot be applied to players riding machina or non-player combatants.<br>Can only be executed when the limit gauge is full or while under the effect of Unsealed Seiton Tenchu.<br>Gauge Charge Time: 90s<br>Cannot be executed while bound."
         },
         {
           "name": "Standard-issue Elixir",
@@ -4081,7 +4111,7 @@
         {
           "name": "Sprint",
           "icon": "https://img.finalfantasyxiv.com/lds/d/1b49a585ab241c7b5b8bb4d6f47ccec6b96fdaee.png",
-          "effect": "Increases movement speed.<br>Effect ends upon reuse or execution of another action."
+          "effect": "Increases movement speed by 50%.<br>Effect ends upon reuse or execution of another action."
         }
       ]
     }
@@ -4378,7 +4408,7 @@
         {
           "name": "Mineuchi",
           "icon": "https://img.finalfantasyxiv.com/lds/d/c73a2812a60a1d4905999e4ed74619e7319449b7.png",
-          "effect": "Deals damage to target equal to 10% of their current HP.<br>Ignores the effects of Guard when dealing damage.<br>Deals damage with a potency of 4,000 to players riding a machina and non-player combatants.<br>Additional Effect: Stun<br>Duration: 2s"
+          "effect": "Deals damage to target equal to 10% of their current HP.<br>Ignores the effects of Guard when dealing damage.<br>Deals damage with a potency of 4,000 to players riding machina and non-player combatants.<br>Additional Effect: Stun<br>Duration: 2s"
         },
         {
           "name": "Meikyo Shisui",
@@ -4413,7 +4443,7 @@
         {
           "name": "Zantetsuken",
           "icon": "https://img.finalfantasyxiv.com/lds/d/ff8b2867c7cbf972efb8da7deaf7a5c4f48d60cb.png",
-          "effect": "Swiftly charges forward, dealing damage to target and all enemies nearby it with a potency of 24,000.<br>If target is afflicted with Kuzushi, deals damage equal to 100% of their maximum HP.<br>Ignores the effects of Guard when dealing damage.<br>The additional effect of Kuzushi cannot be applied to players riding a machina and non-player combatants.<br>Can only be executed when the limit gauge is full.<br>Cannot be executed while bound."
+          "effect": "Swiftly charges forward, dealing damage to target and all enemies nearby it with a potency of 24,000.<br>If target is afflicted with Kuzushi, deals damage equal to 100% of their maximum HP.<br>Ignores the effects of Guard when dealing damage.<br>The additional effect of Kuzushi cannot be applied to players riding machina and non-player combatants.<br>Can only be executed when the limit gauge is full.<br>Gauge Charge Time: 120s<br>Cannot be executed while bound."
         },
         {
           "name": "Standard-issue Elixir",
@@ -4438,7 +4468,7 @@
         {
           "name": "Sprint",
           "icon": "https://img.finalfantasyxiv.com/lds/d/1b49a585ab241c7b5b8bb4d6f47ccec6b96fdaee.png",
-          "effect": "Increases movement speed.<br>Effect ends upon reuse or execution of another action."
+          "effect": "Increases movement speed by 50%.<br>Effect ends upon reuse or execution of another action."
         }
       ]
     }
@@ -4598,7 +4628,7 @@
         {
           "name": "Lemure's Slice",
           "icon": "https://img.finalfantasyxiv.com/lds/d/c9ae486399356401f032b455ea5b13f986236c82.png",
-          "effect": "Delivers an attack with a potency of 200.<br>Void Shroud Cost: 2<br>Shares a recast timer with Lemure's Scythe.<br><br>※This action cannot be assigned to a hotbar."
+          "effect": "Delivers an attack with a potency of 220.<br>Void Shroud Cost: 2<br>Shares a recast timer with Lemure's Scythe.<br><br>※This action cannot be assigned to a hotbar."
         },
         {
           "name": "Lemure's Scythe",
@@ -4608,12 +4638,12 @@
         {
           "name": "Plentiful Harvest",
           "icon": "https://img.finalfantasyxiv.com/lds/d/08babf4d2bf7ce046d03f459af8fa4c9921f96cc.png",
-          "effect": "Delivers an attack to all enemies in a straight line before you with a potency of 520 for the first enemy, and 60% less for all remaining enemies.<br>Immortal Sacrifice Cost: 1 stack<br>Potency increases up to 800 as stacks of Immortal Sacrifice exceed minimum cost.<br>Additional Effect: Increases Shroud Gauge by 50<br>Cannot be executed while under the effect of Bloodsown Circle.<br>Consumes all stacks of Immortal Sacrifice upon execution."
+          "effect": "Delivers an attack to all enemies in a straight line before you with a potency of 720 for the first enemy, and 60% less for all remaining enemies.<br>Immortal Sacrifice Cost: 1 stack<br>Potency increases up to 1,000 as stacks of Immortal Sacrifice exceed minimum cost.<br>Additional Effect: Increases Shroud Gauge by 50<br>Cannot be executed while under the effect of Bloodsown Circle.<br>Consumes all stacks of Immortal Sacrifice upon execution."
         },
         {
           "name": "Communio",
           "icon": "https://img.finalfantasyxiv.com/lds/d/3b0daa7e454abbd2b6ce037b5c77157462fadbf7.png",
-          "effect": "Deals unaspected damage to target and all enemies nearby it with a potency of 1,000 for the first enemy, and 60% less for all remaining enemies.<br>Enshrouded effect expires upon execution.<br>Requires at least one stack of Lemure Shroud to execute."
+          "effect": "Deals unaspected damage to target and all enemies nearby it with a potency of 1,100 for the first enemy, and 60% less for all remaining enemies.<br>Enshrouded effect expires upon execution.<br>Requires at least one stack of Lemure Shroud to execute."
         },
         {
           "name": "Second Wind",
@@ -4735,7 +4765,7 @@
         {
           "name": "Hell's Ingress",
           "icon": "https://img.finalfantasyxiv.com/lds/d/2424ad75e462d533b623f1371216bc130c82b109.png",
-          "effect": "Quickly dash 15 yalms forward.<br>Additional Effect: Leaves behind a Hellsgate at point of origin, and grants Threshold to self<br>Duration: 10s<br>Additional Effect: Increases movement speed<br>Duration: 5s<br>Cannot be executed while bound.<br><br>※Action changes to Regress upon execution."
+          "effect": "Quickly dash 15 yalms forward.<br>Additional Effect: Leaves behind a Hellsgate at point of origin, and grants Threshold to self<br>Duration: 10s<br>Additional Effect: Increases movement speed by 25%<br>Duration: 5s<br>Cannot be executed while bound.<br><br>※Action changes to Regress upon execution."
         },
         {
           "name": "Arcane Crest",
@@ -4785,7 +4815,7 @@
         {
           "name": "Tenebrae Lemurum",
           "icon": "https://img.finalfantasyxiv.com/lds/d/a2c6adec36c8eeace712802c88eb896c788a8c94.png",
-          "effect": "Offers your flesh as a vessel to your avatar, gaining 5 stacks of Enshrouded.<br>Duration: 15s<br>Additional Effect: Afflicts nearby enemies with Hysteria<br>Hysteria Effect: Afflicted enemies are unable to act of their own free will<br>Duration: 2s<br>Can only be executed when the limit gauge is full.<br>Has no effect on players riding machina or non-player combatants.<br><br>※Action changes to Communio while under the effect of Enshrouded.<br>※Grim Swathe changes to Lemure's Slice while under the effect of Enshrouded.<br>※Infernal Slice Combo changes to Void Reaping while under the effect of Enshrouded."
+          "effect": "Offers your flesh as a vessel to your avatar, gaining 5 stacks of Enshrouded.<br>Duration: 15s<br>Additional Effect: Afflicts nearby enemies with Hysteria<br>Hysteria Effect: Afflicted enemies are unable to act of their own free will<br>Duration: 2s<br>Can only be executed when the limit gauge is full.<br>Gauge Charge Time: 75s<br>Has no effect on players riding machina or non-player combatants.<br><br>※Action changes to Communio while under the effect of Enshrouded.<br>※Grim Swathe changes to Lemure's Slice while under the effect of Enshrouded.<br>※Infernal Slice Combo changes to Void Reaping while under the effect of Enshrouded."
         },
         {
           "name": "Standard-issue Elixir",
@@ -4810,7 +4840,7 @@
         {
           "name": "Sprint",
           "icon": "https://img.finalfantasyxiv.com/lds/d/1b49a585ab241c7b5b8bb4d6f47ccec6b96fdaee.png",
-          "effect": "Increases movement speed.<br>Effect ends upon reuse or execution of another action."
+          "effect": "Increases movement speed by 50%.<br>Effect ends upon reuse or execution of another action."
         }
       ]
     }
@@ -4905,7 +4935,7 @@
         {
           "name": "Empyreal Arrow",
           "icon": "https://img.finalfantasyxiv.com/lds/d/06f5720224fc5d70aaf47a8850f683e0d4e89b02.png",
-          "effect": "Delivers an attack with a potency of 200."
+          "effect": "Delivers an attack with a potency of 230."
         },
         {
           "name": "Iron Jaws",
@@ -4935,7 +4965,7 @@
         {
           "name": "Nature's Minne",
           "icon": "https://img.finalfantasyxiv.com/lds/d/18695708d8d7ea8d7f9a7ffe0857dafcaea57694.png",
-          "effect": "Increases HP recovery via healing actions for a party member or self by 20%.<br>Duration: 15s"
+          "effect": "Increases HP recovery via healing actions by 15% for self and nearby party members.<br>Duration: 15s"
         },
         {
           "name": "Refulgent Arrow",
@@ -5127,7 +5157,7 @@
         {
           "name": "Final Fantasia",
           "icon": "https://img.finalfantasyxiv.com/lds/d/671e19fca51076d955a751ca8cf0b8f0c024d13b.png",
-          "effect": "Grants Final Fantasia to self and Heroes' Fantasia to nearby party members.<br>Final Fantasia Effect: Reduces weaponskill cast time and recast time by 10% while also increasing movement speed<br>Duration: 30s<br>Heroes' Fantasia Effect: Increases damage dealt by 10% and gradually fills the limit gauge<br>Duration: 30s<br>Can only be executed when the limit gauge is full.<br>Effect can only be activated while target is in combat.<br>"
+          "effect": "Reduces your weaponskill cast time and recast time by 10% while also increasing movement speed by 25%.<br>Additional Effect: Increases damage dealt by self and all party members within a radius of 30 yalms by 10% while also gradually filling the limit gauge<br>Duration: 30s<br>Can only be executed when the limit gauge is full.<br>Gauge Charge Time: 120s<br>Can only be executed while in combat."
         },
         {
           "name": "Standard-issue Elixir",
@@ -5152,7 +5182,7 @@
         {
           "name": "Sprint",
           "icon": "https://img.finalfantasyxiv.com/lds/d/1b49a585ab241c7b5b8bb4d6f47ccec6b96fdaee.png",
-          "effect": "Increases movement speed.<br>Effect ends upon reuse or execution of another action."
+          "effect": "Increases movement speed by 50%.<br>Effect ends upon reuse or execution of another action."
         }
       ]
     }
@@ -5187,7 +5217,7 @@
         {
           "name": "Gauss Round",
           "icon": "https://img.finalfantasyxiv.com/lds/d/e6959a3306b601fc9e5987712f6d9ea247a7a566.png",
-          "effect": "Delivers an attack with a potency of 120.<br>Maximum Charges: 3"
+          "effect": "Delivers an attack with a potency of 130.<br>Maximum Charges: 3"
         },
         {
           "name": "Spread Shot",
@@ -5202,12 +5232,12 @@
         {
           "name": "Hypercharge",
           "icon": "https://img.finalfantasyxiv.com/lds/d/273150b6ebb3357688de07d86ec37a02da8e9348.png",
-          "effect": "Releases the energy building in your firearm, causing it to become Overheated, increasing the potency of single-target weaponskills by 20.<br>Duration: 8s<br>Heat Gauge Cost: 50<br>Overheated effect only applicable to machinist job actions."
+          "effect": "Grants 5 stacks of Overheated, each stack allowing the execution of Heat Blast or Auto Crossbow.<br>Duration: 10s<br>Overheated Effect: Increases the potency of single-target weaponskills by 20<br>Heat Gauge Cost: 50<br>Overheated effect only applicable to machinist job actions."
         },
         {
           "name": "Heat Blast",
           "icon": "https://img.finalfantasyxiv.com/lds/d/009d06297b1776f1404cdf4de9c5bd8b17a447e6.png",
-          "effect": "Delivers an attack with a potency of 180.<br>Additional Effect: Reduces the recast time of both Gauss Round and Ricochet by 15s<br>Can only be executed when firearm is Overheated.<br>This weaponskill does not share a recast timer with any other actions. Upon execution, the recast timer for this action will be applied to all other weaponskills and magic actions."
+          "effect": "Delivers an attack with a potency of 200.<br>Additional Effect: Reduces the recast time of both Gauss Round and Ricochet by 15s<br>Can only be executed when firearm is Overheated.<br>This weaponskill does not share a recast timer with any other actions. Upon execution, the recast timer for this action will be applied to all other weaponskills and magic actions."
         },
         {
           "name": "Rook Autoturret",
@@ -5227,7 +5257,7 @@
         {
           "name": "Wildfire",
           "icon": "https://img.finalfantasyxiv.com/lds/d/6d73e45fbbfb35ad0a4f8b4a73753e6a06a37651.png",
-          "effect": "Covers target's body in a slow-burning pitch. Action is changed to Detonator for the duration of the effect.<br>Deals damage when time expires or upon executing Detonator.<br>Potency is increased by 220 for each of your own weaponskills you land prior to the end of the effect.<br>Duration: 10s"
+          "effect": "Covers target's body in a slow-burning pitch. Action is changed to Detonator for the duration of the effect.<br>Deals damage when time expires or upon executing Detonator.<br>Potency is increased by 240 for each of your own weaponskills you land prior to the end of the effect.<br>Can be stacked up to 6 times.<br>Duration: 10s"
         },
         {
           "name": "Detonator",
@@ -5237,7 +5267,7 @@
         {
           "name": "Ricochet",
           "icon": "https://img.finalfantasyxiv.com/lds/d/5556960a2e8ce389c2117d13c6d182f41943c3c9.png",
-          "effect": "Deals damage to all nearby enemies with a potency of 120 for the first enemy, and 50% less for all remaining enemies.<br>Maximum Charges: 3"
+          "effect": "Deals damage to all nearby enemies with a potency of 130 for the first enemy, and 50% less for all remaining enemies.<br>Maximum Charges: 3"
         },
         {
           "name": "Auto Crossbow",
@@ -5257,17 +5287,22 @@
         {
           "name": "Drill",
           "icon": "https://img.finalfantasyxiv.com/lds/d/c8bd9fe712521ac377c3359846437a640c0516b7.png",
-          "effect": "Delivers an attack with a potency of 580.<br>Shares a recast timer with Bioblaster."
+          "effect": "Delivers an attack with a potency of 600.<br>Shares a recast timer with Bioblaster."
         },
         {
           "name": "Heated Slug Shot",
           "icon": "https://img.finalfantasyxiv.com/lds/d/7f91784177366a8b4dd069a15915b41601231f83.png",
-          "effect": "Delivers an attack with a potency of 120.<br>Combo Action: Heated Split Shot<br>Combo Potency: 280<br>Combo Bonus: Increases Heat Gauge by 5"
+          "effect": "Delivers an attack with a potency of 120.<br>Combo Action: Heated Split Shot<br>Combo Potency: 300<br>Combo Bonus: Increases Heat Gauge by 5"
+        },
+        {
+          "name": "Dismantle",
+          "icon": "https://img.finalfantasyxiv.com/lds/d/94eaa7aadfa4d857c00551af690f42bb5d7a4a94.png",
+          "effect": "Lowers target's damage dealt by 10%.<br>Duration: 10s"
         },
         {
           "name": "Heated Clean Shot",
           "icon": "https://img.finalfantasyxiv.com/lds/d/3c8cababe00b6d512baada3b68a32cb866758a17.png",
-          "effect": "Delivers an attack with a potency of 110.<br>Combo Action: Heated Slug Shot<br>Combo Potency: 360<br>Combo Bonus: Increases Heat Gauge by 5<br>Combo Bonus: Increases Battery Gauge by 10"
+          "effect": "Delivers an attack with a potency of 120.<br>Combo Action: Heated Slug Shot<br>Combo Potency: 380<br>Combo Bonus: Increases Heat Gauge by 5<br>Combo Bonus: Increases Battery Gauge by 10"
         },
         {
           "name": "Barrel Stabilizer",
@@ -5287,7 +5322,7 @@
         {
           "name": "Air Anchor",
           "icon": "https://img.finalfantasyxiv.com/lds/d/85abf6ce8fa5c7b7bda98e11f37df0e8c024015e.png",
-          "effect": "Delivers an attack with a potency of 580.<br>Additional Effect: Increases Battery Gauge by 20<br>This weaponskill does not share a recast timer with any other actions."
+          "effect": "Delivers an attack with a potency of 600.<br>Additional Effect: Increases Battery Gauge by 20<br>This weaponskill does not share a recast timer with any other actions."
         },
         {
           "name": "Automaton Queen",
@@ -5327,7 +5362,7 @@
         {
           "name": "Chain Saw",
           "icon": "https://img.finalfantasyxiv.com/lds/d/2f788128862828a0a36c66d4dcd6f521f8391d04.png",
-          "effect": "Delivers an attack to all enemies in a straight line before you with a potency of 580 for the first enemy, and 65% less for all remaining enemies.<br>Additional Effect: Increases Battery Gauge by 20<br>This weaponskill does not share a recast timer with any other actions."
+          "effect": "Delivers an attack to all enemies in a straight line before you with a potency of 600 for the first enemy, and 65% less for all remaining enemies.<br>Additional Effect: Increases Battery Gauge by 20<br>This weaponskill does not share a recast timer with any other actions."
         },
         {
           "name": "Leg Graze",
@@ -5397,7 +5432,7 @@
         {
           "name": "Enhanced Wildfire",
           "icon": "https://img.finalfantasyxiv.com/lds/d/ee45320e4da5dfac149b4d204d8b6d300cdc9623.png",
-          "effect": "Improves Wildfire's potency increase for landing weaponskills to 220."
+          "effect": "Improves Wildfire's potency increase for landing weaponskills to 240."
         },
         {
           "name": "Promotion",
@@ -5417,7 +5452,7 @@
         {
           "name": "Marksman's Mastery",
           "icon": "https://img.finalfantasyxiv.com/lds/d/6acea5ac3fd49cd172fac240c194a5847b080ccf.png",
-          "effect": "Increases the potency of Heated Split Shot to 200, Heated Slug Shot to 120, and Heated Clean Shot to 110."
+          "effect": "Increases the potency of Heated Split Shot to 200, Heated Slug Shot to 120, and Heated Clean Shot to 120."
         },
         {
           "name": "Queen's Gambit",
@@ -5434,7 +5469,7 @@
         {
           "name": "Blast Charge",
           "icon": "https://img.finalfantasyxiv.com/lds/d/e15fdee2a9a849495d10440d6d5f007a66f636e0.png",
-          "effect": "Delivers a ranged attack with a potency of 4,000.<br>Additional Effect: Grants a stack of Heat, up to a maximum of 5<br>Duration: 15s<br>At maximum stacks, grants Overheated and increases movement speed.<br>Duration: 5s<br>Requires casting time to execute. However, it is possible to walk while casting.<br><br>※Action changes to Heat Blast while under the effect of Overheated."
+          "effect": "Delivers a ranged attack with a potency of 4,000.<br>Additional Effect: Grants a stack of Heat, up to a maximum of 5<br>Duration: 15s<br>At maximum stacks, grants Overheated and increases movement speed by 25%.<br>Duration: 5s<br>Requires casting time to execute. However, it is possible to walk while casting.<br><br>※Action changes to Heat Blast while under the effect of Overheated."
         },
         {
           "name": "Scattergun",
@@ -5454,7 +5489,7 @@
         {
           "name": "Bishop Autoturret",
           "icon": "https://img.finalfantasyxiv.com/lds/d/5b81ea0d7793a71e83ebe7472ce3f860a51a842a.png",
-          "effect": "Deploys an area of effect battle turret which will deliver auto-attacks to enemies within range with a potency of 6,000.<br>Duration: 10s<br>Additional Effect: Increases target's damage taken by 10%<br>Duration: 5s<br>Additional Effect: Creates a barrier that absorbs damage equivalent to a heal of 6,000 potency<br>Duration: 5s"
+          "effect": "Deploys an area of effect battle turret which will deliver auto-attacks to enemies within range with a potency of 6,000.<br>Duration: 10s<br>Additional Effect: Increases target's damage taken by 10%<br>Duration: 7s<br>Additional Effect: Creates a barrier that absorbs damage equivalent to a heal of 6,000 potency<br>Duration: 7s"
         },
         {
           "name": "Analysis",
@@ -5484,12 +5519,12 @@
         {
           "name": "Aether Mortar",
           "icon": "https://img.finalfantasyxiv.com/lds/d/e630bb066bbc76a8e961d011612bbdcdaf9509d2.png",
-          "effect": "Deals unaspected damage with a potency of 6,000 to all nearby enemies.<br>Additional Effect: Increases target's damage taken by 10%<br>Duration: 5s<br>Additional Effect: Creates a barrier that absorbs damage equivalent to a heal of 6,000 potency<br>Duration: 5s<br><br>※This action cannot be assigned to a hotbar."
+          "effect": "Deals unaspected damage with a potency of 6,000 to all nearby enemies.<br>Additional Effect: Increases target's damage taken by 10%<br>Duration: 7s<br>Additional Effect: Creates a barrier that absorbs damage equivalent to a heal of 6,000 potency<br>Duration: 7s<br><br>※This action cannot be assigned to a hotbar."
         },
         {
           "name": "Marksman's Spite",
           "icon": "https://img.finalfantasyxiv.com/lds/d/b641fb27f646df1959aa4754f6389d54fd20b9d5.png",
-          "effect": "Delivers a ranged attack with a potency of 36,000.<br>Can only be executed when the limit gauge is full."
+          "effect": "Delivers a ranged attack with a potency of 36,000.<br>Can only be executed when the limit gauge is full.<br>Gauge Charge Time: 90s"
         },
         {
           "name": "Standard-issue Elixir",
@@ -5514,7 +5549,7 @@
         {
           "name": "Sprint",
           "icon": "https://img.finalfantasyxiv.com/lds/d/1b49a585ab241c7b5b8bb4d6f47ccec6b96fdaee.png",
-          "effect": "Increases movement speed.<br>Effect ends upon reuse or execution of another action."
+          "effect": "Increases movement speed by 50%.<br>Effect ends upon reuse or execution of another action."
         }
       ]
     }
@@ -5544,7 +5579,7 @@
         {
           "name": "Standard Step",
           "icon": "https://img.finalfantasyxiv.com/lds/d/601122ac0085d666731203ba91b41a5099457eca.png",
-          "effect": "Begin dancing, granting yourself Standard Step.<br>Duration: 15s<br>Action changes to Standard Finish while dancing.<br>Only Standard Finish, En Avant, step actions, role actions, Sprint, and Limit Break can be performed while dancing.<br>This weaponskill does not share a recast timer with any other actions. Upon execution, the recast timer for this action will be applied to all other weaponskills and magic actions."
+          "effect": "Begin dancing, granting yourself Standard Step.<br>Duration: 15s<br>Action changes to Standard Finish while dancing.<br>Only Standard Finish, En Avant, Curing Waltz, Shield Samba, step actions, role actions, Sprint, and Limit Break can be performed while dancing.<br>This weaponskill does not share a recast timer with any other actions. Upon execution, the recast timer for this action will be applied to all other weaponskills and magic actions."
         },
         {
           "name": "Standard Finish",
@@ -5624,7 +5659,7 @@
         {
           "name": "Technical Step",
           "icon": "https://img.finalfantasyxiv.com/lds/d/2b0f0944de8d90ce1e9413cc3294bde99b7e1d7a.png",
-          "effect": "Begin dancing, granting yourself Technical Step.<br>Duration: 15s<br>Action changes to Technical Finish while dancing.<br>Only Technical Finish, En Avant, step actions, role actions, Sprint, and Limit Break can be performed while dancing.<br>This weaponskill does not share a recast timer with any other actions. Upon execution, the recast timer for this action will be applied to all other weaponskills and magic actions."
+          "effect": "Begin dancing, granting yourself Technical Step.<br>Duration: 15s<br>Action changes to Technical Finish while dancing.<br>Only Technical Finish, En Avant, Curing Waltz, Shield Samba, step actions, role actions, Sprint, and Limit Break can be performed while dancing.<br>This weaponskill does not share a recast timer with any other actions. Upon execution, the recast timer for this action will be applied to all other weaponskills and magic actions."
         },
         {
           "name": "Technical Finish",
@@ -5791,7 +5826,7 @@
         {
           "name": "Honing Dance",
           "icon": "https://img.finalfantasyxiv.com/lds/d/cecaa07a349b4c21c5645a3b3527e6bddfcdd76e.png",
-          "effect": "Unleashes a flurry of chakram strikes on nearby enemies, dealing damage over time with a potency of 4,000 and decreasing damage taken by 20% until effect expires.<br>Duration: 3s<br>Executes Honing Ovation when effect duration expires.<br>Additional Effect: Grants a stack of Acclaim, up to a maximum of 4<br>Acclaim Effect: Increases the damage and effect potency of Honing Ovation<br>Duration: 5s<br>Can be executed while moving.<br>This weaponskill does not share a recast timer with any other actions.<br><br>※Action changes to Honing Ovation upon execution."
+          "effect": "Unleashes a flurry of chakram strikes on nearby enemies, dealing damage over time with a potency of 4,000 and decreasing damage taken by 25% until effect expires.<br>Duration: 3s<br>Executes Honing Ovation when effect duration expires.<br>Additional Effect: Grants a stack of Acclaim, up to a maximum of 4<br>Acclaim Effect: Increases the damage and effect potency of Honing Ovation<br>Duration: 5s<br>Can be executed while moving.<br>This weaponskill does not share a recast timer with any other actions.<br><br>※Action changes to Honing Ovation upon execution."
         },
         {
           "name": "Fan Dance",
@@ -5836,7 +5871,7 @@
         {
           "name": "Contradance",
           "icon": "https://img.finalfantasyxiv.com/lds/d/8389226ba5e7eab65952af115123a4db1357a03c.png",
-          "effect": "Charms nearby enemies.<br>Duration: 2s<br>Damage you deal to charmed enemies will extend the effect duration by 2s. This effect can only be extended once.<br>Can only be executed when the limit gauge is full."
+          "effect": "Charms nearby enemies.<br>Duration: 2s<br>Damage you deal to charmed enemies will extend the effect duration by 2s. This effect can only be extended once.<br>Can only be executed when the limit gauge is full.<br>Gauge Charge Time: 90s"
         },
         {
           "name": "Standard-issue Elixir",
@@ -5861,7 +5896,7 @@
         {
           "name": "Sprint",
           "icon": "https://img.finalfantasyxiv.com/lds/d/1b49a585ab241c7b5b8bb4d6f47ccec6b96fdaee.png",
-          "effect": "Increases movement speed.<br>Effect ends upon reuse or execution of another action."
+          "effect": "Increases movement speed by 50%.<br>Effect ends upon reuse or execution of another action."
         }
       ]
     }
@@ -5991,7 +6026,7 @@
         {
           "name": "Foul",
           "icon": "https://img.finalfantasyxiv.com/lds/d/4a87efd9bcba0589fb9e9a86b1f9dcd38157c1ee.png",
-          "effect": "Deals unaspected damage to target and all enemies nearby it with a potency of 560 for the first enemy, and 60% less for all remaining enemies.<br>Polyglot Cost: 1"
+          "effect": "Deals unaspected damage to target and all enemies nearby it with a potency of 600 for the first enemy, and 60% less for all remaining enemies.<br>Polyglot Cost: 1"
         },
         {
           "name": "Despair",
@@ -6006,7 +6041,7 @@
         {
           "name": "Xenoglossy",
           "icon": "https://img.finalfantasyxiv.com/lds/d/428eac2232a6d9531a9a02e344dc48bb06310c6c.png",
-          "effect": "Deals unaspected damage with a potency of 760.<br>Polyglot Cost: 1"
+          "effect": "Deals unaspected damage with a potency of 800.<br>Polyglot Cost: 1"
         },
         {
           "name": "High Fire II",
@@ -6146,7 +6181,7 @@
         {
           "name": "Enhanced Enochian III",
           "icon": "https://img.finalfantasyxiv.com/lds/d/72578b4df3af511dffc110405fba9737cff7d922.png",
-          "effect": "Improves Enochian's magic damage increase to 20%."
+          "effect": "Improves Enochian's magic damage increase to 21%."
         },
         {
           "name": "Enhanced Sharpcast II",
@@ -6223,7 +6258,7 @@
         {
           "name": "Soul Resonance",
           "icon": "https://img.finalfantasyxiv.com/lds/d/b834e18e2f5e1eb8dcdde2e1360761650e6296a3.png",
-          "effect": "Grants 6 stacks of Soul Resonance, upgrading Fire to Flare and Blizzard to Freeze.<br>Additional Effect: Grants Polyglot and Apocatastasis<br>Polyglot Effect: Action changes to Foul<br>Duration: 60s<br>Apocatastasis Effect: Damage taken is reduced by 10%<br>Duration: 15s<br>Additional Effect: Reduces the recast time of Superflare by 15 seconds<br>Can only be executed when the limit gauge is full."
+          "effect": "Grants 6 stacks of Soul Resonance, upgrading Fire to Flare and Blizzard to Freeze.<br>Additional Effect: Grants Polyglot<br>Polyglot Effect: Action changes to Foul<br>Duration: 60s<br>Additional Effect: Reduces the recast time of Superflare by 15 seconds<br>Can only be executed when the limit gauge is full.<br>Gauge Charge Time: 60s"
         },
         {
           "name": "Standard-issue Elixir",
@@ -6248,7 +6283,7 @@
         {
           "name": "Sprint",
           "icon": "https://img.finalfantasyxiv.com/lds/d/1b49a585ab241c7b5b8bb4d6f47ccec6b96fdaee.png",
-          "effect": "Increases movement speed.<br>Effect ends upon reuse or execution of another action."
+          "effect": "Increases movement speed by 50%.<br>Effect ends upon reuse or execution of another action."
         }
       ]
     }
@@ -6303,7 +6338,7 @@
         {
           "name": "Fester",
           "icon": "https://img.finalfantasyxiv.com/lds/d/b2df31cca5d00be7bba89943c76b799ae82aba8d.png",
-          "effect": "Deals unaspected damage with a potency of 300.<br>Aetherflow Gauge Cost: 1"
+          "effect": "Deals unaspected damage with a potency of 340.<br>Aetherflow Gauge Cost: 1"
         },
         {
           "name": "Energy Drain",
@@ -6593,17 +6628,17 @@
         {
           "name": "Summon Ifrit II",
           "icon": "https://img.finalfantasyxiv.com/lds/d/e49b3a55b75a637cb0e6e794d588b2ba4886c742.png",
-          "effect": "Summons Ruby Ifrit and orders it to execute Inferno.<br>Inferno Effect: Deals fire damage to target and all enemies within 5 yalms with a potency of 700 for the first enemy, and 60% less for all remaining enemies<br>Additional Effect: Grants 2 stacks of Fire Attunement<br>Duration: 30s<br>Fire Attunement Effect: Gemshine and Precious Brilliance become fire-aspected<br>Additional Effect: Grants Ifrit's Favor<br>Effect of Ifrit's Favor ends upon execution of certain summoner actions.<br>Can only be executed while under the effect of Ruby Arcanum and Carbuncle is summoned.<br>Current pet will leave the battlefield while Ruby Ifrit is present, and return once gone."
+          "effect": "Summons Ruby Ifrit and orders it to execute Inferno.<br>Inferno Effect: Deals fire damage to target and all enemies within 5 yalms with a potency of 750 for the first enemy, and 60% less for all remaining enemies<br>Additional Effect: Grants 2 stacks of Fire Attunement<br>Duration: 30s<br>Fire Attunement Effect: Gemshine and Precious Brilliance become fire-aspected<br>Additional Effect: Grants Ifrit's Favor<br>Effect of Ifrit's Favor ends upon execution of certain summoner actions.<br>Can only be executed while under the effect of Ruby Arcanum and Carbuncle is summoned.<br>Current pet will leave the battlefield while Ruby Ifrit is present, and return once gone."
         },
         {
           "name": "Summon Titan II",
           "icon": "https://img.finalfantasyxiv.com/lds/d/d5e3edcb915673621b1ccb51774abf494eba6b5e.png",
-          "effect": "Summons Topaz Titan and orders it to execute Earthen Fury.<br>Earthen Fury Effect: Deals earth damage to target and all enemies within 5 yalms with a potency of 700 for the first enemy, and 60% less for all remaining enemies<br>Additional Effect: Grants 4 stacks of Earth Attunement<br>Duration: 30s<br>Earth Attunement Effect: Gemshine and Precious Brilliance become earth-aspected<br>Can only be executed while under the effect of Topaz Arcanum and Carbuncle is summoned.<br>Current pet will leave the battlefield while Topaz Titan is present, and return once gone."
+          "effect": "Summons Topaz Titan and orders it to execute Earthen Fury.<br>Earthen Fury Effect: Deals earth damage to target and all enemies within 5 yalms with a potency of 750 for the first enemy, and 60% less for all remaining enemies<br>Additional Effect: Grants 4 stacks of Earth Attunement<br>Duration: 30s<br>Earth Attunement Effect: Gemshine and Precious Brilliance become earth-aspected<br>Can only be executed while under the effect of Topaz Arcanum and Carbuncle is summoned.<br>Current pet will leave the battlefield while Topaz Titan is present, and return once gone."
         },
         {
           "name": "Summon Garuda II",
           "icon": "https://img.finalfantasyxiv.com/lds/d/f25f4c81570c889872295e4ba99496ee6bf3fc89.png",
-          "effect": "Summons Emerald Garuda and orders it to execute Aerial Blast.<br>Aerial Blast Effect: Deals wind damage to target and all enemies within 5 yalms with a potency of 700 for the first enemy, and 60% less for all remaining enemies<br>Additional Effect: Grants 4 stacks of Wind Attunement<br>Duration: 30s<br>Wind Attunement Effect: Gemshine and Precious Brilliance become wind-aspected<br>Additional Effect: Grants Garuda's Favor<br>Effect of Garuda's Favor ends upon execution of certain summoner actions.<br>Can only be executed while under the effect of Emerald Arcanum and Carbuncle is summoned.<br>Current pet will leave the battlefield while Emerald Garuda is present, and return once gone."
+          "effect": "Summons Emerald Garuda and orders it to execute Aerial Blast.<br>Aerial Blast Effect: Deals wind damage to target and all enemies within 5 yalms with a potency of 750 for the first enemy, and 60% less for all remaining enemies<br>Additional Effect: Grants 4 stacks of Wind Attunement<br>Duration: 30s<br>Wind Attunement Effect: Gemshine and Precious Brilliance become wind-aspected<br>Additional Effect: Grants Garuda's Favor<br>Effect of Garuda's Favor ends upon execution of certain summoner actions.<br>Can only be executed while under the effect of Emerald Arcanum and Carbuncle is summoned.<br>Current pet will leave the battlefield while Emerald Garuda is present, and return once gone."
         },
         {
           "name": "Radiant Aegis",
@@ -6745,7 +6780,7 @@
         {
           "name": "Ruin III",
           "icon": "https://img.finalfantasyxiv.com/lds/d/38c2df65f188c9a5f9a3ad26343f8d835f309628.png",
-          "effect": "Deals unaspected damage with a potency of 4,000.<br><br>※Action changes to Astral Impulse while under the effect of Dreadwyrm Trance.<br>※Action changes to Fountain of Fire while under the effect of Firebird Trance."
+          "effect": "Deals unaspected damage with a potency of 5,000.<br><br>※Action changes to Astral Impulse while under the effect of Dreadwyrm Trance.<br>※Action changes to Fountain of Fire while under the effect of Firebird Trance."
         },
         {
           "name": "Crimson Cyclone",
@@ -6755,7 +6790,7 @@
         {
           "name": "Slipstream",
           "icon": "https://img.finalfantasyxiv.com/lds/d/ce754803ec26e9785e32a9650cffcfc65c56409e.png",
-          "effect": "Deals wind damage with a potency of 8,000 to target and all enemies nearby it.<br>Additional Effect: Creates a Slipstream centered around target, dealing damage to any enemies who enter<br>Enemies standing within 5 yalms of the storm's eye take no damage.<br>Potency: 4,000<br>Additional Effect: Increases movement speed of party members standing in the Slipstream<br>Duration: 10s<br>This action does not share a recast timer with any other actions."
+          "effect": "Deals wind damage with a potency of 8,000 to target and all enemies nearby it.<br>Additional Effect: Creates a Slipstream centered around target, dealing damage to any enemies who enter<br>Enemies standing within 5 yalms of the storm's eye take no damage.<br>Potency: 4,000<br>Additional Effect: Increases movement speed of party members standing in the Slipstream by 25%<br>Duration: 10s<br>This action does not share a recast timer with any other actions."
         },
         {
           "name": "Radiant Aegis",
@@ -6775,12 +6810,12 @@
         {
           "name": "Astral Impulse",
           "icon": "https://img.finalfantasyxiv.com/lds/d/a4f03f56fc241517b2f1d3b66f44968caf83d6f7.png",
-          "effect": "Deals unaspected damage with a potency of 6,000.<br>Can only be executed while under the effect of Dreadwyrm Trance.<br><br>※This action cannot be assigned to a hotbar."
+          "effect": "Deals unaspected damage with a potency of 7,500.<br>Can only be executed while under the effect of Dreadwyrm Trance.<br><br>※This action cannot be assigned to a hotbar."
         },
         {
           "name": "Fountain of Fire",
           "icon": "https://img.finalfantasyxiv.com/lds/d/38e05864b47b78020da96fc263981869c4b6a5c9.png",
-          "effect": "Deals fire damage with a potency of 4,000.<br>Can only be executed while under the effect of Firebird Trance.<br><br>※This action cannot be assigned to a hotbar."
+          "effect": "Deals fire damage with a potency of 5,000.<br>Can only be executed while under the effect of Firebird Trance.<br><br>※This action cannot be assigned to a hotbar."
         },
         {
           "name": "Crimson Strike",
@@ -6820,7 +6855,7 @@
         {
           "name": "Summon Bahamut",
           "icon": "https://img.finalfantasyxiv.com/lds/d/7ef1dd621306bd909533ec27e89d0c1dc00da182.png",
-          "effect": "Enters Dreadwyrm Trance and summons Demi-Bahamut to fight at a designated location.<br>Duration: 20s<br>Demi-Bahamut will execute Megaflare upon being summoned, then execute Wyrmwave automatically, prioritizing targets with the lowest HP within 30 yalms.<br>Can only be executed when the limit gauge is full.<br><br>※Action changes to Enkindle Bahamut upon execution.<br>※Ruin III changes to Astral Impulse while under the effect of Dreadwyrm Trance."
+          "effect": "Enters Dreadwyrm Trance and summons Demi-Bahamut to fight at a designated location.<br>Duration: 20s<br>Demi-Bahamut will execute Megaflare upon being summoned, then execute Wyrmwave automatically, prioritizing targets with the lowest HP within 30 yalms.<br>Can only be executed when the limit gauge is full.<br>Gauge Charge Time: 90s<br><br>※Action changes to Enkindle Bahamut upon execution.<br>※Ruin III changes to Astral Impulse while under the effect of Dreadwyrm Trance."
         },
         {
           "name": "Megaflare",
@@ -6830,7 +6865,7 @@
         {
           "name": "Summon Phoenix",
           "icon": "https://img.finalfantasyxiv.com/lds/d/43a7121c604b4da78f2a9d4110cc2a85bc6c6425.png",
-          "effect": "Enters Firebird Trance and summons Demi-Phoenix to fight at a designated location.<br>Duration: 20s<br>Demi-Phoenix will execute Everlasting Flight upon being summoned, then execute Scarlet Flame automatically, prioritizing the closest target within 30 yalms.<br>Can only be executed when the limit gauge is full.<br><br>※Action changes to Enkindle Phoenix upon execution.<br>※Ruin III changes to Fountain of Fire while under the effect of Firebird Trance."
+          "effect": "Enters Firebird Trance and summons Demi-Phoenix to fight at a designated location.<br>Duration: 20s<br>Demi-Phoenix will execute Everlasting Flight upon being summoned, then execute Scarlet Flame automatically, prioritizing the closest target within 30 yalms.<br>Can only be executed when the limit gauge is full.<br>Gauge Charge Time: 90s<br><br>※Action changes to Enkindle Phoenix upon execution.<br>※Ruin III changes to Fountain of Fire while under the effect of Firebird Trance."
         },
         {
           "name": "Everlasting Flight",
@@ -6860,7 +6895,7 @@
         {
           "name": "Sprint",
           "icon": "https://img.finalfantasyxiv.com/lds/d/1b49a585ab241c7b5b8bb4d6f47ccec6b96fdaee.png",
-          "effect": "Increases movement speed.<br>Effect ends upon reuse or execution of another action."
+          "effect": "Increases movement speed by 50%.<br>Effect ends upon reuse or execution of another action."
         }
       ]
     }
@@ -7035,17 +7070,17 @@
         {
           "name": "Enchanted Riposte",
           "icon": "https://img.finalfantasyxiv.com/lds/d/f3b5d72daa982d01b469e4d45a73b184b7056154.png",
-          "effect": "Deals unaspected damage with a potency of 220.<br>Additional Effect: Grants a Mana Stack<br>Balance Gauge Cost: 20 Black Mana<br>Balance Gauge Cost: 20 White Mana<br><br>※This action cannot be assigned to a hotbar."
+          "effect": "Deals unaspected damage with a potency of 280.<br>Additional Effect: Grants a Mana Stack<br>Balance Gauge Cost: 20 Black Mana<br>Balance Gauge Cost: 20 White Mana<br><br>※This action cannot be assigned to a hotbar."
         },
         {
           "name": "Enchanted Zwerchhau",
           "icon": "https://img.finalfantasyxiv.com/lds/d/4740dd6eac66424c4d1b236f9002b979f7f993e7.png",
-          "effect": "Deals unaspected damage with a potency of 100.<br>Combo Action: Riposte or Enchanted Riposte<br>Combo Potency: 290<br>Additional Effect: Grants a Mana Stack<br>Balance Gauge Cost: 15 Black Mana<br>Balance Gauge Cost: 15 White Mana<br><br>※This action cannot be assigned to a hotbar."
+          "effect": "Deals unaspected damage with a potency of 150.<br>Combo Action: Riposte or Enchanted Riposte<br>Combo Potency: 340<br>Additional Effect: Grants a Mana Stack<br>Balance Gauge Cost: 15 Black Mana<br>Balance Gauge Cost: 15 White Mana<br><br>※This action cannot be assigned to a hotbar."
         },
         {
           "name": "Enchanted Redoublement",
           "icon": "https://img.finalfantasyxiv.com/lds/d/12329935fdf53d176f290194929c91b4f96c5212.png",
-          "effect": "Deals unaspected damage with a potency of 100.<br>Combo Action: Enchanted Zwerchhau<br>Combo Potency: 470<br>Additional Effect: Grants a Mana Stack<br>Balance Gauge Cost: 15 Black Mana<br>Balance Gauge Cost: 15 White Mana<br><br>※This action cannot be assigned to a hotbar."
+          "effect": "Deals unaspected damage with a potency of 130.<br>Combo Action: Enchanted Zwerchhau<br>Combo Potency: 500<br>Additional Effect: Grants a Mana Stack<br>Balance Gauge Cost: 15 Black Mana<br>Balance Gauge Cost: 15 White Mana<br><br>※This action cannot be assigned to a hotbar."
         },
         {
           "name": "Enchanted Moulinet",
@@ -7135,7 +7170,7 @@
         {
           "name": "Red Magic Mastery III",
           "icon": "https://img.finalfantasyxiv.com/lds/d/ad98a9599086d8643f4d5808e2cabbc50cad1e44.png",
-          "effect": "Increases the potency of Verthunder II to 140, Veraero II to 140, Verfire to 330, Verstone to 330, Jolt II to 310, Impact to 210, and Enchanted Reprise to 330."
+          "effect": "Increases the potency of Enchanted Riposte to 280, Verthunder II to 140, Veraero II to 140, Verfire to 330, Verstone to 330, Enchanted Zwerchhau to 150, Enchanted Redoublement to 130, Jolt II to 310, Impact to 210, and Enchanted Reprise to 330."
         },
         {
           "name": "Enhanced Acceleration",
@@ -7167,7 +7202,7 @@
         {
           "name": "Magick Barrier",
           "icon": "https://img.finalfantasyxiv.com/lds/d/a18eb34f3095e008c14b977841ebd45e02ef04d4.png",
-          "effect": "Reduces damage taken by self and nearby party members by 10%, while increasing HP recovered via healing actions by 20%.<br>Duration: 10s<br>Can only be executed while under the effect of White Shift.<br>Shares a recast timer with Frazzle.<br><br>※Action changes to Frazzle while under the effect of Black Shift."
+          "effect": "Reduces damage taken by self and nearby party members by 10%, while increasing HP recovered via healing actions by 10%.<br>Duration: 8s<br>Can only be executed while under the effect of White Shift.<br>Shares a recast timer with Frazzle.<br><br>※Action changes to Frazzle while under the effect of Black Shift."
         },
         {
           "name": "Corps-a-corps",
@@ -7217,12 +7252,12 @@
         {
           "name": "Enchanted Redoublement",
           "icon": "https://img.finalfantasyxiv.com/lds/d/b2f8944b29325a91ae300010c1fb774e9d53316e.png",
-          "effect": "Delivers an attack with a potency of 8,000.<br>Combo Action: Enchanted Zwerchhau<br>Additional Effect: Grants Vermilion Radiance<br>Duration: 10s<br>White Shift Effect: Creates a barrier around self that absorbs damage equivalent to a heal of 6,000 potency<br>Duration: 10s<br>Black Shift Effect: Damage over time<br>Potency: 3,000<br>Duration: 6s<br><br>※Action changes to Verholy while under the effect of White Shift and Vermilion Radiance.<br>※Action changes to Verflare while under the effect of Black Shift and Vermilion Radiance.<br>※This action cannot be assigned to a hotbar."
+          "effect": "Deals unaspected damage with a potency of 8,000.<br>Combo Action: Enchanted Zwerchhau<br>Additional Effect: Grants Vermilion Radiance<br>Duration: 10s<br>White Shift Effect: Creates a barrier around self that absorbs damage equivalent to a heal of 6,000 potency<br>Duration: 10s<br>Black Shift Effect: Damage over time<br>Potency: 3,000<br>Duration: 6s<br><br>※Action changes to Verholy while under the effect of White Shift and Vermilion Radiance.<br>※Action changes to Verflare while under the effect of Black Shift and Vermilion Radiance.<br>※This action cannot be assigned to a hotbar."
         },
         {
           "name": "Frazzle",
           "icon": "https://img.finalfantasyxiv.com/lds/d/1acc1c44ad72be77ee1391495ad6b3a48254d7ba.png",
-          "effect": "Increases damage taken by nearby enemies by 10%, while reducing HP recovered via healing actions by 20%.<br>Duration: 10s<br>Can only be executed while under the effect of Black Shift.<br>Shares a recast timer with Magick Barrier.<br><br>※This action cannot be assigned to a hotbar."
+          "effect": "Increases damage taken by nearby enemies by 10%, while reducing HP recovered via healing actions by 10%.<br>Duration: 8s<br>Can only be executed while under the effect of Black Shift.<br>Shares a recast timer with Magick Barrier.<br><br>※This action cannot be assigned to a hotbar."
         },
         {
           "name": "White Shift",
@@ -7232,7 +7267,7 @@
         {
           "name": "Southern Cross",
           "icon": "https://img.finalfantasyxiv.com/lds/d/7c93e62e034c1a0d6cfd0dfc01ed9fa386528e9e.png",
-          "effect": "Emblazons a grand cross on the ground beneath a party member or enemy, restoring HP of party members within range while damaging enemies.<br>Cure Potency: 6,000<br>Damage Potency: 6,000<br>White Shift Effect: Cure potency is doubled<br>Black Shift Effect: Damage potency is doubled<br>Targets standing at the cross's center will receive the effects of this action twice.<br>Can only be executed when the limit gauge is full."
+          "effect": "Emblazons a grand cross on the ground beneath a party member or enemy, restoring HP of party members within range while damaging enemies.<br>Cure Potency: 6,000<br>Damage Potency: 6,000<br>White Shift Effect: Cure potency is doubled<br>Black Shift Effect: Damage potency is doubled<br>Targets standing at the cross's center will receive the effects of this action twice.<br>Can only be executed when the limit gauge is full.<br>Gauge Charge Time: 90s"
         },
         {
           "name": "Standard-issue Elixir",
@@ -7257,7 +7292,7 @@
         {
           "name": "Sprint",
           "icon": "https://img.finalfantasyxiv.com/lds/d/1b49a585ab241c7b5b8bb4d6f47ccec6b96fdaee.png",
-          "effect": "Increases movement speed.<br>Effect ends upon reuse or execution of another action."
+          "effect": "Increases movement speed by 50%.<br>Effect ends upon reuse or execution of another action."
         }
       ]
     }
