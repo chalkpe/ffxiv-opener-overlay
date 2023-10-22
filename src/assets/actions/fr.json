@@ -19,7 +19,7 @@
         {
           "name": "Lame déchaînée",
           "icon": "https://img.finalfantasyxiv.com/lds/d/bdda04f3b284e3cbf7d07e50d9bffb21b74ce869.png",
-          "effect": "Effectue une attaque physique sur la cible.<br>Puissance : 120<br>Combo : Lame rapide<br>Puissance du combo : 280<br>Bonus du combo : restaure vos PM."
+          "effect": "Effectue une attaque physique sur la cible.<br>Puissance : 140<br>Combo : Lame rapide<br>Puissance du combo : 300<br>Bonus du combo : restaure vos PM."
         },
         {
           "name": "Éclipse totale",
@@ -79,7 +79,7 @@
         {
           "name": "Cercle du destin",
           "icon": "https://img.finalfantasyxiv.com/lds/d/af5ddb89ddd5ade6706afe571f45aa6028e1925b.png",
-          "effect": "Effectue une attaque physique sur les ennemis alentour.<br>Puissance : 100<br>Effet additionnel : dégâts périodiques.<br>Puissance : 30 Durée : 15s"
+          "effect": "Effectue une attaque physique sur les ennemis alentour.<br>Puissance : 140<br>Effet additionnel : dégâts périodiques.<br>Puissance : 30 Durée : 15s"
         },
         {
           "name": "Invincible",
@@ -109,7 +109,7 @@
         {
           "name": "Autorité royale",
           "icon": "https://img.finalfantasyxiv.com/lds/d/3fe523f08ebd0b93125ae42d5bcf8e18dce08a02.png",
-          "effect": "Effectue une attaque physique sur la cible.<br>Puissance : 120<br>Combo : Lame déchaînée<br>Puissance du combo : 380<br>Bonus du combo : octroie Serment de l'épée au troisième degré.<br>Durée : 30s<br>Bonus du combo : vous octroie Grâce divine.<br>Durée : 30s<br>Grâce divine : permet de lancer instantanément le prochain Esprit saint ou Cercle sacré avec une puissance augmentée."
+          "effect": "Effectue une attaque physique sur la cible.<br>Puissance : 140<br>Combo : Lame déchaînée<br>Puissance du combo : 400<br>Bonus du combo : octroie Serment de l'épée au troisième degré.<br>Durée : 30s<br>Bonus du combo : vous octroie Grâce divine.<br>Durée : 30s<br>Grâce divine : permet de lancer instantanément le prochain Esprit saint ou Cercle sacré avec une puissance augmentée."
         },
         {
           "name": "Intervention",
@@ -124,7 +124,7 @@
         {
           "name": "Requiescat",
           "icon": "https://img.finalfantasyxiv.com/lds/d/acbcd4de5a1839e4fd8c96ae05eb4109caed9ca1.png",
-          "effect": "Effectue une attaque magique neutre sur la cible.<br>Puissance : 300<br>Vous octroie 4 degrés de Requiescat.<br>Durée : 30s<br>Requiescat : permet de lancer des sorts instantanément.<br>Augmente la puissance d'Esprit saint, Cercle sacré, Confiteor et des techniques d'arme de combo suivantes.<br>Effet additionnel : vous octroie Confiteor préparé.<br>Durée : 30s"
+          "effect": "Effectue une attaque magique neutre sur la cible.<br>Puissance : 320<br>Vous octroie 4 degrés de Requiescat.<br>Durée : 30s<br>Requiescat : permet de lancer des sorts instantanément.<br>Augmente la puissance d'Esprit saint, Cercle sacré, Confiteor et des actions de combo suivantes.<br>Effet additionnel : vous octroie Confiteor préparé.<br>Durée : 30s"
         },
         {
           "name": "Passe d'armes",
@@ -144,12 +144,12 @@
         {
           "name": "Absolution",
           "icon": "https://img.finalfantasyxiv.com/lds/d/f59cb1517f2f26c490a87d58366b5bccff372f19.png",
-          "effect": "Effectue une attaque physique sur la cible.<br>Puissance : 380<br>Effet additionnel : restaure vos PM.<br>Condition : Serment de l'épée."
+          "effect": "Effectue une attaque physique sur la cible.<br>Puissance : 400<br>Effet additionnel : restaure vos PM.<br>Condition : Serment de l'épée."
         },
         {
           "name": "Confiteor",
           "icon": "https://img.finalfantasyxiv.com/lds/d/362579dcb6dc2b7c9ea6eac6917c7b9c61f7ce1b.png",
-          "effect": "Effectue une attaque magique neutre sur la cible et les ennemis autour.<br>Puissance : 400<br>Puissance avec Requiescat : 900<br>La puissance est réduite de 50% au-delà du premier ennemi touché.<br>Effet additionnel : restaure vos PV.<br>Puissance : 400<br>Condition : Confiteor préparé."
+          "effect": "Effectue une attaque magique neutre sur la cible et les ennemis autour.<br>Puissance : 420<br>Puissance avec Requiescat : 920<br>La puissance est réduite de 50% au-delà du premier ennemi touché.<br>Effet additionnel : restaure vos PV.<br>Puissance : 400<br>Condition : Confiteor préparé."
         },
         {
           "name": "Schiltron sacré",
@@ -164,17 +164,17 @@
         {
           "name": "Lame de foi",
           "icon": "https://img.finalfantasyxiv.com/lds/d/004ab8b8fc5c3fe5b362bf7f0e35f9ab9a91918a.png",
-          "effect": "Effectue une attaque magique neutre sur la cible et les ennemis autour.<br>Puissance : 200<br>Puissance avec Requiescat : 700<br>La puissance est réduite de 50% au-delà du premier ennemi touché.<br>Combo : Confiteor<br>Effet additionnel : restaure vos PV.<br>Puissance : 400<br><br>* Cette action ne peut pas être ajoutée aux barres de raccourcis."
+          "effect": "Effectue une attaque magique neutre sur la cible et les ennemis autour.<br>Puissance : 220<br>Puissance avec Requiescat : 720<br>La puissance est réduite de 50% au-delà du premier ennemi touché.<br>Combo : Confiteor<br>Effet additionnel : restaure vos PV.<br>Puissance : 400<br><br>* Cette action ne peut pas être ajoutée aux barres de raccourcis."
         },
         {
           "name": "Lame de vérité",
           "icon": "https://img.finalfantasyxiv.com/lds/d/31fd8e8a1827a2f830335a67cf52abb191d62485.png",
-          "effect": "Effectue une attaque magique neutre sur la cible et les ennemis autour.<br>Puissance : 300<br>Puissance avec Requiescat : 800<br>La puissance est réduite de 50% au-delà du premier ennemi touché.<br>Combo : Lame de foi<br>Effet additionnel : restaure vos PV.<br>Puissance : 400<br><br>* Cette action ne peut pas être ajoutée aux barres de raccourcis."
+          "effect": "Effectue une attaque magique neutre sur la cible et les ennemis autour.<br>Puissance : 320<br>Puissance avec Requiescat : 820<br>La puissance est réduite de 50% au-delà du premier ennemi touché.<br>Combo : Lame de foi<br>Effet additionnel : restaure vos PV.<br>Puissance : 400<br><br>* Cette action ne peut pas être ajoutée aux barres de raccourcis."
         },
         {
           "name": "Lame de vaillance",
           "icon": "https://img.finalfantasyxiv.com/lds/d/289629a47afee95a9d05e38bcc68a2b7fdd1cacd.png",
-          "effect": "Effectue une attaque magique neutre sur la cible et les ennemis autour.<br>Puissance : 400<br>Puissance avec Requiescat : 900<br>La puissance est réduite de 50% au-delà du premier ennemi touché.<br>Combo : Lame de vérité<br>Effet additionnel : restaure vos PV.<br>Puissance : 400<br><br>* Cette action ne peut pas être ajoutée aux barres de raccourcis."
+          "effect": "Effectue une attaque magique neutre sur la cible et les ennemis autour.<br>Puissance : 420<br>Puissance avec Requiescat : 920<br>La puissance est réduite de 50% au-delà du premier ennemi touché.<br>Combo : Lame de vérité<br>Effet additionnel : restaure vos PV.<br>Puissance : 400<br><br>* Cette action ne peut pas être ajoutée aux barres de raccourcis."
         },
         {
           "name": "Rempart",
@@ -274,7 +274,7 @@
         {
           "name": "Actions améliorées",
           "icon": "https://img.finalfantasyxiv.com/lds/d/6acea5ac3fd49cd172fac240c194a5847b080ccf.png",
-          "effect": "Augmente la puissance de certaines actions.<br><br>Puissance de Lame rapide : 200<br>Puissance de Lame déchaînée : 120<br>Puissance d'Autorité royale : 120<br>Puissance d'Esprit saint : 350<br>Puissance d'Absolution : 380"
+          "effect": "Augmente la puissance de certaines actions.<br><br>Puissance de Lame rapide : 200<br>Puissance de Lame déchaînée : 140<br>Puissance d'Autorité royale : 140<br>Puissance d'Esprit saint : 350<br>Puissance d'Absolution : 400"
         },
         {
           "name": "Maîtrise d'Esprits intérieurs",
@@ -326,7 +326,7 @@
         {
           "name": "Schiltron sacré",
           "icon": "https://img.finalfantasyxiv.com/lds/d/473ed65d458df3b6e6eaf3404009bac010a592d0.png",
-          "effect": "Vous octroie Schiltron sacré et Égide du paladin.<br>Schiltron sacré : crée une barrière absorbant un certain montant de dégâts.<br>Puissance : 12 000 Durée : 5s<br>Lorsque l'effet prend fin avant l'absorption totale, inflige des dégâts magiques aux ennemis alentour.<br>Puissance : 2000 + 50% de la capacité restante de la barrière<br>Effet additionnel : inflige Pesanteur 75%.<br>Durée : 5s<br>Égide du paladin : réduit de 15% les dégâts subis.<br>Durée : 10s"
+          "effect": "Vous octroie Schiltron sacré et Égide du paladin.<br>Schiltron sacré : crée une barrière absorbant un certain montant de dégâts.<br>Puissance : 12 000 Durée : 5s<br>Lorsque l'effet prend fin avant l'absorption totale, inflige des dégâts magiques aux ennemis alentour.<br>Puissance : 100% de la capacité restante de la barrière<br>Effet additionnel : inflige Pesanteur 75%.<br>Durée : 5s<br>Égide du paladin : réduit de 15% les dégâts subis.<br>Durée : 10s"
         },
         {
           "name": "Absolution",
@@ -336,12 +336,12 @@
         {
           "name": "Lame de foi",
           "icon": "https://img.finalfantasyxiv.com/lds/d/2f944d27fc3705822d461cd9e46ae2c288c80ee8.png",
-          "effect": "Effectue une attaque magique sur la cible et les ennemis autour.<br>Puissance : 4000<br>La puissance est augmentée de 50% si l'ennemi subit Gravure sainte.<br>Effet additionnel : inflige Gravure sainte.<br>Gravure sainte : les attaques sur les ennemis subissant l'effet restaurent des PV.<br>Puissance : 2000 Durée : 10s<br>Condition : Lame de foi préparée.<br>Cette action devient Lame de vérité après utilisation.<br><br>* Cette action ne peut pas être ajoutée aux barres de raccourcis."
+          "effect": "Effectue une attaque magique sur la cible et les ennemis autour.<br>Puissance : 6000<br>La puissance est augmentée de 50% si l'ennemi subit Gravure sainte.<br>Effet additionnel : inflige Gravure sainte.<br>Gravure sainte : les attaques sur les ennemis subissant l'effet restaurent des PV.<br>Puissance : 2000 Durée : 10s<br>Condition : Lame de foi préparée.<br>Cette action devient Lame de vérité après utilisation.<br><br>* Cette action ne peut pas être ajoutée aux barres de raccourcis."
         },
         {
           "name": "Lame de vérité",
           "icon": "https://img.finalfantasyxiv.com/lds/d/0f4597a0f6f40a77de83b1ce656d81345a5613ef.png",
-          "effect": "Effectue une attaque magique sur la cible et les ennemis autour.<br>Puissance : 6000<br>La puissance est augmentée de 50% si l'ennemi subit Gravure sainte.<br>Combo : Lame de foi<br>Effet additionnel : inflige Gravure sainte.<br>Gravure sainte : les attaques sur les ennemis subissant l'effet restaurent des PV.<br>Puissance : 2000 Durée : 10s<br>Cette action devient Lame de vaillance après utilisation.<br><br>* Cette action ne peut pas être ajoutée aux barres de raccourcis."
+          "effect": "Effectue une attaque magique sur la cible et les ennemis autour.<br>Puissance : 7000<br>La puissance est augmentée de 50% si l'ennemi subit Gravure sainte.<br>Combo : Lame de foi<br>Effet additionnel : inflige Gravure sainte.<br>Gravure sainte : les attaques sur les ennemis subissant l'effet restaurent des PV.<br>Puissance : 2000 Durée : 10s<br>Cette action devient Lame de vaillance après utilisation.<br><br>* Cette action ne peut pas être ajoutée aux barres de raccourcis."
         },
         {
           "name": "Lame de vaillance",
@@ -351,7 +351,7 @@
         {
           "name": "Phalanx",
           "icon": "https://img.finalfantasyxiv.com/lds/d/a94e3555b79c68a9eb7f5ca496bcac7ef7fdcbcf.png",
-          "effect": "Vous octroie Invincible, et octroie Phalanx aux équipiers alentour.<br>Invincible : annule les dégâts de la plupart des attaques.<br>Durée : 10s<br>Phalanx : réduit de 50% les dégâts subis.<br>Durée : 10s<br>Effet additionnel : vous octroie Lame de foi préparée.<br>Durée : 10s<br>Condition : jauge de Transcendance pleine.<br>Temps de charge : 120s<br>Cette action devient Lame de foi après utilisation."
+          "effect": "Vous octroie Invincible, et octroie Phalanx aux équipiers alentour.<br>Invincible : annule les dégâts de la plupart des attaques.<br>Durée : 10s<br>Phalanx : réduit de 33% les dégâts subis.<br>Durée : 10s<br>Effet additionnel : vous octroie Lame de foi préparée.<br>Durée : 10s<br>Condition : jauge de Transcendance pleine.<br>Temps de charge : 120s<br>Cette action devient Lame de foi après utilisation."
         },
         {
           "name": "Élixir militaire",
@@ -426,7 +426,7 @@
         {
           "name": "Couperet de justice",
           "icon": "https://img.finalfantasyxiv.com/lds/d/14d9c5aa40a8f86aa13890aa9bedc9f6579ed289.png",
-          "effect": "Effectue une attaque physique sur la cible.<br>Puissance : 150<br>Combo : Mutilation<br>Puissance du combo : 430<br>Bonus du combo : restaure vos PV.<br>Puissance : 250<br>Bonus du combo : remplit la Jauge de la bête de 20."
+          "effect": "Effectue une attaque physique sur la cible.<br>Puissance : 160<br>Combo : Mutilation<br>Puissance du combo : 440<br>Bonus du combo : restaure vos PV.<br>Puissance : 250<br>Bonus du combo : remplit la Jauge de la bête de 20."
         },
         {
           "name": "Frisson de la bataille",
@@ -461,7 +461,7 @@
         {
           "name": "Œil de la tempête",
           "icon": "https://img.finalfantasyxiv.com/lds/d/05faebea82787675c2331bb4ddb7778b70ab53f0.png",
-          "effect": "Effectue une attaque physique sur la cible.<br>Puissance : 150<br>Combo : Mutilation<br>Puissance du combo : 430<br>Bonus du combo : vous octroie Vent de tempête.<br>Durée : 30s<br>Vent de tempête : augmente de 10% vos dégâts infligés.<br>Si vous êtes déjà sous l'effet de Vent de tempête, allonge la durée de 30s (maximum 60s).<br>Bonus du combo : remplit la Jauge de la bête de 10."
+          "effect": "Effectue une attaque physique sur la cible.<br>Puissance : 160<br>Combo : Mutilation<br>Puissance du combo : 440<br>Bonus du combo : vous octroie Vent de tempête.<br>Durée : 30s<br>Vent de tempête : augmente de 10% vos dégâts infligés.<br>Si vous êtes déjà sous l'effet de Vent de tempête, allonge la durée de 30s (maximum 60s).<br>Bonus du combo : remplit la Jauge de la bête de 10."
         },
         {
           "name": "Cri de guerre",
@@ -471,7 +471,7 @@
         {
           "name": "Sape-fendeur",
           "icon": "https://img.finalfantasyxiv.com/lds/d/5d146522a8fc94788d96043b93034176eab59a10.png",
-          "effect": "Effectue une attaque physique sur la cible.<br>Puissance : 490<br>Devient Chaos intérieur sous l'effet Chaos naissant.<br>Coût Jauge de la bête : 50"
+          "effect": "Effectue une attaque physique sur la cible.<br>Puissance : 520<br>Devient Chaos intérieur sous l'effet Chaos naissant.<br>Coût Jauge de la bête : 50"
         },
         {
           "name": "Intuition pure",
@@ -496,12 +496,12 @@
         {
           "name": "Révolte",
           "icon": "https://img.finalfantasyxiv.com/lds/d/ba0b3b08d9b2ef02636e06148bc739680390fdd3.png",
-          "effect": "Effectue une attaque physique sur la cible.<br>Puissance : 370<br>Partage le même temps de recharge qu'Orogenèse."
+          "effect": "Effectue une attaque physique sur la cible.<br>Puissance : 400<br>Partage le même temps de recharge qu'Orogenèse."
         },
         {
           "name": "Débarrassage",
           "icon": "https://img.finalfantasyxiv.com/lds/d/f71e2c46512c1e937c0ff316be668d853869c637.png",
-          "effect": "Crée une barrière sur vous et les équipiers alentour, absorbant les dégâts subis pour un total de 15% des PV maximums.<br>Si Frisson de la bataille, Représailles et/ou Intuition fougueuse sont octroyés, dissipe ces effets et augmente de 2% celui de la barrière pour chacun d'entre eux.<br>Durée : 30s<br>Effet additionnel : restaure périodiquement vos PV et ceux des équipiers alentour.<br>Puissance : 100<br>Durée : 15s<br>Effet additionnel : restaure vos PV et ceux des équipiers alentour.<br>Puissance : 300"
+          "effect": "Crée une barrière sur vous et les équipiers alentour, absorbant les dégâts subis pour un total de 15% des PV maximums.<br>Si Frisson de la bataille, Représailles et/ou Intuition fougueuse sont octroyés, dissipe ces effets et augmente de 2% celui de la barrière pour chacun d'entre eux.<br>Durée : 30s<br>Effet additionnel : restaure périodiquement vos PV et ceux des équipiers alentour.<br>Puissance : 100 Durée : 15s<br>Effet additionnel : restaure vos PV et ceux des équipiers alentour.<br>Puissance : 300"
         },
         {
           "name": "Relâchement bestial",
@@ -521,7 +521,7 @@
         {
           "name": "Chaos intérieur",
           "icon": "https://img.finalfantasyxiv.com/lds/d/70a629706b7fa0dc566d988dbf32da064d0c3458.png",
-          "effect": "Effectue une attaque physique sur la cible.<br>Puissance : 650<br>Cette attaque inflige nécessairement un coup net et critique.<br>Les dégâts infligés sont augmentés lorsque vous bénéficiez d'un effet augmentant les chances de coups nets et critiques.<br>Effet additionnel : réduit de 5s le temps de recharge de Cri de guerre.<br>Met fin à l'effet Chaos naissant.<br>Coût Jauge de la bête : 50<br>Condition : Chaos naissant.<br><br>* Cette action ne peut pas être ajoutée aux barres de raccourcis."
+          "effect": "Effectue une attaque physique sur la cible.<br>Puissance : 660<br>Cette attaque inflige nécessairement un coup net et critique.<br>Les dégâts infligés sont augmentés lorsque vous bénéficiez d'un effet augmentant les chances de coups nets et critiques.<br>Effet additionnel : réduit de 5s le temps de recharge de Cri de guerre.<br>Met fin à l'effet Chaos naissant.<br>Coût Jauge de la bête : 50<br>Condition : Chaos naissant.<br><br>* Cette action ne peut pas être ajoutée aux barres de raccourcis."
         },
         {
           "name": "Intuition fougueuse",
@@ -641,7 +641,7 @@
         {
           "name": "Actions améliorées",
           "icon": "https://img.finalfantasyxiv.com/lds/d/6acea5ac3fd49cd172fac240c194a5847b080ccf.png",
-          "effect": "Augmente la puissance de certaines actions.<br><br>Puissance de Coup puissant : 200<br>Puissance de Mutilation : 150<br>Puissance de Couperet de justice : 150<br>Puissance d'Œil de la tempête : 150"
+          "effect": "Augmente la puissance de certaines actions.<br><br>Puissance de Coup puissant : 200<br>Puissance de Mutilation : 150<br>Puissance de Couperet de justice : 160<br>Puissance d'Œil de la tempête : 160"
         },
         {
           "name": "Assaut violent amélioré",
@@ -683,7 +683,7 @@
         {
           "name": "Libation",
           "icon": "https://img.finalfantasyxiv.com/lds/d/c0a4d063fb602de6211f217192680b05d2d64698.png",
-          "effect": "Attire la cible près de vous.<br>Effet additionnel : inflige Pesanteur 75%.<br>Durée : 5s"
+          "effect": "Attire la cible près de vous.<br>Effet additionnel : inflige Pesanteur 75%.<br>Durée : 3s"
         },
         {
           "name": "Intuition fougueuse",
@@ -1060,7 +1060,7 @@
         {
           "name": "Tranchant acéré",
           "icon": "https://img.finalfantasyxiv.com/lds/d/7cd4d1186b81029de28854eec532029ef245779c.png",
-          "effect": "Effectue une attaque physique sur la cible.<br>Puissance : 170"
+          "effect": "Effectue une attaque physique sur la cible.<br>Puissance : 200"
         },
         {
           "name": "Sans pitié",
@@ -1070,7 +1070,7 @@
         {
           "name": "Impact brutal",
           "icon": "https://img.finalfantasyxiv.com/lds/d/729d76d5161a59cbed8b5f369e8476acf5ea24b2.png",
-          "effect": "Effectue une attaque physique sur la cible.<br>Puissance : 130<br>Combo : Tranchant acéré<br>Puissance du combo : 270<br>Bonus du combo : restaure vos PV.<br>Puissance : 200<br>Bonus du combo : vous octroie une barrière absorbant un montant de dégâts égal aux PV restaurés.<br>Durée : 30s"
+          "effect": "Effectue une attaque physique sur la cible.<br>Puissance : 160<br>Combo : Tranchant acéré<br>Puissance du combo : 300<br>Bonus du combo : restaure vos PV.<br>Puissance : 200<br>Bonus du combo : vous octroie une barrière absorbant un montant de dégâts égal aux PV restaurés.<br>Durée : 30s"
         },
         {
           "name": "Camouflage",
@@ -1290,7 +1290,7 @@
         {
           "name": "Actions améliorées",
           "icon": "https://img.finalfantasyxiv.com/lds/d/6acea5ac3fd49cd172fac240c194a5847b080ccf.png",
-          "effect": "Augmente la puissance de certaines actions.<br><br>Puissance de Tranchant acéré : 170<br>Puissance d'Impact brutal : 130<br>Puissance de Salve tranchante : 140"
+          "effect": "Augmente la puissance de certaines actions.<br><br>Puissance de Tranchant acéré : 200<br>Puissance d'Impact brutal : 160<br>Puissance de Salve tranchante : 140"
         },
         {
           "name": "Consécution améliorée",
@@ -1342,7 +1342,7 @@
         {
           "name": "Giclée de sang",
           "icon": "https://img.finalfantasyxiv.com/lds/d/8421ce0195ee664e29836c43a680a7ff1ae3f40d.png",
-          "effect": "Vous octroie Giclée de sang de protecteur, Giclée de sang de combattant ou Giclée de sang de soigneur selon le rôle de l'ennemi ciblé.<br>Ces effets renforcent certaines actions.<br>Effet additionnel : vous octroie une Cartouche d'éther.<br>Durée : 10s<br>Le combo Salve tranchante devient Frappe explosive."
+          "effect": "Vous octroie Giclée de sang de protecteur, Giclée de sang de combattant ou Giclée de sang de soigneur selon le rôle de la cible.<br>Ces effets renforcent certaines actions.<br>Effet additionnel : vous octroie une Cartouche d'éther.<br>Durée : 10s<br>Cet effet ne se déclenche uniquement que si l'action est lancée sur un ennemi ciblé.<br>Le combo Salve tranchante devient Frappe explosive."
         },
         {
           "name": "Prise de sang",
@@ -1562,7 +1562,7 @@
         {
           "name": "Lumen",
           "icon": "https://img.finalfantasyxiv.com/lds/d/de737874f0025d808d0bddac1d4156fec9464d00.png",
-          "effect": "Effectue une attaque magique neutre sur la cible.<br>Puissance : 60<br>Effet additionnel : dégâts périodiques neutres.<br>Puissance : 60 Durée : 30s"
+          "effect": "Effectue une attaque magique neutre sur la cible.<br>Puissance : 65<br>Effet additionnel : dégâts périodiques neutres.<br>Puissance : 65 Durée : 30s"
         },
         {
           "name": "Chatoiement",
@@ -1582,7 +1582,7 @@
         {
           "name": "Tempérance",
           "icon": "https://img.finalfantasyxiv.com/lds/d/78e099cba536b64fe978d05487c51b28a66f29df.png",
-          "effect": "Augmente de 20% la puissance de vos sorts curatifs et réduit de 10% les dégâts subis par vous et vos équipiers dans un rayon de 30 yalms autour de vous.<br>Durée : 20s"
+          "effect": "Augmente de 20% la puissance de vos sorts curatifs et réduit de 10% les dégâts subis par vous et vos équipiers dans un rayon de 50 yalms autour de vous.<br>Durée : 20s"
         },
         {
           "name": "Méga Chatoiement",
@@ -1754,7 +1754,7 @@
         {
           "name": "Purge fondamentale",
           "icon": "https://img.finalfantasyxiv.com/lds/d/885443eeb029d7cbca537be10edca5eb6c920401.png",
-          "effect": "Effectue une attaque magique en ligne droite sur les ennemis devant vous.<br>Puissance : 18 000<br>Effet additionnel : inflige Étourdissement.<br>Durée : 2s<br>Effet additionnel : vous octroie Tempérance.<br>Tempérance : augmente de 10% vos dégâts infligés et votre puissance curative, et restaure périodiquement vos PV et ceux des équipiers dans un rayon de 30 yalms autour de vous.<br>Puissance : 4000 Durée : 15s<br>Condition : jauge de Transcendance pleine.<br>Temps de charge : 60s"
+          "effect": "Effectue une attaque magique en ligne droite sur les ennemis devant vous.<br>Puissance : 18 000<br>Effet additionnel : inflige Étourdissement.<br>Durée : 2s<br>Effet additionnel : vous octroie Tempérance.<br>Tempérance : augmente de 10% vos dégâts infligés et votre puissance curative, et restaure périodiquement vos PV et ceux des équipiers dans un rayon de 30 yalms autour de vous.<br>Puissance : 3000 Durée : 15s<br>Condition : jauge de Transcendance pleine.<br>Temps de charge : 60s"
         },
         {
           "name": "Élixir militaire",
@@ -1810,11 +1810,6 @@
           "name": "Invocation Eos",
           "icon": "https://img.finalfantasyxiv.com/lds/d/7e5c03b72c4e181034da8121d6f2bdf2f1aa2a60.png",
           "effect": "Invoque la fée Eos.<br>En mode Défendre, Eos lance Embrassement sur les équipiers blessés."
-        },
-        {
-          "name": "Invocation Selene",
-          "icon": "https://img.finalfantasyxiv.com/lds/d/bc66a162c1adb0b9386285628a99b89b1e7168ba.png",
-          "effect": "Invoque la fée Selene.<br>En mode Défendre, Selene lance Embrassement sur les équipiers blessés."
         },
         {
           "name": "Résurrection",
@@ -1899,7 +1894,7 @@
         {
           "name": "Dissipation",
           "icon": "https://img.finalfantasyxiv.com/lds/d/fffbdbce557a09ee3a50f541fac07d432bfc7c89.png",
-          "effect": "Renvoie votre fée afin de vous octroyer le plus haut degré de Flux d'éther.<br>Augmente de 20% les effets de vos sorts de magie curative.<br>Durée : 30s<br>Vous ne pouvez pas utiliser Invocation Eos et Invocation Selene pendant la durée de l'effet.<br>Votre fée est réinvoquée à la fin de l'effet.<br>Condition : en combat."
+          "effect": "Renvoie votre fée afin de vous octroyer le plus haut degré de Flux d'éther.<br>Augmente de 20% les effets de vos sorts de magie curative.<br>Durée : 30s<br>Vous ne pouvez pas utiliser Invocation Eos pendant la durée de l'effet.<br>Votre fée réapparaît à la fin de l'effet.<br>Condition : en combat."
         },
         {
           "name": "Traité de l'excogitation",
@@ -1949,7 +1944,7 @@
         {
           "name": "Invocation Séraphin",
           "icon": "https://img.finalfantasyxiv.com/lds/d/ff070d67e4c75ed8bb06de1f577979e8c69c8ad1.png",
-          "effect": "Renvoie votre fée et invoque Séraphin.<br>Durée de l'invocation : 22s<br>En mode Défendre, Séraphin lance Voile séraphique sur les équipiers blessés.<br>Votre fée est réinvoquée à la fin de l'effet.<br>Cette action devient Dictame après utilisation."
+          "effect": "Renvoie votre fée et invoque Séraphin.<br>Durée de l'invocation : 22s<br>En mode Défendre, Séraphin lance Voile séraphique sur les équipiers blessés.<br>Votre fée réapparaît à la fin de l'effet.<br>Cette action devient Dictame après utilisation."
         },
         {
           "name": "Dictame",
@@ -2121,7 +2116,7 @@
         {
           "name": "Traité du réconfort",
           "icon": "https://img.finalfantasyxiv.com/lds/d/22a3932c3e8625b941a6d65c7bb1985e2244abe7.png",
-          "effect": "Restaure les PV de la cible.<br>Puissance : 4000<br>Effet additionnel : inflige Réconfort et Exhortation.<br>Réconfort : crée sur la cible une barrière absorbant les dégâts.<br>Puissance : 4000 Durée : 15s<br>Les dégâts absorbés par la barrière sont augmentés de 50% sous l'effet Récitation.<br>Exhortation : augmente vos dégâts infligés de 8%.<br>Durée : 15s<br>Maximum de charges : 2<br>Ce sort a un temps de recharge indépendant."
+          "effect": "Restaure les PV de la cible.<br>Puissance : 3000<br>Effet additionnel : octroie Réconfort et Exhortation.<br>Réconfort : crée sur la cible une barrière absorbant les dégâts.<br>Puissance : 6000 Durée : 15s<br>Les dégâts absorbés par la barrière sont augmentés de 50% sous l'effet Récitation.<br>Exhortation : augmente vos dégâts infligés de 8%.<br>Durée : 15s<br>Maximum de charges : 2<br>Ce sort a un temps de recharge indépendant."
         },
         {
           "name": "Loi de l'infection",
@@ -2306,7 +2301,7 @@
         {
           "name": "Inconscient collectif",
           "icon": "https://img.finalfantasyxiv.com/lds/d/6ffe2bab0c77721314aee02e2f3f14f61351e2a4.png",
-          "effect": "Crée un dôme protecteur qui réduit de 10% les dégâts subis par vous et les équipiers alentour.<br>Durée : 18s<br>Octroie également un effet de restauration périodique de PV à vous et aux équipiers alentour.<br>Puissance : 100 Durée : 15s<br>L'effet prend fin si vous effectuez une action, un déplacement ou une rotation.<br>Interrompt vos attaques automatiques."
+          "effect": "Crée un dôme protecteur d'une portée de 8 yalms autour du lanceur.<br>Durée : 18s<br>Réduit de 10% les dégâts subis par vous et les équipiers dans un rayon de 30 yalms.<br>Durée : 5s<br>Octroie également un effet de restauration périodique de PV à vous et aux équipiers sous le dôme.<br>Puissance : 100 Durée : 15s<br>Ces effets continuent de s'appliquer tant que vous ou vos alliés se trouvent dans le dôme.<br>Celui-ci prend fin si vous effectuez une action, un déplacement ou une rotation.<br>Interrompt vos attaques automatiques."
         },
         {
           "name": "Opposition céleste",
@@ -2548,7 +2543,7 @@
         {
           "name": "Bienfaisance aspectée",
           "icon": "https://img.finalfantasyxiv.com/lds/d/4d933fcf783650927195ec4b1814e9609eeddc58.png",
-          "effect": "Restaure les PV de la cible.<br>Puissance : de 5000 à 10 000<br>La puissance augmente plus il manque des PV à la cible. Elle atteint son maximum lorsque qu'il n'en reste que 50% ou moins.<br>Effet additionnel : octroie Bienfaisance aspectée (diurne) à la cible.<br>Effet de Bienfaisance aspectée (diurne) : restaure périodiquement les PV de la cible.<br>Puissance : 1000 Durée : 12s<br>Maximum de charges : 2<br>Ce sort a un temps de recharge indépendant."
+          "effect": "Restaure les PV de la cible.<br>Puissance : de 5000 à 10 000<br>La puissance augmente plus il manque des PV à la cible. Elle atteint son maximum lorsque qu'il n'en reste que 50% ou moins.<br>Effet additionnel : octroie Bienfaisance aspectée (diurne) à la cible.<br>Effet de Bienfaisance aspectée (diurne) : restaure périodiquement les PV de la cible.<br>Puissance : 2000 Durée : 15s<br>Maximum de charges : 2<br>Ce sort a un temps de recharge indépendant."
         },
         {
           "name": "Extra Gravité",
@@ -2573,12 +2568,12 @@
         {
           "name": "Malfaisance en chute",
           "icon": "https://img.finalfantasyxiv.com/lds/d/7e78194d327e6a89ecb90f3eae608c085346e1f4.png",
-          "effect": "Effectue une attaque magique sur la cible.<br>Puissance : 5000<br>Effet additionnel : réduit de 7,5s le temps de recharge de Double incantation.<br><br>* Cette action ne peut pas être ajoutée aux barres de raccourcis."
+          "effect": "Effectue une attaque magique sur la cible.<br>Puissance : 5000<br>Effet additionnel : réduit de 10s le temps de recharge de Double incantation.<br><br>* Cette action ne peut pas être ajoutée aux barres de raccourcis."
         },
         {
           "name": "Bienfaisance aspectée",
           "icon": "https://img.finalfantasyxiv.com/lds/d/4d933fcf783650927195ec4b1814e9609eeddc58.png",
-          "effect": "Restaure les PV de la cible.<br>Puissance : de 5000 à 10 000<br>La puissance augmente plus il manque des PV à la cible. Elle atteint son maximum lorsque qu'il n'en reste que 50% ou moins.<br>Effet additionnel : octroie Bienfaisance aspectée (nocturne) à la cible.<br>Effet de Bienfaisance aspectée (nocturne) : crée une barrière absorbant un certain montant de dégâts.<br>Puissance : 4000 Durée : 15s<br>Ce sort a un temps de recharge indépendant.<br><br>* Cette action ne peut pas être ajoutée aux barres de raccourcis."
+          "effect": "Restaure les PV de la cible.<br>Puissance : de 5000 à 10 000<br>La puissance augmente plus il manque des PV à la cible. Elle atteint son maximum lorsque qu'il n'en reste que 50% ou moins.<br>Effet additionnel : octroie Bienfaisance aspectée (nocturne) à la cible.<br>Effet de Bienfaisance aspectée (nocturne) : crée une barrière absorbant un certain montant de dégâts.<br>Puissance : 5000 Durée : 15s<br>Ce sort a un temps de recharge indépendant.<br><br>* Cette action ne peut pas être ajoutée aux barres de raccourcis."
         },
         {
           "name": "Extra Gravité",
@@ -2803,7 +2798,7 @@
         {
           "name": "Dosis eucrasique III",
           "icon": "https://img.finalfantasyxiv.com/lds/d/7e340f46db9e27a9fd1fcd729d8eaceacf4cfa9f.png",
-          "effect": "Inflige des dégâts magiques périodiques neutres à la cible.<br>Puissance : 70 Durée : 30s<br>Effet additionnel : restaure les PV de la cible de votre Kardion.<br>Puissance : 170<br><br>* Cette action ne peut pas être ajoutée aux barres de raccourcis."
+          "effect": "Inflige des dégâts magiques périodiques neutres à la cible.<br>Puissance : 75 Durée : 30s<br>Effet additionnel : restaure les PV de la cible de votre Kardion.<br>Puissance : 170<br><br>* Cette action ne peut pas être ajoutée aux barres de raccourcis."
         },
         {
           "name": "Dyskrasia II",
@@ -2945,7 +2940,7 @@
         {
           "name": "Toxikon",
           "icon": "https://img.finalfantasyxiv.com/lds/d/57e8d9af7caf585ee813c10fa0bac46abea90b7c.png",
-          "effect": "Effectue une attaque magique sur la cible et les ennemis autour.<br>Puissance : 2000<br>Effet additionnel : augmente de 10% les dégâts subis par la cible.<br>Durée : 5s<br>Maximum de charges : 2<br>Devient Toxikon II sous l'effet de Croc de vipère."
+          "effect": "Effectue une attaque magique sur la cible et les ennemis autour.<br>Puissance : 2000<br>Effet additionnel : augmente de 10% les dégâts subis par la cible.<br>Durée : 6s<br>Maximum de charges : 2<br>Devient Toxikon II sous l'effet de Croc de vipère."
         },
         {
           "name": "Kardia",
@@ -2960,7 +2955,7 @@
         {
           "name": "Toxikon II",
           "icon": "https://img.finalfantasyxiv.com/lds/d/8cfa4b9e7012759fd371b373d52cca95f8591bf6.png",
-          "effect": "Effectue une attaque magique sur la cible et les ennemis autour.<br>Puissance : 2000<br>La puissance de l'attaque est multipliée par 4 sur la cible principale.<br>Effet additionnel : augmente de 10% les dégâts subis par la cible.<br>Durée : 5s<br>Condition : Croc de vipère.<br><br>* Cette action ne peut pas être ajoutée aux barres de raccourcis."
+          "effect": "Effectue une attaque magique sur la cible et les ennemis autour.<br>Puissance : 2000<br>La puissance de l'attaque est multipliée par 4 sur la cible principale.<br>Effet additionnel : augmente de 10% les dégâts subis par la cible.<br>Durée : 6s<br>Condition : Croc de vipère.<br><br>* Cette action ne peut pas être ajoutée aux barres de raccourcis."
         },
         {
           "name": "Mesotes",
@@ -3302,7 +3297,7 @@
         {
           "name": "Rixe évanescente",
           "icon": "https://img.finalfantasyxiv.com/lds/d/fc732ca2151a2ae7012961e98e696865ad1e1d04.png",
-          "effect": "Effectue une attaque physique sur la cible et les ennemis autour.<br>Puissance : 10 000<br>Combo : Démolition<br><br>* Cette action ne peut pas être ajoutée aux barres de raccourcis."
+          "effect": "Effectue une attaque physique sur la cible et les ennemis autour.<br>Puissance : 12 000<br>Combo : Démolition<br><br>* Cette action ne peut pas être ajoutée aux barres de raccourcis."
         },
         {
           "name": "Étoile à six branches",
@@ -3312,7 +3307,7 @@
         {
           "name": "Illumination",
           "icon": "https://img.finalfantasyxiv.com/lds/d/826cec4e0ac932a29b38e6c8d19c1246615fdfca.png",
-          "effect": "Effectue une attaque physique en ligne droite sur les ennemis devant vous.<br>Puissance : 8000<br>Effet additionnel : projette la cible principale 15 yalms en arrière.<br>Inflige Point vital en cas de réussite de la projection.<br>Durée : 3s<br>Point vital : inflige des dégâts supplémentaires lors de l'utilisation d'une technique d'arme ou de Plongeon météore.<br>Puissance : 12 000<br>L'effet de Point vital est annulé lorsque des dégâts supplémentaires sont infligés.<br>Cette technique d'arme a un temps de recharge indépendant."
+          "effect": "Effectue une attaque physique en ligne droite sur les ennemis devant vous.<br>Puissance : 8000<br>Effet additionnel : projette la cible principale 15 yalms en arrière.<br>Inflige Point vital en cas de réussite de la projection.<br>Durée : 3s<br>Point vital : inflige des dégâts supplémentaires lors de l'utilisation d'une technique d'arme ou de Plongeon météore.<br>Puissance : 8000<br>L'effet de Point vital est annulé lorsque des dégâts supplémentaires sont infligés.<br>Cette technique d'arme a un temps de recharge indépendant."
         },
         {
           "name": "Danse du Phénix",
@@ -3327,7 +3322,7 @@
         {
           "name": "Élan fulgurant",
           "icon": "https://img.finalfantasyxiv.com/lds/d/a54ed85ea1e9f400712c049ca5f8f6d503bd2ab6.png",
-          "effect": "Vous déplace rapidement vers l'ennemi ou l'équipier ciblé.<br>Effet additionnel : vous octroie Quintessence de vent.<br>Durée : 5s<br>Quintessence de vent : réduit de 10% les temps de recharge de vos techniques d'arme.<br>Si vous étiez déjà sous l'effet de Quintessence de vent, allonge la durée de l'effet de 5s (maximum 15s).<br>Effet additionnel : si ciblée sur un ennemi, crée sur vous-même une barrière absorbant les dégâts. Si ciblée sur un équipier, la barrière est créée sur celui-ci.<br>Puissance : 6000 Durée : 5s<br>Maximum de charges : 3<br>Ne peut pas être utilisé sous l'effet Entrave."
+          "effect": "Vous déplace rapidement vers l'ennemi ou l'équipier ciblé.<br>Effet additionnel : vous octroie Quintessence de vent.<br>Durée : 10s<br>Quintessence de vent : réduit de 10% les temps de recharge de vos techniques d'arme.<br>Si vous étiez déjà sous l'effet de Quintessence de vent, allonge la durée de l'effet de 10s (maximum 15s).<br>Effet additionnel : si ciblée sur un ennemi, crée sur vous-même une barrière absorbant les dégâts. Si ciblée sur un équipier, la barrière est créée sur celui-ci.<br>Puissance : 6000 Durée : 5s<br>Maximum de charges : 3<br>Ne peut pas être utilisé sous l'effet Entrave."
         },
         {
           "name": "Cercles de terre",
@@ -3412,7 +3407,7 @@
         {
           "name": "Saut",
           "icon": "https://img.finalfantasyxiv.com/lds/d/f33d8ab6bf2a7e902b9292016eefbbb0fe551548.png",
-          "effect": "Saute vers la cible et effectue une attaque physique sur elle.<br>Puissance : 320<br>Retourne à votre position de départ après l'attaque.<br>Effet additionnel : vous octroie Piqué mirage préparé.<br>Durée : 15s<br>Ne peut pas être utilisé sous l'effet Entrave."
+          "effect": "Saute vers la cible et effectue une attaque physique sur elle.<br>Puissance : 320<br>Retourne à votre position de départ après l'attaque.<br>Effet additionnel : vous octroie Piqué mirage préparé.<br>Durée : 15s"
         },
         {
           "name": "Saut insaisissable",
@@ -3467,7 +3462,7 @@
         {
           "name": "Vue de dragon",
           "icon": "https://img.finalfantasyxiv.com/lds/d/9a92efac99d9172bda997702548f803fb035a8ce.png",
-          "effect": "Vous octroie Œil droit, et octroie Œil gauche à un équipier ciblé.<br>Œil droit : augmente de 10% vos dégâts infligés.<br>Œil gauche : augmente de 5% les dégâts infligés par l'équipier.<br>Durée : 20s"
+          "effect": "Vous octroie Œil droit, et octroie Œil gauche à un équipier ciblé.<br>Œil droit : augmente de 10% vos dégâts infligés.<br>Fait réussir les actions directionnelles dans n'importe quelle position.<br>Œil gauche : augmente de 5% les dégâts infligés par l'équipier.<br>Durée : 20s"
         },
         {
           "name": "Piqué mirage",
@@ -3487,7 +3482,7 @@
         {
           "name": "Grand saut",
           "icon": "https://img.finalfantasyxiv.com/lds/d/864834c5502d69496057326478a42ef74a504af3.png",
-          "effect": "Saute vers la cible et effectue une attaque physique sur elle.<br>Puissance : 400<br>Retourne à votre position de départ après l'attaque.<br>Effet additionnel : vous octroie Piqué mirage préparé.<br>Durée : 15s<br>Ne peut pas être utilisé sous l'effet Entrave."
+          "effect": "Saute vers la cible et effectue une attaque physique sur elle.<br>Puissance : 400<br>Retourne à votre position de départ après l'attaque.<br>Effet additionnel : vous octroie Piqué mirage préparé.<br>Durée : 15s"
         },
         {
           "name": "Percée Raiden",
@@ -3634,7 +3629,7 @@
         {
           "name": "Grand saut",
           "icon": "https://img.finalfantasyxiv.com/lds/d/bbb6cc31f11ffe457f6e893d48924739c1ded02a.png",
-          "effect": "Saute vers la cible et effectue une attaque physique sur elle.<br>Puissance : 5000<br>Effet additionnel : vous octroie Percée céleste préparée.<br>Durée : 10s<br>Percée céleste préparée : le combo Percée tournante devient Percée céleste.<br>Ne peut pas être utilisé sous l'effet Entrave."
+          "effect": "Saute vers la cible et effectue une attaque physique sur elle.<br>Puissance : 4000<br>Effet additionnel : vous octroie Percée céleste préparée.<br>Durée : 10s<br>Percée céleste préparée : le combo Percée tournante devient Percée céleste.<br>Ne peut pas être utilisé sous l'effet Entrave."
         },
         {
           "name": "Saut insaisissable",
@@ -3644,12 +3639,12 @@
         {
           "name": "Rugissement horrible",
           "icon": "https://img.finalfantasyxiv.com/lds/d/b1f27df2db64f7037b01bd9bd45118f4f6a68411.png",
-          "effect": "Effectue une attaque magique neutre sur les ennemis alentour.<br>Puissance : 2000<br>Effet additionnel : inflige Rugissement horrible.<br>Durée : 10s<br>Rugissement horrible : réduit de 50% les dégâts infligés par la cible."
+          "effect": "Effectue une attaque magique neutre sur les ennemis alentour.<br>Puissance : 4000<br>Effet additionnel : inflige Rugissement horrible.<br>Durée : 10s<br>Rugissement horrible : réduit de 50% les dégâts infligés par la cible."
         },
         {
           "name": "Percée céleste",
           "icon": "https://img.finalfantasyxiv.com/lds/d/fae7c03f0a715ea2494d384a5a4b38fd3a7a558b.png",
-          "effect": "Effectue une attaque physique sur la cible.<br>Puissance : 10 000<br>Condition : Percée céleste préparée.<br><br>* Cette action ne peut pas être ajoutée aux barres de raccourcis."
+          "effect": "Effectue une attaque physique sur la cible.<br>Puissance : 12 000<br>Condition : Percée céleste préparée.<br><br>* Cette action ne peut pas être ajoutée aux barres de raccourcis."
         },
         {
           "name": "Naströnd",
@@ -3659,17 +3654,17 @@
         {
           "name": "Percée des dragons anciens",
           "icon": "https://img.finalfantasyxiv.com/lds/d/82a09097dac30def5de8b72764c3858736210818.png",
-          "effect": "Effectue une attaque physique en ligne droite sur les ennemis devant vous.<br>Puissance : de 4000 à 16 000<br>La puissance est proportionnelle à la distance entre vous et la cible. Elle atteint son maximum lorsque vous êtes à 15 yalms.<br>Condition : Fougue des dragons anciens.<br><br>* Cette action ne peut pas être ajoutée aux barres de raccourcis."
+          "effect": "Effectue une attaque physique en ligne droite sur les ennemis devant vous.<br>Puissance : de 8000 à 16 000<br>La puissance est proportionnelle à la distance entre vous et la cible. Elle atteint son maximum lorsque vous êtes à 15 yalms.<br>Condition : Fougue des dragons anciens.<br><br>* Cette action ne peut pas être ajoutée aux barres de raccourcis."
         },
         {
           "name": "Tourbillon vertigineux",
           "icon": "https://img.finalfantasyxiv.com/lds/d/7024a69ca8e1a03ac68e8680380d47e443f6e6a3.png",
-          "effect": "Saute très haut dans les airs, ce qui permet de ne pas être pris pour cible.<br>Vous libère des effets Pesanteur, Entrave et Sommeil graduel.<br>Les déplacements restent possibles pendant son utilisation.<br>Durée : 5s<br>Si l'action est réutilisée pendant cette durée ou à l'issue de celle-ci, déclenche Briseur des cieux, effectuant une attaque physique sur les ennemis dans l'aire d'effet.<br>Puissance : 20 000<br>La puissance est augmentée de 50% si la cible est à 5 yalms ou moins.<br>Condition : jauge de Transcendance pleine.<br>Temps de charge : 90s<br>Cette action devient Briseur des cieux après utilisation."
+          "effect": "Saute très haut dans les airs, ce qui permet de ne pas être pris pour cible.<br>Vous libère des effets Pesanteur, Entrave et Sommeil graduel.<br>Les déplacements restent possibles pendant son utilisation.<br>Durée : 5s<br>Si l'action est réutilisée pendant cette durée ou à l'issue de celle-ci, déclenche Briseur des cieux, effectuant une attaque physique sur les ennemis dans l'aire d'effet.<br>Puissance : 16 000<br>La puissance est doublée si la cible est à 5 yalms ou moins.<br>Condition : jauge de Transcendance pleine.<br>Temps de charge : 90s<br>Cette action devient Briseur des cieux après utilisation."
         },
         {
           "name": "Briseur des cieux",
           "icon": "https://img.finalfantasyxiv.com/lds/d/82f321a762fc70566c427f2e2dfda71ce4e0718b.png",
-          "effect": "Met fin à l'effet de Tourbillon vertigineux et effectue une attaque physique sur les ennemis alentour.<br>Puissance : 20 000<br>La puissance est augmentée de 50% si la cible est à 5 yalms ou moins.<br>Effet additionnel : crée une barrière absorbant les dégâts pour un total de 25% de vos PV maximums.<br>Durée : 10s<br>Condition : Tourbillon vertigineux.<br><br>* Cette action ne peut pas être ajoutée aux barres de raccourcis."
+          "effect": "Met fin à l'effet de Tourbillon vertigineux et effectue une attaque physique sur les ennemis alentour.<br>Puissance : 16 000<br>La puissance est doublée si la cible est à 5 yalms ou moins.<br>Effet additionnel : vous octroie une barrière absorbant un certain montant de dégâts.<br>Puissance : 24 000 Durée : 10s<br>Condition : Tourbillon vertigineux.<br><br>* Cette action ne peut pas être ajoutée aux barres de raccourcis."
         },
         {
           "name": "Élixir militaire",
@@ -4031,7 +4026,7 @@
         {
           "name": "Bunshin",
           "icon": "https://img.finalfantasyxiv.com/lds/d/dd5359193e18dec8796cb164c2a31cd7de730e31.png",
-          "effect": "Fait apparaître une ombre qui attaque votre cible à chaque fois que vous utilisez une technique d'arme.<br>L'effet prend fin lorsque sa durée s'est écoulée ou après 5 techniques d'arme.<br>Durée : 30s<br>Les coups de l'ombre font autant de dégâts que les vôtres, sauf Fûma Shuriken et Assassinement dont la puissance est réduite de moitié.<br>Effet additionnel : vous octroie Décalage d'ombre, une barrière absorbant un certain montant de dégâts.<br>Puissance : 8000 Durée : 10s<br>Devient Fûton sous l'effet Trimudrâ."
+          "effect": "Fait apparaître une ombre qui attaque votre cible à chaque fois que vous utilisez une technique d'arme.<br>L'effet prend fin lorsque sa durée s'est écoulée ou après 5 techniques d'arme.<br>Durée : 20s<br>Les coups de l'ombre font autant de dégâts que les vôtres, sauf Fûma Shuriken et Assassinement dont la puissance est réduite de moitié.<br>Effet additionnel : vous octroie Décalage d'ombre, une barrière absorbant un certain montant de dégâts.<br>Puissance : 8000 Durée : 10s<br>Devient Fûton sous l'effet Trimudrâ."
         },
         {
           "name": "Shukuchi",
@@ -4086,7 +4081,7 @@
         {
           "name": "Seiton Tenchû",
           "icon": "https://img.finalfantasyxiv.com/lds/d/b3cc3f2b23553fa8ce5a4a46fe159c12a2f82aaa.png",
-          "effect": "Fonce sur la cible et effectue une attaque physique sur elle.<br>Puissance : 10 000<br>Rend la cible inconsciente s'il lui restait moins de 50% de ses PV maximums.<br>Effet additionnel : inflige Morts en chaîne.<br>Durée : 4s<br>Sans effet si la cible est à bord d'une machine de guerre ou un personnage non-joueur.<br>Si la cible meurt sur le coup ou alors qu'elle souffre de Morts en chaîne, vous obtenez Seiton Tenchû préparé.<br>Durée : 8s<br>La durée de l'effet est réduite d'une seconde à chaque fois qu'il est attribué, jusqu'à une durée minimum de 4s.<br>Condition : Seiton Tenchû préparé ou jauge de Transcendance pleine.<br>Temps de charge : 90s<br>Ne peut pas être utilisé sous l'effet Entrave."
+          "effect": "Fonce sur la cible et effectue une attaque physique sur elle.<br>Puissance : 10 000<br>Rend la cible inconsciente s'il lui restait moins de 50% de ses PV maximums.<br>Effet additionnel : inflige Morts en chaîne.<br>Durée : 4s<br>Sans effet si la cible est à bord d'une machine de guerre ou un personnage non-joueur.<br>Si la cible meurt sur le coup ou alors qu'elle souffre de Morts en chaîne, vous obtenez Seiton Tenchû préparé.<br>Durée : 8s<br>La durée de l'effet est réduite d'une seconde à chaque fois qu'il est attribué, jusqu'à une durée minimum de 4s.<br>Condition : Seiton Tenchû préparé ou jauge de Transcendance pleine.<br>Temps de charge : 105s<br>Ne peut pas être utilisé sous l'effet Entrave."
         },
         {
           "name": "Élixir militaire",
@@ -4231,7 +4226,7 @@
         {
           "name": "Hissatsu : Sen'ei",
           "icon": "https://img.finalfantasyxiv.com/lds/d/1812ee8f2135ed92057b767eacbf2469ef0b25ee.png",
-          "effect": "Effectue une attaque physique sur la cible.<br>Puissance : 800<br>Coût Jauge de Kenki : 25<br>Partage le même temps de recharge que Hissatsu : Guren."
+          "effect": "Effectue une attaque physique sur la cible.<br>Puissance : 860<br>Coût Jauge de Kenki : 25<br>Partage le même temps de recharge que Hissatsu : Guren."
         },
         {
           "name": "Tsubamegaeshi",
@@ -4241,7 +4236,7 @@
         {
           "name": "Shôha",
           "icon": "https://img.finalfantasyxiv.com/lds/d/7dfe5d9335e25731063d777068c6fa58f1806e51.png",
-          "effect": "Effectue une attaque physique sur la cible.<br>Puissance : 520<br>Consomme tous les degrés de Tension de la lame.<br>Condition : Tension de la lame au 3e degré.<br>Utiliser les actions Mokusô, Iaijutsu ou Ôgi : Namikiri en combat octroie un degré de Tension de la lame (maximum 3).<br>Partage le même temps de recharge que Mumyô Shôha."
+          "effect": "Effectue une attaque physique sur la cible.<br>Puissance : 560<br>Consomme tous les degrés de Tension de la lame.<br>Condition : Tension de la lame au 3e degré.<br>Utiliser les actions Mokusô, Iaijutsu ou Ôgi : Namikiri en combat octroie un degré de Tension de la lame (maximum 3).<br>Partage le même temps de recharge que Mumyô Shôha."
         },
         {
           "name": "Mumyô Shôha",
@@ -4256,12 +4251,12 @@
         {
           "name": "Ôgi : Namikiri",
           "icon": "https://img.finalfantasyxiv.com/lds/d/08d676ac5d79d9f433c8ebc11ff39fa40246ae2b.png",
-          "effect": "Effectue une attaque physique dans une zone en éventail vers la cible, puis cette action devient Kaeshi Namikiri.<br>Puissance : 800<br>La puissance est réduite de 75% au-delà du premier ennemi touché.<br>Inflige obligatoirement un coup critique.<br>Les dégâts infligés sont augmentés lorsque vous bénéficiez d'un effet augmentant les chances de coups critiques.<br>Effet additionnel : vous octroie Tension de la lame (maximum 3).<br>Condition : Ôgi : Namikiri préparée."
+          "effect": "Effectue une attaque physique dans une zone en éventail vers la cible, puis cette action devient Kaeshi Namikiri.<br>Puissance : 860<br>La puissance est réduite de 75% au-delà du premier ennemi touché.<br>Inflige obligatoirement un coup critique.<br>Les dégâts infligés sont augmentés lorsque vous bénéficiez d'un effet augmentant les chances de coups critiques.<br>Effet additionnel : vous octroie Tension de la lame (maximum 3).<br>Condition : Ôgi : Namikiri préparée."
         },
         {
           "name": "Kaeshi Namikiri",
           "icon": "https://img.finalfantasyxiv.com/lds/d/63536deb9e8a888c17e4b367bff095cc0f3c2740.png",
-          "effect": "Effectue une attaque physique dans une zone en éventail vers la cible.<br>Puissance : 800<br>La puissance est réduite de 75% au-delà du premier ennemi touché.<br>Inflige obligatoirement un coup critique.<br>Les dégâts infligés sont augmentés lorsque vous bénéficiez d'un effet augmentant les chances de coups critiques.<br>Cette aptitude a un temps de recharge indépendant, et partage aussi celui des techniques d'arme.<br><br>* Cette action ne peut pas être ajoutée aux barres de raccourcis."
+          "effect": "Effectue une attaque physique dans une zone en éventail vers la cible.<br>Puissance : 860<br>La puissance est réduite de 75% au-delà du premier ennemi touché.<br>Inflige obligatoirement un coup critique.<br>Les dégâts infligés sont augmentés lorsque vous bénéficiez d'un effet augmentant les chances de coups critiques.<br>Cette aptitude a un temps de recharge indépendant, et partage aussi celui des techniques d'arme.<br><br>* Cette action ne peut pas être ajoutée aux barres de raccourcis."
         },
         {
           "name": "Higanbana",
@@ -4403,7 +4398,7 @@
         {
           "name": "Hissatsu : Chiten",
           "icon": "https://img.finalfantasyxiv.com/lds/d/2f482255082d1bbb81b74609b8d3f374073e2f30.png",
-          "effect": "Réduit de 25% vos dégâts subis et inflige des dégâts à l'attaquant pour chaque attaque que vous recevez.<br>Durée : 5s<br>Puissance : 2000<br>Bonus de contre : inflige Kuzushi.<br>Durée : 3s<br>Kuzushi : augmente les dégâts infligés à la cible par le personnage à l'origine de l'effet de 25%."
+          "effect": "Réduit de 25% vos dégâts subis et inflige des dégâts à l'attaquant pour chaque attaque que vous recevez.<br>Durée : 5s<br>Puissance : 2000<br>Bonus de contre : inflige Kuzushi.<br>Durée : 4s<br>Kuzushi : augmente les dégâts infligés à la cible par le personnage à l'origine de l'effet de 25%."
         },
         {
           "name": "Mineuchi",
@@ -4593,7 +4588,7 @@
         {
           "name": "Gloutonnerie",
           "icon": "https://img.finalfantasyxiv.com/lds/d/933867484213377dc45cafd796ff5d934cee8906.png",
-          "effect": "Vous appelez votre avatar pour effectuer une attaque magique neutre sur la cible et les ennemis autour.<br>Puissance : 500<br>La puissance est réduite de 25% au-delà du premier ennemi touché.<br>Effet additionnel : vous octroie deux degrés de Moissonneur d'âmes.<br>Durée : 30s<br>Coût Jauge des âmes : 50"
+          "effect": "Vous appelez votre avatar pour effectuer une attaque magique neutre sur la cible et les ennemis autour.<br>Puissance : 520<br>La puissance est réduite de 25% au-delà du premier ennemi touché.<br>Effet additionnel : vous octroie deux degrés de Moissonneur d'âmes.<br>Durée : 30s<br>Coût Jauge des âmes : 50"
         },
         {
           "name": "Linceul du lémure",
@@ -4628,7 +4623,7 @@
         {
           "name": "Tranchage du lémure",
           "icon": "https://img.finalfantasyxiv.com/lds/d/c9ae486399356401f032b455ea5b13f986236c82.png",
-          "effect": "Effectue une attaque physique sur la cible.<br>Puissance : 220<br>Condition : consomme deux Âmes du néant.<br>Partage le même temps de recharge que Faux du lémure.<br><br>* Cette action ne peut pas être ajoutée aux barres de raccourcis."
+          "effect": "Effectue une attaque physique sur la cible.<br>Puissance : 240<br>Condition : consomme deux Âmes du néant.<br>Partage le même temps de recharge que Faux du lémure.<br><br>* Cette action ne peut pas être ajoutée aux barres de raccourcis."
         },
         {
           "name": "Faux du lémure",
@@ -4750,12 +4745,12 @@
         {
           "name": "Moisson abondante",
           "icon": "https://img.finalfantasyxiv.com/lds/d/ab0eae0be0bf452487bd9f9c33ac06ab5ae53efc.png",
-          "effect": "Effectue une attaque physique en ligne droite sur les ennemis devant vous.<br>Puissance : 4000 à 20 000<br>La puissance de cette attaque dépend du degré de votre Offrande à la Mort.<br>Consomme tous les degrés d'Offrande à la Mort.<br>Effet additionnel : en combat, remplit périodiquement votre jauge de Transcendance.<br>Durée : 15s<br>Condition : Lémure non octroyé.<br>Offrande à la Mort vous est octroyée à l'utilisation de Tranchage animique ou si vous comptabilisez une proie ou un soutien.<br>L'effet prend fin en relançant l'action.<br>Cette technique d'arme a un temps de recharge indépendant."
+          "effect": "Effectue une attaque physique en ligne droite sur les ennemis devant vous.<br>Puissance : 4000 à 24 000<br>La puissance de cette attaque dépend du degré de votre Offrande à la Mort.<br>Consomme tous les degrés d'Offrande à la Mort.<br>Effet additionnel : en combat, remplit périodiquement votre jauge de Transcendance.<br>Durée : 15s<br>Condition : Lémure non octroyé.<br>Offrande à la Mort vous est octroyée à l'utilisation de Tranchage animique ou si vous comptabilisez une proie ou un soutien.<br>L'effet prend fin en relançant l'action.<br>Cette technique d'arme a un temps de recharge indépendant."
         },
         {
           "name": "Andain sinistre",
           "icon": "https://img.finalfantasyxiv.com/lds/d/4b0d41599ef62b2057cf1e0ac5a007eb235baa5f.png",
-          "effect": "Vous appelez votre avatar pour effectuer une attaque physique dans une zone en éventail vers la cible.<br>Puissance : 4000<br>Effet additionnel : vous octroie 2 degrés de Moissonneur d'âmes.<br>Durée : 10s<br>Effet additionnel : inflige Pesanteur 75%.<br>Durée : 3s<br>Le combo Tranchage infernal devient Gibet."
+          "effect": "Vous appelez votre avatar pour effectuer une attaque physique dans une zone en éventail vers la cible.<br>Puissance : 4000<br>Effet additionnel : vous octroie Moissonneur d'âmes.<br>Durée : 10s<br>Effet additionnel : inflige Pesanteur 75%.<br>Durée : 3s<br>Le combo Tranchage infernal devient Guillotine."
         },
         {
           "name": "Arrêt de mort",
@@ -4773,14 +4768,9 @@
           "effect": "Vous octroie Blason protecteur, une barrière absorbant un certain montant de dégâts et augmentant vos dégâts infligés de 10%.<br>Puissance : 12 000 Durée : 10s<br>Effet additionnel : octroie Blason revigorant à vous et à vos équipiers dans un rayon de 15 yalms quand la barrière a absorbé son montant de dégâts.<br>Blason revigorant : restaure périodiquement les PV.<br>Puissance : 6000 Durée : 6s"
         },
         {
-          "name": "Gibet",
-          "icon": "https://img.finalfantasyxiv.com/lds/d/233b51c7c3cde43bf5e0dd11e4a399c4c83a2c27.png",
-          "effect": "Effectue une attaque physique sur la cible.<br>Puissance : 8000<br>Effet additionnel : vous octroie Potence préparée.<br>Durée : 10s<br>Le combo Tranchage infernal devient Potence.<br>Condition : Moissonneur d'âmes.<br><br>* Cette action ne peut pas être ajoutée aux barres de raccourcis."
-        },
-        {
-          "name": "Potence",
-          "icon": "https://img.finalfantasyxiv.com/lds/d/4cf43a030b989482d88c5a0a12db00b4c931d25f.png",
-          "effect": "Effectue une attaque physique sur la cible.<br>Puissance : 8000<br>Condition : Moissonneur d'âmes et Potence préparée.<br><br>* Cette action ne peut pas être ajoutée aux barres de raccourcis."
+          "name": "Guillotine",
+          "icon": "https://img.finalfantasyxiv.com/lds/d/c9b769d7ad4c9f51f1f714df3d66cc4884ae1f97.png",
+          "effect": "Effectue une attaque physique dans une zone en éventail vers la cible.<br>Puissance : 8000<br>Condition : Moissonneur d'âmes.<br><br>* Cette action ne peut pas être ajoutée aux barres de raccourcis."
         },
         {
           "name": "Fauchage du néant",
@@ -4895,7 +4885,7 @@
         {
           "name": "Ballade du mage",
           "icon": "https://img.finalfantasyxiv.com/lds/d/eda9a8394ad037b3dec2b0013883bfddb34f54c4.png",
-          "effect": "Inflige des dégâts magiques neutres à la cible.<br>Puissance : 100<br>Entonne la Ballade du mage et augmente de 1% vos dégâts infligés ainsi que ceux des équipiers dans un rayon de 30 yalms.<br>Durée : 45s<br>Effet additionnel : 80% de chances qu'Inspiration poétique vous soit octroyée.<br>Inspiration poétique : réduit de 7,5s les temps de recharge d'Hémorragie et de Pluie mortelle.<br>Effet additionnel : vous octroie la Coda du mage."
+          "effect": "Inflige des dégâts magiques neutres à la cible.<br>Puissance : 100<br>Entonne la Ballade du mage et augmente de 1% vos dégâts infligés ainsi que ceux des équipiers dans un rayon de 50 yalms.<br>Durée : 45s<br>Effet additionnel : 80% de chances qu'Inspiration poétique vous soit octroyée.<br>Inspiration poétique : réduit de 7,5s les temps de recharge d'Hémorragie et de Pluie mortelle.<br>Effet additionnel : vous octroie la Coda du mage."
         },
         {
           "name": "Péon du Contemplateur",
@@ -4910,7 +4900,7 @@
         {
           "name": "Péan martial",
           "icon": "https://img.finalfantasyxiv.com/lds/d/008c12ecfaee3427ff9c25c7f8d2307aee93df31.png",
-          "effect": "Inflige des dégâts magiques neutres à la cible.<br>Puissance : 100<br>Entonne le Péan martial et augmente de 3% vos chances de coups nets ainsi que celles des équipiers dans un rayon de 30 yalms.<br>Durée : 45s<br>Effet additionnel : 80% de chances qu'Inspiration poétique vous soit octroyée.<br>Inspiration poétique : réduit de 4% le délai des attaques automatiques et les temps de lancement et de recharge des techniques d'arme et des sorts de magie. Cumulable jusqu'au 4e degré.<br>Effet additionnel : vous octroie la Coda martiale."
+          "effect": "Inflige des dégâts magiques neutres à la cible.<br>Puissance : 100<br>Entonne le Péan martial et augmente de 3% vos chances de coups nets ainsi que celles des équipiers dans un rayon de 50 yalms.<br>Durée : 45s<br>Effet additionnel : 80% de chances qu'Inspiration poétique vous soit octroyée.<br>Inspiration poétique : réduit de 4% le délai des attaques automatiques et les temps de lancement et de recharge des techniques d'arme et des sorts de magie. Cumulable jusqu'au 4e degré.<br>Effet additionnel : vous octroie la Coda martiale."
         },
         {
           "name": "Pluie mortelle",
@@ -4925,7 +4915,7 @@
         {
           "name": "Menuet du Vagabond",
           "icon": "https://img.finalfantasyxiv.com/lds/d/53e0411604846053cbec196bed125f38a71b73c1.png",
-          "effect": "Inflige des dégâts magiques neutres à la cible.<br>Puissance : 100<br>Entonne le Menuet du Vagabond et augmente de 2% vos chances de critiques ainsi que celles des équipiers dans un rayon de 30 yalms.<br>Durée : 45s<br>Effet additionnel : 80% de chances qu'Inspiration poétique vous soit octroyée.<br>Inspiration poétique : permet d'utiliser Ton parfait. Cumulable jusqu'au 3e degré.<br>Effet additionnel : vous octroie la Coda du vagabond.<br>Cette action devient Ton parfait après utilisation."
+          "effect": "Inflige des dégâts magiques neutres à la cible.<br>Puissance : 100<br>Entonne le Menuet du Vagabond et augmente de 2% vos chances de critiques ainsi que celles des équipiers dans un rayon de 50 yalms.<br>Durée : 45s<br>Effet additionnel : 80% de chances qu'Inspiration poétique vous soit octroyée.<br>Inspiration poétique : permet d'utiliser Ton parfait. Cumulable jusqu'au 3e degré.<br>Effet additionnel : vous octroie la Coda du vagabond.<br>Cette action devient Ton parfait après utilisation."
         },
         {
           "name": "Ton parfait",
@@ -4935,7 +4925,7 @@
         {
           "name": "Flèche empyréenne",
           "icon": "https://img.finalfantasyxiv.com/lds/d/06f5720224fc5d70aaf47a8850f683e0d4e89b02.png",
-          "effect": "Effectue une attaque physique sur la cible.<br>Puissance : 230"
+          "effect": "Effectue une attaque physique sur la cible.<br>Puissance : 240"
         },
         {
           "name": "Mâchoires de fer",
@@ -4945,7 +4935,7 @@
         {
           "name": "Vent venimeux",
           "icon": "https://img.finalfantasyxiv.com/lds/d/ac6fcd72c5f1c20fe9106dbf9d1936b01a643ff4.png",
-          "effect": "Effectue une attaque physique sur la cible.<br>Puissance : 300"
+          "effect": "Effectue une attaque physique sur la cible.<br>Puissance : 320"
         },
         {
           "name": "Troubadour",
@@ -5122,12 +5112,12 @@
         {
           "name": "Trait alpha",
           "icon": "https://img.finalfantasyxiv.com/lds/d/b4a390950aaeb9822ce34a94dc28974ab9406292.png",
-          "effect": "Effectue une attaque physique en ligne droite sur les ennemis devant vous.<br>Puissance : 6000<br>Effet additionnel : vous octroie Marche conquérante et Flèche explosive préparée.<br>Marche conquérante : réduit de 10% les temps de lancement et de recharge des techniques d'arme et augmente de 5% les dégâts infligés par vous et vos équipiers dans un rayon de 30 yalms autour de vous.<br>Durée : 30s<br>Flèche explosive préparée : remplace Trait alpha par Flèche explosive.<br>Durée : 20s<br>Cette technique d'arme a un temps de recharge indépendant."
+          "effect": "Effectue une attaque physique en ligne droite sur les ennemis devant vous.<br>Puissance : 8000<br>Effet additionnel : vous octroie Marche conquérante et Flèche explosive préparée.<br>Marche conquérante : réduit de 10% les temps de lancement et de recharge des techniques d'arme et augmente de 5% les dégâts infligés par vous et vos équipiers dans un rayon de 30 yalms autour de vous.<br>Durée : 30s<br>Flèche explosive préparée : remplace Trait alpha par Flèche explosive.<br>Durée : 20s<br>Cette technique d'arme a un temps de recharge indépendant."
         },
         {
           "name": "Nocturne muet",
           "icon": "https://img.finalfantasyxiv.com/lds/d/2395550790bebce8b41c868606b68c5860ead521.png",
-          "effect": "Effectue une attaque magique sur la cible.<br>Puissance : 2000<br>Effet additionnel : inflige Silence.<br>Durée : 3s<br>Effet additionnel : vous octroie Inspiration poétique.<br>Durée : 10s<br>Inspiration poétique : remplace Tir puissant par Ton parfait."
+          "effect": "Inflige Silence à la cible.<br>Durée : 2s<br>Effet additionnel : vous octroie Inspiration poétique.<br>Durée : 10s<br>Inspiration poétique : remplace Tir puissant par Ton parfait."
         },
         {
           "name": "Flèche empyréenne",
@@ -5137,12 +5127,12 @@
         {
           "name": "Tir repoussant",
           "icon": "https://img.finalfantasyxiv.com/lds/d/e37391df85073d56015199bf52adcac9205fe1f6.png",
-          "effect": "Effectue une attaque physique sur la cible et vous fait sauter 10 yalms en arrière.<br>Puissance : 2000<br>Effet additionnel : inflige Entrave.<br>Durée : 3s<br>Ne peut pas être utilisé sous l'effet Entrave."
+          "effect": "Effectue une attaque physique sur la cible et vous fait sauter 10 yalms en arrière.<br>Puissance : 4000<br>Effet additionnel : inflige Entrave.<br>Durée : 3s<br>Ne peut pas être utilisé sous l'effet Entrave."
         },
         {
           "name": "Péon du Contemplateur",
           "icon": "https://img.finalfantasyxiv.com/lds/d/76b51857adc9bb39158d03671673490adf986c23.png",
-          "effect": "Guérit une altération d'état de l'équipier ciblé soignable avec Dépuration.<br>Si la cible n'en subissait pas, elle reçoit une barrière avec le même effet.<br>Durée : 10s<br>Si une altération d'état est soignée directement ou grâce à la barrière, l'effet Protection du Contemplateur est octroyé à la cible.<br>Durée : 5s<br>Protection du Contemplateur : réduit de 20% les dégâts subis et augmente de 20% l'effet des soins reçus.<br>Effet additionnel : vous octroie Inspiration poétique.<br>Durée : 10s<br>Inspiration poétique : remplace Tir puissant par Ton parfait."
+          "effect": "Guérit une altération d'état de l'équipier ciblé soignable avec Dépuration.<br>Si la cible n'en subissait pas, elle reçoit une barrière avec le même effet.<br>Durée : 10s<br>Si une altération d'état est soignée directement ou grâce à la barrière, l'effet Protection du Contemplateur est octroyé à la cible.<br>Durée : 5s<br>Protection du Contemplateur : réduit de 25% les dégâts subis et augmente de 25% l'effet des soins reçus.<br>Effet additionnel : vous octroie Inspiration poétique.<br>Durée : 10s<br>Inspiration poétique : remplace Tir puissant par Ton parfait."
         },
         {
           "name": "Ton parfait",
@@ -5157,7 +5147,7 @@
         {
           "name": "Fantaisie héroïque",
           "icon": "https://img.finalfantasyxiv.com/lds/d/671e19fca51076d955a751ca8cf0b8f0c024d13b.png",
-          "effect": "Réduit de 10% les temps de lancement et de recharge des techniques d'arme et augmente de 25% la vitesse de déplacement. Augmente aussi de 10% les dégâts infligés par vous et vos équipiers dans un rayon de 30 yalms autour de vous, ainsi que la vitesse de remplissage de la jauge de Transcendance.<br>Cette action n'a d'effet que sur les cibles en combat.<br>Condition : jauge de Transcendance pleine.<br>Temps de charge : 120s"
+          "effect": "Réduit de 10% les temps de lancement et de recharge des techniques d'arme et augmente de 25% la vitesse de déplacement. Augmente aussi de 10% les dégâts infligés par vous et vos équipiers dans un rayon de 30 yalms autour de vous, ainsi que la vitesse de remplissage de la jauge de Transcendance.<br>Durée : 30s<br>Cette action n'a d'effet que sur les cibles en combat.<br>Condition : jauge de Transcendance pleine.<br>Temps de charge : 120s"
         },
         {
           "name": "Élixir militaire",
@@ -5494,7 +5484,7 @@
         {
           "name": "Analyse",
           "icon": "https://img.finalfantasyxiv.com/lds/d/38dc9d35007c7cdc38d10d63379748401fed9939.png",
-          "effect": "Ajoute un effet à l'action Foreuse, Lance-toxine, Ancre aérienne ou Tronçonneuses rotatives qui suit.<br>Durée : 10s<br>Foreuse : puissance doublée.<br>Lance-toxine : inflige Pesanteur.<br>Ancre aérienne : puissance augmentée de 50% et l'effet additionnel Entrave devient Étourdissement.<br>Tronçonneuses rotatives : chances d'infliger des dégâts équivalant à 95% des PV maximums de la cible.<br>Maximum de charges : 2"
+          "effect": "Ajoute un effet à l'action Foreuse, Lance-toxine, Ancre aérienne ou Tronçonneuses rotatives qui suit.<br>Durée : 10s<br>Foreuse : puissance doublée.<br>Lance-toxine : puissance doublée et inflige Pesanteur.<br>Ancre aérienne : puissance augmentée de 50% et l'effet additionnel Entrave devient Étourdissement.<br>Tronçonneuses rotatives : puissance augmentée de 50%.<br>Maximum de charges : 2"
         },
         {
           "name": "Pyro-explosion",
@@ -5504,7 +5494,7 @@
         {
           "name": "Lance-toxine",
           "icon": "https://img.finalfantasyxiv.com/lds/d/70783248b63c783d9df10fbe8f420ec6954d9eab.png",
-          "effect": "Effectue une attaque physique dans une zone en éventail vers la cible.<br>Puissance : 4000<br>Effet additionnel : dégâts périodiques.<br>Puissance : 4000 Durée : 12s<br>Effet additionnel : vous octroie Ancre aérienne amorcée.<br>Ancre aérienne amorcée : Lance-toxine devient Ancre aérienne.<br>Effet additionnel durant Analyse : inflige Pesanteur 75%.<br>Durée : 5s<br>Maximum de charges : 2<br>Condition : Lance-toxine amorcée.<br>Cette technique d'arme a un temps de recharge indépendant.<br><br>* Cette action ne peut pas être ajoutée aux barres de raccourcis."
+          "effect": "Effectue une attaque physique dans une zone en éventail vers la cible.<br>Puissance : 4000<br>Effet additionnel : dégâts périodiques.<br>Puissance : 4000 Durée : 12s<br>Effet additionnel : vous octroie Ancre aérienne amorcée.<br>Ancre aérienne amorcée : Lance-toxine devient Ancre aérienne.<br>Effet additionnel durant Analyse : puissance doublée et inflige Pesanteur 75%.<br>Ne s'applique pas aux dégâts périodiques.<br>Durée : 5s<br>Maximum de charges : 2<br>Condition : Lance-toxine amorcée.<br>Cette technique d'arme a un temps de recharge indépendant.<br><br>* Cette action ne peut pas être ajoutée aux barres de raccourcis."
         },
         {
           "name": "Ancre aérienne",
@@ -5514,7 +5504,7 @@
         {
           "name": "Tronçonneuses rotatives",
           "icon": "https://img.finalfantasyxiv.com/lds/d/acbc270d0d2e6192541800dcc280c80a7eae3bba.png",
-          "effect": "Effectue une attaque physique en ligne droite sur les ennemis devant vous.<br>Puissance : 12 000<br>Effet additionnel : vous octroie Foreuse amorcée.<br>Foreuse amorcée : Tronçonneuses rotatives devient Foreuse.<br>Effet additionnel durant Analyse : 3% de chances d'infliger des dégâts équivalant à 95% des PV maximums de la cible.<br>Sans effet si la cible est à bord d'une machine de guerre ou un personnage non-joueur.<br>Maximum de charges : 2<br>Condition : Tronçonneuses rotatives amorcées.<br>Cette technique d'arme a un temps de recharge indépendant.<br><br>* Cette action ne peut pas être ajoutée aux barres de raccourcis."
+          "effect": "Effectue une attaque physique en ligne droite sur les ennemis devant vous.<br>Puissance : 8000<br>La puissance est augmentée de 50% si la cible a moins de 50% de ses PV maximums.<br>Effet additionnel : vous octroie Foreuse amorcée.<br>Foreuse amorcée : Tronçonneuses rotatives devient Foreuse.<br>Effet additionnel durant Analyse : puissance augmentée de 50%.<br>Maximum de charges : 2<br>Condition : Tronçonneuses rotatives amorcées.<br>Cette technique d'arme a un temps de recharge indépendant.<br><br>* Cette action ne peut pas être ajoutée aux barres de raccourcis."
         },
         {
           "name": "Mortier d'éther",
@@ -5664,7 +5654,7 @@
         {
           "name": "Final technique",
           "icon": "https://img.finalfantasyxiv.com/lds/d/4fa04453ce7de1db88f05bd6f931d489961cc6b1.png",
-          "effect": "Effectue une attaque physique sur les ennemis alentour.<br>La puissance de cette action dépend du nombre de pas de danse correctement enchaînés et sa puissance est réduite de 75% au-delà du premier ennemi touché.<br>Puissance sans pas : 350<br>Puissance après 1 pas : 540<br>Puissance après 2 pas : 720<br>Puissance après 3 pas : 900<br>Puissance après 4 pas : 1200<br>Effet additionnel : octroie Fascination et Final technique à vous et aux équipiers alentour, si au moins un pas de danse a été réussi.<br>Final technique : augmente les dégâts infligés. La puissance de l'effet dépend du nombre de pas de danse correctement enchaînés.<br>Augmentation après 1 pas : 1%<br>Augmentation après 2 pas : 2%<br>Augmentation après 3 pas : 3%<br>Augmentation après 4 pas : 5%<br>Durée : 20s<br>Effet additionnel : vous octroie Tillana préparé.<br>Durée : 30s<br>Cette technique d'arme a un temps de recharge indépendant qui est appliqué aux autres techniques d'arme ou sorts après utilisation.<br><br>* Cette action ne peut pas être ajoutée aux barres de raccourcis."
+          "effect": "Effectue une attaque physique sur les ennemis dans un rayon de 15 yalms.<br>La puissance de cette action dépend du nombre de pas de danse correctement enchaînés et sa puissance est réduite de 75% au-delà du premier ennemi touché.<br>Puissance sans pas : 350<br>Puissance après 1 pas : 540<br>Puissance après 2 pas : 720<br>Puissance après 3 pas : 900<br>Puissance après 4 pas : 1200<br>Effet additionnel : octroie Fascination et Final technique à vous et aux équipiers dans un rayon de 30 yalms, si au moins un pas de danse a été réussi.<br>Final technique : augmente les dégâts infligés. La puissance de l'effet dépend du nombre de pas de danse correctement enchaînés.<br>Augmentation après 1 pas : 1%<br>Augmentation après 2 pas : 2%<br>Augmentation après 3 pas : 3%<br>Augmentation après 4 pas : 5%<br>Durée : 20s<br>Effet additionnel : vous octroie Tillana préparé.<br>Durée : 30s<br>Cette technique d'arme a un temps de recharge indépendant qui est appliqué aux autres techniques d'arme ou sorts après utilisation.<br><br>* Cette action ne peut pas être ajoutée aux barres de raccourcis."
         },
         {
           "name": "Apothéose",
@@ -5836,7 +5826,7 @@
         {
           "name": "Valse revigorante",
           "icon": "https://img.finalfantasyxiv.com/lds/d/29bc9e646f24cf83364965086b2278361f6d1515.png",
-          "effect": "Restaure vos PV et ceux des équipiers alentour.<br>Puissance : 8000<br>Effet additionnel : votre Partenaire de position rapprochée restaure lui aussi ses propres PV ainsi que ceux des équipiers proches."
+          "effect": "Restaure vos PV et ceux des équipiers alentour.<br>Puissance : 10 000<br>Effet additionnel : votre Partenaire de position rapprochée restaure lui aussi ses propres PV ainsi que ceux des équipiers proches."
         },
         {
           "name": "En avant",
@@ -6041,7 +6031,7 @@
         {
           "name": "Xénoglossie",
           "icon": "https://img.finalfantasyxiv.com/lds/d/428eac2232a6d9531a9a02e344dc48bb06310c6c.png",
-          "effect": "Effectue une attaque magique neutre sur la cible.<br>Puissance : 800<br>Condition : consomme un Polyglotte."
+          "effect": "Effectue une attaque magique neutre sur la cible.<br>Puissance : 880<br>Condition : consomme un Polyglotte."
         },
         {
           "name": "Extra Feu majeur",
@@ -6181,7 +6171,7 @@
         {
           "name": "Énochien amélioré III",
           "icon": "https://img.finalfantasyxiv.com/lds/d/72578b4df3af511dffc110405fba9737cff7d922.png",
-          "effect": "Augmente l'effet Énochien à 21%."
+          "effect": "Augmente l'effet Énochien à 23%."
         },
         {
           "name": "Dynamisation améliorée II",
@@ -6208,7 +6198,7 @@
         {
           "name": "Bouillonnement",
           "icon": "https://img.finalfantasyxiv.com/lds/d/f2047323e6e33591811d0303209137f0f841cd81.png",
-          "effect": "Effectue une attaque magique neutre sur les ennemis alentour.<br>Puissance : 16 000<br>Effet additionnel : vous octroie une barrière absorbant un certain montant de dégâts.<br>Puissance : 12 000 Durée : 10s<br>Ce sort a un temps de recharge indépendant."
+          "effect": "Effectue une attaque magique neutre sur les ennemis alentour.<br>Puissance : 16 000<br>Effet additionnel : vous octroie une barrière absorbant un certain montant de dégâts.<br>Puissance : 16 000 Durée : 10s<br>Ce sort a un temps de recharge indépendant."
         },
         {
           "name": "Paradoxe",
@@ -6258,7 +6248,7 @@
         {
           "name": "Résonance de l'âme",
           "icon": "https://img.finalfantasyxiv.com/lds/d/b834e18e2f5e1eb8dcdde2e1360761650e6296a3.png",
-          "effect": "Vous octroie 6 charges de Résonance de l'âme.<br>Durée : 30s<br>Résonance de l'âme : Feu devient Brasier et Glace devient Gel. Ces sorts sont instantanés.<br>Effet additionnel : vous octroie Polyglotte.<br>Polyglotte : devient Infect après utilisation.<br>Durée : 60s<br>Effet additionnel : réduit de 15s le temps de recharge de Choc thermique.<br>Condition : jauge de Transcendance pleine.<br>Temps de charge : 60s"
+          "effect": "Vous octroie 6 charges de Résonance de l'âme.<br>Durée : 30s<br>Résonance de l'âme : Feu devient Brasier et Glace devient Gel. Ces sorts sont instantanés.<br>Effet additionnel : vous octroie Polyglotte et Apocatastase.<br>Polyglotte : devient Infect après utilisation.<br>Durée : 60s<br>Apocatastase : réduit de 10% les dégâts subis.<br>Durée : 15s<br>Effet additionnel : réduit de 15s le temps de recharge de Choc thermique.<br>Condition : jauge de Transcendance pleine.<br>Temps de charge : 60s"
         },
         {
           "name": "Élixir militaire",
@@ -6950,12 +6940,12 @@
         {
           "name": "VerFeu",
           "icon": "https://img.finalfantasyxiv.com/lds/d/ce7efb90e13d0fef394abb8d2e57a09402452890.png",
-          "effect": "Effectue une attaque magique de feu sur la cible.<br>Puissance : 330<br>Effet additionnel : remplit la Mana noire de 5.<br>Condition : VerFeu préparé."
+          "effect": "Effectue une attaque magique de feu sur la cible.<br>Puissance : 340<br>Effet additionnel : remplit la Mana noire de 5.<br>Condition : VerFeu préparé."
         },
         {
           "name": "VerTerre",
           "icon": "https://img.finalfantasyxiv.com/lds/d/c5ddf887a06b23a2ae9426a5a6288b863b92eced.png",
-          "effect": "Effectue une attaque magique de terre sur la cible.<br>Puissance : 330<br>Effet additionnel : remplit la Mana blanche de 5.<br>Condition : VerTerre préparée."
+          "effect": "Effectue une attaque magique de terre sur la cible.<br>Puissance : 340<br>Effet additionnel : remplit la Mana blanche de 5.<br>Condition : VerTerre préparée."
         },
         {
           "name": "Zwerchhau",
@@ -7000,7 +6990,7 @@
         {
           "name": "Contre de sixte",
           "icon": "https://img.finalfantasyxiv.com/lds/d/e9183e5932215335efe798ce4d6422d37befaf27.png",
-          "effect": "Effectue une attaque physique sur la cible et les ennemis autour.<br>Puissance : 360"
+          "effect": "Effectue une attaque physique sur la cible et les ennemis autour.<br>Puissance : 380"
         },
         {
           "name": "Enhardissement",
@@ -7015,7 +7005,7 @@
         {
           "name": "Extra À-coup",
           "icon": "https://img.finalfantasyxiv.com/lds/d/e2b3cc05547ba6a37ba5e883f190570d32eabb10.png",
-          "effect": "Effectue une attaque magique neutre sur la cible.<br>Puissance : 310<br>Effet additionnel : remplit la Mana noire et la Mana blanche de 2."
+          "effect": "Effectue une attaque magique neutre sur la cible.<br>Puissance : 320<br>Effet additionnel : remplit la Mana noire et la Mana blanche de 2."
         },
         {
           "name": "VerVie",
@@ -7030,12 +7020,12 @@
         {
           "name": "VerBrasier",
           "icon": "https://img.finalfantasyxiv.com/lds/d/d20080ca189b4843d89ac2faab14d42099bd2e4c.png",
-          "effect": "Effectue une attaque magique de feu sur la cible et les ennemis autour.<br>Puissance : 580<br>La puissance est réduite de 60% au-delà du premier ennemi touché.<br>Effet additionnel : remplit la Mana noire de 11.<br>Effet additionnel : 20% de chances que VerFeu préparé vous soit octroyé.<br>Durée : 30s<br>Mana blanche > Mana noire : chances augmentées à 100%.<br>Condition : consomme 3 Cristaux de mana.<br><br>* Cette action ne peut pas être ajoutée aux barres de raccourcis."
+          "effect": "Effectue une attaque magique de feu sur la cible et les ennemis autour.<br>Puissance : 600<br>La puissance est réduite de 60% au-delà du premier ennemi touché.<br>Effet additionnel : remplit la Mana noire de 11.<br>Effet additionnel : 20% de chances que VerFeu préparé vous soit octroyé.<br>Durée : 30s<br>Mana blanche > Mana noire : chances augmentées à 100%.<br>Condition : consomme 3 Cristaux de mana.<br><br>* Cette action ne peut pas être ajoutée aux barres de raccourcis."
         },
         {
           "name": "VerMiracle",
           "icon": "https://img.finalfantasyxiv.com/lds/d/34f4be861c3f40879653fef7fe7039f8df1108c1.png",
-          "effect": "Effectue une attaque magique neutre sur la cible et les ennemis autour.<br>Puissance : 580<br>La puissance est réduite de 60% au-delà du premier ennemi touché.<br>Effet additionnel : remplit la Mana blanche de 11.<br>Effet additionnel : 20% de chances que VerTerre préparée vous soit octroyée.<br>Durée : 30s<br>Mana noire > Mana blanche : chances augmentées à 100%.<br>Condition : consomme 3 Cristaux de mana.<br><br>* Cette action ne peut pas être ajoutée aux barres de raccourcis."
+          "effect": "Effectue une attaque magique neutre sur la cible et les ennemis autour.<br>Puissance : 600<br>La puissance est réduite de 60% au-delà du premier ennemi touché.<br>Effet additionnel : remplit la Mana blanche de 11.<br>Effet additionnel : 20% de chances que VerTerre préparée vous soit octroyée.<br>Durée : 30s<br>Mana noire > Mana blanche : chances augmentées à 100%.<br>Condition : consomme 3 Cristaux de mana.<br><br>* Cette action ne peut pas être ajoutée aux barres de raccourcis."
         },
         {
           "name": "Reprise",
@@ -7090,7 +7080,7 @@
         {
           "name": "Reprise enchantée",
           "icon": "https://img.finalfantasyxiv.com/lds/d/a6e98885e3a5709ef22ba5ea9ad2991f3015752e.png",
-          "effect": "Effectue une attaque magique neutre sur la cible.<br>Puissance : 330<br>Coût Jauge d'équilibre : Mana noire 5 et<br>Mana blanche 5<br><br>* Cette action ne peut pas être ajoutée aux barres de raccourcis."
+          "effect": "Effectue une attaque magique neutre sur la cible.<br>Puissance : 340<br>Coût Jauge d'équilibre : Mana noire 5 et<br>Mana blanche 5<br><br>* Cette action ne peut pas être ajoutée aux barres de raccourcis."
         },
         {
           "name": "Embrouillement",
@@ -7170,7 +7160,7 @@
         {
           "name": "Maîtrise de la magie rouge III",
           "icon": "https://img.finalfantasyxiv.com/lds/d/ad98a9599086d8643f4d5808e2cabbc50cad1e44.png",
-          "effect": "Augmente la puissance de certaines actions.<br><br>Puissance de Riposte enchantée : 280<br>Puissance d'Extra VerFoudre : 140<br>Puissance d'Extra VerVent : 140<br>Puissance de VerFeu : 330<br>Puissance de VerTerre : 330<br>Puissance de Zwerchhau enchanté : 150<br>Puissance de Redoublement enchanté : 130<br>Puissance d'Extra À-coup : 310<br>Puissance d'Impact : 210<br>Puissance de Reprise enchantée : 330"
+          "effect": "Augmente la puissance de certaines actions.<br><br>Puissance de Riposte enchantée : 280<br>Puissance d'Extra VerFoudre : 140<br>Puissance d'Extra VerVent : 140<br>Puissance de VerFeu : 340<br>Puissance de VerTerre : 340<br>Puissance de Zwerchhau enchanté : 150<br>Puissance de Redoublement enchanté : 130<br>Puissance d'Extra À-coup : 320<br>Puissance d'Impact : 210<br>Puissance de Reprise enchantée : 340"
         },
         {
           "name": "Accélération améliorée",
@@ -7192,7 +7182,7 @@
         {
           "name": "Riposte enchantée",
           "icon": "https://img.finalfantasyxiv.com/lds/d/67f481da4b0a277ad6b06432a130adfe4b986d32.png",
-          "effect": "Effectue une attaque magique sur la cible.<br>Puissance : 6000<br>Avec Transfert blanc : vous octroie une barrière absorbant un certain montant de dégâts.<br>Puissance : 6000 Durée : 10s<br>Avec Transfert noir : inflige des dégâts périodiques à la cible.<br>Puissance : 3000 Durée : 6s<br>Cette action devient Zwerchhau enchanté après utilisation."
+          "effect": "Effectue une attaque magique sur la cible.<br>Puissance : 6000<br>Avec Transfert blanc : vous octroie une barrière absorbant un certain montant de dégâts.<br>Puissance : 6000 Durée : 10s<br>Si la cible est déjà sous l'effet de Monomachie, l'effet de la barrière est augmenté de 10%.<br>Avec Transfert noir : inflige des dégâts périodiques à la cible.<br>Puissance : 3000 Durée : 6s<br>Cette action devient Zwerchhau enchanté après utilisation."
         },
         {
           "name": "Résolution",
@@ -7202,7 +7192,7 @@
         {
           "name": "Barrière anti-magie",
           "icon": "https://img.finalfantasyxiv.com/lds/d/a18eb34f3095e008c14b977841ebd45e02ef04d4.png",
-          "effect": "Réduit de 10% les dégâts reçus par vous et les équipiers alentour et augmente de 10% l'effet des soins reçus.<br>Durée : 8s<br>Condition : Transfert blanc.<br>Avec Transfert noir, devient Éreintage.<br>Partage le même temps de recharge que Éreintage."
+          "effect": "Réduit de 10% les dégâts reçus par vous et les équipiers alentour et augmente de 10% l'effet des soins reçus.<br>Durée : 10s<br>Condition : Transfert blanc.<br>Avec Transfert noir, devient Éreintage.<br>Partage le même temps de recharge que Éreintage."
         },
         {
           "name": "Corps-à-corps",
@@ -7247,17 +7237,17 @@
         {
           "name": "Zwerchhau enchanté",
           "icon": "https://img.finalfantasyxiv.com/lds/d/e908bf25ba9fac88edf30da9b4edf9b8bcbf1758.png",
-          "effect": "Effectue une attaque magique sur la cible.<br>Puissance : 7000<br>Combo : Riposte enchantée<br>Avec Transfert blanc : vous octroie une barrière absorbant un certain montant de dégâts.<br>Puissance : 6000 Durée : 10s<br>Avec Transfert noir : inflige des dégâts périodiques à la cible.<br>Puissance : 3000 Durée : 6s<br>Cette action devient Redoublement enchanté après utilisation.<br><br>* Cette action ne peut pas être ajoutée aux barres de raccourcis."
+          "effect": "Effectue une attaque magique sur la cible.<br>Puissance : 7000<br>Combo : Riposte enchantée<br>Avec Transfert blanc : vous octroie une barrière absorbant un certain montant de dégâts.<br>Puissance : 6000 Durée : 10s<br>Si la cible est déjà sous l'effet de Monomachie, l'effet de la barrière est augmenté de 10%.<br>Avec Transfert noir : inflige des dégâts périodiques à la cible.<br>Puissance : 3000 Durée : 6s<br>Cette action devient Redoublement enchanté après utilisation.<br><br>* Cette action ne peut pas être ajoutée aux barres de raccourcis."
         },
         {
           "name": "Redoublement enchanté",
           "icon": "https://img.finalfantasyxiv.com/lds/d/b2f8944b29325a91ae300010c1fb774e9d53316e.png",
-          "effect": "Effectue une attaque magique sur la cible.<br>Puissance : 8000<br>Combo : Zwerchhau enchanté<br>Effet additionnel : vous octroie VerMiracle et VerBrasier préparés.<br>VerMiracle et VerBrasier préparés : avec Transfert blanc, cette action devient VerMiracle. Avec Transfert noir, cette action devient VerBrasier.<br>Durée : 10s<br>Avec Transfert blanc : vous octroie une barrière absorbant un certain montant de dégâts.<br>Puissance : 6000 Durée : 10s<br>Avec Transfert noir : inflige des dégâts périodiques à la cible.<br>Puissance : 3000 Durée : 6s<br><br>* Cette action ne peut pas être ajoutée aux barres de raccourcis."
+          "effect": "Effectue une attaque magique sur la cible.<br>Puissance : 8000<br>Combo : Zwerchhau enchanté<br>Effet additionnel : vous octroie VerMiracle et VerBrasier préparés.<br>VerMiracle et VerBrasier préparés : avec Transfert blanc, cette action devient VerMiracle. Avec Transfert noir, cette action devient VerBrasier.<br>Durée : 10s<br>Avec Transfert blanc : vous octroie une barrière absorbant un certain montant de dégâts.<br>Puissance : 6000 Durée : 10s<br>Si la cible est déjà sous l'effet de Monomachie, l'effet de la barrière est augmenté de 10%.<br>Avec Transfert noir : inflige des dégâts périodiques à la cible.<br>Puissance : 3000 Durée : 6s<br><br>* Cette action ne peut pas être ajoutée aux barres de raccourcis."
         },
         {
           "name": "Éreintage",
           "icon": "https://img.finalfantasyxiv.com/lds/d/1acc1c44ad72be77ee1391495ad6b3a48254d7ba.png",
-          "effect": "Augmente de 10% les dégâts subis par les ennemis alentour et réduit de 10% l'effet des soins qu'ils reçoivent.<br>Durée : 8s<br>Condition : Transfert noir.<br>Partage le même temps de recharge que Barrière anti-magie.<br><br>* Cette action ne peut pas être ajoutée aux barres de raccourcis."
+          "effect": "Augmente de 10% les dégâts subis par les ennemis alentour et réduit de 10% l'effet des soins qu'ils reçoivent.<br>Durée : 10s<br>Condition : Transfert noir.<br>Partage le même temps de recharge que Barrière anti-magie.<br><br>* Cette action ne peut pas être ajoutée aux barres de raccourcis."
         },
         {
           "name": "Transfert blanc",
@@ -7267,7 +7257,7 @@
         {
           "name": "Croix du sud",
           "icon": "https://img.finalfantasyxiv.com/lds/d/7c93e62e034c1a0d6cfd0dfc01ed9fa386528e9e.png",
-          "effect": "Fait apparaître une croix sous les pieds de la cible (alliée ou ennemie), qui restaure vos PV et ceux de vos équipiers et inflige des dégâts magiques aux ennemis.<br>Puissance curative : 6000<br>Puissance offensive : 6000<br>Avec Transfert blanc : la puissance curative est doublée.<br>Avec Transfert noir : la puissance offensive est doublée.<br>Les cibles se trouvant au centre de la croix reçoivent ces effets deux fois.<br>Condition : jauge de Transcendance pleine.<br>Temps de charge : 90s"
+          "effect": "Fait apparaître une croix sous les pieds de la cible (alliée ou ennemie), qui restaure vos PV et ceux de vos équipiers et inflige des dégâts magiques aux ennemis.<br>Puissance curative : 8000<br>Puissance offensive : 8000<br>Avec Transfert blanc : puissance curative augmentée de 50%.<br>Avec Transfert noir : puissance offensive augmentée de 50%.<br>Les cibles se trouvant au centre de la croix reçoivent ces effets deux fois.<br>Condition : jauge de Transcendance pleine.<br>Temps de charge : 90s"
         },
         {
           "name": "Élixir militaire",
