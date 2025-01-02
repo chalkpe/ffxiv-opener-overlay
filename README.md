@@ -34,11 +34,11 @@ https://chalkpe.github.io/ffxiv-opener-overlay/
 
 | Language | Patch |
 | :--: | :--: |
-| 日本語 (`jp`) | `6.5` |
-| English (`en`) | `6.5` |
-| Deutsch (`de`) | `6.5` |
-| Français (`fr`) | `6.5` |
-| 한국어 (`kr`) | `6.38` |
+| 日本語 (`jp`) | `7.1` |
+| English (`en`) | `7.1` |
+| Deutsch (`de`) | `7.1` |
+| Français (`fr`) | `7.1` |
+| 한국어 (`kr`) | `7.0` |
 
 ### In-game configuration
 
@@ -85,21 +85,21 @@ yarn build && yarn deploy
 ### /src/assets
 
 ```text
-© 2010 - 2022 SQUARE ENIX CO., LTD. All Rights Reserved.
+© 2010 - 2025 SQUARE ENIX CO., LTD. All Rights Reserved.
 ```
 
 [MIT License]: LICENSE
 [Example]: public/rdm-ew-opener.png
 [Job actions data]: src/assets/actions
-[ffxiv-actions]: https://github.com/ChalkPE/ffxiv-actions
+[ffxiv-actions]: https://github.com/chalkpe/ffxiv-actions
 
-[Package version]: https://img.shields.io/github/package-json/v/ChalkPE/ffxiv-opener-overlay
-[Global version]: https://img.shields.io/badge/global-6.5-blueviolet
-[Korean version]: https://img.shields.io/badge/korea-6.38-red
+[Package version]: https://img.shields.io/github/package-json/v/chalkpe/ffxiv-opener-overlay
+[Global version]: https://img.shields.io/badge/global-7.1-blueviolet
+[Korean version]: https://img.shields.io/badge/korea-7.0-red
 
 [YouTube]: https://youtu.be/j2YD54eWDWE
 [ACT]: https://advancedcombattracker.com/
-[OverlayPlugin]: https://github.com/ngld/OverlayPlugin
+[OverlayPlugin]: https://github.com/OverlayPlugin/OverlayPlugin
 [FINAL FANTASY XIV]: https://www.finalfantasyxiv.com/
 
 [Chalk Alt: Twitter]: https://twitter.com/chalk_alt
