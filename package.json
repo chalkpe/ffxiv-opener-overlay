@@ -1,10 +1,10 @@
 {
   "name": "ffxiv-opener-overlay",
-  "version": "1.1.7",
+  "version": "1.1.8",
   "private": true,
   "description": "ACT overlay for FINAL FANTASY XIV that shows your real-time skill sequences",
-  "repository": "https://github.com/ChalkPE/ffxiv-opener-overlay",
-  "author": "ChalkPE",
+  "repository": "https://github.com/chalkpe/ffxiv-opener-overlay",
+  "author": "Chalk <chalkpe@gmail.com>",
   "license": "MIT",
   "scripts": {
     "serve": "vue-cli-service serve",

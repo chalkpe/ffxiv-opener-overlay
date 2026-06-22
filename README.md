@@ -14,19 +14,10 @@
 https://chalkpe.github.io/ffxiv-opener-overlay/
 ```
 
-### OverlayPlugin (recommended)
-
 1. Open ACT
 1. Plugins → OverlayPlugin.dll → `New`
 1. Add new **Custom** preset, **MiniParse** type overlay (name is your choice)
 1. Switch to the new overlay tab and set **URL** as above
-
-### ACTWebSocket
-
-1. Open ACT
-1. Plugins → ACTWebSocket
-1. Check **Using BeforeLogLineRead** on left panel
-1. `Add URL` → set as above and select the new row → Click `Overlay`
 
 ## Requirements
 
@@ -34,11 +25,11 @@ https://chalkpe.github.io/ffxiv-opener-overlay/
 
 | Language | Patch |
 | :--: | :--: |
-| 日本語 (`jp`) | `7.1` |
-| English (`en`) | `7.1` |
-| Deutsch (`de`) | `7.1` |
-| Français (`fr`) | `7.1` |
-| 한국어 (`kr`) | `7.0` |
+| 日本語 (`jp`) | `7.5` |
+| English (`en`) | `7.5` |
+| Deutsch (`de`) | `7.5` |
+| Français (`fr`) | `7.5` |
+| 한국어 (`kr`) | `7.5` |
 
 ### In-game configuration
 
@@ -85,7 +76,7 @@ yarn build && yarn deploy
 ### /src/assets
 
 ```text
-© 2010 - 2025 SQUARE ENIX CO., LTD. All Rights Reserved.
+© 2010 - 2026 SQUARE ENIX CO., LTD. All Rights Reserved.
 ```
 
 [MIT License]: LICENSE
@@ -94,8 +85,8 @@ yarn build && yarn deploy
 [ffxiv-actions]: https://github.com/chalkpe/ffxiv-actions
 
 [Package version]: https://img.shields.io/github/package-json/v/chalkpe/ffxiv-opener-overlay
-[Global version]: https://img.shields.io/badge/global-7.1-blueviolet
-[Korean version]: https://img.shields.io/badge/korea-7.0-red
+[Global version]: https://img.shields.io/badge/global-7.5-blueviolet
+[Korean version]: https://img.shields.io/badge/korea-7.5-red
 
 [YouTube]: https://youtu.be/j2YD54eWDWE
 [ACT]: https://advancedcombattracker.com/
